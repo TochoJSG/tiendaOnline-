@@ -1,0 +1,27 @@
+{
+  "name": "tiendaonline",
+  "version": "2.0.0",
+  "description": "parte web de sistema integral de negocio, tiendaOnline",
+  "main": "index.js",
+  "scripts": {
+    "test": "ejecutar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/TochoJSG/tiendaWeb.git"
+  },
+  "keywords": [
+    "tiendaOnline",
+    "Clientes",
+    "grupoTocha"
+  ],
+  "author": "TochoJSG",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
+}
