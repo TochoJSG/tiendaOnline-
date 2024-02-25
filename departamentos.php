@@ -17,7 +17,6 @@ ini_set('display_errors', 'On');?>
 	<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html; width=device-width; charset=utf-8;" initial-scale="1.0"/>
 		<title>Tocha | Productos</title>
     <?php include 'negocio/mercadoPagoIni.php';?>
-	<?php include 'negocio/clases/generaCarrito.php';?>
 	<script src="https://sdk.mercadopago.com/js/v2"></script><!--SDK MP API-->
 	<script src="https://www.paypal.com/sdk/js?client-id=AfGJtKOoQTqFZWdiVkXFivK8DT5i6BZovHjw9q5pqHiF5LFo-JkwWEpJ1bhqmI2LgrAm80f6VFnbIGO4&currency=MXN"></script>
 	<!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>-->
