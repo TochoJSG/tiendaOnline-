@@ -326,6 +326,7 @@ ini_set('display_errors', 'On');?>
 <script type="text/javascript" src="negocio/clases/actualizaMonto.js"></script>
 <!--<script type="text/javascript" src="car_commerce.js"></script>-->
 <script type="text/javascript" src="presentacion/tochaUs.js"></script>
+<script type="text/javascript" src="negocio\clases\carritoJsV2"></script>
 <script src="negocio/clases/agregaProds.js"></script>
 <script type="text/javascript" src="negocio/app_compras.js"></script>
 </body>
