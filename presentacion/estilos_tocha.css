@@ -221,9 +221,9 @@ div .carousel{width:100%;height:100vh;margin:0;display:block;padding:0;}
 #closeMP{top:17px;font-size:2.5em;color:#040105;font-weight:900;font-family:arial;opacity:0.666;cursor:pointer;}
 .formaMercadoPago{display:grid;grid-template-columns:49% 49%;grid-gap:auto;grid-template-rows:99px;align-content:center;align-items:center;margin:auto;}
 .formaMercadoPago>div{padding:17px;}
-.formaMercadoPago label{color:#415px;font-size:1em;font-family:arial;letter-spacing:3px;font-weight:100;}
+.formaMercadoPago label{color:#415;font-size:1em;font-family:arial;letter-spacing:3px;font-weight:100;}
 .formaMercadoPago input,
-.formaMercadoPago select{color:#415px;font-size:1em;font-family:arial;letter-spacing:3px;font-weight:100;background:#fff;width:100%;border-radius:3px;height:45px;}
+.formaMercadoPago select{color:#415;font-size:1em;font-family:arial;letter-spacing:3px;font-weight:100;background:#fff;width:100%;border-radius:3px;height:45px;}
 /*#template-footer td span*/
 .botonMP{background:none;color:#040105;font-size:1em;text-align:center;font-weight:600;letter-spacing:8px;text-transform:uppercase;padding:8px 66px;width:66%;margin:8px 17% 17px;border:8px 17px 8px 17px;}
 .botonMP:hover{background:#ffad;color:#daff;}
