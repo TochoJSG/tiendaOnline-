@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;cursor:default;}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;cursor:default;user-select:none;}
 body{line-height:1.5em;overflow:visible;background:#fff;width:100%;margin:0;align-items:center;justify-content: center;overflow-x:hidden;animation-name:colorido;animation-duration:9s;}
 br{content:'';display:block;height:1em;}
 .btn-wsp{position:fixed;width:66px;height:66px;line-height:55px;bottom:90px;right:30px;background:#0df053;color:#fff;border-radius:50px;text-align:center;font-size:30px;box-shadow:0px 1px 10px rgba(0,0,0,0.3);z-index:100;text-decoration:none;}
@@ -7,6 +7,9 @@ br{content:'';display:block;height:1em;}
 .btn-wsp:hover{text-decoration:none;color:#0df053;background:#fff;}
 header{position:fixed;top:0;left:0;width:100%;padding:33px;display:flex;justify-content:space-between;align-items:center;background:rgba(0,255,255,0.9);z-index:1000;border-bottom:1px solid rgba(0,0,0,0.06);transition:0.6s;max-height:66px;}
 header.sticky{padding:9px 33px;}
+.swiper{width:100%;padding-top:50px;padding-bottom:50px;}
+.swiper-slide{background-position:center;background-size:cover;width:300px;height:300px;}
+.swiper-slide img{display:block;width: 100%;}
 .contPublicidad{align-content:center;align-items:center;padding:17px auto;margin:8px 0;opacity:0;transform:scale(0.5);transition:1s ease-in-out all;}
 .logo{position:relative;display:inline-block;color:#040105;text-decoration:none;font-size:1.1em;font-weight:500;text-transform:uppercase;letter-spacing:3px;top:9px;}
 .menuToggle{position:relative;width:33px;height:33px;background:url('../imagenes/menu.png');background-size:33px;background-repeat:no-repeat;background-position:center;cursor:pointer;}
@@ -169,7 +172,6 @@ div .carousel{width:100%;height:100vh;margin:0;display:block;padding:0;}
 .carousel{max-width:1350px;min-width:auto;margin:0 auto;display:flex;width:100%;max-height:666px;overflow:hidden;vertical-align: middle;}
 .carousel img{width:100%;height:100vh;object-fit:cover;object-position:center center;background-size:cover;vertical-align:middle;margin:0;padding:0;}
 
-
 .amz{background:#232f3e;width:100%;max-width:100%;margin:0;height:auto;position:relative;display: block;margin-bottom:0px;overflow-x:hidden;overflow-y:hidden;}
 .amz h2{margin-top:16px;padding:8px;text-align:center;font-size:1.1em;font-weight:300;letter-spacing:6px;color:#fff;text-transform:uppercase;}
 .amz span{font-size:1.2em;font-weight:500;letter-spacing:8px;color:#daf;}
@@ -189,16 +191,19 @@ div .carousel{width:100%;height:100vh;margin:0;display:block;padding:0;}
 .contCardAmz .detailsLaCard a{position:fixed;/*display:inline-block;*/left:17%;width:215px;margin:8px;height:auto;padding:8px 17px;background:#040105;color:#daf;letter-spacing:1px;border-radius:25px;font-weight:500;text-decoration:none;}
 .contCardAmz .detailsLaCard a:hover{background:#37475a;color:#fff;}
 
+.containerPagos{width:100%;height:auto;}
 .select_depto{margin:0;padding:16px;width:100%;display:grid;grid-template-columns:33% 33% 33%;grid-gap:auto;grid-template-rows:33px;}
 .select_depto .boton3{width:100%;height:46px;margin:0;background:#040105;color:#fff;font-size:1.1em;font-weight:300;letter-spacing:3px;}
 .tabla tbody,
 .tabla tfoot,
-.tabla thead{background:#daff;width:100%;margin:1px 3px;padding:17px;height:auto;}
+.tabla thead{background:#daff;margin:1px 3px;padding:17px;height:auto;width:100%;}
 .tabla thead{background:#ffad;text-transform:uppercase;letter-spacing:3px;}
 .tabla tbody th,
 .tabla tfoot th,
 .tabla thead th{padding:17px;height:auto;}
+
 #cardsBd{align-items:center;align-content:center;}
+/*#cardsBd img{height:100%;}*/
 #cardsBd .card-body{display:flex;flex-direction:column;}
 #cardsBd a{width:66%;margin:0 17%;}
 .menu_deptos{width:100%;margin:0;padding:8px;}
@@ -252,7 +257,7 @@ div .carousel{width:100%;height:100vh;margin:0;display:block;padding:0;}
 .boton2{color:#fff !important;font-size:20px;font-weight:500;padding:0.5em 1.2em;background:#318aac;border:2px solid;border-color:#318aac;position:relative;}
 .boton2:before{content:'';position:absolute;top:0px;left:0px;width:100%;height:0px;background:rgba(255,255,255,0.1);transition:all 1s ease;}
 .boton2:hover:before{height:100%;}
-.boton3{color:#318aac !important;font-size:1.1em;font-weight:100;padding:0.5em 1.2em;background:rgba(0,0,0,0);border:2px solid;border-color:#318aac;transition:all 1s ease;position:relative;margin-left:.5%; margin-right:.5%; margin-bottom:66px;height:auto; width:99%;}
+.boton3{color:#318aac !important;font-size:1.1em;font-weight:100;padding:0.5em 1.2em;background:rgba(0,0,0,0);border:2px solid;border-color:#318aac;transition:all 1s ease;position:relative;margin-left:.5%; margin-right:.5%; margin-bottom:66px;height:auto;width:99%;}
 .boton3:hover{background:#318aac;color:#fff !important;}
 .boton4{color:rgba(255,255,255,0.9) !important;margin:0;height:auto;width:100%;font-size:1.2em;font-weight:300;letter-spacing:6px;padding:0.5em 1.2em;background:blue;border:2px solid;border-color:#318aac;position:relative;}
 .boton4:hover{color:rgba(255,255,255,1) !important;box-shadow:0 4px 16px rgba(49, 138, 172, 1);transition:all 0.2s ease;}
@@ -277,7 +282,7 @@ div .carousel{width:100%;height:100vh;margin:0;display:block;padding:0;}
 .btnML span{position:relative;z-index:2;transition:1.6s ease-in-out all;position:absolute;left:40%;color:#415;cursor:pointer;}
 .btnML .icono{display:flex;align-items:center;position:absolute;z-index:2;top:0;right:-25px;/*-41px*/transition:1.6s;/*background: rgb(36,28,156);*/cursor:pointer;}
 .btnML.svg{color:#415;width:35px;height:35px;}
-.btnML:hover .icono{left:66.666%;/*calc(100%-66px);*/padding:9px;}
+.btnML:hover .icono{left:66.66%;/*calc(100%-66px);*/padding:9px;}
 .btnML:hover span{left:99px;/*66px;*/}
 .btnCar{display:inline-flex;align-items:center;justify-content:center;width:100%;min-width:666px;height:auto;font-family:'Poppins',sans-serif;font-size:1em;font-weight:600;letter-spacing:1px;border:none;cursor:pointer;padding:21px;text-transform:uppercase;transition:.6s ease all;border-radius:1px;position:relative;overflow:hidden;background:#040105;color:#fff;box-shadow:2px 3px 6px 1px rgb(0,0,0,0.25);}
 .btnCar span{position:relative;z-index:2;transition:.6s ease-in-out all;position:absolute;left:40%;}

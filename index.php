@@ -1,3 +1,24 @@
+<?php
+require 'negocio/config.php';
+//require 'negocio/clases/carrito.php';
+require 'negocio/database.php';
+$db= new Database();
+$con = $db->conectar();
+$sqlDB = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");
+$sqlDB->execute();
+$productoss = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+
+$productos = isset($_SESSION['carrito']['producto']) ? $_SESSION['carrito']['producto'] : null;//productos contendra valor si existe para luego validar $_SESSION['carrito']['producto']
+$carrito = array();
+
+if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto consultamos BD para llenar carrito
+    foreach($productos as $clave => $cantidad ){//or cada producto seleccionado, consultammos
+        $sqlDB = $con->prepare("SELECT idProducto,nombre,precio,descuento,$cantidad AS cantidad FROM producto WHERE idProducto=? AND activo=1");//Solo traera variable como resultado, sin tocar nada de la BD
+        $sqlDB->execute([$clave]);
+        $carrito[] = $sqlDB->fetch(PDO::FETCH_ASSOC);	
+    }
+} //print_r($_SESSION); //   php include 'negocio/clases/mercadoPagoIni.php'; 
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -17,13 +38,23 @@
 	<meta name="description" content="muebles, electronica, desechables, bolsa, comercializadora con ventas online, envios al pais, materias primas tocha"/>
 	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="imagenes/favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<link href="presentacion\estilos_tocha.css" rel="stylesheet" type="text/css"/>
+  
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 <!--<script>window.onload=function(){const IMAGENES=["img_muebles.jpg","3.PNG","6.PNG"];const TIEMPO_INTERVALO_MILESIMAS_SEG=5000;let posicionActual=0;let $imagen=document.querySelector('#imagen');let intervalo;intervalo=setInterval(pasarFoto, TIEMPO_INTERVALO_MILESIMAS_SEG);function pasarFoto(){if(posicionActual>=IMAGENES.length-1){posicionActual=0;}else{posicionActual++;}renderizarImagen();}function renderizarImagen(){$imagen.style.backgroundImage=`url(${IMAGENES[posicionActual]})`;$imagen.style.backgroundImage.objectFit({type: 'cover', hideOverflow: true});}renderizarImagen();}</script>-->
 	<script src="negocio\push.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<style>
+    .swiper{width:100%;padding-top:50px;padding-bottom:50px;height:666px;}
+    .swiper-slide{background-position:center;background-size:cover;width:300px;height:300px;}
+    .swiper-slide img{display:block;width:100%;}
+    </style>
 </head>
 <body style="background:#fff;overflow-x:hidden;">
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
+<div id="fb-customer-chat" class="fb-customerchat"></div>
+
+<a href="https://api.whatsapp.com/send/?phone=525535143631&amp;text=Gracias%20por%20escribir%20a%20materias%20primas%20tocha,%20%C2%BFcomo%20te%20podemos%20ayudar?"
+class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>  
 <script>document.addEventListener('DOMContentLoaded',function(){Push.create('Bienvenido',{body:'Hola, te invitamos a ver nuestro inventario',icon:'COORP (2).jpg',timeout:6666,onClick:function(){window.location='https://materiasprimastocha.mercadoshops.com.mx/';this.close();}});});
 </script>
 <header>
@@ -31,14 +62,9 @@
 	<div class="menuToggle"></div>
 </header>
 <ul class="navigation">
-	<li><a data-text="Portada" href="#ventas" onclick="toggleMenu();">Principal
-		</a></li>
-	<li><a data-text="Quien escribe esto" id="buttonUs">Nosotros
-		</a></li>
-	<li><a data-text="Contacto" href="contacto_tocha.html" onclick="toggleMenu();">Contacto
-		</a></li>
-	<li><a data-text="Blog" target="_blank" href="https://electronica-inteligente.com/" onclick="toggleMenu();">Ver Blog sobre Tecnologia
-		</a></li>
+	<li><a data-text="Portada" href="#ventas" onclick="toggleMenu();">Principal</a></li>
+	<li><a data-text="Quien escribe esto" id="buttonUs">Nosotros</a></li>
+	<li><a data-text="Contacto" href="contacto_tocha.html" onclick="toggleMenu();">Contacto</a></li>
 </ul>
 <div class="aletarga">
 <section class="banner" id="home">
@@ -50,7 +76,7 @@
 			</h1>
 	<div class="grid-containerHead">
 		<div class="itemZoomHead">
-			<a href="desechables.html">
+			<a href="desechables.php">
 				<img class="zoom" src="imagenes/d.png"/>
 			</a>
 		</div>
@@ -60,7 +86,7 @@
 			</a>
 		</div>
 		<div class="itemZoomHead">
-			<a href="muebles-electronica.html">
+			<a href="equipos.php">
 				<img class="zoom" src="imagenes/el.png"/>
 			</a>
 		</div>
@@ -69,12 +95,40 @@
 	</div>
 </section>
 </div>
-<div id="fb-root"></div>
-<div id="fb-customer-chat" class="fb-customerchat"></div>
-<script src="negocio\facebookJs.js"></script>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="jfx8ZnYd"></script>
-<a href="https://api.whatsapp.com/send/?phone=525535143631&amp;text=Gracias%20por%20escribir%20a%20materias%20primas%20tocha,%20%C2%BFcomo%20te%20podemos%20ayudar?"
-class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+<div class="swiper mySwiper">
+	<div id="cardsBd" class="swiper-wrapper">
+		<?php foreach($productoss as $producto => $row){ ?> 
+			<div id="<?php echo $row['idProducto'];?>" class="swiper-slide cardBd">
+			    <div class="card-header">
+    				<?php
+    				$id=$row['idProducto'];
+    				$imagen="imagenes/productos/".$id."/principal.jpg";
+    				$carrito = array("id"=>$id, "nombre"=>$row['nombre'], "precio"=>$row['precio']);
+    				if(!file_exists($imagen)){
+    					$imagen="imagenes/sin-foto.jpg";
+    				}   ?>
+    				<img class="card-img-top" src="<?php echo $imagen; ?>" alt="cargando..." style="height:250px;" />
+				</div>
+				<div class="card-body col-6">
+					<h5 id="tituloCard" class="card-title"><?php echo $row['nombre']; ?></h5>
+					<h3 id="precioCard" class="card-text"><?php echo number_format($row['precio'],2,'.',','); ?></h3>						
+					<a id="<?php echo $row['idProducto'];?>" class="buyBtn btn btn-primary" type="button" href="ventas.php">Ver</a>			
+				</div>
+			</div>
+		<?php }?>
+	</div>
+	<div class="swiper-pagination"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+var swiper=new Swiper(".mySwiper",{
+effect:"coverflow",grabCursor:true,centeredSlides:true,slidesPerView:"auto",
+coverflowEffect:{rotate:50,stretch:0,depth:100,modifier:1,slideShadows:true,},
+pagination:{el:".swiper-pagination",},
+loop:true,
+autoplay:{delay:6666,disableOnInteraction:false,},
+});
+</script>
 <div id="ventas" class="main aletarga">
 <script type="text/javascript">
 	atOptions={'key':'616899c29662e51f5906c074fcc9478e','format':'iframe','height':90,'width':728,'params':{}};
@@ -88,9 +142,7 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 		<svg width="16" height="16" fill="currentcolor">
 			<img src="imagenes/ml.png" width="25" height="25"/>
 		</svg>
-	</div>
-	<span>Ver Tienda MercadoLibre
-		</span></button></a>
+	</div><span>Ver Tienda MercadoLibre</span></button></a>
 	<h2>Tambien ofrecemos variedad de Productos por <span>Amazon</span>, Compra Segura con envios incluidos en muchos Productos
 			</h2>
 	</div>
@@ -104,42 +156,30 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 	</div>
 	<section id="carrusel-gral"></section>
 	<div class="aletarga contBtnLuz">
-	<a target="_blank" href="departamentos.php"><span>Compra Seguro paga con MercadoPago
-		</span></a>
+	<a target="_blank" href="ventas.php"><span>Compra Seguro paga con MercadoPago</span></a>
     </div>
 </div>
-<div class="contPublicidad">
 <script type="text/javascript">
 	atOptions={'key':'616899c29662e51f5906c074fcc9478e','format':'iframe','height':90,'width':728,'params':{}};
 	document.write('<scr'+'ipt type="text/javascript" src="http'+(location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/616899c29662e51f5906c074fcc9478e/invoke.js"></scr' + 'ipt>');
 </script>
-</div>
 <div class="amz">
 <h2>Haz Clic en el Boton para ver la publicacion Completa en <span>Amazon</span></h2>
     <div class="containerCardAmz"></div>
-    <br><br>
+    <br>
 <div id="desplegarMas" class="contBtnLuz">
-	<a><span>Desplegar mas Productos
-		</span></a><br>
-</div>
-
-<div class="btnAnimaLuz" style="width:90%;margin:0 5%;">
-	<a target="_blank" href="https://electronica-inteligente.com/"><span>Ver Blog de Tecnologia
-		</span></a>
+	<a><span>Desplegar mas Productos</span></a>
 	<br>
 </div>
 <div class="btnAnimaLuz" style="width:90%;margin:0 5%;">
-	<a href="https://materiasprimastocha.mercadoshops.com.mx/"><span>Ver Mas
-		</span></a>
+	<a href="https://materiasprimastocha.mercadoshops.com.mx/"><span>Ver Mas</span></a>
 	<br>
 </div>
 </div>
-<div class="contPublicidad">
 <script type="text/javascript">
 	atOptions={'key':'616899c29662e51f5906c074fcc9478e','format':'iframe','height':90,'width':728,'params':{}};
 	document.write('<scr'+'ipt type="text/javascript" src="http' + (location.protocol === 'https:'?'s':'')+'://www.profitabledisplaynetwork.com/616899c29662e51f5906c074fcc9478e/invoke.js"></scr' + 'ipt>');
 </script>
-</div>
 <div class="aletarga" style="display:fixed;">
 	<div class="grid-containerD">
 		<div class="itemZoom">
@@ -151,7 +191,7 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 		</div>
 	</div>
 		<span>Materias Primas</span>
-			<a href="desechables.html">
+			<a href="desechables.php">
 				<img class="zoom" src="imagenes/MATERIA_PRIMA.jpg"/>
 			</a>
 		</div>
@@ -177,7 +217,7 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 		</div>
 	</div>
 		<span>Electronica y Muebles</span>
-			<a href="muebles-electronica.html">
+			<a href="equipos.php">
 				<img class="zoom" src="imagenes/ACCESORIOSyELECTRONICA.jpg"/>
 			</a>
 		</div>
@@ -185,12 +225,10 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <a target="_blank" href="https://materiasprimastocha.mercadoshops.com.mx/"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre
     </button></a>
 </div>
-<div class="contPublicidad">
 <script type="text/javascript">
 	atOptions={'key':'616899c29662e51f5906c074fcc9478e','format':'iframe','height':90,'width':728,'params':{}};
 	document.write('<scr'+'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/616899c29662e51f5906c074fcc9478e/invoke.js"></scr' + 'ipt>');
 </script>
-</div>
 <!--<div class="carousel">
 	<div id="imagen" ></div>
 </div>-->
@@ -206,7 +244,7 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
     <li><a href="https://materiasprimastocha.mercadoshops.com.mx/">MercadoLibre</a></li>
 	<li><a href="index.html">Principal</a></li>
 	<li><a id="buttonUs">Quienes Somos</a></li>
-	<li><a href="departamentos.html">Productos</a></li>
+	<li><a href="ventas.html">Productos</a></li>
 	<li><a href="contacto_tocha.html">Contacto</a></li>
 </ul>
 <div class="fb-comments" data-href="https://tochamateriasprimas.com/" data-width="100%" data-numposts="5"></div>
@@ -259,9 +297,7 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
       <p class="texto_nosotros">Consolidar la tienda en linea, a traves de las buenas practicas comerciales con productos de calidad y cuidando el precio.</p>
       <p class="texto_nosotros">Facilitar la compra online a las personas y tener alcance nacional con tiendas fisicas.</p>
       <p class="texto_nosotros">Contribuir al cuidado del ambiente con productos con materiales amigables y durareros.</p>
-    </div>
-	<a target="_blank" href="electronica-inteligente.com/index.html"><button class="botones">Visita Nuestro Blog Sobre Tecnologia
-		</button></a>		
+    </div>	
 	<a href="https://materiasprimastocha.mercadoshops.com.mx/"><button class="btnML btn-darkML">
 		<div class="icono">
 			<svg width="16" height="16" fill="currentcolor">
@@ -270,9 +306,8 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 		</div>
 		<span>Ve nuestra tienda en Mercado Libre</span>
 	    </button></a>
-	<img class="mamalon" src="imagenes/0.jpg"/>
+	<img class="mamalon" src="imagenes/0.jpg" />
 </div>
-
 <script type="text/javascript" src="negocio/insercionIndex.js"></script>
 <script type="text/javascript" src="presentacion/menuToggle.js"></script>
 <script type="text/javascript" src="presentacion/aletarga.js"></script>
@@ -280,7 +315,9 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <script type="text/javascript" src="presentacion/efecto_header.js"></script>
 <script type="text/javascript" src="presentacion/tochaUs.js"></script>
 <script type="text/javascript" src="negocio/extiende.js"></script>
+<script type="text/javascript"  src="negocio/facebookJs.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="jfx8ZnYd"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>	
 </html>

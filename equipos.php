@@ -1,3 +1,24 @@
+<?php
+require 'negocio/config.php';
+//require 'negocio/clases/carrito.php';
+require 'negocio/database.php';
+$db= new Database();
+$con = $db->conectar();
+$sqlDB = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");
+$sqlDB->execute();
+$productoss = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+
+$productos = isset($_SESSION['carrito']['producto']) ? $_SESSION['carrito']['producto'] : null;//productos contendra valor si existe para luego validar $_SESSION['carrito']['producto']
+$carrito = array();
+
+if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto consultamos BD para llenar carrito
+    foreach($productos as $clave => $cantidad ){//or cada producto seleccionado, consultammos
+        $sqlDB = $con->prepare("SELECT idProducto,nombre,precio,descuento,$cantidad AS cantidad FROM producto WHERE idProducto=? AND activo=1");//Solo traera variable como resultado, sin tocar nada de la BD
+        $sqlDB->execute([$clave]);
+        $carrito[] = $sqlDB->fetch(PDO::FETCH_ASSOC);	
+    }
+} //print_r($_SESSION); //   php include 'negocio/clases/mercadoPagoIni.php'; 
+?>
 <!doctype html>
 <html>
 <head>
@@ -16,23 +37,23 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<meta name="copyright" content="Grupo Tocha" />
-	<link rel="stylesheet" type="text/css" href="presentacion\estilo_muebles.css"/>
-	<link rel="stylesheet" type="text/css" href="presentacion\estilo_foo_anima_tocha.css"/>
+	<link rel="stylesheet" type="text/css" href="presentacion/estilo_muebles.css"/>
+	<link rel="stylesheet" type="text/css" href="presentacion/estilo_foo_anima_tocha.css"/>
 </head>
 <body>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
 <a href="https://api.whatsapp.com/send/?phone=525535143631&amp;text=Gracias%20por%20escribir%20a%20materias%20primas%20tocha,%20%C2%BFcomo%20te%20podemos%20ayudar?"
 class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
-<div id="fb-root"></div>
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
-<script src="negocio\facebookJs.js"></script>
-    <section class="videoHeader">
+<div id="fb-customer-chat" class="fb-customerchat"></div>
+<script src="negocio/facebookJs.js"></script>
+
+<div class="aletarga">
+<section class="videoHeader">
 	<header id="main-header" style="z-index:100;">
-	<a href="index.html"><img class="logo" src="imagenes\COORP (2).jpg" align="left" width="90px" height="90px"/>
+	<a href="index.php"><img class="logo" src="imagenes/COORP (2).jpg" align="left" width="90px" height="90px"/>
 		</a>
-	<a id="logo-header" href="index.html">
+	<a id="logo-header" href="index.php">
 		</a>
 	<nav>
 		<ul>
@@ -49,8 +70,9 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 	<a target="_blank" href="http://electronica-inteligente.com/index.html"><span>Ver Blog</span>
 		<div class="liquid"></div></a>
 	</div></div>
-	</section>
-    <script type="text/javascript">
+</section>
+</div>
+<script type="text/javascript">
 	atOptions = {
 		'key' : '616899c29662e51f5906c074fcc9478e',
 		'format' : 'iframe',
@@ -63,7 +85,7 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <div id="productos">
     <div id="temp"></div>
 </div>
-<script type="text/javascript" src="negocio\insercion_fifi.js"></script>
+<script type="text/javascript" src="negocio/insercion_fifi.js"></script>
 <!--<script src="car_commerce.js"></script>-->
 <br>
 <script type="text/javascript">
@@ -107,9 +129,9 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 </ul>
 <ul class="menu_f">
     <li><a href="https://materiasprimastocha.mercadoshops.com.mx/">MercadoLibre</a></li>
-	<li><a href="index.html">Principal</a></li>
+	<li><a href="index.php">Principal</a></li>
 	<li><a id="buttonUs">Quienes Somos</a></li>
-	<li><a href="departamentos.html">Productos</a></li>
+	<li><a href="ventas.php">Productos</a></li>
 	<li><a href="contacto_tocha.html">Contacto</a></li>
 </ul>
 <div class="fb-comments" data-href="https://tochamateriasprimas.com/" data-width="100%" data-numposts="5"></div>
@@ -164,7 +186,7 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
       <p class="texto_nosotros">Contribuir al cuidado del ambiente con productos con materiales amigables y durareros.</p>
     </div>
 		<br>
-	<a href="departamentos.html"><button class="botones">Observa nuestro Catalogo de Productos
+	<a href="ventas.php"><button class="botones">Observa nuestro Catalogo de Productos
 		</button></a>		
 	<a href="https://materiasprimastocha.mercadoshops.com.mx/"><button class="btnML btn-darkML">
 		<div class="icono">

@@ -71,19 +71,8 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	</nav>
 </header>
 
-<div class="navigation">
-	<div class="toggle">
-		<span></span></div>
-	<div class="row" id="cardDrop"></div>
-</div>
-<template id="template-drop">
-	<ul>
-		<li></li>
-	</ul>
-</template>
-<script src="negocio/dropdown.js"></script>
 
-<main class="container">
+<main class="container containerPagos">
 <div class="row">
     <div class="col-6">
 		<h4>Metodos de Pago</h4>
@@ -190,7 +179,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 </div>
 	
 <div id="matPrima"><!--Departamento Materia Prima-->
-    <div class="row" id="cards"></div>
+    <div class="row" id="cardsJson"></div>
     <template id="template-card">
         <div class="card">
           <div class="card-body">
@@ -318,8 +307,8 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 <script type="text/javascript" src="negocio/manipula_deptos.js"></script>
 <script type="text/javascript" src="negocio/clases/pagos.js"></script>
 <script type="text/javascript" src="negocio/clases/actualizaMonto.js"></script>
-<script type="text/javascript" src="negocio/clases/carritoJS.js"></script>
 <script type="text/javascript" src="presentacion/tochaUs.js"></script>
+<script type="text/javascript" src="negocio/clases/carritoJS.js"></script>
 <script type="text/javascript" src="negocio/clases/agregaProds.js"></script>
 <script type="text/javascript" src="negocio/cardsJSON.js"></script>
 </body>
