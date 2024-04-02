@@ -81,14 +81,14 @@ if($productos!=null){//Si variable anteriormente asignada contiene producto
                 </thead>
                 <tbody>
                     <?php if($lista_carrito==null){
-                        echo '<tr><td colspan="5" class="text-center"><b>Carrito de Compras Vacio</b></td></tr>'
+                        echo '<tr><td colspan="5" class="text-center"><b>Carrito de Compras Vacio</b></td></tr>';
                     }else{$total=0;
-                        forach($lista_carrito as $producto){
+                        foreach($lista_carrito as $producto){
                             $_id = $producto['id'];
                             $nombre = $productp['nombre'];
                             $precio = $producto['precio'];
                             $descuento = $producto['descuento'];
-                            $precio_desc = $producto - (($precio*$descuento)/100)
+                            $precio_desc = $producto - (($precio*$descuento)/100);
                             $subtotal = $cantidad * $precio_desc;
                             $total += $subtotal;
                     ?>

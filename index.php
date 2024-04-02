@@ -242,7 +242,7 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 </ul>
 <ul class="menu_f">
     <li><a href="https://materiasprimastocha.mercadoshops.com.mx/">MercadoLibre</a></li>
-	<li><a href="index.html">Principal</a></li>
+	<li><a href="index.php">Principal</a></li>
 	<li><a id="buttonUs">Quienes Somos</a></li>
 	<li><a href="ventas.html">Productos</a></li>
 	<li><a href="contacto_tocha.html">Contacto</a></li>

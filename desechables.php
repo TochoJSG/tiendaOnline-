@@ -60,8 +60,8 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 <header id="main-header">
 <a href="http://tochamateriasprimas.com/">
 <img class="logo" src="imagenes/COORP (2).jpg" align="left"/></a>
-	<a id="logo-header" href="index.html">
-		<span class="site-name" href="tocha.html">Grupo Tocha</span><br>
+	<a id="logo-header" href="index.php">
+		<span class="site-name" href="ventas.php">Grupo Tocha</span><br>
 		<span class="site-desc">Desechable / Bolsa / Insumos</span>
 	</a> <!-- / #logo-header -->
 	<nav>
@@ -250,7 +250,7 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 </ul>
 <ul class="menu_f">
     <li><a href="https://materiasprimastocha.mercadoshops.com.mx/">MercadoLibre</a></li>
-	<li><a href="index.html">Principal</a></li>
+	<li><a href="index.php">Principal</a></li>
 	<li><a id="buttonUs">Quienes Somos</a></li>
 	<li><a href="ventas.php">Productos</a></li>
 	<li><a href="contacto_tocha.html">Contacto</a></li>

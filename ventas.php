@@ -50,8 +50,8 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 <script>document.addEventListener('DOMContentLoaded',function(){Push.create('Bienvenido',{body:'Hola, da clic en el recuadro y compra con envio incluido !!!',icon:'imagenes/COORP (2).jpg',timeout:6666,onClick:function(){window.location='https://materiasprimastocha.mercadoshops.com.mx/';this.close();}});});
 	</script>
 <header id="main-header">
-	<a href="index.html"><img class="logo" src="imagenes/COORP (2).jpg" align="left" width="90px" height="90px"/></a>
-	<a id="logo-header" target="_blank" href="index.html">
+	<a href="index.php"><img class="logo" src="imagenes/COORP (2).jpg" align="left" width="90px" height="90px"/></a>
+	<a id="logo-header" target="_blank" href="index.php">
 		<span class="site-name">Grupo Tocha</span>
 		<span class="site-desc">Desechable / Bolsa / Insumos</span>
 	</a>
@@ -152,34 +152,28 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 					<h5 id="tituloCard" class="card-title"><?php echo $row['nombre']; ?></h5>
 					<h3 id="precioCard" class="card-text"><?php echo number_format($row['precio'],2,'.',','); ?></h3>						
 					<a id="detalleCard" class="btn btn-secondary" type="button" target="_blank" href="detalles.php?id=<?php echo $row['idProducto'];?>&token=<?php echo hash_hmac('sha1',$row['idProducto'],KEY_TOKEN);?>">Detalles</a>
-					<a id="<?php echo $row['idProducto'];?>" class="buyBtn btn btn-primary" type="button" onclick="addProduct('<?php echo  $row['idProducto'];?>','<?php echo hash_hmac('sha1',$row['idProducto'],KEY_TOKEN);?>' );">Agregar</a>			
+					<a id="<?php echo $row['idProducto'];?>" class="buyBtn btn btn-primary" type="button" onclick="addProduct('<?php echo  $row['idProducto'];?>','<?php echo hash_hmac('sha1',$row['idProducto'],KEY_TOKEN);?>' );" onclick="addProduct(<?php echo $row['idProducto'];?>,<?php echo hash_hmac('sha1',$row['idProducto'],KEY_TOKEN);?>)">Agregar</a>			
 				</div>
 			</div>
 		<?php }?>
 	</div>
 </div>
-
-<div class="align-items-xl-center">
-<div class="menu_deptos">
-<h2 class="colores">Departamentos
-	</h2>
-<div class="select_depto">
-<div>
-	<button id="a" class="boton3" onclick="matPrimas()">Comprar productos
-		</button>
-</div>
-<div>
-	<button id="b" class="boton3" onclick="mascotas()">Bio+
-		</button>
-</div>
-<div>
-	<button id="c" class="boton3" onclick="electronicos()">Electronica
-	    </button>
-</div>
-</div>
+<div class="menu_deptos align-items-xl-center">
+    <h2 class="colores">Departamentos</h2>
+    <div class="select_depto">
+        <div>
+        	<button id="a" class="boton3" onclick="matPrimas()">Comprar productos</button>
+        </div>
+        <div>
+        	<button id="b" class="boton3" onclick="mascotas()">Bio+</button>
+        </div>
+        <div>
+        	<button id="c" class="boton3" onclick="electronicos()">Electronica</button>
+        </div>
+    </div>
 	
 <div id="matPrima"><!--Departamento Materia Prima-->
-    <div class="row" id="cardsJson"></div>
+    <div id="cardsJson" class="row"></div>
     <template id="template-card">
         <div class="card">
           <div class="card-body">
@@ -195,7 +189,8 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 </div>
 	
 <div id="mascota"><!--Departamento Mascotas-->
-	<div class="containerEco">
+    <div id="containerEco" class="row"></div>
+	<template id="cardsBioJson">
 		<div class="boxEco">
 			<span></span>
 		<div class="contentEco">
@@ -205,25 +200,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 			<a href="#">enlace</a>
 		</div>
 		</div>
-		<div class="boxEco">
-			<span></span>
-		<div class="contentEco">
-			<h2>Producto</h2>
-			<p>Descripcion
-				</p>
-			<a href="#">enlace</a>
-		</div>
-		</div>
-		<div class="boxEco">
-			<span></span>
-		<div class="contentEco">
-			<h2>Producto</h2>
-			<p>Descripcion
-				</p>
-			<a href="#">enlace</a>
-		</div>
-		</div>
-	</div>
+	</template>
 </div><!--Fin de Depto-->
 	
 <div id="electronica"><!--Departamento Electronica-->
@@ -243,7 +220,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 </template>
 </div><!--Fin de Departamento-->
 </div><!--Cierra DIV contenedor de deptos general-->
-</div>
+
 
 <footer>
 	<ul class="social_icon">
@@ -255,9 +232,9 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	</ul>
 	<ul class="menu_f">
 	    <li><a href="https://materiasprimastocha.mercadoshops.com.mx/">MercadoLibre</a></li>
-		<li><a href="index.html">Principal</a></li>
+		<li><a href="index.php">Principal</a></li>
 		<li><a id="buttonUs">Quienes Somos</a></li>
-		<li><a href="departamentos.html">Productos</a></li>
+		<li><a href="ventas.html">Productos</a></li>
 		<li><a href="contacto_tocha.html">Contacto</a></li>
 	</ul>
 </footer>
