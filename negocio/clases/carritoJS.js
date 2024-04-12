@@ -31,12 +31,12 @@ const setCarrito=item=>{//Function that handles Card Data
     if(carrito.hasOwnProperty(producto.id)){
         producto.cantidad = carrito[producto.id].cantidad+1;
     }
-    carrito[producto.id]={...producto}
+    carrito[producto.id]={...producto};
     pintarCarrito();
     console.log("carrito",carrito);
-}//End of Function that handles Card Data
+};//End of Function that handles Card Data
 
-const pintarCarrito=()=>{
+const pintarCarrito=()=>{ /*    AGREGAR CONDICIONAL 'SI VACIO' CONTRARIO 'AÑADIR'  */
     items.innerHTML = '';
     templateCarrito.innerHTML = '';
     Object.values(carrito).forEach(producto=>{
@@ -70,28 +70,21 @@ const pintarFooter=()=>{//Buy Process; Global Buy Button
     fragment.appendChild(clone);
     footer.appendChild(fragment);
 
-    const botonComprar = document.querySelector('#buttonForm');//Agregue boton Comprar
+    /*const botonComprar = document.querySelector('#buttonForm');//Agregue boton Comprar
     botonComprar.addEventListener('click',()=>{
-        carrito={}//Posible solucion, sacar carrito={} & pintarCarrito(); de este bloque, activacion con otro evento
+        carrito={};//Posible solucion, sacar carrito={} & pintarCarrito(); de este bloque, activacion con otro evento
         pintarCarrito();
     	alert('funciono el boton compra');
     	//document.getElementById('formaMP').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';
         //formMP.getElementById('form-checkout__amountTocha').dataset.amount=nPrecio;
-    });
+    });*/
 
 };//End of Buy Process; Buy Button
 
-/*
-const botonComprarPaypal = document.querySelector('#paypal-button-container');//Deprecated    Agregue boton Comprar
-botonComprarPaypal.addEventListener('click',()=>{
-    carrito={}//Posible solucion, sacar carrito={} & pintarCarrito(); de este bloque, activacion con otro evento
-    pintarCarrito();
-    alert('funciono el boton compra');
-});*/
 const botonCompraMP = document.querySelector('.checkout-btn');//Deprecated    Agregue boton Comprar
 botonCompraMP.addEventListener('click',()=>{//    Aqui podemos hacer conexion a la BD al click, para pedir la data de la transaccion
     console.log("carrito ",carrito);
-    carrito={}//Posible solucion, sacar carrito={} & pintarCarrito(); de este bloque, activacion con otro evento
+    carrito={};//Posible solucion, sacar carrito={} & pintarCarrito(); de este bloque, activacion con otro evento
     pintarCarrito();
     alert('funciono el boton compra');
 });
@@ -101,7 +94,7 @@ const btnAumentarDisminuir=e=>{
     if(e.target.classList.contains('increBtn')){
         const producto = carrito[e.target.dataset.id];
         producto.cantidad++;
-		carrito[e.target.dataset.id] = {...producto}
+		carrito[e.target.dataset.id] = {...producto};
         pintarCarrito();
     }
     if(e.target.classList.contains('decreBtn')){
@@ -115,17 +108,9 @@ const btnAumentarDisminuir=e=>{
     e.stopPropagation();
 };
 
-
-
-
-
-
-
-
 /*const carritoParaPaypal = {
   purchase_units: []
 };
-
 Object.values(carrito).forEach(producto => {
   const productoParaPaypal = {
     name: producto.title,
@@ -137,14 +122,10 @@ Object.values(carrito).forEach(producto => {
   };
   carritoParaPaypal.purchase_units.push(productoParaPaypal);
 });
+const carritoJSONParaPaypal = JSON.stringify(carritoParaPaypal);*/
 
-const carritoJSONParaPaypal = JSON.stringify(carritoParaPaypal);
-console.log(carritoJSONParaPaypal);*/
-
-
-
-//const botonComprarPaypal = document.getElementById('paypal-button-container');
-/*botonComprarPaypal.addEventListener('click', () => {
+/*const botonComprarPaypal = document.getElementById('paypalButton');
+botonComprarPaypal.addEventListener('click',()=>{
     const productosPaypal = Object.values(carrito).map(producto => ({
         name: producto.title,
         unit_amount: {
@@ -153,12 +134,11 @@ console.log(carritoJSONParaPaypal);*/
         },
         quantity: producto.cantidad
     }));
-
     const totalPaypal = {
         currency_code: 'MXN',
         value: Object.values(carrito).reduce((total, producto) => total + (parseFloat(producto.precio) * producto.cantidad), 0)
     };
-
+    
     const orderData = {
         intent: 'CAPTURE',
         purchase_units: [{
@@ -167,22 +147,17 @@ console.log(carritoJSONParaPaypal);*/
             items: productosPaypal
         }]
     };
-
-    // llamada a la API de PayPal con orderData
-    console.log('Datos de la orden para PayPal:', orderData);
-
+    alert('Se ha enviado la orden a PayPal');// Mostrar un mensaje de éxito o redireccionar a una página de confirmación
     carrito = {};// Limpiar el carrito después de enviar la orden a PayPal
     pintarCarrito();
-    
-    alert('Se ha enviado la orden a PayPal');// Mostrar un mensaje de éxito o redireccionar a una página de confirmación
 });*/
 
-
 paypal.Buttons({
-  createOrder: function(data, actions) {
-    console.log("data",data,"  actions",actions);
-      
-    const productosPaypal = Object.values(carrito).map(producto => ({
+    
+  createOrder: function(data, actions){
+    console.log("LaData",data,"  actions",actions);
+    
+    const productosPaypal = Object.values(carrito).forEach(producto => ({
         name: producto.title,
         unit_amount: {
             currency_code: 'MXN',
@@ -202,28 +177,27 @@ paypal.Buttons({
             items: productosPaypal
         }]
     };
-    
-    return actions.order.create({// orden de PayPal con los detalles del carrito
-      purchase_units
+    console.log("CarritoCompraPaypal->",orderData.purchase_units);
+    return actions.order.create({
+      purchase_units: orderData.purchase_units
     });
   },
   
-  onApprove: function(data, actions) {
+  onApprove: function(data, actions){
     return actions.order.capture().then(function(details) {// Aquí se ejecuta después de que el usuario aprueba el pago
       console.log("data",data,"  actions",actions);
-      alert('Pago realizado con éxito');// confirmación del pago
-      
-      carrito = {};// impiar el carrito y redirigir a una página de confirmación
+      alert('Pago realizado con éxito');// Confirmación del pago
+      carrito = {};// Limpiar el carrito y redirigir a una página de confirmación
       pintarCarrito();
       window.location.href = 'ventas.php';
     });
   },
+  
   onCancel: function(data){
         console.log("LaData ",data);
         alert("Pago Cancelado");
-    }
+  }
 }).render('#paypal-button-container');
-
 
 
 const mp=new MercadoPago('TEST-1d3e68a5-0bc9-49e7-8a07-207b3c098846',{

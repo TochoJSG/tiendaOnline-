@@ -1,3 +1,4 @@
+<?php require 'negocio/constantes.php';?>
 <!doctype html>
 <html lang="es">
 <head>
@@ -13,9 +14,9 @@
 	<meta charset="UTF-8"> 
 	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="imagenes/favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<script src="push.min.js"></script>
-	<link href="presentacion\estilo_contacto.css"  rel="stylesheet" type="text/css"/>
-	<link href="presentacion\botones.css"  rel="stylesheet" type="text/css"/>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link href="presentacion/estilo_contacto.css"  rel="stylesheet" type="text/css"/>
+	<link href="presentacion/botones.css"  rel="stylesheet" type="text/css"/>
+	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1191139725994904"
      crossorigin="anonymous"></script>
 </head>
@@ -23,8 +24,7 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVV756S"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVV756S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <script>
 	document.addEventListener('DOMContentLoaded', function(){
@@ -40,64 +40,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	});
 </script>
 <header id="main-header">
-	<a id="logo-header" href="index.php">
+	<a id="logo-header" target="_self" href="index.php">
 	<img class="logo" src="imagenes/COORP (2).jpg" align="left" width=90px height=90px/></a>
-	<a id="logo-header" href="index.php">
+	<a id="logo-header" target="_self" href="index.php">
 		<span class="site-name">Grupo Tocha</span><br>
 		<span class="site-desc" style="color:#fff;">Desechable / Bolsa / Insumos</span>
 	</a> <!-- / #logo-header -->
 	<nav>
 		<ul>
-			<li><a class="activeH" href="index.php">Principal
-				</a></li>
-			<li>
-				<a href="https://www.google.com/maps/dir//materias+primas+tocha/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x85ce03c248d73bdb:0xef38793f1e73fa6e?sa=X&amp;ved=2ahUKEwj5rJbYlNvuAhUCJKwKHYXhD1wQ9RcwFXoECB0QBA">Google
-					</a></li>
-			<li><a data-text="Quien escribe esto" id="buttonUs">Nosotros
-				</a></li>
-			<li><a href="departamentos.html">Productos
-				</a></li>
+			<li><a class="activeH" target="_self" href="index.php">Principal</a></li>
+			<li><a target="_blank" href="<?php echo $google;?>">Google</a></li>
+			<li><a data-text="Quien escribe esto" id="buttonUs">Nosotros</a></li>
+			<li><a target="_self" href="ventas.php">Productos</a></li>
 		</ul>
 	</nav>
 </header>
-<a href="https://api.whatsapp.com/send/?phone=525535143631&amp;text=Gracias%20por%20escribir%20a%20materias%20primas%20tocha,%20%C2%BFcomo%20te%20podemos%20ayudar?"
-class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+<a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <div id="fb-root"></div><!-- Messenger plugin de chat Code -->
 <div id="fb-customer-chat" class="fb-customerchat"></div>
-<script src="negocio\facebookJs.js"></script>
+<script src="negocio/facebookJs.js"></script>
 <div class="contactUs">
 	<div class="title">	
 	<div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100064943526728" data-tabs="timeline" data-width="500" data-height="80" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100064943526728" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100064943526728">Tocha</a></blockquote></div>
 	<button class="collapsible">Que te ofrecemos</button><!--Codigo 2-->
 	<div class="content__">
 		<ul class="menu">
-			<li class="lista">Desechables Reyma Biodegradable
-				</li>
-			<li>Desechable Dart Biodegradable
-				</li>
-			<li>Desechable Biodegradable
-				</li>
-			<li>Desechable Jaguar Biodegradable
-				</li>
-			<li>Bolsa de asa Bio y Bolsa negra para Basura con material Reciclado
-				</li>
-			<li>Variedad de Papel Estraza
-				</li>
-			<li>Palos de madera varios
-				</li>
-			<li>Acessorios Electronicos
-				</li>
-			<li>Acessorios para Disposivos
-				</li>
-			<li>Articulos para Mascota
-				</li>
+			<li class="lista">Desechables Reyma Biodegradable</li>
+			<li>Desechable Dart Biodegradable</li>
+			<li>Desechable Biodegradable</li>
+			<li>Desechable Jaguar Biodegradable</li>
+			<li>Bolsa de asa Bio y Bolsa negra para Basura con material Reciclado</li>
+			<li>Variedad de Papel Estraza</li>
+			<li>Palos de madera varios</li>
+			<li>Acessorios Electronicos</li>
+			<li>Acessorios para Disposivos</li>
+			<li>Articulos para Mascota</li>
 		</ul>	
-	<div class="d-grid gap-3 col-10 mx-auto">
-	
-	<a class="btn btn-primary" type="button" href="https://materiasprimastocha.mercadoshops.com.mx/">Ve nuestra tienda en Mercado Libre</a>
-	
-	</div>
-	
+    	<div class="d-grid gap-3 col-10 mx-auto">
+    	    <a class="btn btn-primary" type="button" href="<?php echo $t_mercadoShops;?>"Ve nuestra tienda en Mercado Libre</a>
+    	</div>
 	</div>
 	</div>
 	<div class="contactBox">
@@ -117,30 +98,30 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 				</div>
 				
 				<div class="row50">
-				<div class="inputBox">
-					<span>Email</span>
-					<input class="mail" type="email" placeholder="tuu@algo.com" required/>
-				</div>
-				<div class="inputBox">
-					<span>Telefono</span>
-					<input class="tel" type="number" placeholder="Numero para seguimiento (opcional)"/>
-				</div>
-				</div>
-				<div class="row100">
-				<div class="inputBox">
-					<span>Tu Mensaje</span>
-					<textarea class="msg" placeholder="Como te podemos ayudar" required></textarea>
-				</div>
+    				<div class="inputBox">
+    					<span>Email</span>
+    					<input class="mail" type="email" placeholder="tuu@algo.com" required/>
+    				</div>
+    				<div class="inputBox">
+    					<span>Telefono</span>
+    					<input class="tel" type="number" placeholder="Numero para seguimiento (opcional)"/>
+    				</div>
 				</div>
 				<div class="row100">
-				<div class="inputBox">
-					<input type="submit" value="ENVIAR"/>
+    				<div class="inputBox">
+    					<span>Tu Mensaje</span>
+    					<textarea class="msg" placeholder="Como te podemos ayudar" required></textarea>
+    				</div>
 				</div>
+				<div class="row100">
+    				<div class="inputBox">
+    					<input type="submit" value="ENVIAR"/>
+    				</div>
 				</div>
 			</div>
 		</form>
 <script src="https://smtpjs.com/v3/smtp.js"></script>	
-<script src="negocio\mailTocha.js"></script>
+<script src="negocio/mailTocha.js"></script>
 		</div>
 		<div class="contact info">
 			<h3>Contact Info</h3>
@@ -161,10 +142,9 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 				</a>
 			</div>
 			<ul class="socialesContact">
-				<li><a href="https://www.facebook.com/profile.php?id=100064943526728"><ion-icon name="logo-facebook"></ion-icon></a></li>
+				<li><a target="_blank" href="<?php echo $facebook;?>"><ion-icon name="logo-facebook"></ion-icon></a></li>
 				<li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-				<li><a href="https://listado.mercadolibre.com.mx/_CustId_247812013?item_id=MLM1309126608&amp;category_id=MLM189389&amp;seller_id=247812013&amp;client=recoview-selleritems&amp;recos_listing=true">
-					<ion-icon name="logo-mercadolibre"></ion-icon></a></li>
+				<li><a target="_blank" href="<?php echo $t_mercadoShops;?>"><ion-icon name="logo-mercadolibre"></ion-icon></a></li>
 			</ul>
 			</div>
 		</div>
@@ -178,34 +158,34 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 		<div class="wave" id="wave1"></div>
 	</div>
 	<ul class="social_icon">
-		<li><a href="https://www.facebook.com/Tocha-106771524802265"><ion-icon name="logo-facebook"></ion-icon></a></li>
-		<li><a href="https://www.google.com/maps/dir//materias+primas+tocha/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x85ce03c248d73bdb:0xef38793f1e73fa6e?sa=X&amp;ved=2ahUKEwj5rJbYlNvuAhUCJKwKHYXhD1wQ9RcwFXoECB0QBA"><ion-icon name="logo-google"></ion-icon>
+		<li><a target="_blank" href="<?php echo $facebook;?>"><ion-icon name="logo-facebook"></ion-icon></a></li>
+		<li><a target="_blank" href="<?php echo $google;?>"><ion-icon name="logo-google"></ion-icon>
 			</a></li>
 		<li><a href="#"><ion-icon name="logo-instagram"></ion-icon>
 			</a></li>
 	</ul>
 	<ul class="menu_f">
-		<li><a href="index.php">Principal</a></li>
+		<li><a target="_self" href="index.php">Principal</a></li>
 		<li><a data-text="Quien escribe esto" id="buttonUs">Quienes Somos</a></li>
-		<li><a href="ventas.php">Productos</a></li>
-		<li><a href="contacto_tocha.html">Contacto</a></li>
+		<li><a target="_self" href="ventas.php">Productos</a></li>
+		<li><a target="_self" href="contacto_tocha.php">Contacto</a></li>
 	</ul>
 	<div class="fb-comments" data-href="https://tochamateriasprimas.com/" data-width="100%" data-numposts="5"></div>
 </footer>
 <div class="copyrightText">
 	<div class="grid-container">
 	<div>
-	<a href="http://tochamateriasprimas.com/"><img class="logo" src="imagenes/COORP (2).jpg" align="left"/>
+	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><img class="logo" src="imagenes/COORP (2).jpg" align="left"/>
 		</a>
 	</div>
 	<div>
-	<a href="www.admingtutoriales.com"><p>Adming Desarrollos</p></a>
+	<a target="_blank" href="www.admingtutoriales.com"><p>Adming Desarrollos</p></a>
 	<marquee width="60%" direction="left" scrollamount="6">
 		Sitios Web a la medida (Tan complejo o tan sencillo como lo necesites), economicos y profesionales, tambien Aplicaciones Web y Aplicaciones de escritorio, da clic en Adming Desarrollos arribita.
 			</marquee>
 	</div>
 	<div>
-	<a href="http://admingtutoriales.com/"><img class="logo" src="imagenes/adming.jpg" align="right"/>
+	<a target="_blank" href="http://admingtutoriales.com/"><img class="logo" src="imagenes/adming.jpg" align="right"/>
 		</a>
 	</div>
 	</div>
@@ -242,7 +222,7 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 	<div class="btn-group">
 	<a class="btn btn-primary" type="button" target="_blank" href="electronica-inteligente.com/index.html">Visita Nuestro Blog Sobre Tecnologia
 		</a>		
-	<a class="btn btn-dark" type="button" href="https://materiasprimastocha.mercadoshops.com.mx/">
+	<a class="btn btn-dark" type="button" href="<?php echo $t_mercadoShops;?>">
 		<div class="icono">
 			<svg width="16" height="16" fill="currentcolor">
 				<img src="imagenes/ml.png" width="25" height="25">

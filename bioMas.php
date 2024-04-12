@@ -1,3 +1,4 @@
+<?php require 'negocio/constantes.php';?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,39 +7,37 @@
 		<title>Tocha | Bio+</title>
 	<meta name="keywords" content="fertilizantes,huertos"/>
 	<meta name="description" content="venta de fertilizantes liquidos y por costal, para huertos urbanos cultura ambiental"/>
+	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="imagenes/favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<link href="presentacion/bioEco.css" rel="stylesheet" type="text/css"/>
 </head>
 <body style="overflow-x:hidden;max-width:100%;">
+<a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <div id="fb-root"></div>
+<div id="fb-customer-chat" class="fb-customerchat"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
-<div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="jfx8ZnYd"></script>
 <header id="headerEco">
-	<a target="_blank" href="https://materiasprimastocha.mercadoshops.com.mx/" class="logoEco">Tocha Bio+</a>
+	<a target="_blank" href="<?php echo $t_mercadoShops;?>" class="logoEco">Tocha Bio+</a>
 	<ul>
 		<li><a href="index.php" class="active">Principal</a></li>
 		<li><a id="buttonUs">Nosotros</a></li>
-		<li><a href="contacto_tocha.html">Contacto</a></li>
+		<li><a href="contacto_tocha.php">Contacto</a></li>
 	</ul>
 </header>
-<a href="https://api.whatsapp.com/send/?phone=525535143631&amp;text=Gracias%20por%20escribir%20a%20materias%20primas%20tocha,%20%C2%BFcomo%20te%20podemos%20ayudar?"
-class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
-<div id="fb-root"></div>
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
+
 <script src="negocio/facebookJs.js"></script>
 	<section class="headerBlock">
 		<h2 id="textEco"><span>El Sitio para conseguir lo mas natural y cuidadoso para los seres vivos</span><br>Contactanos</h2>
 		<img src="imagenes/ave.png" id="bird1"/>
 		<img src="imagenes/ave.png" id="bird2"/>
 		<img src="imagenes/rocas.png" id="forest"/>
-		<a href="https://materiasprimastocha.mercadoshops.com.mx/" id="btnEco">Compralo en <span>Mercado Libre</span></a>
+		<a target="_blank" href="<?php echo $t_mercadoShops;?>" id="btnEco">Compralo en <span>Mercado Libre</span></a>
 		<img src="imagenes/forest.png" id="rocks"/>	
 		<img src="imagenes/water.png" id="water"/>	
 	</section>
-	<div class="main">
-<script type="text/javascript">
+<div class="main">
+    <script type="text/javascript">
 	atOptions = {
 		'key' : '616899c29662e51f5906c074fcc9478e',
 		'format' : 'iframe',
@@ -46,41 +45,37 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 		'width' : 728,
 		'params' : {}
 	};
-	
-</script>
-		<div class="texto_car">
-			<h1>Compra Lo mejor para tu Mascota
-				</h1>
-			<p>Una Seleccion de los Productos mejor calificados en Amazon 
-				</p>
-		</div>
-		<header>
-			<h1>Top hettest
-				</h1>
-			<p>
-				<span onclick="left_mover();">&#139 </span>
-				<span onclick="right_mover();">&#155 </span>
-				</p>
-		</header>
-		<div class="seccion">
-			<div class="contBio"></div>
-		</div>
+    </script>
+	<div class="texto_car">
+		<h1>Compra Lo mejor para tu Mascota</h1>
+		<p>Una Seleccion de los Productos mejor calificados en Amazon </p>
 	</div>
-	<script type="text/javascript" src="presentacion/car_commerce.js"></script>
-	<div class="amz aletarga">
-	    <br>
-<script type="text/javascript">
-	atOptions = {
-		'key' : '616899c29662e51f5906c074fcc9478e',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-	
-</script>
+	<header>
+		<h1>Top hettest</h1>
+		<p>
+			<span onclick="left_mover();">&#139 </span>
+			<span onclick="right_mover();">&#155 </span>
+			</p>
+	</header>
+	<div class="seccion">
+		<div class="contBio"></div>
 	</div>
-	<div class="fb-comments" data-href="https://tochamateriasprimas.com/" data-width="100%" data-numposts="5"></div>
+</div>
+<script type="text/javascript" src="presentacion/car_commerce.js"></script>
+<div class="amz aletarga">
+	<br>
+    <script type="text/javascript">
+    	atOptions = {
+    		'key' : '616899c29662e51f5906c074fcc9478e',
+    		'format' : 'iframe',
+    		'height' : 90,
+    		'width' : 728,
+    		'params' : {}
+    	};
+    	
+    </script>
+</div>
+<div class="fb-comments" data-href="https://tochamateriasprimas.com/" data-width="100%" data-numposts="5"></div>
 	<div class="contEco">
 		<h2>Fertilizantes</h2>
 		<p>Fertilizantes elaborados naturalmente con elementos tomados de monte directamente, si requieres mas informacion sientete libre de contactarnos.</p>
@@ -164,18 +159,16 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 	<div class="wave" id="wave1"></div>
 </div>
 <ul class="social_icon">
-	<li><a href="https://www.facebook.com/Tocha-106771524802265"><ion-icon name="logo-facebook"></ion-icon></a></li>
-	<li><a href="https://www.google.com/maps/dir//materias+primas+tocha/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x85ce03c248d73bdb:0xef38793f1e73fa6e?sa=X&amp;ved=2ahUKEwj5rJbYlNvuAhUCJKwKHYXhD1wQ9RcwFXoECB0QBA"><ion-icon name="logo-google"></ion-icon>
-		</a></li>
-	<li><a href="#"><ion-icon name="logo-instagram"></ion-icon>
-		</a></li>
+	<li><a target="_blank" href="<?php echo $facebook;?>"><ion-icon name="logo-facebook"></ion-icon></a></li>
+	<li><a target="_blank" href="<?php echo $google;?>"></ion-icon></a></li>
+	<li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
 </ul>
 <ul class="menu_f">
-    <li><a href="https://materiasprimastocha.mercadoshops.com.mx/">MercadoLibre</a></li>
-	<li><a href="index.php">Principal</a></li>
+    <li><a target="_blank" href="<?php echo $t_mercadoShops;?>">MercadoLibre</a></li>
+	<li><a target="_self" href="index.php">Principal</a></li>
 	<li><a id="buttonUs">Quienes Somos</a></li>
-	<li><a href="ventas.php">Productos</a></li>
-	<li><a href="contacto_tocha.html">Contacto</a></li>
+	<li><a target="_self" href="ventas.php">Productos</a></li>
+	<li><a target="_self" href="contacto_tocha.php">Contacto</a></li>
 </ul>
 </footer>
 <div class="footer_map">
@@ -184,18 +177,17 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <div class="copyrightText">
 <div class="grid-container">
 <div>
-<a href="http://tochamateriasprimas.com/"><img class="logo" src="imagenes/COORP (2).jpg" align="left" width=60px height=60px/>
+<a target="_blank" href="<?php echo $t_mercadoShops;?>"><img class="logo" src="imagenes/COORP (2).jpg" align="left" width=60px height=60px/>
 	</a>
 </div>
 <div>
-<a href="www.admingtutoriales.com"><p>Adming Desarrollos</p></a>
+<a target="_blank" href="www.admingtutoriales.com"><p>Adming Desarrollos</p></a>
 <marquee width="60%" direction="left" scrollamount="6">
 	Sitios Web a la medida (Tan complejo o tan sencillo como lo necesites), economicos y profesionales, tambien Aplicaciones Web y Aplicaciones de escritorio, da clic en Adming Desarrollos arribita.
 		</marquee>
 </div>
 <div>
-<a href="http://admingtutoriales.com/"><img class="logo" src="imagenes/adming.jpg" align="right" width=60px height=60px/>
-	</a>
+    <a target="_blank" href="http://admingtutoriales.com/"><img class="logo" src="imagenes/adming.jpg" align="right" width=60px height=60px/></a>
 </div>
 </div>
 </div>
@@ -228,9 +220,9 @@ class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
       <p class="texto_nosotros">Contribuir al cuidado del ambiente con productos con materiales amigables y durareros.</p>
     </div>
 		<br>
-	<a href="departamentos.php"><button class="botones">Observa nuestro Catalogo de Productos
+	<a target="_self" href="ventas.php"><button class="botones">Observa nuestro Catalogo de Productos
 		</button></a>		
-	<a href="https://materiasprimastocha.mercadoshops.com.mx/"><button class="btnML btn-darkML">
+	<a href="<?php echo $t_mercadoShops;?>"><button class="btnML btn-darkML">
 		<div class="icono">
 			<svg width="16" height="16" fill="currentcolor">
 				<img src="imagenes/ml.png" width="25" height="25"/>

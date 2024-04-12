@@ -1,5 +1,6 @@
 <?php
 require 'negocio/config.php';
+require 'negocio/constantes.php';
 //require 'negocio/clases/captura.php';
 require 'negocio/database.php';
 $db= new Database();
@@ -7,10 +8,8 @@ $con = $db->conectar();
 $sqlDB = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");
 $sqlDB->execute();
 $productoss = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
-
 $productos = isset($_SESSION['carrito']['producto']) ? $_SESSION['carrito']['producto'] : null;//productos contendra valor si existe para luego validar $_SESSION['carrito']['producto']
 $carrito = array();
-
 if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto consultamos BD para llenar carrito
     foreach($productos as $clave => $cantidad ){//or cada producto seleccionado, consultammos
         $sqlDB = $con->prepare("SELECT idProducto,nombre,precio,descuento,$cantidad AS cantidad FROM producto WHERE idProducto=? AND activo=1");//Solo traera variable como resultado, sin tocar nada de la BD
@@ -22,8 +21,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 //print_r($_SESSION); print_r("carrito ---> ".$carrito); //   php include 'negocio/clases/mercadoPagoIni.php'; 
 ?>
 <html lang="es">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics   APP_USR-2981243273692847-042103-3e2a9c7daab132fc88385c450800f21e-247812013 -->
+<head><!-- Global site tag (gtag.js) - Google Analytics   APP_USR-2981243273692847-042103-3e2a9c7daab132fc88385c450800f21e-247812013 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZ16T2G5PD"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -36,37 +34,34 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	<meta name="keywords" content="electronica, computadora, laptop, audifonos, bluetooth, Relog inteligente, smartwatch, mouse, relojes, bocinas, muebles, desechables, Materias primas"/>
 	<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html; width=device-width; charset=utf-8;" initial-scale="1.0"/>
 		<title>Tocha | Productos</title>
-	<script src="https://sdk.mercadopago.com/js/v2"></script><!--SDK MP API-->
-	<script src="https://www.paypal.com/sdk/js?client-id=AfGJtKOoQTqFZWdiVkXFivK8DT5i6BZovHjw9q5pqHiF5LFo-JkwWEpJ1bhqmI2LgrAm80f6VFnbIGO4&currency=MXN"></script>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
-    
 	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="imagenes/favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
-	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css" />
+	<script src="https://sdk.mercadopago.com/js/v2"></script><!--SDK MP API-->
+	<script src="https://www.paypal.com/sdk/js?client-id=<?php echo $paypalClientId;?>&currency=<?php echo $currency;?>"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
+	<link rel="stylesheet" href="<?php echo $fontAwesome;?>" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<script src="negocio/push.min.js"></script>
 </head>
 <body>
-<a href="https://api.whatsapp.com/send/?phone=525610936170&amp;text=Gracias%20por%20contactarnos,%20%C2%BFComo%20te%20podemos%20ayudar?" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+<!--<div id="fb-root"></div>
+<div id="fb-customer-chat" class="fb-customerchat"></div>
+<script type="text/javascript"  src="negocio/facebookJs.js"></script>-->
+<a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <script>document.addEventListener('DOMContentLoaded',function(){Push.create('Bienvenido',{body:'Hola, da clic en el recuadro y compra con envio incluido !!!',icon:'imagenes/COORP (2).jpg',timeout:6666,onClick:function(){window.location='https://materiasprimastocha.mercadoshops.com.mx/';this.close();}});});</script>
 <header id="main-header">
-	<a href="index.php"><img class="logo" src="imagenes/COORP (2).jpg" align="left" width="90px" height="90px"/></a>
-	<a id="logo-header" target="_blank" href="index.php">
+	<a target="_self" href="index.php"><img class="logo" src="imagenes/COORP (2).jpg" align="left" width="90px" height="90px"/></a>
+	<a id="logo-header" target="_self" href="index.php">
 		<span class="site-name">Grupo Tocha</span>
 		<span class="site-desc">Desechable / Bolsa / Insumos</span>
 	</a>
 	<nav>
 		<ul>
-		    <li><a class="activo" target="_blank" href="https://materiasprimastocha.mercadoshops.com.mx/"><b>Mercado Libre</b>
-		        </a></li>
-<li><a target="_blank" href="https://www.google.com/maps/dir//materias+primas+tocha/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x85ce03c248d73bdb:0xef38793f1e73fa6e?sa=X&amp;ved=2ahUKEwj5rJbYlNvuAhUCJKwKHYXhD1wQ9RcwFXoECB0QBA"><b>Google</b>
-				</a></li>
-			<li><a id="buttonUs"><b>Acerca de</b>
-			    </a></li>
-			<li><a target="_blank" href="contacto_tocha.html"><b>Contacto</b>
-			    </a></li>
-<li><a href="negocio/checkout.php" class="btn btn-primary">Carrito<span id="num_cart" class="badge bg-secondary"><?php echo $num_cart;?></span>
-				</a></li>
+		    <li><a class="activo" target="_blank" href="<?php echo $t_mercadoShops;?>"><b>Mercado Libre</b></a></li>
+			<li><a target="_blank" href="<?php echo $google;?>"><b>Google</b></a></li>
+			<li><a id="buttonUs"><b>Acerca de</b></a></li>
+			<li><a target="_blank" href="contacto_tocha.php"><b>Contacto</b></a></li>
+            <li><a href="negocio/checkout.php" class="btn btn-primary">Carrito<span id="num_cart" class="badge bg-secondary"><?php echo $num_cart;?></span></a></li>
 		</ul>
 	</nav>
 </header>
@@ -108,11 +103,10 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	</div>
 </div>
 </main>
-<!--<script type="text/javascript" src="negocio/clases/pagos.js"></script>-->
 <template id="template-footer">
     <th scope="row" colspan="2">Total productos</th>
         <td><button class="btn btn-danger btn-sm" id="vaciar-carrito">vaciar todo</button></td><!--		10		-->
-        <td><button id="buttonForm" class="btn btn-sm"> Comprar </button></td>
+        <td><button id="paypalButton" class="btn btn-sm"> Comprar </button></td>
         <td>$<span>5000</span></td>
 </template>
 <template id="template-carrito">
@@ -214,18 +208,16 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 
 <footer>
 	<ul class="social_icon">
-	<li><a href="https://www.facebook.com/Tocha-106771524802265"><ion-icon name="logo-facebook"></ion-icon></a></li>
-<li><a href="https://www.google.com/maps/dir//materias+primas+tocha/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x85ce03c248d73bdb:0xef38793f1e73fa6e?sa=X&amp;ved=2ahUKEwj5rJbYlNvuAhUCJKwKHYXhD1wQ9RcwFXoECB0QBA"><ion-icon name="logo-google"></ion-icon>
-			</a></li>
-		<li><a href="#"><ion-icon name="logo-instagram"></ion-icon>
-			</a></li>
+	    <li><a target="_blank" href="<?php echo $facebook;?>"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a target="_blank" href="<?php echo $google;?>"><ion-icon name="logo-google"></ion-icon></a></li>
+		<li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
 	</ul>
 	<ul class="menu_f">
-	    <li><a href="https://materiasprimastocha.mercadoshops.com.mx/">MercadoLibre</a></li>
-		<li><a href="index.php">Principal</a></li>
+	    <li><a target="_blank" href="<?php echo $t_mercadoShops;?>">MercadoLibre</a></li>
+		<li><a target="_self" href="index.php">Principal</a></li>
 		<li><a id="buttonUs">Quienes Somos</a></li>
-		<li><a href="ventas.html">Productos</a></li>
-		<li><a href="contacto_tocha.html">Contacto</a></li>
+		<li><a target="_blank" href="<?php echo $t_mercadoShops;?>">Productos</a></li>
+		<li><a target="_self" href="contacto_tocha.php">Contacto</a></li>
 	</ul>
 </footer>
 <div id="nosotros" class="modal"><!--Nosotros-->
@@ -256,10 +248,8 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
       <p class="texto_nosotros">Facilitar la compra online a las personas y tener alcance nacional con tiendas fisicas.</p>
       <p class="texto_nosotros">Contribuir al cuidado del ambiente con productos con materiales amigables y durareros.</p>
     </div>
-		<br>
-	<a href="departamentos.html"><button class="botones">Observa nuestro Catalogo de Productos
-		</button></a>		
-	<a href="https://materiasprimastocha.mercadoshops.com.mx/"><button class="btnML btn-darkML">
+		<br>		
+	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="btnML btn-darkML">
 		<div class="icono">
 			<svg width="16" height="16" fill="currentcolor">
 				<img src="imagenes/ml.png" width="25" height="25">
@@ -270,7 +260,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	<img class="mamalon" src="imagenes/0.jpg"/>
 </div>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script nomodule      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script type="text/javascript" src="negocio/manipula_deptos.js"></script>
 <script type="text/javascript" src="negocio/clases/actualizaMonto.js"></script>
 <script type="text/javascript" src="presentacion/tochaUs.js"></script>
