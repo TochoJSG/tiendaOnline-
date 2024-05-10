@@ -1,53 +1,106 @@
+const templateCardBd = document.getElementById('template-card-bd').content;
+const fragmentBd = document.createDocumentFragment();
+const cardsFromBd = document.getElementById('cardsFromBd');
 const materiasPrimas = document.getElementById('matPrima');
-const cards = document.getElementById('cardsBd');
+const cards = document.getElementById('cardsFromBd');
 const items = document.getElementById('items');
 const footer = document.getElementById('footer');
 const templateFooter = document.getElementById('template-footer').content;
 const templateCarrito = document.getElementById('template-carrito').content;
 const fragment = document.createDocumentFragment();
+const fragmentRow = document.createDocumentFragment();
+let listaProductos = {};
 let carrito = {};
-document.addEventListener('DOMContentLoaded',e=>{
-    if(localStorage.getItem('carrito')){carrito=JSON.parse(localStorage.getItem('carrito'));pintarCarrito();}
+document.addEventListener('DOMContentLoaded', e =>{
+    fetchDataFromBD();
+    if(localStorage.getItem('carrito')){carrito = JSON.parse(localStorage.getItem('carrito'));pintarCarrito();}
 });
-
 cards.addEventListener('click',e=>{ addCarrito(e) });
-items.addEventListener('click',e=>{ btnAumentarDisminuir(e)});
+items.addEventListener('click',e=>{ btnAumentarDisminuir(e); console.log('Hubo clic sobre un Item'); });
 
+function fetchDataFromBD(){
+    const consultaJson = 'https://tochamateriasprimas.com/productos.php';
+    const configuracionPeticion = {
+        method: 'POST',
+        headers: { 'Content-Type':'application/json; charset=utf-8' },
+    };
+    fetch(consultaJson,configuracionPeticion).
+    then( respuesta=> respuesta.json() ).
+        then( data=>  pintarCardsFromBd(data) ).
+            then( inventario=> listaProductos = JSON.stringify(inventario) ).
+    catch(error=> console.log('Error al obtener el JSON ', error) );
+}
+/*const fetchDataFromBD = async () => {
+    try {
+        const consultaJson = 'negocio/clases/consulta.php';
+        const req = await fetch(consultaJson, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' }
+        });
+        if (!req.ok) {
+            throw new Error(`HTTP error! Status: ${req.status}`);
+        }
+        const productosJSON = await req.json();
+        pintarCardsFromBd(productosJSON);
+    } catch (error) {console.log('Error al obtener el JSON ', error);}
+};*/
+const pintarCardsFromBd = productos =>{
+    templateCardBd.innerHTML = '';
+    productos.forEach(producto=>{
+        templateCardBd.querySelector('h5').innerHTML = `<h5 id="${producto.idProducto}">${producto.nombre}</h5>`;
+        templateCardBd.querySelector('span').textContent = producto.precio;
+        templateCardBd.querySelector('p').textContet = producto.descripcion;
+        templateCardBd.querySelector('section').innerHTML = `<img id="${producto.nombre}" src="imagenes/productos/${producto.idProducto}/principal.jpg" alt="cargando imagen de ${producto.nombre}..."/>`;
+        templateCardBd.querySelector('button').dataset.id = producto.idProducto;
+        const cloneBd = templateCardBd.cloneNode(true);
+        fragmentBd.appendChild(cloneBd);
+    });
+    cardsFromBd.appendChild(fragmentBd);
+};
 const addCarrito= e =>{
-    if(e.target.classList.contains('buyBtn')){//btn-dark => card button for buying
-        setCarrito(e.target.parentElement);
+    if(e.target.classList.contains('btnCard')){//btn-dark => card button for buying
+        setCarrito(e.target.parentElement);//Datos conteniddos en la Card HTML
     }
     e.stopPropagation();
 };
 
-const setCarrito=item=>{//Function that handles Card Data
-    const producto={
-        id : item.querySelector('.buyBtn').dataset.id,
-        title : item.querySelector('h5').textContent,
-        precio : item.querySelector('h3').textContent,
-        cantidad:1
-    };//Data from JSON to Card
-    console.log("producto->",producto);
-    if(carrito.hasOwnProperty(producto.id)){
-        producto.cantidad = carrito[producto.id].cantidad+1;
-    }
-    carrito[producto.id]={...producto};
-    pintarCarrito();
-    console.log("carrito",carrito);
-};//End of Function that handles Card Data
+const descargarArchivoJSON = (contenido,nombreArchivo) =>{
+    const blob = new Blob([contenido],{type:'application-json'});
+    const url = URL.createObjectURL(blob);
+    const elemento = document.createElement('a');
+    elemento.href = url;
+    elemento.download = nombreArchivo;
+    document.body.appendChild(elemento);
+    elemento.click();
+    document.body.removeChild(elemento);
+    URL.revokeObjectURL(url);
+};
 
-const pintarCarrito=()=>{ /*    AGREGAR CONDICIONAL 'SI VACIO' CONTRARIO 'AÑADIR'  */
+const setCarrito = item =>{
+    const producto = {
+        idProducto : item.querySelector('.btnCard').dataset.id,
+        title : item.querySelector('h5').textContent,
+        precio : item.querySelector('span').textContent,
+        cantidad:1
+    };
+    if(carrito.hasOwnProperty(producto.idProducto)){
+        producto.cantidad = carrito[producto.idProducto].cantidad+1;
+    }
+    carrito[producto.idProducto] = {...producto};
+    pintarCarrito();
+};
+
+const pintarCarrito = () =>{
     items.innerHTML = '';
-    templateCarrito.innerHTML = '';
     Object.values(carrito).forEach(producto=>{
-        templateCarrito.querySelector('th').textContent = producto.id
+        templateCarrito.querySelector('th').textContent = producto.idProducto
         templateCarrito.querySelectorAll('td')[0].textContent = producto.title
         templateCarrito.querySelectorAll('td')[1].textContent = producto.cantidad
-        templateCarrito.querySelector('span').textContent = parseFloat(producto.precio) * parseFloat(producto.cantidad)
-        templateCarrito.querySelector('.btn-info').dataset.id = producto.id
-        templateCarrito.querySelector('.btn-danger').dataset.id = producto.id
-        const clone = templateCarrito.cloneNode(true);
-        fragment.appendChild(clone);
+        templateCarrito.querySelector('span').textContent = producto.precio*producto.cantidad
+        templateCarrito.querySelector('.btn-warning').dataset.idProducto = producto.idProducto
+        templateCarrito.querySelector('.btn-info').dataset.idProducto = producto.idProducto
+        const clone=templateCarrito.cloneNode(true)
+        fragment.appendChild(clone)
     });
     items.appendChild(fragment);
     pintarFooter();
@@ -56,58 +109,54 @@ const pintarCarrito=()=>{ /*    AGREGAR CONDICIONAL 'SI VACIO' CONTRARIO 'AÑADI
 
 const pintarFooter=()=>{//Buy Process; Global Buy Button
     footer.innerHTML = '';
-    templateFooter.innerHTML = '';
     if(Object.keys(carrito).length===0){
-        footer.innerHTML = `<th scope="row" colspan="5"> Carrito Vacío </th>`;
+        footer.innerHTML = `<th scope="row" colspan="5">Carrito Vacío</th>`;
         return
 	}
-    const nCantidad = Object.values(carrito).reduce( (acc,{ cantidad })=> acc+cantidad,0);
-    const nPrecio = Object.values(carrito).reduce( (acc,{ cantidad,precio })=> acc + parseFloat(cantidad*precio),0);//añadi parentesis parseFloat
-    // console.log(nPrecio)
-    templateFooter.querySelectorAll('td')[0].textContent = nCantidad;
-    templateFooter.querySelector('span').textContent = nPrecio;
-    const clone=templateFooter.cloneNode(true);
+    const nCantidad=Object.values(carrito).reduce((acc,{cantidad})=>acc+cantidad,0);
+    const nPrecio=Object.values(carrito).reduce((acc,{cantidad,precio})=>acc+cantidad*precio,0);
+    templateFooter.querySelectorAll('td')[0].textContent = nCantidad
+    templateFooter.querySelector('span').textContent = nPrecio
+    const clone = templateFooter.cloneNode(true)
     fragment.appendChild(clone);
     footer.appendChild(fragment);
-
-    /*const botonComprar = document.querySelector('#buttonForm');//Agregue boton Comprar
-    botonComprar.addEventListener('click',()=>{
-        carrito={};//Posible solucion, sacar carrito={} & pintarCarrito(); de este bloque, activacion con otro evento
-        pintarCarrito();
-    	alert('funciono el boton compra');
-    	//document.getElementById('formaMP').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';
-        //formMP.getElementById('form-checkout__amountTocha').dataset.amount=nPrecio;
-    });*/
-
 };//End of Buy Process; Buy Button
 
-const botonCompraMP = document.querySelector('.checkout-btn');//Deprecated    Agregue boton Comprar
-botonCompraMP.addEventListener('click',()=>{//    Aqui podemos hacer conexion a la BD al click, para pedir la data de la transaccion
-    console.log("carrito ",carrito);
-    carrito={};//Posible solucion, sacar carrito={} & pintarCarrito(); de este bloque, activacion con otro evento
-    pintarCarrito();
-    alert('funciono el boton compra');
-});
-
-const btnAumentarDisminuir=e=>{
-    // console.log(e.target.classList.contains('btn-info'))
-    if(e.target.classList.contains('increBtn')){
-        const producto = carrito[e.target.dataset.id];
+const btnAumentarDisminuir = e =>{
+    console.log(e.target.classList.contains('btn-info'))
+    if(e.target.classList.contains('btn-warning')){
+        const producto = carrito[e.target.dataset.idProducto];
         producto.cantidad++;
-		carrito[e.target.dataset.id] = {...producto};
+		carrito[e.target.dataset.idProducto] = {...producto};
         pintarCarrito();
     }
-    if(e.target.classList.contains('decreBtn')){
-        const producto=carrito[e.target.dataset.id];
+    if(e.target.classList.contains('btn-info')){
+        const producto = carrito[e.target.dataset.idProducto];
         producto.cantidad--;
         if(producto.cantidad===0){
-            delete carrito[e.target.dataset.id];
-        }else{carrito[e.target.dataset.id]={...producto}}
+            delete carrito[e.target.dataset.idProducto];
+        }else{carrito[e.target.dataset.idProducto] = {...producto}}
         pintarCarrito();
     }
     e.stopPropagation();
 };
-
+/*const btnAumentarDisminuir = e =>{
+    console.log(e);
+    if(e.target.classList.contains('btn-warning')){
+        const producto = carrito[e.target.dataset.id];
+        producto.cantidad++;
+        pintarCarrito();
+    }
+    if(e.target.classList.contains('btn-info')){
+        const producto = carrito[e.target.dataset.id];
+        producto.cantidad--;
+        if(producto.cantidad === 0){
+            delete carrito[e.target.dataset.id];
+        }
+        pintarCarrito();
+    }
+    e.stopPropagation();
+};*/
 /*const carritoParaPaypal = {
   purchase_units: []
 };
@@ -196,6 +245,7 @@ paypal.Buttons({
   onCancel: function(data){
         console.log("LaData ",data);
         alert("Pago Cancelado");
+        window.location.href = 'ventas.php';
   }
 }).render('#paypal-button-container');
 
