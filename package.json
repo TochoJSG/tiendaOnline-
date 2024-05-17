@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "font-awesome": "^4.7.0",
+    "font-awesome.css": "^4.7.2",
+    "fontawesome": "^5.6.3",
+    "swiper": "^11.1.0",
+    "unpkg": "^0.2.0"
+  },
+  "name": "online-shop-tocha",
+  "version": "1.0.0",
+  "description": "\"shop online with cards from database conexion with PHP and js for back handle\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TochoJSG/tiendaWeb.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "tocha",
+    "my-shop"
+  ],
+  "author": "TochoJSG (JorgeSalgado)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TochoJSG/tiendaWeb/issues"
+  },
+  "homepage": "https://github.com/TochoJSG/tiendaWeb#readme"
+}
