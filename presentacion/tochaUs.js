@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*<div id="nosotros" class="modal"><!--Nosotros-->
 	<div class="headerForm">
 		<span><img class="logo" src="imagenes/COORP (2).jpg"/></span>
@@ -40,6 +41,8 @@
 
 
 
+=======
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 function cola(){
 var coll=document.querySelectorAll('.collapsible');for(var i=0;i<coll.length;i++){coll[i].addEventListener('click',function(){this.classList.toggle('active');var content=this.nextElementSibling;if(content.style.maxHeight){content.style.maxHeight=null;}else{content.style.maxHeight=content.scrollHeight+"px";}});}
 }

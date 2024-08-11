@@ -1,9 +1,15 @@
 [
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama1.jpg",
 	"im2":"imagenes/ama1.jpg",
 	"im3":"imagenes/ama1.jpg",
+=======
+    "im1":"ama1.jpg",
+	"im2":"ama1.jpg",
+	"im3":"ama1.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":22,
     "title":"Xiaomi Poco X3 Pro",
@@ -12,9 +18,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama2.jpg",
 	"im2":"imagenes/ama2.jpg",
 	"im3":"imagenes/ama2.jpg",
+=======
+    "im1":"ama2.jpg",
+	"im2":"ama2.jpg",
+	"im3":"ama2.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":23,
     "title":"SAMSUNG A12",
@@ -23,9 +35,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama8.jpg",
 	"im2":"imagenes/ama8.jpg",
 	"im3":"imagenes/ama8.jpg",
+=======
+    "im1":"ama8.jpg",
+	"im2":"ama8.jpg",
+	"im3":"ama8.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":24,
     "title":"HUAWEI Watch Fit- Reloj Inteligente",
@@ -34,9 +52,15 @@
   },
   {
     "depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama3.jpg",
 	"im2":"imagenes/ama3.jpg",
 	"im3":"imagenes/ama3.jpg",
+=======
+    "im1":"ama3.jpg",
+	"im2":"ama3.jpg",
+	"im3":"ama3.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":25,
     "title":"Pebble M350",
@@ -45,9 +69,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama5.jpg",
 	"im2":"imagenes/ama5.jpg",
 	"im3":"imagenes/ama5.jpg",
+=======
+    "im1":"ama5.jpg",
+	"im2":"ama5.jpg",
+	"im3":"ama5.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":26,
     "title":"Logitech Mouse Inalámbrico",
@@ -56,9 +86,15 @@
   },
   {
     "depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama6.jpg",
 	"im2":"imagenes/ama6.jpg",
 	"im3":"imagenes/ama6.jpg",
+=======
+    "im1":"ama6.jpg",
+	"im2":"ama6.jpg",
+	"im3":"ama6.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":25,
     "title":"Apple EarPods",
@@ -67,9 +103,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama4.jpg",
 	"im2":"imagenes/ama4.jpg",
 	"im3":"imagenes/ama4.jpg",
+=======
+    "im1":"ama4.jpg",
+	"im2":"ama4.jpg",
+	"im3":"ama4.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":27,
     "title":"Kit Teclado y Mouse LOGITECH",
@@ -78,9 +120,15 @@
 	},
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama7.jpg",
 	"im2":"imagenes/ama7.jpg",
 	"im3":"imagenes/ama7.jpg",
+=======
+    "im1":"ama7.jpg",
+	"im2":"ama7.jpg",
+	"im3":"ama7.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":28,
     "title":"Apple AirPods Tercera generación",
@@ -89,9 +137,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama8.jpg",
 	"im2":"imagenes/ama8.jpg",
 	"im3":"imagenes/ama8.jpg",
+=======
+    "im1":"ama8.jpg",
+	"im2":"ama8.jpg",
+	"im3":"ama8.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":29,
     "title":"HUAWEI Watch Fit- Reloj Inteligente",
@@ -100,9 +154,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama9.jpg",
 	"im2":"imagenes/ama9.jpg",
 	"im3":"imagenes/ama9.jpg",
+=======
+    "im1":"ama9.jpg",
+	"im2":"ama9.jpg",
+	"im3":"ama9.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":30,
     "title":"Apple AirPods",
@@ -111,9 +171,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama10.jpg",
 	"im2":"imagenes/ama10.jpg",
 	"im3":"imagenes/ama10.jpg",
+=======
+    "im1":"ama10.jpg",
+	"im2":"ama10.jpg",
+	"im3":"ama10.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":31,
     "title":"Bocinas Bluetooth Alexa",
@@ -122,9 +188,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama11.jpg",
 	"im2":"imagenes/ama11.jpg",
 	"im3":"imagenes/ama11.jpg",
+=======
+    "im1":"ama11.jpg",
+	"im2":"ama11.jpg",
+	"im3":"ama11.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":32,
     "title":"Tronsmart Force Bocinas Bluetooth",
@@ -133,9 +205,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama12.jpg",
 	"im2":"imagenes/ama12.jpg",
 	"im3":"imagenes/ama12.jpg",
+=======
+    "im1":"ama12.jpg",
+	"im2":"ama12.jpg",
+	"im3":"ama12.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":33, 
     "title":"JBL Flip 5 Bocinas",
@@ -144,9 +222,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama13.jpg",
 	"im2":"imagenes/ama13.jpg",
 	"im3":"imagenes/ama13.jpg",
+=======
+    "im1":"ama13.jpg",
+	"im2":"ama13.jpg",
+	"im3":"ama13.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":34,
     "title":"2021 Dell Inspiron",
@@ -155,9 +239,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama14.jpg",
 	"im2":"imagenes/ama14.jpg",
 	"im3":"imagenes/ama14.jpg",
+=======
+    "im1":"ama14.jpg",
+	"im2":"ama14.jpg",
+	"im3":"ama14.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":35,
     "title":"Smartwatch Pulsera Inteligente",
@@ -166,9 +256,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama15.jpg",
 	"im2":"imagenes/ama15.jpg",
 	"im3":"imagenes/ama15.jpg",
+=======
+    "im1":"ama15.jpg",
+	"im2":"ama15.jpg",
+	"im3":"ama15.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":36,
     "title":"Smartwatch Reloj Inteligente,Salandens",
@@ -177,9 +273,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama16.jpg",
 	"im2":"imagenes/ama16.jpg",
 	"im3":"imagenes/ama16.jpg",
+=======
+    "im1":"ama16.jpg",
+	"im2":"ama16.jpg",
+	"im3":"ama16.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":37,
     "title":"Jecoo Audífonos Inalámbricos Bluetooth 5.0",
@@ -188,9 +290,15 @@
   },
   {
 	"depto":"amazon",
+<<<<<<< HEAD
     "im1":"imagenes/ama17.jpg",
 	"im2":"imagenes/ama17.jpg",
 	"im3":"imagenes/ama17.jpg",
+=======
+    "im1":"ama17.jpg",
+	"im2":"ama17.jpg",
+	"im3":"ama17.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":"none",
     "id":38,
     "title":"Audífonos inalámbricos Bluetooth 5.0",
@@ -199,9 +307,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_B_1.png",
 	"im2":"imagenes/mat_B_2.jpg",
 	"im3":"imagenes/mat_B_3.jpg",
+=======
+    "im1":"mat_B_1.png",
+	"im2":"mat_B_2.jpg",
+	"im3":"mat_B_3.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":55,
     "id":1,
     "title":"Bolsa Negra Grande",
@@ -210,9 +324,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_B_1.png",
 	"im2":"imagenes/mat_B_2.jpg",
 	"im3":"imagenes/mat_B_3.jpg",
+=======
+    "im1":"mat_B_1.png",
+	"im2":"mat_B_2.jpg",
+	"im3":"mat_B_3.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":55,
     "id":1,
     "title":"Bolsa Negra Grande",
@@ -221,9 +341,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_5.jpg",
 	"im2":"imagenes/mat_5_2.jpg",
 	"im3":"imagenes/mat_5_3.jpg",
+=======
+    "im1":"mat_5.jpg",
+	"im2":"mat_5_2.jpg",
+	"im3":"mat_5_3.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":55,
     "id":2,
     "title":"Bolsa Negra Camiseta #5",
@@ -232,9 +358,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_3_1.jpg",
 	"im2":"imagenes/mat_3_2.jpg",
 	"im3":"imagenes/mat_bolsas.jpg",
+=======
+    "im1":"mat_3_1.jpg",
+	"im2":"mat_3_2.jpg",
+	"im3":"mat_bolsas.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":55,
     "id":3,
     "title":"Bolsa Negra Camiseta #3",
@@ -243,9 +375,15 @@
   },
   {
     "depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_2_1.jpg",
 	"im2":"imagenes/mat_2_2.jpg",
 	"im3":"imagenes/mat_bolsas.jpg",
+=======
+    "im1":"mat_2_1.jpg",
+	"im2":"mat_2_2.jpg",
+	"im3":"mat_bolsas.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":55,
     "id":4,
     "title":"Bolsa Camiseta Asa #2",
@@ -254,9 +392,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_bolsa.jpg",
 	"im2":"imagenes/mat_1_2.jpg",
 	"im3":"imagenes/mat_bolsas.jpg",
+=======
+    "im1":"mat_bolsa.jpg",
+	"im2":"mat_1_2.jpg",
+	"im3":"mat_bolsas.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":55,
     "id":5,
     "title":"Bolsa Camiseta Asa #1",
@@ -265,9 +409,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_P855_1.jpg",
 	"im2":"imagenes/mat_P855_2.jpg",
 	"im3":"imagenes/mat_platos.jpg",
+=======
+    "im1":"mat_P855_1.jpg",
+	"im2":"mat_P855_2.jpg",
+	"im3":"mat_platos.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":690,
     "id":6,
     "title":"Plato Rectangular 855 Biodegradable con Envio gratis!!!",
@@ -276,9 +426,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_P855_1.jpg",
 	"im2":"imagenes/mat_P855_2.jpg",
 	"im3":"imagenes/mat_platos.jpg",
+=======
+    "im1":"mat_P855_1.jpg",
+	"im2":"mat_P855_2.jpg",
+	"im3":"mat_platos.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":700,
     "id":7,
     "title":"Plato PH8 Pozolero Envio Gratis!!",
@@ -287,9 +443,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_B_1.png",
 	"im2":"imagenes/mat_B_2.jpg",
 	"im3":"imagenes/mat_platos.jpg",
+=======
+    "im1":"mat_B_1.png",
+	"im2":"mat_B_2.jpg",
+	"im3":"mat_platos.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":415,
     "id":8,
     "title":"Plato Cuadrado 066  Envio Gratis!!!",
@@ -298,9 +460,15 @@
   },
   {
 	"depto": "materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_pas.jpg",
 	"im2":"imagenes/mat_pas.jpg",
 	"im3":"imagenes/mat_platos.jpg",
+=======
+    "im1":"mat_pas.jpg",
+	"im2":"mat_pas.jpg",
+	"im3":"mat_platos.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":1045,
     "id":9,
     "title": "Plato pastelero Envio Gratis!!!",
@@ -309,9 +477,15 @@
   },
   {
 	"depto": "materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/vaso_jaguar_1.jpg",
 	"im2":"imagenes/vaso_jaguar_2.jpg",
 	"im3":"imagenes/jaguar.png",
+=======
+    "im1":"vaso_jaguar_1.jpg",
+	"im2":"vaso_jaguar_2.jpg",
+	"im3":"jaguar.png",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":620,
     "id":10,
     "title": "Vaso #8 Jaguar Envio Gratis!!!",
@@ -320,9 +494,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_D10_2.jpg",
 	"im2":"imagenes/mat_D10_2.jpg",
 	"im3":"imagenes/dart.png",
+=======
+    "im1":"mat_D10_2.jpg",
+	"im2":"mat_D10_2.jpg",
+	"im3":"dart.png",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":875,
     "id":11,
     "title": "Vasos Desechables Térmicos Dart de 10oz 296ml  Envio Gratis!!!",
@@ -331,9 +511,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_16L.jpg",
 	"im2":"imagenes/reyma.jpg",
 	"im3":"imagenes/reyma.png",
+=======
+    "im1":"mat_16L.jpg",
+	"im2":"reyma.jpg",
+	"im3":"reyma.png",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":1045,
     "id":12, 
     "title":"Vasos 16Oz Reyma  + Envio",
@@ -342,9 +528,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/vaso_rojo_1.jpg",
 	"im2":"imagenes/vaso_rojo_2.jpg",
 	"im3":"imagenes/jaguar.png",
+=======
+    "im1":"vaso_rojo_1.jpg",
+	"im2":"vaso_rojo_2.jpg",
+	"im3":"jaguar.png",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":1045,
     "id":13,
     "title":"Vasos 16Oz Rojo Biodegradables Envio gratis!!!",
@@ -353,9 +545,15 @@
   },
   {
 	"depto":"materiaPrima",
+<<<<<<< HEAD
     "im1":"imagenes/mat_D10_2.jpg",
 	"im2":"imagenes/mat_D10_2.jpg",
 	"im3":"imagenes/dart.png",
+=======
+    "im1":"mat_D10_2.jpg",
+	"im2":"mat_D10_2.jpg",
+	"im3":"dart.png",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":650,
     "id":14,
     "title":"Vasos Desechables Térmicos Dart de 32Oz 1L Envio gratis!!!",
@@ -364,9 +562,15 @@
   },
   {
 	"depto":"mueYele",
+<<<<<<< HEAD
     "im1":"imagenes/m_e_5.jpg",
 	"im2":"imagenes/m_e_2.jpg",
 	"im3":"imagenes/m_e_6.jpg",
+=======
+    "im1":"m_e_5.jpg",
+	"im2":"m_e_2.jpg",
+	"im3":"m_e_6.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio": 4950,
     "id":15,
     "title":"Espejo estilo Hollywood",
@@ -375,9 +579,15 @@
   },
   {
 	"depto":"mueYele",
+<<<<<<< HEAD
     "im1":"imagenes/m_j_8.jpeg",
 	"im2":"imagenes/m_j_5.jpeg",
 	"im3":"imagenes/m_j_7.jpeg",
+=======
+    "im1":"m_j_8.jpeg",
+	"im2":"m_j_5.jpeg",
+	"im3":"m_j_7.jpeg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":499,
     "id":16,
     "title":"Joyero de Madera",
@@ -386,9 +596,15 @@
   },
   {
 	"depto":"mueYele",
+<<<<<<< HEAD
     "im1":"imagenes/m_fifi_1.jpg",
 	"im2":"imagenes/m_fifi_1.jpg",
 	"im3":"imagenes/m_fifi_1.jpg",
+=======
+    "im1":"m_fifi_1.jpg",
+	"im2":"m_fifi_1.jpg",
+	"im3":"m_fifi_1.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":5999,
     "id":17,
     "title":"Espejo minimalista estilo Hollywood",
@@ -397,9 +613,15 @@
   },
   {
     "depto":"mueYele",
+<<<<<<< HEAD
     "im1":"imagenes/m_eg_1.jpg",
 	"im2":"imagenes/m_eg_2.jpg",
 	"im3":"imagenes/m_eg_1.jpg",
+=======
+    "im1":"m_eg_1.jpg",
+	"im2":"m_eg_2.jpg",
+	"im3":"m_eg_1.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":4500,
     "id":18,
     "title":"Espejo estilo Hollywood Grande",
@@ -408,9 +630,15 @@
   },
   {
 	"depto":"mueYele",
+<<<<<<< HEAD
     "im1":"imagenes/m_ec_1.jpg",
 	"im2":"imagenes/m_ec_2.jpg",
 	"im3":"imagenes/m_ec_1.jpg",
+=======
+    "im1":"m_ec_1.jpg",
+	"im2":"m_ec_2.jpg",
+	"im3":"m_ec_1.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":2999,
     "id":19,
     "title":"Espejo Chico estilo Hollywood",
@@ -419,9 +647,15 @@
   },
   {
 	"depto":"mueYele",
+<<<<<<< HEAD
     "im1":"imagenes/m_20_1.jpg",
 	"im2":"imagenes/m_21_1.jpg",
 	"im3":"imagenes/m_20_1.jpg",
+=======
+    "im1":"m_20_1.jpg",
+	"im2":"m_21_1.jpg",
+	"im3":"m_20_1.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":5999,
     "id":20,
     "title":"Espejo Mega estilo Hollywood",
@@ -430,9 +664,15 @@
   },
   {
 	"depto":"mueYele",
+<<<<<<< HEAD
     "im1":"imagenes/m_eX_1.jpg",
 	"im2":"imagenes/m_eX_1.jpg",
 	"im3":"imagenes/m_eX_1.jpg",
+=======
+    "im1":"m_eX_1.jpg",
+	"im2":"m_eX_1.jpg",
+	"im3":"m_eX_1.jpg",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
     "precio":3999,
     "id":21,
     "title":"Espejo estilo Hollywood",

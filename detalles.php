@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <?php require 'negocio/constantes.php';?>
+=======
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 <html>
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics   APP_USR-2981243273692847-042103-3e2a9c7daab132fc88385c450800f21e-247812013 -->
@@ -17,6 +20,7 @@
 	<?php include 'negocio/clases/detalle.php';?>
 	<?php include 'negocio\clases\generaCarrito.php';?>
 	<script src="https://sdk.mercadopago.com/js/v2"></script><!--SDK MP API-->
+<<<<<<< HEAD
 	<script src="https://www.paypal.com/sdk/js?client-id=<?php echo $paypalClientId;?>&currency=<?php echo $currency;?>"></script>
 	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css"/>
@@ -24,6 +28,15 @@
 	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="negocio/push.min.js"></script>
+=======
+	<script src="https://www.paypal.com/sdk/js?client-id=AfGJtKOoQTqFZWdiVkXFivK8DT5i6BZovHjw9q5pqHiF5LFo-JkwWEpJ1bhqmI2LgrAm80f6VFnbIGO4&currency=MXN"></script>
+	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
+	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="push.min.js"></script>
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 	<?php include 'negocio/mercadoPagoIni.php';?>
 	<?php include 'negocio/clases/preparaCarrito.js';?>
 </head>
@@ -104,9 +117,20 @@
 </div>
 </main>
 	
+<<<<<<< HEAD
 <script src="negocio/clases/actualizaMonto.js"></script>
 <script src="negocio/clases/pagos.js"></script>
 <script src="negocio/clases/agregaProds.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+=======
+	
+<script src="negocio\clases\actualizaMonto.js"></script>
+<script src="negocio\clases\pagos.js"></script>
+	
+	
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="negocio/clases/agregaProds.js"></script>
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 </body>
 </html>

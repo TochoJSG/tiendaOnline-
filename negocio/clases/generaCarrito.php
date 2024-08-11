@@ -1,5 +1,15 @@
 <?php
+<<<<<<< HEAD
 require 'negocio/database.php';
+=======
+//require 'negocio/config.php';
+//require 'negocio/database.php';
+//require 'negocio/clases/carrito.php';
+//$db = new Database();//Creamos BD
+//$con = $db->conectar();//Asignamos a var conector ejecutando metodo conectar
+require 'negocio/database.php';
+require 'negocio/clases/carrito.php';
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 $db = new Database();
 $con = $db->conectar();
 $sql = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");

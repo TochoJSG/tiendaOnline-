@@ -8,7 +8,11 @@ $id = isset($_GET['idProducto']) ? $_GET['idProducto'] : '';
 $token = isset($_GET['token']) ? $_GET['token'] : '';
 //session_start();
 if($id == '' || $token == ''){
+<<<<<<< HEAD
 	echo 'Error al procesar la peticion';
+=======
+	echo 'Error al procesar la peticion::Aqui esta el pedo';
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 	exit;
 }else{
 	$token_tmp = hash_hmac('sha1',$id,"2014131176*$%_");//);"2014131176*$%_"KEY_TOKEN
@@ -17,7 +21,11 @@ if($id == '' || $token == ''){
 	$sql=$con->prepare("SELECT count(idProducto) FROM producto WHERE activo=1");
 	$sql->execute([$id]);//$sql->execute();
 	if($sql->fetchColumn()>0){
+<<<<<<< HEAD
 		$sql=$con->prepare("SELECT nombre,descripcion,precio,descuento FROM producto WHERE activo=1");
+=======
+		$sql=$con->prepare("SELECT nombre,descripcion,precio,descuento FROM producto WHERE activo=1 ");
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 		$sql->execute([$id]);		
 		$row=$sql->fetch(PDO::FETCH_ASSOC);//$resultado=$sql->fetchAll(PDO::FETCH_ASSOC);
 		$nombre=$row['nombre'];

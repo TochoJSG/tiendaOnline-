@@ -7,7 +7,11 @@
     "precio":55,
     "id":1,
     "title":"Bolsa Negra Grande",
+<<<<<<< HEAD
 	"descripcion":"Bolsa negra resistente de asa de 120cm * 90 Cm + Los pliegues laterales ofrece excelente capacidad de carga, hecha con material 100% reciclado es responsable con el medio ambiente y cumple la vigente ley de uso de platico de la CDMX",
+=======
+	"descripcion":"Bolsa negra resistente de asa de 120cm * 90 Cm + Los pliegues laterales ofrece excelente capacidad de carga,, hecha con material 100% reciclado es responsable con el medio ambiente y cumple la vigente ley de uso de platico de la CDMX",
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 	"url_ml":"https://articulo.mercadolibre.com.mx/MLM-1340123296-bolsa-negra-para-basura-1kg-de-120cm90cm-_JM"
   },
   {

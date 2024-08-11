@@ -1,4 +1,9 @@
 <?php
+<<<<<<< HEAD
+=======
+require 'negocio/config.php';
+require 'negocio/database.php';
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 $db = new Database();
 $con = $db->conectar();
 $json = file_get_contents('php://input');
@@ -23,6 +28,7 @@ if(is_array($datos)){
         $productos = isset($_SESSION['carrito']['productos'])? $_SESSION['carrito']['productos']:null;
         if($productos!=null){
             foreach($productos as $clave=>$cantidad){
+<<<<<<< HEAD
                 $sql = $con->prepare("SELECT id,nombre,precio,descuento,$cantidad AS cantidad FROM productos WHERE id=? AND activo=1");
                 $sql->execute([$clave]);
                 $row_prod = $sql->fetch(PDO::FETCH_ASSOC);
@@ -33,6 +39,18 @@ if(is_array($datos)){
 
                 $sql_insert = $con->prepare("INSERT INTO detalle_compra (id_compra,id_producto,nombre,precio,cantidad) VALUES (?,?,?,?,?)");
                 $sql_insert->execute([$id,$clave,$row_prod['nombre'],$precio_desc,$cantidad]);
+=======
+                    $sql = $con->prepare("SELECT id,nombre,precio,descuento,$cantidad AS cantidad FROM productos WHERE id=? AND activo=1");
+                    $sql->execute([$clave]);
+                    $row_prod = $sql->fetch(PDO::FETCH_ASSOC);
+
+                    $precio = $row_prod['precio'];
+                    $descuento = $row_prod['descuento'];
+                    $precio_desc = $precio - (($precio * $descuento)/100);
+
+                    $sql_insert = $con->prepare("INSERT INTO detalle_compra (id_compra,id_producto,nombre,precio,cantidad) VALUES (?,?,?,?,?)");
+                    $sql_insert->execute([$id,$clave,$row_prod['nombre'],$precio_desc,$cantidad]);
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
             }
             include 'enviar_email.php';
         }

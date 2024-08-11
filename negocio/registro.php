@@ -1,7 +1,12 @@
 <?php
 //Conexion con la BD y servidor
+<<<<<<< HEAD
 $link = mysql_connect("localhost","root","") or die("<h2>No se encuentra el servidor</h2>");//Servidor, Usuario, Contraseña
 $db = mysql_select_db("usuarios",$link) or die("<h2>Error de conexion</h2>");//Base de datos a conectar, link de conexioncon el servidor
+=======
+$link = mysql_connect("localhost","root",""); or die("<h2>No se encuentra el servidor</h2>");;//Servidor, Usuario, Contraseña
+$db = mysql_select_db(""usuarios,$link) or die("<h2>Error de conexion</h2>");//Base de datos a conectar, link de conexioncon el servidor
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 
 //Variables traidas por metodo Post, valores del formulario
 $nombre = $_POST['usuario'];//Info de etiquetas Input
@@ -14,7 +19,11 @@ $req = (strlen($nombre) * strlen($email) * strlen($pw) * strlen($pw2)) or die("N
 
 //Se confirma la contraseña
 if($pw != $pw2){
+<<<<<<< HEAD
 	die('Las contraseñas no coinciden <br<br><a href="registro.html">Volver</a>');
+=======
+	die('Las contraseñas no coinciden <br<br><a href="registro.html">Volver</a>')
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 	}
 	
 	//Se encripta la contraseña

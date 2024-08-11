@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+<<<<<<< HEAD
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;cursor:default;user-select:none;}
+=======
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;cursor:default;}
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 body{line-height:1.5em;overflow:visible;background:#fff;width:100%;align-items:center;justify-content:center;overflow-x:hidden;animation-duration:9s;}
 #main-header{z-index:100;background:#fad;color:#fff;height:99px;width:100%;left:0;top:0;position:fixed;}
 #main-header a{color:#fff;}
@@ -151,13 +155,21 @@ footer .wave#wave2{position:abolute;z-index:999;opacity:0.5;bottom:15px;animatio
 .btnML{display:inline-flex;align-items:center;justify-content:center;width:95%;margin-left:2.5%;margin-right:2.5%;min-width:666px;height:auto;font-family:'Poppins', sans-serif;font-size:1.2em;font-weight:600;letter-spacing:3px;border:none;cursor:pointer;padding:21px;text-transform:uppercase;transition:1.6s ease all;border-radius:3px;position:relative;overflow:hidden;background:#8DAFF;color:#415;box-shadow:2px 3px 6px 1px rgb(0,0,0,0.6);}
 .btnML span{position:relative;z-index:2;transiton:3.666s ease-in-out all;position:absolute;left:40%;}
 .btnML .icono{display:flex;align-items:center;position:absolute;z-index:2;top:0;right:-25px;/*-41px*/transiton:1.6s;/*background: rgb(36,28,156);*/}
+<<<<<<< HEAD
 .btnML.svg{color:#415;width:35px;height:35px;}
+=======
+.btnML. svg{color:#415;width:35px;height:35px;}
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 .btnML:hover .icono{left:66.666%;/*calc(100%-66px);*/padding:9px;}
 .btnML:hover span{left:99px;/*66px;*/}
 .btnCar{display:inline-flex;align-items:center;justify-content:center;width:100%;min-width:666px;height:auto;font-family:'Poppins',sans-serif;font-size:1em;font-weight:600;letter-spacing:1px;border:none;cursor:pointer;padding:21px;text-transform:uppercase;transition:.6s ease all;border-radius:1px;position:relative;overflow:hidden;background:#040105;color:#fff;box-shadow:2px 3px 6px 1px rgb(0,0,0,0.25);}
 .btnCar span{position:relative;z-index:2;transiton:.6s ease-in-out all;position:absolute;left:40%;}
 .btnCar .icono{display:flex;align-items:center;position:absolute;z-index:2;top:0;right:-41px;transiton:.6s;/*background: rgb(36,28,156);*/}
+<<<<<<< HEAD
 .btnCar.svg{color:#415;width:35px;height:35px;}
+=======
+.btnCar. svg{color:#415;width:35px;height:35px;}
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 .btnCar:hover .icono{left:calc(100%-66px);padding:9px;}
 .btnCar:hover span{left:66px;}
 .btnML.btn-load{background:none;color:#000;}
@@ -221,6 +233,7 @@ a .liquid:after{border-radius:40%;background:rgba(20,20,20,0.5);animation:animat
 .btnHeader{display:block;position:absolute;align-items:center;margin-left:40%;margin-right:40%;width:20%;padding:auto;}
 .btnHeader #boton_compra{margin:0;width:250px;position:relative;letter-spacing:3px;font-size:1em;font-weight:500;align-items:center;height:auto;padding:12px;background:#ff00;border-radius:3px;}
 #boton_compra:hover{background:#040105;color:#fff;}
+<<<<<<< HEAD
 .main{width:100%;height:auto;margin:0px auto;position:relative;padding:3px 0;background:#ffd;padding:0;}
 .main .texto_car{padding:0 8px;text-align:center;color:#554;height:auto;overflow:hidden;}
 .texto_car h1,.texto_car h2{padding:0 8px;font-size:1em;font-weight:600;letter-spacing:3px;color:#415;}
@@ -230,6 +243,17 @@ a .liquid:after{border-radius:40%;background:rgba(20,20,20,0.5);animation:animat
 header p span{font-size:2em;margin:0 5px;cursor:pointer;color:#daff;width:66px;height:30px;display:inline-block;line-height:19px;text-align:center;border-radius:3px;justify-content:center;}
 header p span:hover{color:#323232;background:none;}
 header h2{padding:0 8px;font-size:21px;font-weight:100;color:#fff;}
+=======
+.main{width:100%;height:auto;margin:0px auto;position:relative;padding:3px 0;background:#ffd;}
+.main .texto_car{padding:8px;text-align:center;color:#554;height:110px;overflow:hidden;}
+.texto_car h1,.texto_car h2{padding:8px;font-size:1em;font-weight:600;letter-spacing:3px;color:#415;}
+.texto_car p{width:90%;text-align:center;padding:3px;margin:1px auto 0px auto;line-height:30px;color:#415;}
+.texto_car span{color:#145;font-weight:600;font-size:1.2em;text-transform:uppercase;}
+.main header{width:99%;height:60px;align-items:center;display:flex;padding:3px;justify-content:space-between;border-bottom:3px solid #ddd;}
+header p span{font-size:2em;margin:0 5px;cursor:pointer;color:#daff;width:66px;height:30px;display:inline-block;line-height:19px;text-align:center;border-radius:3px;justify-content:center;}
+header p span:hover{color:#323232;background:none;}
+header h2{font-size: 21px;font-weight: 100;color:#fff;}
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 section{width:99%;height:406px;margin:0;display:flex;align-items:center;overflow-x:auto;overflow:hidden;}
 section::-webkit-scrollbar{display:none;}
 section .prod_car{min-width: 25%;height:309px;background:#232323;margin:0 12px 0 3px;border-radius:3px;position:relative;left:0;transition:0.6s;align-items:center;align-content:center;}
@@ -252,6 +276,7 @@ small{color:#555;}
 p .star{margin:6px auto;width:66%;font-size:23px;color:#808080;}
 .grid_container_row{grid-template-rows:auto auto;grid-gap:10px;padding:10px;}
 .grid_container_row>div{padding:9px 0;}
+<<<<<<< HEAD
 
 .amz{background:#232f3e;width:100%;max-width:100%;margin:0;height:auto;position:relative;display: block;margin-bottom:0px;overflow-x:hidden;overflow-y:hidden;}
 .amz h2{margin-top:16px;padding:8px;text-align:center;font-size:1.1em;font-weight:300;letter-spacing:6px;color:#fff;text-transform:uppercase;}
@@ -277,6 +302,8 @@ p .star{margin:6px auto;width:66%;font-size:23px;color:#808080;}
 .contCardDB#cardsBd img{width:100%;height:auto;}
 .contCardDB#cardsBd .card-body{display:flex;flex-direction:column;}
 .contCardDB#cardsBd a{width:66%;margin:0 17%;}
+=======
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f
 @media(max-width:768px){
     .texto_car{display:flex;flex-direction:column;margin-top:16px;}
 	.texto_car h1{margin-top:25px;font-size:16px;}
