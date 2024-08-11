@@ -24,15 +24,11 @@
 
 </IfModule>
 
-
-
 #CORS:
 #Encapsulación en IfModule mod_headers.c: Asegura que el encabezado solo se aplique si el módulo mod_headers está disponible.
 #Header set Access-Control-Allow-Origin "*": Este encabezado ahora está dentro de un bloque IfModule específico para mod_headers.c, lo cual es más seguro y garantiza que no cause errores si mod_headers no está habilitado.
 #Reescritura de URLs:
-
 #RewriteEngine On: Ahora solo se declara una vez al inicio de la sección de reescritura. No es necesario repetir esta línea, ya que una vez activado, permanece activo.
 #Condiciones y reglas de reescritura: Se mantuvieron las reglas de WordPress sin cambios, ya que son esenciales para el funcionamiento de WordPress.
 #Protección contra hotlinking:
-
 #Expresión regular mejorada: He mejorado la expresión regular para que sea más clara y robusta (https?://(www\.)?tochamateriasprimas\.com/.*$), lo que manejará tanto http como https y opcionalmente el www..

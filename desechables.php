@@ -4,7 +4,7 @@ require 'negocio/constantes.php';
 require 'negocio/database.php';
 $db= new Database();
 $con = $db->conectar();
-$sqlDB = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");
+$sqlDB = $con->prepare("CALL ObtenerListaProductos();");
 $sqlDB->execute();
 $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 ?>

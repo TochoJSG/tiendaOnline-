@@ -2,9 +2,10 @@
 require 'negocio/config.php';
 require 'negocio/constantes.php';
 require 'negocio/database.php';
-$db= new Database();
+$db = new Database();
 $con = $db->conectar();
-$sqlDB = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");
+$sqlDB = $con->prepare("CALL ObtenerListaProductos();");
+//$sqlDB = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");
 $sqlDB->execute();
 $productoss = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 
@@ -17,7 +18,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
         $sqlDB->execute([$clave]);
         $carrito[] = $sqlDB->fetch(PDO::FETCH_ASSOC);	
     }
-} //print_r($_SESSION); 
+} //print_r($_SESSION);
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -41,7 +42,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<link href="<?php echo $swiper;?>" rel="stylesheet" />
     <script>
-    window.onload=function(){const IMAGENES=["imagenes/carrusel0.png","imagenes/carrusel1.png","imagenes/carrusel2.png","imagenes/carrusel3.png"];const TIEMPO_INTERVALO_MILESIMAS_SEG=5000;let posicionActual=0;let $imagen=document.querySelector('#imagen');let intervalo;intervalo=setInterval(pasarFoto, TIEMPO_INTERVALO_MILESIMAS_SEG);function pasarFoto(){if(posicionActual>=IMAGENES.length-1){posicionActual=0;}else{posicionActual++;}renderizarImagen();}function renderizarImagen(){$imagen.style.backgroundImage=`url(${IMAGENES[posicionActual]})`;$imagen.style.backgroundImage.objectFit({type: 'cover', hideOverflow: true});}renderizarImagen();}
+    window.onload=function(){const IMAGENES=["imagenes/carrusel0.png","imagenes/carrusel1.png","imagenes/carrusel2.png","imagenes/carrusel3.png"];const TIEMPO_INTERVALO_MILESIMAS_SEG=5000;let posicionActual=0;let $imagen=document.querySelector('#imagen');let intervalo;intervalo=setInterval(pasarFoto, TIEMPO_INTERVALO_MILESIMAS_SEG);function pasarFoto(){if(posicionActual>=IMAGENES.length-1){posicionActual=0;}else{posicionActual++;}renderizarImagen();}function renderizarImagen(){$imagen.style.background=`url(${IMAGENES[posicionActual]})`;}renderizarImagen();}
     </script>
 	<style>
     .swiper{width:100%;padding-top:50px;padding-bottom:50px;height:666px;}
@@ -56,6 +57,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 <a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>  
 <script>document.addEventListener('DOMContentLoaded',function(){Push.create('Bienvenido',{body:'Hola, te invitamos a ver nuestro inventario',icon:'COORP (2).jpg',timeout:6666,onClick:function(){window.location='https://materiasprimastocha.mercadoshops.com.mx/';this.close();}});});
 </script>
+
 <header>
 	<a target="_blank" href="<?php echo $t_mercadoShops;?>" class="logo">Comercializadora Tocha</a>
 	<div class="menuToggle"></div>
