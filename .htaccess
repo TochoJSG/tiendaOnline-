@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+<IfModule mod_rewrite.c>
+
+    # Permitir que los archivos .html sean procesados como PHP
+    AddHandler fcgid-script .html
+    FcgidWrapper "/dh/cgi-system/php8.cgi" .html
+
+    # Configuración de CORS: Permitir todas las solicitudes
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+
+    # Reescritura de URLs de WordPress
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
+
+    # Protección contra hotlinking de imágenes
+    RewriteCond %{HTTP_REFERER} !^$
+    RewriteCond %{HTTP_REFERER} !^https?://(www\.)?tochamateriasprimas\.com/.*$ [NC]
+    RewriteRule \.(jpg|jpeg|gif|png|bmp)$ - [F]
+
+</IfModule>
+
+#CORS:
+#Encapsulación en IfModule mod_headers.c: Asegura que el encabezado solo se aplique si el módulo mod_headers está disponible.
+#Header set Access-Control-Allow-Origin "*": Este encabezado ahora está dentro de un bloque IfModule específico para mod_headers.c, lo cual es más seguro y garantiza que no cause errores si mod_headers no está habilitado.
+#Reescritura de URLs:
+#RewriteEngine On: Ahora solo se declara una vez al inicio de la sección de reescritura. No es necesario repetir esta línea, ya que una vez activado, permanece activo.
+#Condiciones y reglas de reescritura: Se mantuvieron las reglas de WordPress sin cambios, ya que son esenciales para el funcionamiento de WordPress.
+#Protección contra hotlinking:
+#Expresión regular mejorada: He mejorado la expresión regular para que sea más clara y robusta (https?://(www\.)?tochamateriasprimas\.com/.*$), lo que manejará tanto http como https y opcionalmente el www..
+=======
+AddHandler fcgid-script .html
+FcgidWrapper "/dh/cgi-system/php82.cgi" .html
+#Plain text
+#Copy to clipboard
+#Open code in new window
+#EnlighterJS 3 Syntax Highlighter
+# BEGIN WordPress
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^index.php$ - [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /index.php [L]
+#</IfModule>
+# END WordPres
+# BEGIN WordPress <IfModule mod_rewrite.c> RewriteEngine On RewriteBase / RewriteRule ^index.php$ - [L] RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule . /index.php [L] </IfModule> # END WordPres
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPres
+>>>>>>> 57f16565d94fc5722f6b7949232ee9399a0c284f

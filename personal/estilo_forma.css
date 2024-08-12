@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	cursor:default;user-select:none;
+}
+.cuerpo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #03a9f4;
+	transition: 0.5s;
+	max-width: 100%;
+	width: 100vw; 
+	box-sizing: border-box;
+}
+body .active{
+	background: #f43648;
+	color:#fff;
+}
+.container{
+	width: 99%;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	width: 666px;
+	height: 555px;
+	margin: 20px;
+}
+.contenedor_logeo{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	margin: 20px;
+}
+.blueBG{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 420px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255,255,255,0.2);
+	box-shadow: 0 5px 45px rgba(0,0,0,0.15);
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+.blueBG .box{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.blueBG .box h2{
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: 600;
+	margin-bottom: 9px;
+}
+.blueBG .box button{
+	cursor: pointer;
+	padding: 10px 20px;
+	background: #fff;
+	color: #333;
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+}
+.formBx{
+	position: absolute;/*<-----absolute;*/
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: #fff;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 5px 45px rgba(0,0,0,0.25);
+	transition: 0.5s ease-in-out;
+	overflow: hidden;
+	margin: auto auto auto auto;
+}
+.formBx.active{
+	left: 50%;
+}
+.formBx .form{
+	position: absolute;/*<----absolute*/
+	left: 0;
+	width: 100%;
+	padding: 17px;
+	transition: 0.5s;
+}
+.formBx .form form{
+	width: 100%;
+	display: flex;/*absolute;*/
+	flex-direction: column;
+}
+.formBx .form form h3{
+	font-size: 1em;
+	color: #fad;
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+.formBx .form form input,
+.formBx .form form label {
+	width: 100%;
+	margin: 3px;
+	padding: 3px;
+	outline: none;
+	font-size: .8em;
+}
+.formBx .form form input{border: 1px solid #333;}
+.formBx .form form input[type="submit"] {
+	background: #03a9f4;
+	border: none;
+	color: #fff;
+	max-width: 100px;
+	cursor: pointer;
+}
+.formBx .form form .forgot {
+	color: #f43648;
+}
+.formBx .signinForm{
+	transition-delay: 0.25s;
+	/*left: 100%;
+	/*left: 100%;/*<------*/
+}
+.formBx .signupForm a{
+	font-size:.8em;
+	text-decoration:underline;
+	color:#daff;
+	text-align:center;
+}
+.formBx.active .signinForm{
+	left: -100%;
+	transition-delay: 0s;
+}
+.formBx .signupForm{
+	left: 100%;
+	transition-delay: 0s;
+}
+.formBx.active .signupForm{
+	left: 0;
+	transition-delay: 0.25s;
+}
+.formBx.active .signupForm input[type="submit"]{
+	background: #daff;
+}
+
+
+
+.modal{display:none;position:fixed;z-index:1;left:0;top:0;width:100%;height:100%;overflow:auto;background:rgba(0,0,0,0.4);padding-top:60px;border:1px solid #888;}
+.modal form{display:flex;flex-direction:column;}
+#nosotros{background:#fff;overflow:scroll;z-index:100;width:90%;margin:66px 5%;height:100%;padding:17px;border-radius:8px;overflow-x:hidden;}
+#nosotros{background:#fff;z-index:1000;}
+.headerForm{display:flex;flex-direction:row;justify-content:space-between;padding:17px;}
+.headerForm h3{font-size:1.7em;letter-spacing:3px;align-items:center;}
+.headerForm #closeModal{top:0px;font-size:2.3em;color:#040105;font-weight:666;font-family:arial;opacity:0.333;cursor:default;}
+.headerForm #closeModal:hover{opacity:1;cursor:pointer;}
+
+
+
+@media(max-width: 750px){
+	.contenedor_logeo{
+		max-width: 400px;
+		height: 650px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.contenedor_logeo .blueBG{
+		top: 0;
+		height: 100%;
+	}
+	.formBx{
+		width: 100%;
+		height: 500px;
+		top: 0;
+		box-shadow: none;
+	}
+	.blueBG .box{
+		position: absolute;
+		width: 100%;
+		height: 150px;
+		bottom: 0;
+	}
+	.box.signin{
+		top: 0;
+	}
+	.formBx.active{
+		left: 0;
+		top: 150px;
+	}
+}
