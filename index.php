@@ -42,7 +42,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<link href="<?php echo $swiper;?>" rel="stylesheet" />
     <script>
-    window.onload=function(){const IMAGENES=["imagenes/carrusel0.png","imagenes/carrusel1.png","imagenes/carrusel2.png","imagenes/carrusel3.png"];const TIEMPO_INTERVALO_MILESIMAS_SEG=5000;let posicionActual=0;let $imagen=document.querySelector('#imagen');let intervalo;intervalo=setInterval(pasarFoto, TIEMPO_INTERVALO_MILESIMAS_SEG);function pasarFoto(){if(posicionActual>=IMAGENES.length-1){posicionActual=0;}else{posicionActual++;}renderizarImagen();}function renderizarImagen(){$imagen.style.backgroundImage=`url(${IMAGENES[posicionActual]})`;$imagen.style.backgroundImage.objectFit({type: 'cover', hideOverflow: true});}renderizarImagen();}
+    window.onload=function(){const IMAGENES=["imagenes/carrusel0.png","imagenes/carrusel1.png","imagenes/carrusel2.png","imagenes/carrusel3.png"];const TIEMPO_INTERVALO_MILESIMAS_SEG=5000;let posicionActual=0;let $imagen=document.querySelector('#imagen');let intervalo;intervalo=setInterval(pasarFoto, TIEMPO_INTERVALO_MILESIMAS_SEG);function pasarFoto(){if(posicionActual>=IMAGENES.length-1){posicionActual=0;}else{posicionActual++;}renderizarImagen();}function renderizarImagen(){$imagen.style.background=`url(${IMAGENES[posicionActual]})`;}renderizarImagen();}
     </script>
 	<style>
     .swiper{width:100%;padding-top:50px;padding-bottom:50px;height:666px;}
