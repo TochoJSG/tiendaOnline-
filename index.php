@@ -2,9 +2,10 @@
 require 'negocio/config.php';
 require 'negocio/constantes.php';
 require 'negocio/database.php';
-$db= new Database();
+$db = new Database();
 $con = $db->conectar();
-$sqlDB = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");
+$sqlDB = $con->prepare("CALL ObtenerListaProductos();");
+//$sqlDB = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");
 $sqlDB->execute();
 $productoss = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 
@@ -17,7 +18,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
         $sqlDB->execute([$clave]);
         $carrito[] = $sqlDB->fetch(PDO::FETCH_ASSOC);	
     }
-} //print_r($_SESSION); 
+} //print_r($_SESSION);
 ?>
 <!DOCTYPE html>
 <html lang="es">
