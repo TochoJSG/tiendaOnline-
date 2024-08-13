@@ -5,7 +5,6 @@ require 'negocio/database.php';
 $db = new Database();
 $con = $db->conectar();
 $sqlDB = $con->prepare("CALL ObtenerListaProductos();");
-//$sqlDB = $con->prepare("SELECT idProducto,nombre,precio FROM producto WHERE activo=1");
 $sqlDB->execute();
 $productoss = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 
@@ -18,7 +17,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
         $sqlDB->execute([$clave]);
         $carrito[] = $sqlDB->fetch(PDO::FETCH_ASSOC);	
     }
-} //print_r($_SESSION);
+} 
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -53,6 +52,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 <body style="background:#fff;overflow-x:hidden;">
 <div id="fb-root"></div>
 <div id="fb-customer-chat" class="fb-customerchat"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="wzsUa4iV"></script>
 
 <a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>  
 <script>document.addEventListener('DOMContentLoaded',function(){Push.create('Bienvenido',{body:'Hola, te invitamos a ver nuestro inventario',icon:'COORP (2).jpg',timeout:6666,onClick:function(){window.location='https://materiasprimastocha.mercadoshops.com.mx/';this.close();}});});
