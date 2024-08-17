@@ -1,0 +1,174 @@
+-- DROP TABLE statements
+DROP TABLE IF EXISTS almacen;
+DROP TABLE IF EXISTS producto;
+DROP TABLE IF EXISTS categoria;
+DROP TABLE IF EXISTS proveedor;
+DROP TABLE IF EXISTS gasto;
+DROP TABLE IF EXISTS metodoPago;
+DROP TABLE IF EXISTS facturas;
+DROP TABLE IF EXISTS venta;
+DROP TABLE IF EXISTS egreso;
+DROP TABLE IF EXISTS gastosConcepto;
+DROP TABLE IF EXISTS empleados;
+DROP TABLE IF EXISTS roles;
+DROP TABLE IF EXISTS ingreso;
+DROP TABLE IF EXISTS plataformas;
+DROP TABLE IF EXISTS tipoContrato;
+DROP TABLE IF EXISTS ingresosConcepto;
+DROP TABLE IF EXISTS nomina;
+DROP TABLE IF EXISTS departamento;
+DROP TABLE IF EXISTS pago;
+
+-- CREATE TABLE statements
+CREATE TABLE almacen (
+    idArticulo SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    idProveedor SMALLINT NOT NULL,
+    idProd SMALLINT NOT NULL,
+    valor FLOAT NOT NULL
+) COMMENT = 'TablaMaestra';
+
+CREATE TABLE producto (
+    idProducto SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    idCategoria SMALLINT NOT NULL,
+    nombre VARCHAR(255) NOT NULL,
+    precio FLOAT NOT NULL,
+    cantidad FLOAT NOT NULL,
+    descripcion TEXT NOT NULL,
+    codigoUnico INT NOT NULL,
+    descuento FLOAT NOT NULL DEFAULT 0.0,
+    activo BOOLEAN NOT NULL DEFAULT 1,
+    costo FLOAT NOT NULL
+) COMMENT = 'TablaDetalle';
+
+CREATE TABLE categoria (
+    idCategoria SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    catego VARCHAR(33) NOT NULL
+) COMMENT = 'tablaCatalogo';
+
+CREATE TABLE proveedor (
+    idProveedor SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    tel VARCHAR(20) NOT NULL,
+    mail VARCHAR(255) NOT NULL,
+    descripcion TEXT NOT NULL
+) COMMENT = 'TablaDetalle';
+
+CREATE TABLE gasto (
+    idGasto SMALLINT PRIMARY KEY,
+    idGastoConcept SMALLINT NOT NULL,
+    monto FLOAT NOT NULL,
+    detalle VARCHAR(99) NOT NULL
+) COMMENT = 'TablaDetalle';
+
+CREATE TABLE metodoPago (
+    idModo SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    formaPago VARCHAR(66) NOT NULL
+) COMMENT = 'tablaCatalogo';
+
+CREATE TABLE facturas (
+    idFactura SMALLINT PRIMARY KEY,
+    concepto TEXT NOT NULL,
+    monto FLOAT NOT NULL,
+    fecha DATE NOT NULL
+) COMMENT = 'TablaDetalle';
+
+CREATE TABLE venta (
+    idVenta SMALLINT PRIMARY KEY AUTO_INCREMENT,
+    idProducto SMALLINT NOT NULL,
+    idPlataforma SMALLINT NOT NULL,
+    monto FLOAT NOT NULL,
+    fecha DATETIME NOT NULL,
+    status VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    costo FLOAT NOT NULL,
+    claseVenta SMALLINT NOT NULL
+) COMMENT = 'TablaMaestra';
+
+CREATE TABLE egreso (
+    idEgreso SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    idGasto SMALLINT NOT NULL,
+    idDinero SMALLINT NOT NULL
+) COMMENT = 'TablaMaestra';
+
+CREATE TABLE gastosConcepto (
+    idGastoConcept SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    nombGasto VARCHAR(255) NOT NULL
+) COMMENT = 'tablaCatalogo';
+
+CREATE TABLE empleados (
+    idEmpleado SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    sueldo FLOAT NOT NULL,
+    nombres VARCHAR(66) NOT NULL,
+    apellidos VARCHAR(66) NOT NULL,
+    tel VARCHAR(20) NOT NULL,
+    mail VARCHAR(255) NOT NULL,
+    rfc VARCHAR(13) NOT NULL,
+    seguro VARCHAR(20) NOT NULL,
+    fechaIngreso DATE NOT NULL
+) COMMENT = 'TablaDetalle';
+
+CREATE TABLE roles (
+    idRol SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    rol VARCHAR(255) NOT NULL
+) COMMENT = 'tablaCatalogo';
+
+CREATE TABLE ingreso (
+    idIngreso SMALLINT PRIMARY KEY AUTO_INCREMENT,
+    idConcepto SMALLINT NOT NULL,
+    idDinero SMALLINT NOT NULL
+) COMMENT = 'TablaMaestra';
+
+CREATE TABLE plataformas (
+    idPlataforma SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(33) NOT NULL
+) COMMENT = 'tablaCatalogo';
+
+CREATE TABLE tipoContrato (
+    idContrato SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    tipo VARCHAR(19) NOT NULL
+) COMMENT = 'tablaCatalogo';
+
+CREATE TABLE ingresosConcepto (
+    idIngreso SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    ingreso VARCHAR(66) NOT NULL
+) COMMENT = 'tablaCatalogo';
+
+CREATE TABLE nomina (
+    idNomina SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    idEmpleado SMALLINT NOT NULL,
+    idDepto SMALLINT NOT NULL,
+    idContrato SMALLINT NOT NULL,
+    idRol SMALLINT NOT NULL
+) COMMENT = 'tablaMaestra';
+
+CREATE TABLE departamento (
+    idDepto SMALLINT AUTO_INCREMENT PRIMARY KEY,
+    departamento VARCHAR(33) NOT NULL
+) COMMENT = 'tablaCatalogo';
+
+CREATE TABLE pago (
+    idDinero SMALLINT PRIMARY KEY AUTO_INCREMENT,
+    idMetodo SMALLINT NOT NULL,
+    idFactura SMALLINT NOT NULL,
+    monto FLOAT NOT NULL,
+    fecha DATETIME NOT NULL,
+    comentarios VARCHAR(99) NOT NULL
+) COMMENT = 'tablaDetalle';
+
+-- ALTER TABLE statements
+ALTER TABLE almacen ADD CONSTRAINT fk_almacen_idProveedor FOREIGN KEY (idProveedor) REFERENCES proveedor(idProveedor);
+ALTER TABLE almacen ADD CONSTRAINT fk_almacen_idProd FOREIGN KEY (idProd) REFERENCES producto(idProducto);
+ALTER TABLE producto ADD CONSTRAINT fk_producto_idCategoria FOREIGN KEY (idCategoria) REFERENCES categoria(idCategoria);
+ALTER TABLE gasto ADD CONSTRAINT fk_gasto_idGastoConcept FOREIGN KEY (idGastoConcept) REFERENCES gastosConcepto(idGastoConcept);
+ALTER TABLE venta ADD CONSTRAINT fk_venta_idProducto FOREIGN KEY (idProducto) REFERENCES producto(idProducto);
+ALTER TABLE venta ADD CONSTRAINT fk_venta_idPlataforma FOREIGN KEY (idPlataforma) REFERENCES plataformas(idPlataforma);
+ALTER TABLE venta ADD CONSTRAINT fk_venta_claseVenta FOREIGN KEY (claseVenta) REFERENCES ingresosConcepto(idIngreso);
+ALTER TABLE egreso ADD CONSTRAINT fk_egreso_idGasto FOREIGN KEY (idGasto) REFERENCES gasto(idGasto);
+ALTER TABLE egreso ADD CONSTRAINT fk_egreso_idDinero FOREIGN KEY (idDinero) REFERENCES pago(idDinero);
+ALTER TABLE ingreso ADD CONSTRAINT fk_ingreso_idDinero FOREIGN KEY (idDinero) REFERENCES pago(idDinero);
+ALTER TABLE nomina ADD CONSTRAINT fk_nomina_idEmpleado FOREIGN KEY (idEmpleado) REFERENCES empleados(idEmpleado);
+ALTER TABLE nomina ADD CONSTRAINT fk_nomina_idDepto FOREIGN KEY (idDepto) REFERENCES departamento(idDepto);
+ALTER TABLE nomina ADD CONSTRAINT fk_nomina_idContrato FOREIGN KEY (idContrato) REFERENCES tipoContrato(idContrato);
+ALTER TABLE nomina ADD CONSTRAINT fk_nomina_idRol FOREIGN KEY (idRol) REFERENCES roles(idRol);
+ALTER TABLE pago ADD CONSTRAINT fk_pago_idMetodo FOREIGN KEY (idMetodo) REFERENCES metodoPago(idModo);
+ALTER TABLE pago ADD CONSTRAINT fk_pago_idFactura FOREIGN KEY (idFactura) REFERENCES facturas(idFactura);
