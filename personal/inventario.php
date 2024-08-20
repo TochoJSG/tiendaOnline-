@@ -54,16 +54,16 @@ require 'negocio/database.php';
 					<label for="inactivo">¿NO Activar publicación?</label>
 					<input id="inactivo" type="radio" name="activo" value="false">
 					<label for="categoria">A qué categoria pertenece el Producto</label>
+					
+					<select id="categoria" name="categorias">
 					<?php
 						$catalogo= new Database();
 						$conCata = $catalogo->conectar();
 						$sqlDB = $conCata->prepare("CALL ObtenerCategorias();");
 						$sqlDB->execute();
 						$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
-						
-					<select id="categoria" name="categorias">
 						foreach($data as $categorias):
-						echo `<option value=" ´.$categorias[idCategoria]´">`.$categorias[catego].`</option>`;
+						echo `<option value=" ´.$categorias[idCategoria]´">.$categorias[catego].</option>`;
 						endforeach;
 						?>
 					</select>
