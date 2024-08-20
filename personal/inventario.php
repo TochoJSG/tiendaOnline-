@@ -57,15 +57,15 @@ require '../negocio/database.php';
 					
 					<select id="categoria" name="categorias">
 					<?php
-						$catalogo= new Database();
-						$conCata = $catalogo->conectar();
-						$sqlDB = $conCata->prepare("CALL ObtenerCategorias();");
-						$sqlDB->execute();
-						$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
-						foreach($data as $categorias):
-						echo `<option value=".$categorias[idCategoria]">.$categorias[catego].</option>`;
-						endforeach;
-						?>
+					$catalogo = new Database();
+					$conCata = $catalogo->conectar();
+					$sqlDB = $conCata->prepare("CALL ObtenerCategorias();");
+					$sqlDB->execute();
+					$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+					foreach ($productos as $categorias):
+						echo '<option value="'.$categorias['idCategoria'].'">'.$categorias['catego'].'</option>';
+					endforeach;
+					?>
 					</select>
 					<input id="descuento" type="number" placeholder="opcional, da un porcentaje de descuento" min="0">
 					<input id="registrar" type="submit" value="registrar">
