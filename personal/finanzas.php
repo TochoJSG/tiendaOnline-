@@ -1,13 +1,3 @@
-<?php
-require 'negocio/config.php';
-require 'negocio/constantes.php';
-require 'negocio/database.php';
-$db= new Database();
-$con = $db->conectar();
-$sqlDB = $con->prepare("CALL ObtenerListaProductos();");
-$sqlDB->execute();
-$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
-?>
 <!doctype html>
 <html>
 <head>
