@@ -63,7 +63,7 @@ require '../negocio/database.php';
 						$sqlDB->execute();
 						$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 						foreach($data as $categorias):
-						echo `<option value=" ´.$categorias[idCategoria]´">.$categorias[catego].</option>`;
+						echo `<option value=".$categorias[idCategoria]">.$categorias[catego].</option>`;
 						endforeach;
 						?>
 					</select>
