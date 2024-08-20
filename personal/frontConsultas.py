@@ -20,8 +20,8 @@ def click():
         pregunta = front.session_state.user
         respuesta = my_backend.consulta(pregunta)
         
-        front.session_state.preguntas.append(pregunta)#insertamos 
-        front.session_state.respuesta.append(respuesta))#insertamos
+        front.session_state.preguntas.append(pregunta)      #insertamos 
+        front.session_state.respuesta.append(respuesta))    #insertamos
         
         #limiamos campos
         front.session_state.user = ''

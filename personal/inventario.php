@@ -1,3 +1,13 @@
+<?php
+require 'negocio/config.php';
+require 'negocio/constantes.php';
+require 'negocio/database.php';
+$db= new Database();
+$con = $db->conectar();
+$sqlDB = $con->prepare("CALL ObtenerListaProductos();");
+$sqlDB->execute();
+$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+?>
 <!doctype html>
 <html>
 <head>
@@ -36,26 +46,33 @@
 			
 			<div class="form signupForm">
 				<form>
-					<h3>Hola, Captura los datos</h3>
+				<h3>Hola, Captura los datos</h3>
 					<input id="nombre" type="text" placeholder="nombre de Producto" max="66" required>
-					<input id="precio" type="number" placeholder="precio" required>
+					<input id="precio" type="number" placeholder="precio" min="1" required>
 					<input id="codigoUnico" type="number" placeholder="codigoUnico" required>
 					<input id="descripcion" type="text" placeholder="describe el producto">
 					<label for="cantidad">Cuantas unidades tenemos para vender</label>
-					<input id="cantidad" type="quantity" min="1" required>
+					<input id="cantidad" type="quantity" placeholder="qué cantidad del producto tenemos" min="1" required>
 					<input id="costo" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10">
 					<label for="activo">¿Activar publicación?</label>
 					<input id="activo" type="radio" name="activo" value="true">
-					<label for="activo">¿NO Activar publicación?</label>
+					<label for="inactivo">¿NO Activar publicación?</label>
 					<input id="inactivo" type="radio" name="activo" value="false">
 					<label for="categoria">A qué categoria pertenece el Producto</label>
+					<?php
+						$catalogo= new Database();
+						$conCata = $catalogo->conectar();
+						$sqlDB = $conCata->prepare("CALL ObtenerCategorias();");
+						$sqlDB->execute();
+						$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+						
 					<select id="categoria" name="categorias">
-						<option value="catego1">Catego 1</option>
-						<option value="catego2">Catego 2</option>
-						<option value="catego3">Catego 3</option>
-						<option value="catego4">Catego 4</option>
+						foreach($data as $categorias):
+						echo `<option value=" ´.$categorias[idCategoria]´">`.$categorias[catego].`</option>`;
+						endforeach;
+						?>
 					</select>
-					<input id="descuento" type="number" placeholder="opcional, da un porcentaje de descuento">
+					<input id="descuento" type="number" placeholder="opcional, da un porcentaje de descuento" min="0">
 					<input id="registrar" type="submit" value="registrar">
 					<a id="update">¿Quieres modificar registro un Existente?
 					</a>
