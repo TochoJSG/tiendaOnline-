@@ -1,7 +1,7 @@
 <?php
-require 'negocio/config.php';
-require 'negocio/constantes.php';
-require 'negocio/database.php';
+require '../negocio/config.php';
+require '../negocio/constantes.php';
+require '../negocio/database.php';
 ?>
 <!doctype html>
 <html>

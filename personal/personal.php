@@ -27,7 +27,7 @@ $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 		<input id="apellidos" type="text" placeholder="ingresa los apellidos" max="66" required>
 		
 		<label for="sueldo">Ingresa el sueldo semanal</label>
-		<input id="sueldo" type="number" min="600" required>
+		<input id="sueldo" type="number" placeholder="Pago semanal" min="600" required>
 		
 		<input id="telefono" type="tel" placeholder="ingresa el telefono del trabajador" required>
 		
