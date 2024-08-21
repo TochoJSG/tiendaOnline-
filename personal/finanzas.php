@@ -51,7 +51,7 @@ $db = new Database();
 					<select id="plataforma" name="plataforma">
 					<?php
 						$conexionB = $db->conectar();
-						$listaPlataformas = $conexionB->prepare("CALL ");
+						$listaPlataformas = $conexionB->prepare("CALL ConsultaPlataformas()");
 						$listaPlataformas->execute();
 						$plataformas = $listaPlataformas->fetchAll(PDO::FETCH_ASSOC);
 						foreach($plataformas as $plataforma):
@@ -62,7 +62,11 @@ $db = new Database();
 					<label for="clase">¿Tipo de ingreso?</label>
 					<select id="clase" name="clase">
 					<?php
-						foreach($cataIngresos as $clase):
+						$conexionF = $db->conectar();
+						$listaIngresos = $conexionF->prepare("CALL ConsultarClaseIng();");
+						$listaIngresos->execute();
+						$ingresos = $listaIngresos->fetchAll(PDO::FETCH_ASSOC);
+						foreach($ingresos as $clase):
 							echo '<option value="'.$clase['idIngreso'].'">'.$clase['ingreso'].'</option>';
 						endforeach;
 					?>
@@ -75,7 +79,7 @@ $db = new Database();
 					<select id="formaCobro" name="producto">
 					<?php
 						$conexionC = $db->conectar();
-						$listaCobro = $conexionC->prepare("CALL ConsultaPlataformas();");
+						$listaCobro = $conexionC->prepare("CALL ConsultaMetodosDinero();");
 						$listaCobro->execute();
 						$metodosC = $listaCobro->fetchAll(PDO::FETCH_ASSOC);
 						foreach($metodosC as $cobro): 
@@ -114,7 +118,7 @@ $db = new Database();
 					<select id="formaCobro" name="producto">
 					<?php
 						$conexionE = $db->conectar();
-						$listaPagos = $conexionE->prepare("CALL ConsultaPlataformas();");
+						$listaPagos = $conexionE->prepare("CALL ConsultaMetodosDinero();");
 						$listaPagos->execute();
 						$metodosP = $listaPagos->fetchAll(PDO::FETCH_ASSOC);
 						foreach($metodosP as $pago): 
