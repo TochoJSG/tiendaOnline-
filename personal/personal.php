@@ -2,11 +2,11 @@
 require '../negocio/config.php';
 require '../negocio/constantes.php';
 require '../negocio/database.php';
-$db= new Database();
-$con = $db->conectar();
-$sqlDB = $con->prepare("CALL ObtenerListaProductos();");
-$sqlDB->execute();
-$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+$db = new Database();
+$conexion = $db->conectar();
+$consultaCatalogos = $conexion->prepare("CALL ConsultaCataEmpleados();");
+$consultaCatalogos->execute();
+$catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!doctype html>
 <html>
@@ -23,7 +23,9 @@ $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 		<h3>Hola, Captura los datos del Empleado</h3>
 	</div>
 	<form>
+		<input id="concepto" name="concepto" value="26" style="display:none;">
 		<input id="nombre" type="text" placeholder="ingresa los nombres del Empleado" max="66" required>
+
 		<input id="apellidos" type="text" placeholder="ingresa los apellidos" max="66" required>
 		
 		<label for="sueldo">Ingresa el sueldo semanal</label>
@@ -42,29 +44,31 @@ $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 		
 		<label for="departamento">Departamento</label>
 		<select id="departamento" name="departamento">
-			<option value="catego1">Catego 1</option>
-			<option value="catego2">Catego 2</option>
-			<option value="catego3">Catego 3</option>
-			<option value="catego4">Catego 4</option>
+		<?php
+			foreach($catalogos as $depto):
+				echo '<option value="'.$depto['idDepto'].'">'.$depto['departamento'].'</option>';
+			endforeach;
+		?>
 		</select>
 		
 		<label for="rol">Cargo</label>
 		<select id="rol" name="rol">
-			<option value="catego1">Catego 1</option>
-			<option value="catego2">Catego 2</option>
-			<option value="catego3">Catego 3</option>
-			<option value="catego4">Catego 4</option>
+		<?php
+			foreach($catalogos as $rol):
+				echo '<option value="'.$rol['idRol'].'">'.$rol['rol'].'</option>';
+			endforeach;
+		?>
 		</select>
-		
 		<label for="contrato">Tipo de Contrato</label>
 		<select id="contrato" name="contrato">
-			<option value="catego1">Catego 1</option>
-			<option value="catego2">Catego 2</option>
-			<option value="catego3">Catego 3</option>
-			<option value="catego4">Catego 4</option>
+		<?php
+		foreach($catalogos as $contrato):
+			echo '<option value="'.$contrato['idContrato'].'">'.$contrato['tipo'].'</option>';
+		endforeach;
+		?>
 		</select>
 		
-		<input type="submit" value="registrar">
+		<input id="altaEmpleado" type="submit" value="registrar">
 	</form>
 	
 </div>
