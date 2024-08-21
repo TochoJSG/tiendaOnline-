@@ -3,9 +3,10 @@ require '../negocio/config.php';
 require '../negocio/constantes.php';
 require '../negocio/database.php';
 $db = new Database();
-$con = $db->prepare("CALL ConsultaIngreso();");
-$con->execute();
-$cataIngresos = $con->fetchAll(PDO::FETCH_ASSOC);
+$con = $db->conectar();
+$conIngreso = $db->prepare("CALL ConsultaIngreso();");
+$conIngreso->execute();
+$cataIngresos = $conIngreso->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!doctype html>
 <html>
