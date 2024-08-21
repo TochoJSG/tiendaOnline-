@@ -24,9 +24,9 @@ $conexionC = $db->conectar();
 	<form>
 		<input id="concepto" name="concepto" value="26" style="display:none;">
 
-		<input id="nombre" type="text" placeholder="ingresa los nombres del Empleado" max="66" required onchange="upperCase()">
+		<input id="nombre" type="text" placeholder="ingresa los nombres del Empleado" max="66" required onchange="upperCase();">
 
-		<input id="apellidos" type="text" placeholder="ingresa los apellidos" max="66" required onchange="upperCase()">
+		<input id="apellidos" type="text" placeholder="ingresa los apellidos" max="66" required onchange="upperCase();">
 		
 		<label for="sueldo">Ingresa el sueldo semanal</label>
 		<input id="sueldo" type="number" placeholder="Pago semanal" min="600" required>
@@ -35,9 +35,9 @@ $conexionC = $db->conectar();
 		
 		<input id="email" type="email" placeholder="Ingresa el correo electronico">
 		
-		<input id="rfc" type="text" name="rfc" placeholder="Ingresa el RFC" onchange="upperCase()">
+		<input id="rfc" type="text" name="rfc" placeholder="Ingresa el RFC" onchange="upperCase();">
 		
-		<input id="seguro" type="text" name="seguro" placeholder="Ingresa el número de Seguro" onchange="upperCase()">
+		<input id="seguro" type="text" name="seguro" placeholder="Ingresa el número de Seguro" onchange="upperCase();">
 		
 		<label for="ingreso">Fecha de ingreso</label>
 		<input id="ingreso" type="date" name="ingreso">

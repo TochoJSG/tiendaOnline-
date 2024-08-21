@@ -3,8 +3,9 @@ require '../negocio/config.php';
 require '../negocio/constantes.php';
 require '../negocio/database.php';
 $db = new Database();
-$conexion = $db->conectar();
-
+$con = $db->prepare("CALL ConsultaIngreso();");
+$con->execute();
+$cataIngresos = $con->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!doctype html>
 <html>
@@ -39,24 +40,27 @@ $conexion = $db->conectar();
 					<h3>Hola, Captura el ingreso</h3>
 					<label for="producto">Selecciona el producto</label>
 					<select id="producto" name="producto">
-						<option value="catego1">Catego 1</option>
-						<option value="catego2">Catego 2</option>
-						<option value="catego3">Catego 3</option>
-						<option value="catego4">Catego 4</option>
+					<?php
+						foreach($cataIngresos as $producto):
+							echo '<option value="'.$producto['idProducto'].'">'.$producto['nombre'].'</option>';
+						endforeach;
+					?>
 					</select>
 					<label for="plataforma">¿Por donde vendimos?</label>
 					<select id="plataforma" name="plataforma">
-						<option value="catego1">Catego 1</option>
-						<option value="catego2">Catego 2</option>
-						<option value="catego3">Catego 3</option>
-						<option value="catego4">Catego 4</option>
+					<?php
+						foreach($cataIngresos as $plataforma):
+							echo '<option value="'.$plataforma['idPlataforma'].'">'.$plataforma['nombre'].'</option>';
+						endforeach;
+					?>
 					</select>
 					<label for="clase">¿Tipo de ingreso?</label>
 					<select id="clase" name="clase">
-						<option value="catego1">Catego 1</option>
-						<option value="catego2">Catego 2</option>
-						<option value="catego3">Catego 3</option>
-						<option value="catego4">Catego 4</option>
+					<?php
+						foreach($cataIngresos as $clase):
+							echo '<option value="'.$clase['idIngreso'].'">'.$clase['ingreso'].'</option>';
+						endforeach;
+					?>
 					</select>
 					<input id="monto" type="number" placeholder="¿cuanto ingreso?" min="1" required>
 					<input id="costo" type="number" placeholder="¿Hubo algun costo de la venta?" min="1">
@@ -64,10 +68,11 @@ $conexion = $db->conectar();
 						<hr>
 					<label for="formaCobro">Metodo de cobro</label>
 					<select id="formaCobro" name="producto">
-						<option value="catego1">Catego 1</option>
-						<option value="catego2">Catego 2</option>
-						<option value="catego3">Catego 3</option>
-						<option value="catego4">Catego 4</option>
+					<?php
+						foreach($cataIngresos as $cobro): 
+							echo '<option value="'.$cobro['idModo'].'">'.$cobro['formaPago'].'</option>';
+						endforeach;
+					?>
 					</select>
 					<input id="cobro" type="number" placeholder="¿cuanto coobramos?" min="1" required>
 					<input id="fecha" type="date">
