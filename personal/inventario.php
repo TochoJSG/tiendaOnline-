@@ -42,10 +42,10 @@ require '../negocio/database.php';
 			<div class="form signupForm">
 				<form>
 				<h3>Hola, Captura los datos</h3>
-					<input id="nombre" type="text" placeholder="nombre de Producto" max="66" required>
+					<input id="nombre" type="text" placeholder="nombre de Producto" max="66" required onchange="upperCase()">
 					<input id="precio" type="number" placeholder="precio" min="1" required>
 					<input id="codigoUnico" type="number" placeholder="codigoUnico" required>
-					<input id="descripcion" type="text" placeholder="describe el producto">
+					<input id="descripcion" type="text" placeholder="describe el producto" onchange="upperCase()">
 					<label for="cantidad">Cuantas unidades tenemos para vender</label>
 					<input id="cantidad" type="quantity" placeholder="qué cantidad del producto tenemos" min="1" required>
 					<input id="costo" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10">

@@ -6,7 +6,6 @@ $db = new Database();
 $conexion = $db->conectar();
 $consultaCatalogos = $conexion->prepare("CALL ConsultaCataEmpleados();");
 $consultaCatalogos->execute();
-$catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!doctype html>
 <html>
@@ -24,9 +23,10 @@ $catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 	</div>
 	<form>
 		<input id="concepto" name="concepto" value="26" style="display:none;">
-		<input id="nombre" type="text" placeholder="ingresa los nombres del Empleado" max="66" required>
 
-		<input id="apellidos" type="text" placeholder="ingresa los apellidos" max="66" required>
+		<input id="nombre" type="text" placeholder="ingresa los nombres del Empleado" max="66" required onchange="upperCase()">
+
+		<input id="apellidos" type="text" placeholder="ingresa los apellidos" max="66" required onchange="upperCase()">
 		
 		<label for="sueldo">Ingresa el sueldo semanal</label>
 		<input id="sueldo" type="number" placeholder="Pago semanal" min="600" required>
@@ -35,9 +35,9 @@ $catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 		
 		<input id="email" type="email" placeholder="Ingresa el correo electronico">
 		
-		<input id="rfc" type="text" name="rfc" placeholder="Ingresa el RFC">
+		<input id="rfc" type="text" name="rfc" placeholder="Ingresa el RFC" onchange="upperCase()">
 		
-		<input id="seguro" type="text" name="seguro" placeholder="Ingresa el número de Seguro">
+		<input id="seguro" type="text" name="seguro" placeholder="Ingresa el número de Seguro" onchange="upperCase()">
 		
 		<label for="ingreso">Fecha de ingreso</label>
 		<input id="ingreso" type="date" name="ingreso">
@@ -45,6 +45,7 @@ $catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 		<label for="departamento">Departamento</label>
 		<select id="departamento" name="departamento">
 		<?php
+			$catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 			foreach($catalogos as $depto):
 				echo '<option value="'.$depto['idDepto'].'">'.$depto['departamento'].'</option>';
 			endforeach;
@@ -54,6 +55,7 @@ $catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 		<label for="rol">Cargo</label>
 		<select id="rol" name="rol">
 		<?php
+			$catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 			foreach($catalogos as $rol):
 				echo '<option value="'.$rol['idRol'].'">'.$rol['rol'].'</option>';
 			endforeach;
@@ -62,9 +64,10 @@ $catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 		<label for="contrato">Tipo de Contrato</label>
 		<select id="contrato" name="contrato">
 		<?php
-		foreach($catalogos as $contrato):
-			echo '<option value="'.$contrato['idContrato'].'">'.$contrato['tipo'].'</option>';
-		endforeach;
+			$catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
+			foreach($catalogos as $contrato):
+				echo '<option value="'.$contrato['idContrato'].'">'.$contrato['tipo'].'</option>';
+			endforeach;
 		?>
 		</select>
 		
