@@ -3,7 +3,9 @@ require '../negocio/config.php';
 require '../negocio/constantes.php';
 require '../negocio/database.php';
 $db = new Database();
-$conexion = $db->conectar();
+$conexionA = $db->conectar();
+$conexionB = $db->conectar();
+$conexionC = $db->conectar();
 ?>
 <!doctype html>
 <html>
@@ -43,7 +45,7 @@ $conexion = $db->conectar();
 		<label for="departamento">Departamento</label>
 		<select id="departamento" name="departamento">
 		<?php
-			$consultaDeptos = $conexion->prepare("CALL ConsultaCataEmpDepto();");
+			$consultaDeptos = $conexionA->prepare("CALL ConsultaCataEmpDepto();");
 			$consultaDeptos->execute();
 			$departamentos = $consultaDeptos->fetchAll(PDO::FETCH_ASSOC);
 			foreach($departamentos as $depto):
@@ -55,7 +57,7 @@ $conexion = $db->conectar();
 		<label for="rol">Cargo</label>
 		<select id="rol" name="rol">
 		<?php
-			$consultaRoles = $conexion->prepare("CALL ConsultaCataEmpRoles();");
+			$consultaRoles = $conexionB->prepare("CALL ConsultaCataEmpRoles();");
 			$consultaRoles->execute();
 			$roles = $consultaRoles->fetchAll(PDO::FETCH_ASSOC);
 			foreach($roles as $rol):
@@ -66,7 +68,7 @@ $conexion = $db->conectar();
 		<label for="contrato">Tipo de Contrato</label>
 		<select id="contrato" name="contrato">
 		<?php
-			$consultaContrato = $conexion->prepare("CALL ConsultaCataEmpContrat();");
+			$consultaContrato = $conexionC->prepare("CALL ConsultaCataEmpContrat();");
 			$consultaContrato->execute();
 			$contratos = $consultaContrato->fetchAll(PDO::FETCH_ASSOC);
 			foreach($contratos as $contrato):
