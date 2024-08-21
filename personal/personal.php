@@ -10,7 +10,7 @@ $conexion = $db->conectar();
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta charset="UTF-8"> 
-	<title>Empleados</title>
+	<title>Finanzas</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="estilo_interfaz.css"/>
 </head>
@@ -43,9 +43,9 @@ $conexion = $db->conectar();
 		<label for="departamento">Departamento</label>
 		<select id="departamento" name="departamento">
 		<?php
-			$consultaDept = $conexion->prepare("CALL consultaDeptos();");
-			$consultaDept->execute();
-			$departamentos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
+			$consultaDeptos = $conexion->prepare("CALL ConsultaCataEmpDepto();");
+			$consultaDeptos->execute();
+			$departamentos = $consultaDeptos->fetchAll(PDO::FETCH_ASSOC);
 			foreach($departamentos as $depto):
 				echo '<option value="'.$depto['idDepto'].'">'.$depto['departamento'].'</option>';
 			endforeach;
@@ -55,9 +55,9 @@ $conexion = $db->conectar();
 		<label for="rol">Cargo</label>
 		<select id="rol" name="rol">
 		<?php
-			$consultaRol = $conexion->prepare("CALL consultaRoles();");
-			$consultaRol->execute();
-			$roles = $consultaRol->fetchAll(PDO::FETCH_ASSOC);
+			$consultaRoles = $conexion->prepare("CALL ConsultaCataEmpRoles();");
+			$consultaRoles->execute();
+			$roles = $consultaRoles->fetchAll(PDO::FETCH_ASSOC);
 			foreach($roles as $rol):
 				echo '<option value="'.$rol['idRol'].'">'.$rol['rol'].'</option>';
 			endforeach;
@@ -66,8 +66,8 @@ $conexion = $db->conectar();
 		<label for="contrato">Tipo de Contrato</label>
 		<select id="contrato" name="contrato">
 		<?php
-			$consultaContrat = $conexion->prepare("CALL consultaContratos();");
-			$consultaContrat->execute();
+			$consultaContrato = $conexion->prepare("CALL ConsultaCataEmpContrat();");
+			$consultaContrato->execute();
 			$contratos = $consultaContrato->fetchAll(PDO::FETCH_ASSOC);
 			foreach($contratos as $contrato):
 				echo '<option value="'.$contrato['idContrato'].'">'.$contrato['tipo'].'</option>';
