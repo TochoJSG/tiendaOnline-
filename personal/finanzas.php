@@ -156,19 +156,19 @@ $db = new Database();
 	/*document.querySelector('#update').onclick=()=>{document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';};
 	document.querySelector('#closeModal').onclick=()=>{document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';}
 	document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);*/
-	const a = document.getElementById(producto).value;
-	const b = document.getElementById(plataforma).value;
-	const c = document.getElementById(clase).value;
-	const d = document.getElementById(monto).value;
-	const e = document.getElementById(costo).value;
-	const f = document.getElementById(comentarios).value;
-	const g = document.getElementById(formaCobro).value;
-	const h = document.getElementById(cobro).value;
-	const i = document.getElementById(fecha).value;
-	const j = document.getElementById(nota).value;
-	const k = document.getElementById(us).value;
-	const l = document.getElementById(referencia).value;
-	const m = document.getElementById(registrarIng).value;
+	const a = document.getElementById('producto').value;
+	const b = document.getElementById('plataforma').value;
+	const c = document.getElementById('clase').value;
+	const d = document.getElementById('monto').value;
+	const e = document.getElementById('costo').value;
+	const f = document.getElementById('comentarios').value;
+	const g = document.getElementById('formaCobro').value;
+	const h = document.getElementById('cobro').value;
+	const i = document.getElementById('fecha').value;
+	const j = document.getElementById('nota').value;
+	const k = document.getElementById('us').value;
+	const l = document.getElementById('referencia').value;
+	const m = document.getElementById('registrarIng').value;
 	console.log(a,b,c,d,e,f,g,h,i,j,k,l,m);
 </script>
 </body>
