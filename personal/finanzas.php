@@ -3,10 +3,6 @@ require '../negocio/config.php';
 require '../negocio/constantes.php';
 require '../negocio/database.php';
 $db = new Database();
-$con = $db->conectar();
-$conIngreso = $con->prepare("CALL ConsultaIngreso();");
-$conIngreso->execute();
-$cataIngresos = $conIngreso->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!doctype html>
 <html>
@@ -42,16 +38,24 @@ $cataIngresos = $conIngreso->fetchAll(PDO::FETCH_ASSOC);
 					<label for="producto">Selecciona el producto</label>
 					<select id="producto" name="producto">
 					<?php
-						foreach($cataIngresos as $producto):
-							echo '<option value="'.$producto['idProducto'].'">'.$producto['np'].'</option>';
+						$conexionA = $db->conectar();
+						$listaProds = $conexionA->prepare("CALL ConsultaProductos();");
+						$listaProds->execute();
+						$productos = $listaProds->fetchAll(PDO::FETCH_ASSOC);
+						foreach($productos as $producto):
+							echo '<option value="'.$producto['idProducto'].'">'.$producto['nombre'].'</option>';
 						endforeach;
 					?>
 					</select>
 					<label for="plataforma">¿Por donde vendimos?</label>
 					<select id="plataforma" name="plataforma">
 					<?php
-						foreach($cataIngresos as $plataforma):
-							echo '<option value="'.$plataforma['idPlataforma'].'">'.$plataforma['nombre'].'</option>';
+						$conexionB = $db->conectar();
+						$listaPlataformas = $conexionB->prepare("CALL ");
+						$listaPlataformas->execute();
+						$plataformas = $listaPlataformas->fetchAll(PDO::FETCH_ASSOC);
+						foreach($plataformas as $plataforma):
+							echo '<option value="'.$plataforma['idPlataforma'].'">'.$plataforma['np'].'</option>';
 						endforeach;
 					?>
 					</select>
@@ -70,7 +74,11 @@ $cataIngresos = $conIngreso->fetchAll(PDO::FETCH_ASSOC);
 					<label for="formaCobro">Metodo de cobro</label>
 					<select id="formaCobro" name="producto">
 					<?php
-						foreach($cataIngresos as $cobro): 
+						$conexionC = $db->conectar();
+						$listaCobro = $conexionC->prepare("CALL ConsultaPlataformas();");
+						$listaCobro->execute();
+						$metodosC = $listaCobro->fetchAll(PDO::FETCH_ASSOC);
+						foreach($metodosC as $cobro): 
 							echo '<option value="'.$cobro['idModo'].'">'.$cobro['formaPago'].'</option>';
 						endforeach;
 					?>
@@ -89,20 +97,30 @@ $cataIngresos = $conIngreso->fetchAll(PDO::FETCH_ASSOC);
 					<h3>Hola, Captura el Egreso</h3>
 					<label for="gasto">Selecciona el concepto del gasto</label>
 					<select id="gasto" name="gasto">
-						<option value="catego1">Catego 1</option>
-						<option value="catego2">Catego 2</option>
-						<option value="catego3">Catego 3</option>
-						<option value="catego4">Catego 4</option>
+					<?php
+						$conexionD = $db->conectar();
+						$listaGastos = $conexionD->prepare("CALL ConsultaGastosConceptos();");
+						$listaGastos->execute();
+						$gastos = $listaGastos->fetchAll(PDO::FETCH_ASSOC);
+						foreach($gastos as $gasto):
+							echo '<option value="'.$gasto['idGastoConcept'].'">'.$gasto['nombGasto'].'</option>';
+						endforeach;
+					?>
 					</select>
 					<input id="egreso" type="number" placeholder="¿cuanto pagamos?" min="1" required>
 					<input id="comentarios" type="text" placeholder="algún comentario?" max="99">
 						<hr>
 					<label for="formaCobro">Metodo de cobro</label>
 					<select id="formaCobro" name="producto">
-						<option value="catego1">Catego 1</option>
-						<option value="catego2">Catego 2</option>
-						<option value="catego3">Catego 3</option>
-						<option value="catego4">Catego 4</option>
+					<?php
+						$conexionE = $db->conectar();
+						$listaPagos = $conexionE->prepare("CALL ConsultaPlataformas();");
+						$listaPagos->execute();
+						$metodosP = $listaPagos->fetchAll(PDO::FETCH_ASSOC);
+						foreach($metodosP as $pago): 
+							echo '<option value="'.$pago['idModo'].'">'.$pago['formaPago'].'</option>';
+						endforeach;
+					?>
 					</select>
 					<input id="cobro" type="number" placeholder="¿cuanto pagamos?" min="1" required>
 					<input id="fecha" type="date">
@@ -131,10 +149,9 @@ $cataIngresos = $conIngreso->fetchAll(PDO::FETCH_ASSOC);
 		formBx.classList.remove('active');
 		cuerpo.classList.remove('active');
 	}
-	document.querySelector('#update').onclick=()=>{document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';};
+	/*document.querySelector('#update').onclick=()=>{document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';};
 	document.querySelector('#closeModal').onclick=()=>{document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';}
-	
-	document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);
+	document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);*/
 </script>
 </body>
 </html>

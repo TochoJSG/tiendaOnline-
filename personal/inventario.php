@@ -59,7 +59,7 @@ require '../negocio/database.php';
 					<?php
 					$catalogo = new Database();
 					$conCata = $catalogo->conectar();
-					$sqlDB = $conCata->prepare("CALL ObtenerCategorias();");
+					$sqlDB = $conCata->prepare("CALL ConsultaCataCategos();");
 					$sqlDB->execute();
 					$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 					foreach ($productos as $categorias):
