@@ -4,7 +4,7 @@ require '../negocio/constantes.php';
 require '../negocio/database.php';
 $db = new Database();
 $con = $db->conectar();
-$conIngreso = $db->prepare("CALL ConsultaIngreso();");
+$conIngreso = $con->prepare("CALL ConsultaIngreso();");
 $conIngreso->execute();
 $cataIngresos = $conIngreso->fetchAll(PDO::FETCH_ASSOC);
 ?>
