@@ -1,3 +1,11 @@
+<?php
+require '../negocio/config.php';
+require '../negocio/constantes.php';
+require '../negocio/database.php';
+$db = new Database();
+$conexion = $db->conectar();
+
+?>
 <!doctype html>
 <html>
 <head>

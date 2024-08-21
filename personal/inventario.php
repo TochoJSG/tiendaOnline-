@@ -8,7 +8,7 @@ require '../negocio/database.php';
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta charset="UTF-8"> 
-	<title>Personal</title>
+	<title>Inventario</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="estilo_interfaz.css"/>
 </head>
@@ -32,12 +32,12 @@ require '../negocio/database.php';
 			
 			<div class="formBx">
 				<div class="form signinForm">
-				<form>
-					<label for="consultas">Consulta informacion de la Base de Datos</label>
-					<input id="consultas" type="text" placeholder="Escribe que deseas saber del sistema">
-					<input id="Consultar" type="submit" value="Consultar">
-				</form>
-			</div>
+					<form>
+						<label for="consultas">Consulta informacion de la Base de Datos</label>
+						<input id="consultas" type="text" placeholder="Escribe que deseas saber del sistema">
+						<input id="Consultar" type="submit" value="Consultar">
+					</form>
+				</div>
 			
 			<div class="form signupForm">
 				<form>
