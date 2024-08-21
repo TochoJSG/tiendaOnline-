@@ -6,6 +6,7 @@ $db = new Database();
 $conexion = $db->conectar();
 $consultaCatalogos = $conexion->prepare("CALL ConsultaCataEmpleados();");
 $consultaCatalogos->execute();
+$catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!doctype html>
 <html>
@@ -45,7 +46,6 @@ $consultaCatalogos->execute();
 		<label for="departamento">Departamento</label>
 		<select id="departamento" name="departamento">
 		<?php
-			$catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 			foreach($catalogos as $depto):
 				echo '<option value="'.$depto['idDepto'].'">'.$depto['departamento'].'</option>';
 			endforeach;
@@ -55,7 +55,6 @@ $consultaCatalogos->execute();
 		<label for="rol">Cargo</label>
 		<select id="rol" name="rol">
 		<?php
-			$catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 			foreach($catalogos as $rol):
 				echo '<option value="'.$rol['idRol'].'">'.$rol['rol'].'</option>';
 			endforeach;
@@ -64,7 +63,6 @@ $consultaCatalogos->execute();
 		<label for="contrato">Tipo de Contrato</label>
 		<select id="contrato" name="contrato">
 		<?php
-			$catalogos = $consultaCatalogos->fetchAll(PDO::FETCH_ASSOC);
 			foreach($catalogos as $contrato):
 				echo '<option value="'.$contrato['idContrato'].'">'.$contrato['tipo'].'</option>';
 			endforeach;
