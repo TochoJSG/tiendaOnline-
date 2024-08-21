@@ -43,7 +43,7 @@ $cataIngresos = $conIngreso->fetchAll(PDO::FETCH_ASSOC);
 					<select id="producto" name="producto">
 					<?php
 						foreach($cataIngresos as $producto):
-							echo '<option value="'.$producto['idProducto'].'">'.$producto['nombre'].'</option>';
+							echo '<option value="'.$producto['idProducto'].'">'.$producto['np'].'</option>';
 						endforeach;
 					?>
 					</select>
