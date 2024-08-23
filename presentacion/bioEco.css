@@ -117,20 +117,20 @@ picture:hover .imgBx img{transform:scale(1.5);}
 .amz h2{margin-top:16px;padding:8px;text-align:center;font-size:1.1em;font-weight:300;letter-spacing:6px;color:#fff;text-transform:uppercase;}
 .amz span{font-size:1.2em;font-weight:500;letter-spacing:8px;color:#daf;}
 .containerCardAmz{background:#040105;position:absolute;width:100%;display:grid;align-items:center;align-content:center;/*grid-template-columns:repeat(auto-fit, minmax(333px, 2fr));*/grid-gap:25px;padding:66px;margin:0;}
-.containerCardAmz .contCardAmz{position:relative;overflow-x:hidden;width:333px;height:514px;background:#fff;transform-style:preserve-3d;transform:perspective(2000px);transition:1s;box-shadow:inset 300px 0 50px rgba(0,0,0,0.15),0 20px 20px rgba(0,0,0,0.15);margin:0 17px;}
-.containerCardAmz .contCardAmz:hover{transform:perspective(2000px);box-shadow:inset 20px 0 50px rgba(0,0,0,0.15),0 10px 10px rgba(0,0,0,0.15);}
-.containerCardAmz .contCardAmz .coverLaCard{position:relative;width:100%;height:100%;background:#cccc;z-index:2;display:flex;justify-content:center;align-items:center;transform-style:preserve-3d;overflow:hidden;transition:1s ease-in-out;transform-origin:left;}
-.containerCardAmz .contCardAmz:hover .coverLaCard{transform:rotateY(-180deg);transform:perspective(2000px)translateX(100%);}
-.containerCardAmz .contCardAmz .coverLaCard img{max-width:100%;z-index:1;}
-.containerCardAmz .contCardAmz .coverLaCard::before{content:'';position:absolute;width:9px;height:150%;background:#fff;transform:rotate(36.5deg);box-shadow:0 0 0 20px #37475a;transition:0.6s;transition-delay:1s;}
-.containerCardAmz .contCardAmz:hover .coverLaCard::before{width:0;box-shadow:0 0 0 250px #e47911;transform:rotate(143.5deg);}
-.containerCardAmz .contCardAmz .detailsLaCard{background:#fff;position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;overflow:hidden;text-align:center;z-index:1;}
-.containerCardAmz .contCardAmz .detailsLaCard h3{color:#040105;font-size:1.1em;font-weight:300;margin:5px 0;}
-.containerCardAmz .contCardAmz .detailsLaCard img{height:300px;width:100%;}
-.containerCardAmz .contCardAmz .detailsLaCard p{font-size:.9em;font-weight:100;color:#040105;padding:1px;margin:3px 3%;}
-.containerCardAmz .contCardAmz .detailsLaCard h2{font-size:1em;color:#040105;font-weight:500;margin:3px 0;}
-.containerCardAmz .contCardAmz .detailsLaCard a{display:inline-block;padding:8px 17px;background:#040105;color:#daf;margin-top:3px;letter-spacing:1px;border-radius:25px;font-weight:500;text-decoration:none;}
-.containerCardAmz .contCardAmz .detailsLaCard a:hover{background:#37475a;color:#fff;}
+.contCardAmz{position:relative;overflow-x:hidden;width:333px;height:514px;background:#fff;transform-style:preserve-3d;transform:perspective(2000px);transition:1s;box-shadow:inset 300px 0 50px rgba(0,0,0,0.15),0 20px 20px rgba(0,0,0,0.15);margin:0 17px;}
+.contCardAmz:hover{transform:perspective(2000px);box-shadow:inset 20px 0 50px rgba(0,0,0,0.15),0 10px 10px rgba(0,0,0,0.15);}
+.contCardAmz .coverLaCard{position:relative;width:100%;height:100%;background:#cccc;z-index:2;display:flex;justify-content:center;align-items:center;transform-style:preserve-3d;overflow:hidden;transition:1s ease-in-out;transform-origin:left;}
+.contCardAmz:hover .coverLaCard{transform:rotateY(-180deg);transform:perspective(2000px)translateX(100%);}
+.contCardAmz .coverLaCard img{max-width:100%;z-index:1;}
+.contCardAmz .coverLaCard::before{content:'';position:absolute;width:9px;height:150%;background:#fff;transform:rotate(36.5deg);box-shadow:0 0 0 20px #37475a;transition:0.6s;transition-delay:1s;}
+.contCardAmz:hover .coverLaCard::before{width:0;box-shadow:0 0 0 250px #e47911;transform:rotate(143.5deg);}
+.contCardAmz .detailsLaCard{background:#fff;position:absolute;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;overflow:hidden;text-align:center;z-index:1;}
+.contCardAmz .detailsLaCard h3{color:#040105;font-size:1.1em;font-weight:300;margin:5px 0;}
+.contCardAmz .detailsLaCard img{height:300px;width:100%;}
+.contCardAmz .detailsLaCard p{font-size:.9em;font-weight:100;color:#040105;padding:1px;margin:3px 3%;}
+.contCardAmz .detailsLaCard h2{font-size:1em;color:#040105;font-weight:500;margin:3px 0;}
+.contCardAmz .detailsLaCard a{display:inline-block;padding:8px 17px;background:#040105;color:#daf;margin-top:3px;letter-spacing:1px;border-radius:25px;font-weight:500;text-decoration:none;}
+.contCardAmz .detailsLaCard a:hover{background:#37475a;color:#fff;}
 footer{position:relative;width:100%;background:#3586ff;min-height:100px;padding:0;display:flex;justify-content:center;align-items:center;flex-direction:column;margin:0;}
 footer .social_icon,
 footer .menu_f{position:relative;display:flex;justify-content:center;align-items:center;margin:10px 0;flex-wrap:wrap;flex-direction:row;text-decoration:none;}
