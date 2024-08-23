@@ -40,14 +40,6 @@
     "imProd":"https://m.media-amazon.com/images/I/51OW2eLL6jL._AC_SX450_.jpg"
     },
     {
-    "plataforma":"amazon","clase":"transporte","precio":"1465.41",
-    "url":"https://www.amazon.com.mx/LUJUNTEC-delanteros-1994-1997-reflector-transparente/dp/B0D2NY9THH?pd_rd_w=LnjiE&content-id=amzn1.sym.39b841eb-b9fa-4001-8647-a107484d25b9&pf_rd_p=39b841eb-b9fa-4001-8647-a107484d25b9&pf_rd_r=K7T837SSVK3FSS2JYVGG&pd_rd_wg=9cVqG&pd_rd_r=c98c7b91-723f-4b56-b675-1a12a4c8c810&pd_rd_i=B0D2NY9THH&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=f264e958ba6eafe2a82cf12acf17715b&language=es_MX&ref_=as_li_ss_tl",
-    "title":"faros",
-    "description":"LUJUNTEC - Conjunto de faros delanteros para Honda para Accord 1994-1997 en carcasa negra, reflector ámbar, lente transparente, repuesto para lado del conductor y del pasajero",
-    "imBase":"imagenes/amz.png",
-    "imProd":"https://m.media-amazon.com/images/I/81gXGkTDedL._AC_SX450_.jpg"
-    },
-    {
     "plataforma":"amazon","clase":"mobiliario","precio":"1,399.00",
     "url":"https://www.amazon.com.mx/ADF-Organizador-Estanter%C3%ADa-Almacenamiento-Ajustable/dp/B0CF7VY9Q7?dib=eyJ2IjoiMSJ9.eb5Odm-nDmNbEgIkFU8zQyEkWkBH9sWt8fl9x1ULnzQrSbbOB3bVGLn_03j6knWjSSzqPyte8JYaP4kDiOVzMkNeF6JyQhp3l-1NdZXtRzYVKWEMCga06pYyBaAWpQkvZNvSr0wAipfUzgssbZ8uIEXDXBfbqwWODxaXr8-EcoQbDup8qAeTBXnFavQM6MtbkzDbMdu1oe8byv1tmh4nphbNfRo1pTGHJgs2KeN1PE4-rwCEEC7JtOa3AcDFu2OAA85ULLNI145oOcu3mhF5jLIBk6-wb_lwVKeyCKwTWpA.VQ7HhJMiyw-ft7Xcc0ROx4aXBo4CtwmC5LlnckSo9Fc&dib_tag=se&keywords=estantes&qid=1724293416&sr=8-4&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=443f88bf84d8b948f403020cd9cfad9a&language=es_MX&ref_=as_li_ss_tl",
     "title":"Estante metalico para Negocio",
@@ -1044,5 +1036,13 @@
     "description":"JYX Máquina de Karaoke con 2 Micrófonos Inalámbricos, Altavoz Bluetooth Portátil para Adultos y Niños, Gran Sistema PA de Fiesta con Luces de Discoteca para Reuniones, Subwoofers de Escenario",
     "url":"https://www.amazon.com.mx/dp/B0C4DKG48P?pd_rd_i=B0C4DKG48P&pd_rd_w=sEBKS&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=2KYCA6MA221P91ZV8BG6&pd_rd_wg=thKQb&pd_rd_r=ed84e6cc-4ca6-43e1-8606-d3fe69d2c676&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=3731007eecfe351deb67d10bfb525084&language=es_MX&ref_=as_li_ss_tl",
     "imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71mxjQeJtrL._AC_SX569_.jpg"
+    },
+    {
+        "plataforma":"amazon","clase":"transporte","precio":"1465.41",
+        "url":"https://www.amazon.com.mx/LUJUNTEC-delanteros-1994-1997-reflector-transparente/dp/B0D2NY9THH?pd_rd_w=LnjiE&content-id=amzn1.sym.39b841eb-b9fa-4001-8647-a107484d25b9&pf_rd_p=39b841eb-b9fa-4001-8647-a107484d25b9&pf_rd_r=K7T837SSVK3FSS2JYVGG&pd_rd_wg=9cVqG&pd_rd_r=c98c7b91-723f-4b56-b675-1a12a4c8c810&pd_rd_i=B0D2NY9THH&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=f264e958ba6eafe2a82cf12acf17715b&language=es_MX&ref_=as_li_ss_tl",
+        "title":"faros",
+        "description":"LUJUNTEC - Conjunto de faros delanteros para Honda para Accord 1994-1997 en carcasa negra, reflector ámbar, lente transparente, repuesto para lado del conductor y del pasajero",
+        "imBase":"imagenes/amz.png",
+        "imProd":"https://m.media-amazon.com/images/I/81gXGkTDedL._AC_SX450_.jpg"
     }
-    ]
+]
