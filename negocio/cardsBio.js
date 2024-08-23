@@ -14,8 +14,6 @@ const insertaBio = productos =>{
 								<div class='contentEco'>
 									<img class="imBio" src="${producto.imProd}" alt="cargando imagen de ${producto.title}">
 									<h2>${producto.title}</h2>
-									<p>${producto.description}
-										</p>
 									<a target='_blank' href='${producto.url}'>Compra en Amazon</a>
 								</div>
 							</div>`;

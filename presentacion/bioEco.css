@@ -39,7 +39,7 @@ section #textEco span{font-size:0.20em;letter-spacing:2px;color:#094b65;font-wei
 .containerEco .boxEco span{position:absolute;top:6px;left:6px;right:6px;bottom:6px;background:rgba(0,0,0,0.6);z-index:2;}/*Romover linea para un efecto fifi diferente*/
 .containerEco .boxEco span::before{content:'';position:absolute;top:0;left:0;width:50%;height:100%;background:rgba(255,255,255,0.02);pointer-events:none;}
 .containerEco .boxEco .contentEco{position:relative;z-index:10;padding:20px 40px;}
-.containerEco .boxEco .contentEco .imBio{width:100%;height:50%;}
+.containerEco .boxEco .contentEco .imBio{width:100%;height:33%;}
 .containerEco .boxEco .contentEco h2{font-size:1.1em;color:#fff;margin-bottom:10px;font-weight:600;letter-spacing:3px}
 .containerEco .boxEco .contentEco p{font-size:1em;color:#fff;margin-bottom:10px;line-height:1.4em;}
 .containerEco .boxEco .contentEco a{display:inline-block;font-size:1.1em;color:#415;background:#ffad;padding:8px 17px;text-align:center;text-decoration:none;font-weight:700;margin:17px auto 8px;border-radius:8px;}
