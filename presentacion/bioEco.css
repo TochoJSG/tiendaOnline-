@@ -116,8 +116,8 @@ picture:hover .imgBx img{transform:scale(1.5);}
 .amz{background:#232f3e;width:100%;max-width:100%;margin:0;height:auto;position:relative;display:block;overflow-x:hidden;}
 .amz h2{margin-top:16px;padding:8px;text-align:center;font-size:1.1em;font-weight:300;letter-spacing:6px;color:#fff;text-transform:uppercase;}
 .amz span{font-size:1.2em;font-weight:500;letter-spacing:8px;color:#daf;}
-.containerCardAmz{background:#040105;position:relative;width:100%;max-width:100%;display:grid;align-items:center;align-content:center;grid-template-columns:repeat(auto-fit, minmax(333px, 1fr));grid-gap:25px;padding:66px;margin:0;overflow-x:hidden;}
-.contCardAmz{position:absolute;overflow-x:hidden;min-width:300px;height:514px;background:#fff;transform-style:preserve-3d;transform:perspective(2000px);transition:1s;box-shadow:inset 300px 0 50px rgba(0,0,0,0.15),0 20px 20px rgba(0,0,0,0.15);margin:0 17px;}
+.containerCardAmz{background:#040105;position:relative;width:100%;max-width:100%;display:grid;align-items:center;align-content:center;grid-template-columns:repeat(auto-fit, minmax(333px, 1fr));grid-gap:25px;padding:66px;margin:0;overflow-x:auto;}
+.contCardAmz{position:relative;overflow-x:hidden;min-width:300px;height:514px;background:#fff;transform-style:preserve-3d;transform:perspective(2000px);transition:1s;box-shadow:inset 300px 0 50px rgba(0,0,0,0.15),0 20px 20px rgba(0,0,0,0.15);margin:0 17px;}
 .contCardAmz:hover{transform:perspective(2000px);box-shadow:inset 20px 0 50px rgba(0,0,0,0.15),0 10px 10px rgba(0,0,0,0.15);}
 .contCardAmz .coverLaCard{position:relative;width:100%;height:100%;background:#cccc;z-index:2;display:flex;justify-content:center;align-items:center;transform-style:preserve-3d;overflow:hidden;transition:1s ease-in-out;transform-origin:left;}
 .contCardAmz:hover .coverLaCard{transform:rotateY(-180deg);transform:perspective(2000px)translateX(100%);}
