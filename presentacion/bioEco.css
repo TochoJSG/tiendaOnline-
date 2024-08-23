@@ -28,7 +28,7 @@ section #textEco span{font-size:0.20em;letter-spacing:2px;color:#094b65;font-wei
 .contEco h2{font-size:3.6em;color:#fff;margin:25px 0 17px;text-align:center;font-weight:600;letter-spacing:6px;}
 .contEco p{font-size:1.1em;color:#fff;text-align:justify;font-weight:100;margin:8px 0;letter-spacing:3px;}
 .containerEco{position:relative;display:flex;justify-content:center;align-items:center;padding:40px 0;flex-wrap:wrap;margin:17px auto 17px;}
-.containerEco .boxEco{position:relative;width:320px;height:400px;color:#fff;background:#111;display:flex;justify-content:center;align-items:center;margin:20px 30px;transition:0.5s;}
+.containerEco .boxEco{position:relative;width:320px;height:450px;color:#fff;background:#111;display:flex;justify-content:center;align-items:center;margin:33px 30px;transition:0.5s;}
 .containerEco .boxEco:hover{transform:translateY(-20px);}/*aqui*/
 .containerEco .boxEco::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(45deg,#ffbc00,#ff0058);}
 .containerEco .boxEco::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(45deg,#ffbc00,#ff0058);filter:blur(30px);}
