@@ -22,3 +22,4 @@ const insertaBio = productos =>{
 	});
 	contenidoBioEco.innerHTML = productosBio;
 };
+document.addEventListener('DOMContentLoaded',insertaBio);
