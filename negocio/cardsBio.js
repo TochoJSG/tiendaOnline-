@@ -7,7 +7,7 @@ const consultaBio = async() =>{
 };
 const insertaBio = productos =>{
 	productos.forEach( producto =>{
-		if(producto.clase === 'bio'){
+		if(producto.clase == 'bio'){
 			productosBio += `<div class="boxEco">
 								<span></span>
 								<div class='contentEco'>
@@ -19,6 +19,6 @@ const insertaBio = productos =>{
 								</div>
 							</div>`;
 		}
-	contenidoBioEco.innerHTML = productosBio;
 	});
+	contenidoBioEco.innerHTML = productosBio;
 };
