@@ -12,7 +12,7 @@ const insertaBio = productos =>{
 			productosBio += `<div class="boxEco">
 								<span></span>
 								<div class='contentEco'>
-									<img src="${producto.imProd}" alt="cargando imagen de ${producto.title}">
+									<img class="imBio" src="${producto.imProd}" alt="cargando imagen de ${producto.title}">
 									<h2>${producto.title}</h2>
 									<p>${producto.description}
 										</p>
