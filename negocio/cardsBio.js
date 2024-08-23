@@ -1,8 +1,8 @@
-const url = 'negocio/amz.json';
+const urlCardsBio = 'negocio/amz.json';
 const contenidoBioEco = document.querySelector('.containerEco');
 let productosBio = '';
 const consultaBio = async() =>{
-	const res = await fetch(url);
+	const res = await fetch(urlCardsBio);
 	const data = await res.json();
 };
 const insertaBio = productos =>{
