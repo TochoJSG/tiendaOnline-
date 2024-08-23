@@ -1,4 +1,4 @@
-const urlCardsBio = 'negocio/amz.json';
+const urlCardsBio = 'amz.json';
 const contenidoBioEco = document.querySelector('.containerEco');
 let productosBio = '';
 const consultaBio = async() =>{

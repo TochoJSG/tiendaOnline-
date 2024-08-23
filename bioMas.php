@@ -40,7 +40,7 @@
 	};
     </script>
 	<div class="texto_car">
-		<h1>Compra Lo mejor para tu Mascota</h1>
+		<h1>Compra Lo mejor</h1>
 		<p>Una Seleccion de los Productos mejor calificados en Amazon </p>
 	</div>
 	<header>
@@ -54,19 +54,17 @@
 		<div class="contBio"></div>
 	</div>
 </div>
-<div class="amz aletarga">
-	<br>
-    <script type="text/javascript">
-    	atOptions = {
-    		'key' : '616899c29662e51f5906c074fcc9478e',
-    		'format' : 'iframe',
-    		'height' : 90,
-    		'width' : 728,
-    		'params' : {}
-    	};
-    	
-    </script>
-</div>
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : '616899c29662e51f5906c074fcc9478e',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	
+</script>
 <div class="fb-comments" data-href="https://tochamateriasprimas.com/" data-width="100%" data-numposts="5"></div>
 	<div class="contEco">
 		<h2>Fertilizantes</h2>
