@@ -31,10 +31,9 @@
     </style>
 </head>
 <body>
-<div id="fb-root"></div>
-
+<div id="fb-root"></div><div id="fb-customer-chat" class="fb-customerchat"></div>
 <a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
-<div id="fb-customer-chat" class="fb-customerchat"></div>
+
 <div class="aletarga">
 <section class="videoHeader">
 	<header id="main-header" style="z-index:100;">
@@ -89,7 +88,7 @@ effect:"coverflow",grabCursor:true,centeredSlides:true,slidesPerView:"auto",
 coverflowEffect:{rotate:50,stretch:0,depth:100,modifier:1,slideShadows:true,},
 pagination:{el:".swiper-pagination",},
 loop:true,
-autoplay:{delay:6666,disableOnInteraction:false,},
+autoplay:{delay:666.666,disableOnInteraction:false,},
 });
 </script>
 <script type="text/javascript">
@@ -150,6 +149,9 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 	</div>
 	</div>
 </div>
+
+
+
 <div id="nosotros" class="modal"><!--Nosotros-->
 	<div class="headerForm">
 		<span><img class="logo" src="imagenes/COORP (2).jpg"/></span>

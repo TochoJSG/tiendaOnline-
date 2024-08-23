@@ -71,36 +71,8 @@
 	<div class="contEco">
 		<h2>Fertilizantes</h2>
 		<p>Fertilizantes elaborados naturalmente con elementos tomados de monte directamente, si requieres mas informacion sientete libre de contactarnos.</p>
-		<div class="containerEco">
-			<div class="boxEco">
-			<span></span>
-			<div class="contentEco">
-				<h2>Producto</h2>
-				<p>Descripcion
-					</p>
-				<a href="#">enlace</a>
-			</div>
-			</div>
-			<div class="boxEco">
-			<span></span>
-			<div class="contentEco">
-				<h2>Producto</h2>
-				<p>Descripcion
-					</p>
-				<a href="#">enlace</a>
-			</div>
-			</div>
-			<div class="boxEco">
-			<span></span>
-			<div class="contentEco">
-				<h2>Producto</h2>
-				<p>Descripcion
-					</p>
-				<a href="#">enlace</a>
-			</div>
-			</div>
-		</div>
-		<h2>Mascotas</h2>
+		<div class="containerEco"></div>
+
 	<section class="loadSec">
 		<div class="loader">
 			<span style="--i:1"></span>
@@ -125,26 +97,7 @@
 			<span style="--i:20"></span>
 		</div>
 	</section>
-	<div class="contCilindro">
-		<div class="cilindro">
-			<span style="--i:1"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:2"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:3"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:4"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:5"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:6"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:7"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:8"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:9"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:10"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:11"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:12"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:13"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:14"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:15"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-			<span style="--i:16"><i>PROXIMAMENTE</i>preparandonos<i>para</i>Ti</span>
-		</div>
-	</div>
+
 	</div>
 <div id="fb-root"></div>
 <div id="fb-customer-chat" class="fb-customerchat"></div>
@@ -233,5 +186,6 @@
 <script type="text/javascript" src="presentacion/aletarga.js"></script>
 <script type="text/javascript" src="presentacion/bioEco.js"></script>
 <script type="text/javascript" src="presentacion/tochaUs.js"></script>
+<script type="text/javascript" src="negocio/cardsBio.js"></script>
 </body>
 </html>
