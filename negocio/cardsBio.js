@@ -4,6 +4,7 @@ let productosBio = '';
 const consultaBio = async() =>{
 	const res = await fetch(urlCardsBio);
 	const data = await res.json();
+	insertaBio(data);
 };
 const insertaBio = productos =>{
 	productos.forEach( producto =>{
@@ -22,4 +23,4 @@ const insertaBio = productos =>{
 	});
 	contenidoBioEco.innerHTML = productosBio;
 };
-document.addEventListener('DOMContentLoaded',insertaBio);
+document.addEventListener('DOMContentLoaded',consultaBio);
