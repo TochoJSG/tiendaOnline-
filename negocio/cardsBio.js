@@ -1,4 +1,4 @@
-const urlCardsBio = 'amz.json';
+const urlCardsBio = 'negocio/amz.json';
 const contenidoBioEco = document.querySelector('.containerEco');
 let productosBio = '';
 const consultaBio = async() =>{
@@ -7,6 +7,7 @@ const consultaBio = async() =>{
 };
 const insertaBio = productos =>{
 	productos.forEach( producto=>{
+		if(producto.clase === 'bio'){
 		productosBio = `<div class="boxEco">
 							<span></span>
 							<div class='contentEco'>
@@ -17,6 +18,8 @@ const insertaBio = productos =>{
 								<a target='_blank' href='${producto.url}'>Compra en Amazon</a>
 							</div>
 						</div>`;
+		}
+		
 	});
 	contenidoBioEco.innerHTML = productosBio;
 };
