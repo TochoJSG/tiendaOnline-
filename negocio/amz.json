@@ -1,618 +1,1048 @@
 [
-{
-"plataforma":"amazon","clase":"mascota","precio":"",
-"url":"https://amzn.to/3AFkRQY",
-"title":"Nufit Alimento Seco 15 kg",
-"description":"Nufit Alimento Seco para Mascotas, Adulto, Beige, 15 kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/91YTXnkT+wL._AC_SL1500_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"269.99",
-"url":"https://amzn.to/3WtJbPQ",
-"title":"Fastpet Juguete Masticador con Sonido ",
-"description":"Fastpet Juguete Masticador con Sonido para Perro y Mascotas para Limpiar Dientes de Mascota. Cepillo de Palo de Dientes de Perro de Limpieza Profunda para animales. Resistente Casi Indestructible, Seguro y No Tóxico para Cachorros Medianos y Perros Grandes. Limpiador Dental Canino de Caucho Premium.",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61vRw7UfCTL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"239.00",
-"url":"https://amzn.to/3IA5AoM",
-"title":"Juguete Dispensador Interactivo de Croquetas",
-"description":"Dispensador de Juguetes para Perro, Vagalbox Divertido e Interactivos Pelota de Juguete Interactiva para Mascotas Pequeñas y Medianas,Aumentan la Atención, Disminuyen la Velocidad de Alimentación y Promueven la Alimentación Saludable",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71I-C3nBYgL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"48.45",
-"url":"https://amzn.to/3ojBJdG",
-"title":"Mordedor Hueso de Hilo",
-"description":"Fancy Pets Juguete Mordedor Hueso de Hilo para Perro, Varios Colores",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61O3SlB0SrL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"116.06",
-"url":"https://amzn.to/3MOIOMx",
-"title":"Juguete de Piel Divertida 2 en 1",
-"description":"Best Pet Supplies - Juguete de Piel Divertida 2 en 1 para Perro, sin Relleno, Pato Salvaje, pequeño (PT08-S)",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71hIJmLxjXL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"168.00",
-"url":"https://amzn.to/43k5F8a",
-"title":"LISAPRO Pelotas Grandes de Goma",
-"description":"LISAPRO Pelotas Grandes de Goma para Mascotas, duraderas, funcionales para Limpieza y Cuidado Dental para Mascotas, Juguete para Perro, Pelota de Goma Resistente a mordeduras (1PCS Azul + 1PCS Rojo)",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71qd2-tnLiL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"482.00 ",
-"url":"https://amzn.to/3WzohPh",
-"title":"DogChow Longevidad Senior Todos los Tamaños con Extralife 7.5 kg",
-"description":"Dog Chow Comida para Perro Longevidad Senior Edad Madura Todos los Tamaños con Extralife 7.5 kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/614c2nBG-ML._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"1,113.40",
-"url":"https://amzn.to/3IEaTUe",
-"title":"Ganador Premium Cachorro 20 kg Razas Medianas y Grandes",
-"description":"Ganador Premium Cachorro 20 kg, Razas Medianas y Grandes. El empaque puede variar",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/51-Ny1mBIuL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"1,234.05",
-"url":"https://amzn.to/421IKO0",
-"title":"Nupec Senior 15 kg",
-"description":"Nupec croquetas para Perros, Senior, presentación de 15 kg.",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/51h-4AgAV4S._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"616.55",
-"url":"https://amzn.to/3Wu92qK",
-"title":"BENEFUL Adult Orig Car 10kg Sunrise",
-"description":"BENEFUL Adult Orig Car 10kg Sunrise",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/51qGMBWD+KL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"866.00",
-"url":"https://amzn.to/3OBOnPB",
-"title":"Nupec sabor Carne Adulto 8 kg",
-"description":"Nupec - Croquetas para Perros, Adulto, Sabor a Carne, 8 kg (Empaque puede variar)",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/51hiiO-A+SL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"866.30",
-"url":"https://amzn.to/3OHaeFH",
-"title":"Hill's Science Diet Adulto Raza Pequeña 7kg",
-"description":"Hill's Science Diet, Alimento para Perro Adulto Raza Pequeña, Seco (bulto) 7kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/81yoRBjQ4EL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"399.00 ",
-"url":"https://amzn.to/43pAE2v",
-"title":"DogChow Cachorros Razas Medianas y Grandes 7.5 Kg",
-"description":"Dog Chow Cachorros Razas Medianas y Grandes 7.5 Kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/618zbEEuCTL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"616.55",
-"url":"https://amzn.to/3IEaFMS",
-"title":"Purina Beneful Pavo Adulto Razas minis y Pequeñas 10kg",
-"description":"Purina Beneful Alimento seco Adulto, Razas minis y pequeñas Pavo, Bulto de 10kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/51E-+QJC4LL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"989.43",
-"url":"https://amzn.to/3OEQVwv",
-"title":"Ganador Premium 20kg Adultos de Razas Medianas y Grandes",
-"description":"Ganador Premium 20kg, Alimento para Perros Adultos de Razas Medianas y Grandes, empaque puede variar",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/51k6D1Ge11L._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"474.00",
-"url":"https://amzn.to/3oqCL7t",
-"title":"Dog Chow Hogareño 10 kg",
-"description":"Dog Chow Hogareño, 10 kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61sg2f+b+fL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"780.90",
-"url":"https://amzn.to/3MUCuTY",
-"title":"Nupec Adulto Razas Pequeñas 8 kg.",
-"description":"Nupec croquetas para Perros, Adulto Razas pequeñas, con Omega 3 y 6, presentación de 8 kg.",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61QQzfc068L._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"264.10",
-"url":"https://amzn.to/3BQyjBZ",
-"title":"Nupec Adulto Razas Pequeñas 2 kg",
-"description":"Nupec croquetas para Perros, Adulto Razas pequeñas, con Omega 3 y 6, presentación de 2 kg.",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71BBNArFhIL._AC_SY879_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"399.00",
-"url":"https://amzn.to/3IDYOP7",
-"title":"Dog Chow Adultos Medianos y Grandes con Extralife 7.5kg",
-"description":"Dog Chow Comida para Perros Adultos Medianos y Grandes con Extralife 7.5kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61j8BZs+dPL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"399.00",
-"url":"https://amzn.to/3WrT7cN",
-"title":"Comida para Perros Adultos, Dog Chow, Razas Minis y Pequeñas, 7.5 kg",
-"description":"Comida para Perros Adultos, Dog Chow, Razas Minis y Pequeñas, 7.5 kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61DLtQE-v+L._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"472.15 ",
-"url":"https://amzn.to/3WtItlE",
-"title":"BENEFUL Adult Trop Car Pav 10kg Sunrise",
-"description":"BENEFUL Adult Trop Car Pav 10kg Sunrise",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/51eWd0GRjcL._AC_SX425_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"649.00",
-"url":"https://amzn.to/43pAyb9",
-"title":"Dog Chow Kit Adultos Medianos y Grandes",
-"description":"Dog Chow Kit Adultos Medianos y Grandes",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/51chyMdo1LS._AC_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"894.59",
-"url":"https://amzn.to/3MTPsRI",
-"title":"Ganador 25kg Adultos de Razas Medianas y Grandes",
-"description":"Ganador 25kg, Alimento para Perros Adultos de Razas Medianas y Grandes. El empaque puede variar",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/51MESADS+FL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"",
-"url":"https://amzn.to/3BQJD11",
-"title":"HI MULTI PRO Alimento Premium Adulto 15kg",
-"description":"HI MULTI PRO Alimento Premium para Perro Adulto 15kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71BgYkwPhaL._AC_SX522_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"472.15",
-"url":"https://amzn.to/3qaBamG",
-"title":"PurinaBeneful Alimento seco Adultos Todos los tamaños 10kg",
-"description":"Purina Beneful Salud Radiante Alimento seco Adultos, Todos los tamaños, Bulto de 10kg",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/5124ahjP46L.__AC_SX300_SY300_QL70_ML2_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"699.00",
-"url":"https://amzn.to/3olh09j",
-"title":"ALEBRIPETS Cama para Mascota a Prueba de Agua",
-"description":"ALEBRIPETS Cama para Perro, Exterior a Prueba de Agua, cómoda, Lavable, Resistente, 100% Mexicana (Grande, Rosa)",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71ZhH+9aNHL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"mascota","precio":"699.00",
-"url":"https://amzn.to/3oqe3nK",
-"title":"ALEBRIPETS Cama para Mascota",
-"description":"ALEBRIPETS Cama para Perro, Colchoneta Ideal para Exteriores, Viajes e Interiores, Fresca, Transportable Incluye Bolsa para Viaje, Base Repelente de Líquidos y Pelo, 100% Mexicana (Grande, Rosa) Modelo Flex",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61QYn957brL._AC_SX569_.jpg"
-},
-{"precio":"632.00","plataforma":"amazon",
-"clase":"bio",
-"url":"https://amzn.to/430gqg4",
-"title":"Miracle-Gro Leaf Shine, 8-Ounce",
-"description":"Miracle-Gro Leaf Shine, 8-Ounce"
-,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/61DMQUIADIL._AC_SX425_.jpg"
-},
-{"precio":"3,359.03","plataforma":"amazon",
-"clase":"bio",
-"url":"https://amzn.to/3qaQvni",
-"title":"Scotts Turf Builder EdgeGuard DLX",
-"description":"Scotts Turf Builder EdgeGuard DLX - Esparcidor de transmisión, capacidad para hasta 15.000 pies cuadrados de producto de césped"
-,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/81oqUiEJe2L._AC_SX425_.jpg"
-},
-{"precio":"369.00","plataforma":"amazon",
-"clase":"bio",
-"url":"https://amzn.to/434xmC9",
-"title":"Semilla De Pasto Césped 1Kg 25m2 Sol Y Sombra Jardin",
-"description":"Semilla De Pasto Césped 1Kg 25m2 Sol Y Sombra Jardin"
-,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/41gbtQ3us1S._AC_SX425_.jpg"
-},
-{"precio":"399.00","plataforma":"amazon",
-"clase":"bio",
-"url":"https://amzn.to/3q7PpZG",
-"title":"SOHYA Nitro-foska Azul de Rápido Efecto 5Kg",
-"description":"SOHYA Nitro-foska Azul de rápido Efecto (5 Kilos)"
-,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71osNnAXWTL._AC_SX569_.jpg"
-},
-{"precio":"399.00","plataforma":"amazon",
-"clase":"bio",
-"url":"https://amzn.to/45FeImj",
-"title":"SOHYA Nitro-foska para generar mas raìz y floracion 5Kg",
-"description":"SOHYA Nitro-foska para generar màs raìz y floraciòn (5 Kilos)"
-,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/81UVcyEsopL._AC_SX569_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"1,780.65",
-"url":"https://amzn.to/3ouafSy",
-"title":"Dart 8J8 1000 Vasos 8oz",
-"description":"Dart 8J8 Foam Cup Hot or Cold, 1000 per Case, 8 oz",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61O2o7C7j9L._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"1,109.00 ",
-"url":"https://amzn.to/43kZkcH",
-"title":"MR. FRESH Vitafilm Grado Alimenticio",
-"description":"MR. FRESH, Vitafilm de Grado Alimenticio, Domestico, 30cms caja con 6 rollos de 300 mts c/u",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61dnwCMDB1L._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"699.00",
-"url":"https://amzn.to/3IyfdUX",
-"title":"Plato Bio 855 Reyma 500 piezas",
-"description":"Plato Desechable Biodegradable Charola Térmica 855 Reyma 500 piezas",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71AYFzz3TsL._AC_SX425_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"879.00",
-"url":"https://amzn.to/3OEQwtZ",
-"title":"Vasos Reyma #8 1000pzs",
-"description":"Vasos Desechables Transparentes Reyma Para Fiesta #8 1000pzs",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71ckQ3B8NUL._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"1,649.00",
-"url":"https://amzn.to/3MA00UG",
-"title":"Envase Reyma 1 Litro Caja Con 500 piezas",
-"description":"Envase Desechable Transparente Reyma 1 Litro Caja Con 500 piezas",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71Tb39joQGL._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"1,335.00",
-"url":"https://amzn.to/3BS0pgh",
-"title":"Vasos Reyma Eu #32 500 piezas",
-"description":"Vasos Desechables Transparentes Reyma para fiesta Eu #32 500 piezas",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71YddSrS1XL._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"1,249.00",
-"url":"https://amzn.to/3BRPZ0b",
-"title":"Envase Desechable Reyma 1/2L Caja 500 piezas",
-"description":"Envase Desechable Transparente Reyma 1/2 Litro Caja 500 piezas",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/710nbnb-TmL._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"1,469.00",
-"url":"https://amzn.to/3BWVZEM",
-"title":"Vasos Reyma Eu #12 1000 piezas",
-"description":"Vasos Desechables Transparentes Reyma para fiesta Eu #12 1000 piezas",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71TCKJd3FgL._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"962.00",
-"url":"https://amzn.to/3q8FumJ",
-"title":"Vasos Desechables Reyma #10 1000pz",
-"description":"Vasos Desechables Transparentes Reyma Para Fiesta #10 1000pz",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/710Ned71gxL._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"659.00",
-"url":"https://amzn.to/3Wvhru6",
-"title":"Plato Desechable Bio 066 Reyma",
-"description":"Plato Desechable Biodegradable Charola Térmica 066 Reyma 10 paquetes de 50 piezas (500 PIEZAS).",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71CrW5iA6tL._AC_SX425_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"249.50",
-"url":"https://amzn.to/3MUDXJC",
-"title":"PAQUETE DE BANDEJAS DESECHABLES L",
-"description":"PAQUETE DE BANDEJAS DESECHABLES L",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71fgdckJb1L._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"514.80",
-"url":"https://amzn.to/43ptRG2",
-"title":"vasos de plástico transparente con tapa de pajita",
-"description":"[100 juegos: 16 onzas] vasos de plástico transparente con tapa de pajita, vasos de plástico desechables de PET de 473 ml con tapas",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/91w8h3q-LQL._SX342_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"365.68",
-"url":"https://amzn.to/3MQsFX0",
-"title":"Stock Your Home Vasos de plástico",
-"description":"Stock Your Home Vasos de plástico desechables con borde dorado de 9 onzas (paquete de 100) elegantes vasos para fiestas, bodas, día festivo, vasos de postre, vasos a granel para ponche de frutas, cócteles, vino",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/81IxFzOgkmL._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"300.03",
-"url":"https://amzn.to/3q8jYOX",
-"title":"SafeWare Juego de 200 vasos desechables ",
-"description":"SafeWare Juego de 200 vasos desechables de plástico transparente para chupitos de gelatina con tapas, contenedor de porción de soufflé",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/91q7uq43IfL._AC_SX425_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"392.70",
-"url":"https://amzn.to/45rlhZm",
-"title":"Vasos de plástico desechables Glad Everyday",
-"description":"Vasos de plástico desechables Glad Everyday para uso diario | Vasos de plástico rojo fuertes y resistentes, vasos de plástico rojo para todas las ocasiones, tazas de 16 onzas (100 unidades)",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71MRndqFEQL._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"573.99",
-"url":"https://amzn.to/45vgBSu",
-"title":"MontoPack Sartenes desechables",
-"description":"MontoPack Sartenes desechables para llevar con tapas transparentes, capacidad de 1 libra de aluminio, recipientes de goteo para alimentos con fuerte sellado para frescura y resistencia a derrames | Tierra, ecológico y reciclable, paquete de 100 unidades de 12.7 x 10.2 cm",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/919k-Qi1E3L._AC_SX425_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"174.11",
-"url":"https://amzn.to/45pgGqH",
-"title":"Kate Aspen Blue Willow",
-"description":"Kate Aspen Blue Willow - Platos de papel decorativos de primera calidad (350 g/m² de peso, juego de 16), perfectos para despedidas de soltera y bodas",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61B22Q+M4DL._AC_SX425_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"329.00",
-"url":"https://amzn.to/424JB08",
-"title":"Hefty Everyday Assorted Colors Party Cups",
-"description":"Hefty Everyday Assorted Colors Party Cups, 16 Oz, 100 Count",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/81uf-BZz2eL._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"337.00",
-"url":"https://amzn.to/3MvMXUm",
-"title":"BERRY GREEN 125 Platos Desechables ",
-"description":"BERRY GREEN 125 Platos Desechables Grandes, 100% de Papel Compostable Material Natural de Alta Calidad, Resistentes a los Liquidos, Ecológico, Hecho de Fibras de Caña de Azúcar de 22.5 cm (9 Pulgadas) Color Natural",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/71HZR+ThC4L._AC_SY355_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"318.00",
-"url":"https://amzn.to/3MxXlL5",
-"title":"BERRY HIP 100 Vasos de Plástico Premium Desechables",
-"description":"BERRY HIP 100 Vasos de Plástico Premium Desechables con Borde Dorado Paquete Con 100 Piezas, Copas Elegantes para Fiestas, Bodas, Postre, Cócteles, Vino (10 ONZAS)",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/81402bbGjEL._AC_SX425_.jpg"
-},
-{
-"plataforma":"amazon","clase":"matprimas","precio":"419.00 ",
-"url":"https://amzn.to/3BVmieN",
-"title":"Berry Hip 50 Platos Desechables Premium",
-"description":"Berry Hip 50 Platos Desechables Elegantes Premium para Fiesta, Vajilla de Platos Cuadrados, Incluye 25 Platos Grandes (25 cm) y 25 Platos medianos (16 cm)",
-"imBase":"imagenes/amz.png",
-"imProd":"https://m.media-amazon.com/images/I/61ib2fwFlYL._AC_SX355_.jpg"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title": "Bolsa Negra Grande",
-"description":"Bolsa negra resistente de asa de 60 * 80 Cm + Los pliegues laterales ofrece excelente capacidad de carga, hecha con material 100% reciclado es responsable con el medio ambiente y cumple la vigente ley de uso de platico de la CDMX",
-"url":"https://materiasprimastocha.mercadoshops.com.mx/",
-"imBase":"imagenes/bolsa.png","imProd":"bolsa.png"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso De Unicel Térmico #10 Caja Con 40 Paq 25 Piezas C/u",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1303993532-vaso-de-unicel-termico-10-caja-con-40-paq-25-piezas-cu-_JM#reco_item_pos=0&reco_backend=machinalis-homes-pdp-boos&reco_backend_type=function&reco_client=home_navigation-recommendations&reco_id=aa558926-00d9-44a7-bed0-c6032e49985b&c_id=/home/navigation-recommendations/element&c_element_order=1&c_uid=883b80b6-0019-4ca5-acd8-a5f4f2bc99f1",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_894091-MLM47344201975_092021-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso De Unicel Térmico 16oz 473ml",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1368779863-vaso-de-unicel-termico-16oz-473ml-_JM#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_885469-MLA51688909757_092022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso De Unicel 1 Litro Caja Con 20 Paq 15 Piezas C/u",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1367023604-vaso-de-unicel-1-litro-caja-con-20-paq-15-piezas-cu-_JM#reco_item_pos=1&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_940083-MLM47879394014_102021-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Tapa Dart Para Vaso 1l 32sl",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1367007465-tapa-dart-para-vaso-1l-32sl-_JM#reco_item_pos=2&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_794153-MLM48858564191_012022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso Dart Unicel #10 25 Vasos",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1481153974-vaso-dart-unicel-10-25-vasos-_JM#reco_item_pos=3&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_881447-MLM51135379897_082022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Tazon De Unicel Térmico Dart #16",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1368792206-tazon-de-unicel-termico-dart-16-_JM#reco_item_pos=4&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_623026-MLM48911674540_012022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso Dart 12oz (355ml) 12j12",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1369608536-vaso-dart-12oz-355ml-12j12-_JM#reco_item_pos=7&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_980724-MLM48931387294_012022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title": "Vaso Dart 8oz (237ml) 8jy8",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1369608652-vaso-dart-8oz-237ml-8jy8-_JM#reco_item_pos=6&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_996349-MLM48931460178_012022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso Jaguar 8 Paquete Con 50 Piezas",
-"description":"Vaso refresquero medida estandar para eventos, este vaso es socialmente responsable y atiende la vigente ley del uso de desechables de la CDMX.",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1481134253-vaso-jaguar-8-paquete-con-50-piezas-_JM#reco_item_pos=5&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
-"imBase":"imagenes/vaso.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_724174-MLM51134909769_082022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Plato Pozolero Biodegradable Ph8 / 20 Paq De 25 Piezas",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1312287382-plato-pozolero-biodegradable-ph8-20-paq-de-25-piezas-_JM#reco_item_pos=8&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_980641-MLM47519921050_092021-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso Refresquero Jaguar #8 Caja Con 20 Paq 50 Piezas C/u",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1303199837-vaso-refresquero-jaguar-8-caja-con-20-paq-50-piezas-cu-_JM#reco_item_pos=9&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/vaso.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_800593-MLM47330376180_092021-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Tazon Dart Desechable 473ml Paq De 25 Piezas",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1481114532-tazon-dart-desechable-473ml-paq-de-25-piezas-_JM#reco_item_pos=10&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_889564-MLM51134656873_082022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Tapa Dart Para Vaso De 12oz 12-sl",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1368834398-tapa-dart-para-vaso-de-12oz-12-sl-_JM#reco_item_pos=11&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_779634-MLM48911396390_012022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso Reyma #8 Caja 1000 Vasos",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1443260730-vaso-reyma-8-caja-1000-vasos-_JM#reco_item_pos=12&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/vaso.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_608595-MLM50381737652_062022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso 16 Onzas Desechable Paq De 20 Piezas",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1480957921-vaso-16-onzas-desechable-paq-de-20-piezas-_JM#reco_item_pos=13&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_986267-MLM51134456585_082022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso Dart Desechable 32j32 Paq Con 15 Piezas 946ml-32onzas",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1480877680-vaso-dart-desechable-32j32-paq-con-15-piezas-946ml-32onzas-_JM#reco_item_pos=14&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_760934-MLM51133671815_082022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Tazon Dart Desechable 16mj32 473ml Paq De 25 Piezas Con Tapa",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1480964538-tazon-dart-desechable-16mj32-473ml-paq-de-25-piezas-con-tapa-_JM#reco_item_pos=15&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_889564-MLM51134656873_082022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso Dart Desechable 10jy10 Paq Con 25 Piezas 296ml-10onzas",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1480956360-vaso-dart-desechable-10jy10-paq-con-25-piezas-296ml-10onzas-_JM#reco_item_pos=16&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_958734-MLM51134187970_082022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Vaso Jaguar 8 Paquete De 50 Con Tapas",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1481127849-vaso-jaguar-8-paquete-de-50-con-tapas-_JM#reco_item_pos=17&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/vaso.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_671228-MLM51134965515_082022-O.webp"
-},
-{
-"plataforma":"ml","clase":"matprima",
-"title":"Tapa Dart Para Vaso De 16oz 16-sl",
-"description":"[No Availiable]",
-"url":"https://articulo.mercadolibre.com.mx/MLM-1368828346-tapa-dart-para-vaso-de-16oz-16-sl-_JM#reco_item_pos=18&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
-"imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_725545-MLM48911413029_012022-O.webp"
-},
-{
-"plataforma":"amazon","clase":"audio","precio":"719.40",
-"title":"Autoestéreo Táctil",
-"description":"Autoestéreos Pantalla táctil capacitiva de 7 pulgadas, reproductor multimedia digital MP5 Bluetooth para automóvil, radio FM AUX USB, control de control remoto de soporte enlace de espejo",
-"url":"https://amzn.to/3OWYG0I",
-"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71vKw+vygtL._AC_SX522_.jpg"
-},
-{
-"plataforma":"amazon","clase":"audio","precio":"999.00",
-"title":"YOMYM Autoestéreo Táctil",
-"description":"YOMYM Autoestéreos Pantalla táctil capacitiva de 7 Pulgadas, Reproductor Multimedia Digital MP5 Bluetooth para automóvil, Camara De Reversa,Controles del Volante,Identificador de Llamadas,Bluetooth",
-"url":"https://amzn.to/47uLozD",
-"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/61HUVbMocYL._AC_SX522_.jpg"
-},
-{
-"plataforma":"amazon","clase":"audio","precio":"551.00",
-"title":"DIN Car BT MP5 Táctil",
-"description":"DIN Car BT MP5 Player Stereo-Pantalla táctil de 7 Pulgadas Doble DIN Car BT MP5 Player Stereo FM Radio Support Reverse Player/WMA/USB/SD/Auxiliary Input/Receptor/Rear View Backup Camera",
-"url":"https://amzn.to/3YycQs4",
-"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/61Lzhn+7r5L._AC_SX522_.jpg"
-},
-{
-"plataforma":"amazon","clase":"audio","precio":"718.00",
-"title":"JBL Bocina Portátil GO 3",
-"description":"JBL Bocina Portátil GO 3 Bluetooth - Azul",
-"url":"https://amzn.to/45uhPfA",
-"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71e4cZfNT0L._AC_SX522_.jpg"
-},
-{
-"plataforma":"amazon","clase":"audio","precio":"1,282.00",
-"title":"Ultimate Ears Wonderboom 2 Bocina Inalámbrica",
-"description":"Ultimate Ears Wonderboom 2 Bocina Inalámbrica, Bluetooth, Sonido Envolvente de 360°, Resistente al Agua IP67, Conexión de 2 Altavoces para Sonido Potente, Batería de 13 h - Roja",
-"url":"https://amzn.to/3Efvig5",
-"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/81u4a0ODyyL._AC_SX522_.jpg"
-}
-,
-{
-"plataforma":"amazon","clase":"audio","precio":"259.00",
-"title":"Bocina Bluetooth 5.0 ",
-"description":"Bocina Bluetooth 5.0 Portátil, Altavoz bluetooth, Altavoz Inalámbrico Deportivo, Altavoz inalámbrico portátil con 7 Temas LED de Color, Micrófono con Llamadas Manos Libres, para iPhone, iPad, Android",
-"url":"https://amzn.to/3OAnt9h",
-"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/714at5uDr7L._AC_SX522_.jpg"
-},
-{
-"plataforma":"amazon","clase":"audio","precio":"349.00",
-"title":"Hora Bocina Bluetooth",
-"description":"1 Hora Bocina Bluetooth, Barra de Sonido Bocinas para PC TV, RGB Altavoces Inalámbricos Bluetooth 5.1 con 2000mAh Batería Luces LED, Soporte 3.5 mm AUX/TF/USB/Bluetooth para Interior, Hogar y Fiesta",
-"url":"https://amzn.to/3YyOn60",
-"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/61r5iAxAbHL._AC_SX522_.jpg"
-}
-]
+    {
+    "plataforma":"amazon","clase":"transporte","precio":"497.00",
+    "url":"https://www.amazon.com.mx/dp/B0C77R5JB5?pf_rd_p=9424eb5c-6d7d-4e4b-bd88-a7aa70cf0787&pf_rd_r=GXP5E51QW5QBGX4J30BB&pd_rd_wg=wbV7P&pd_rd_w=eivyM&content-id=amzn1.sym.9424eb5c-6d7d-4e4b-bd88-a7aa70cf0787&pd_rd_r=ce228138-e49a-4c9d-b211-052d9f0c0b50&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=7d27f5140b8ec326fbeccda95d4e441e&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Estereo Tactil",
+    "description":"FINYQBET Estéreo para Automóvil Pantalla Táctil Capacitiva de 7 Pulgada Autoestéreos para Carro con Cámara Trasera de 12 LED Bluetooth Reproductor MP5 Soporte Enlace de Espejo Radio FM",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61l0V9RiulL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"transporte","precio":"3,704.06",
+    "url":"https://www.amazon.com.mx/dp/B08NL83LP4?ie=UTF8&pf_rd_p=f7096115-441a-405c-9497-d7d7518cfbe9&pf_rd_r=NMA7TW8R6VDY0BQTYS0A&pd_rd_wg=LePCG&pd_rd_w=Jls9l&pd_rd_r=3a6057a2-8e73-4c31-848c-fc0fab987dcf&aref=Y0qp3RzYL5&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=a625b943d3286492c63a4f1c00cdb8a9&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Estereo Tactil Premuium",
+    "description":"Planet Audio P70CPA-C Apple CarPlay Reproductor multimedia para coche Android – Doble Din, pantalla táctil capacitiva de 7 pulgadas, Bluetooth, USB, A/V, sin CD DVD, iluminación multicolor, cámara de respaldo incluida",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71ZrhCzw+QL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"transporte","precio":"183.08",
+    "url":"https://www.amazon.com.mx/FINYQBET-Bluetooth-Reproductor-Estereof%C3%B3nico-Interconnection/dp/B0CB9TB7MV?pd_rd_w=n2F7E&content-id=amzn1.sym.5264c009-8397-4cbc-8567-5c836f389efa&pf_rd_p=5264c009-8397-4cbc-8567-5c836f389efa&pf_rd_r=01S5H06EX22945JB9F03&pd_rd_wg=56iiK&pd_rd_r=a3f0ee5d-62ff-40d0-8ed2-febaad9ad571&pd_rd_i=B0CB9TB7MV&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=ed6f15ebe5ff2d27c92edc9598dcab24&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Estereo Sencillo",
+    "description":"FINYQBET Estéreo para Auto con Mp3 2 USB Bluetooth 1 DIN Reproductor de Mp3 Estereofónico para Vehículos Car Casing, Bluetooth Call Card, Bluetooth Phone Interconnection",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/611a8NRv29L._AC_SX466_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"transporte","precio":"1777.50",
+    "url":"https://www.amazon.com.mx/dp/B01CG8N7BM?pd_rd_i=B01CG8N7BM&pd_rd_w=Tu8Zy&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=Y05EBSQMHS26BQ9KA5K7&pd_rd_wg=FFpfl&pd_rd_r=135143ac-d223-47db-9ec1-22d7c2cefcb2&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=df86ad9c3f0385cca8516d1c992b0318&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Estereo Calsico",
+    "description":"BOSS Audio mr508uabw Bluetooth, 1 DIN, Marine, MP3, CD, Am/FM Receptor, Silver NO Detachable Face",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71ERZzTpGAL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"transporte","precio":"289.00",
+    "url":"https://www.amazon.com.mx/Gen%C3%A9rico-Juego-Universal-Tapetes-Camioneta/dp/B0D8XP9WZF?dib=eyJ2IjoiMSJ9.cuGTIPz-uNE5CtnQ4T_bjy8HP7WbAitmesShnfJePr5NuOotHJxLft0ljeZKujEfi1sTQSu6ktrurXidv8xfwRLfDo_JFA9mlZBOYYOaOCo4qulL5bIMKzRbvVzYEtlOP6oKI_D4hQAAqQHC76cOPpoytvvxQjVss6V10Tg8f41gjW3lVHgKh4ShEZSVcfiitWdik5abN3NVAvNe-WXfDZwH2y-ryN6EVCGxp3zuFI-HkgzO2o7lUQpOfmYEfNJGP9wQRCigwakp48_sg_HcLmH160a-CnWEfGu1mbjVpas.DT7gKzOlXs8414AiZdpgutfzFuIE5B8O6GwLKouIztY&dib_tag=se&keywords=tapetes+para+auto&qid=1724292689&sr=8-8&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=48fa6ddfaf0427c2619b87eae3c3228c&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Tapetes Generico uso Rudo",
+    "description":"Genérico Juego Universal De 3 Tapetes De Uso Rudo Auto- Camioneta",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51OW2eLL6jL._AC_SX450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"transporte","precio":"1465.41",
+    "url":"https://www.amazon.com.mx/LUJUNTEC-delanteros-1994-1997-reflector-transparente/dp/B0D2NY9THH?pd_rd_w=LnjiE&content-id=amzn1.sym.39b841eb-b9fa-4001-8647-a107484d25b9&pf_rd_p=39b841eb-b9fa-4001-8647-a107484d25b9&pf_rd_r=K7T837SSVK3FSS2JYVGG&pd_rd_wg=9cVqG&pd_rd_r=c98c7b91-723f-4b56-b675-1a12a4c8c810&pd_rd_i=B0D2NY9THH&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=f264e958ba6eafe2a82cf12acf17715b&language=es_MX&ref_=as_li_ss_tl",
+    "title":"faros",
+    "description":"LUJUNTEC - Conjunto de faros delanteros para Honda para Accord 1994-1997 en carcasa negra, reflector ámbar, lente transparente, repuesto para lado del conductor y del pasajero",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/81gXGkTDedL._AC_SX450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"mobiliario","precio":"1,399.00",
+    "url":"https://www.amazon.com.mx/ADF-Organizador-Estanter%C3%ADa-Almacenamiento-Ajustable/dp/B0CF7VY9Q7?dib=eyJ2IjoiMSJ9.eb5Odm-nDmNbEgIkFU8zQyEkWkBH9sWt8fl9x1ULnzQrSbbOB3bVGLn_03j6knWjSSzqPyte8JYaP4kDiOVzMkNeF6JyQhp3l-1NdZXtRzYVKWEMCga06pYyBaAWpQkvZNvSr0wAipfUzgssbZ8uIEXDXBfbqwWODxaXr8-EcoQbDup8qAeTBXnFavQM6MtbkzDbMdu1oe8byv1tmh4nphbNfRo1pTGHJgs2KeN1PE4-rwCEEC7JtOa3AcDFu2OAA85ULLNI145oOcu3mhF5jLIBk6-wb_lwVKeyCKwTWpA.VQ7HhJMiyw-ft7Xcc0ROx4aXBo4CtwmC5LlnckSo9Fc&dib_tag=se&keywords=estantes&qid=1724293416&sr=8-4&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=443f88bf84d8b948f403020cd9cfad9a&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Estante metalico para Negocio",
+    "description":"ADF - Anaquel Estante Metálico Rack Organizador, Estantería de Almacenamiento Ajustable Multiusos Uso rudo (Negro, 6 Niveles)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71Z5Z+2s3-L._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"mobiliario","precio":"7,999.00",
+    "url":"https://www.amazon.com.mx/dp/B0DCWNND18?psc=1&pd_rd_i=B0DCWNND18&pd_rd_w=KBGHF&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=0TX4H2B7A8RGJQGZC11F&pd_rd_wg=Ry1ja&pd_rd_r=8faa9d24-7ee4-4f78-83f9-fd8c9f15fef5&s=kitchen&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=bb354abc1d6b86b029ad8822b7c8d271&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Estante Industrial",
+    "description":"RIVARRO Estante Industrial DE Acero 4 REPISAS",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51LnKzYJWCL._AC_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"mobiliario","precio":"899.00",
+    "url":"https://www.amazon.com.mx/Onof-Estante-Met%C3%A1lico-Organizador-Rectangular/dp/B0B9KDN7D5?dib=eyJ2IjoiMSJ9.eb5Odm-nDmNbEgIkFU8zQyEkWkBH9sWt8fl9x1ULnzQrSbbOB3bVGLn_03j6knWjSSzqPyte8JYaP4kDiOVzMkNeF6JyQhp3l-1NdZXtRzYVKWEMCga06pYyBaAWpQkvZNvSr0wAipfUzgssbZ8uIEXDXBfbqwWODxaXr8-EcoQbDup8qAeTBXnFavQM6MtbkzDbMdu1oe8byv1tmh4nphbNfRo1pTGHJgs2KeN1PE4-rwCEEC7JtOa3AcDFu2OAA85ULLNI145oOcu3mhF5jLIBk6-wb_lwVKeyCKwTWpA.VQ7HhJMiyw-ft7Xcc0ROx4aXBo4CtwmC5LlnckSo9Fc&dib_tag=se&keywords=estantes&qid=1724293416&sr=8-2&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=f71f02acf4b3b65d965fd8321bed53b1&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Estante Comercial",
+    "description":"Onof Estante Metálico Rack Organizador para Hogar de 5 Niveles Rectangular (Carbon)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/81kWppL0yWL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"mobiliario","precio":"999.00",
+    "url":"https://www.amazon.com.mx/dp/B0BJCYH9YK?pd_rd_i=B0BJCYH9YK&pd_rd_w=WT3a5&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=1YH0J4WT55PXX7B82K5N&pd_rd_wg=IOdLR&pd_rd_r=67314c52-94ab-4587-85c8-97840ed0b10f&s=kitchen&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=b433a18d6d0779e7a74713b8c74c6492&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Estante Pequeño Comercial",
+    "description":"ADF | Estante Exhibidor Metálico Ajustable de Alta Resistencia | Anaquel Organizador de 4 Niveles | Capacidad de Carga 200kg | 100x84x30cm | Calibre 26 | Rack Organizador (Gris)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51InctYwM8L._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"mobiliario","precio":"1,914.00",
+    "url":"https://www.amazon.com.mx/El-Arte-En-Acrilico-Vitrina/dp/B01MRBZC7T?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3K7OD1H2TGWBC&dib=eyJ2IjoiMSJ9.-ASYun0jkBsO-hIoC_WK_rHnmkgPwCYSbPeeZgQOGepAFDrHiwz40Ns7zva0UErdGqBLCrFUfIi8lKR2yjSRRbb3tCK8nCXKjVNVnlssRGSQeWHYyiTpDGIiEkdTKjsbGyWKNDT17e4Z5mebcMhL_5fIXZm7SMtdvRrD5gpcdNSNJgjDdE-xqPNyi_ARffWnIqmxgSTfxdlQKe6p2F4SaFpV1MX92ILGmTf-cUMJWvQ.sqnURCF0lrUPkc1W2syM6zYt1jqx_N7OA_JTw2gRLtQ&dib_tag=se&keywords=mostrador&qid=1724294750&s=kitchen&sprefix=mostrador%2Ckitchen%2C197&sr=1-3&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=f15aa79ab7c64eeffa466e46a8db1387&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vitrina De Acrilico",
+    "description":"Vitrina De Acrilico",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71iSR1vnisL._AC_SY879_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"134.00",
+    "url":"https://www.amazon.com.mx/Clip-Plus-Terminal-Bluetooth-Tarjetas/dp/B082P5MTFZ?dib=eyJ2IjoiMSJ9.y-0vZYguwygGMLFjuUmMV0ko_WGb0BsLY-RhK3bYRwhOLFbJ1gWlnu_ECKgbasfYqbsto41Uj8xroMM3QKgkJ4bU1jK_Vd6sLb-1mny6PT9qrCa36t33ymazrvrrBIDfDZxPhX-3MM3bqkNTwXF8Urt4WPMJGnfZkiAtmd8PL4f1z2NZh_DG1-x5bI-jjVBYRmSZEHBPS0iNeyp_mb8X0CaOzrmGc5Od_O2idHAEArL3QK9F_rCfUWFaMRg2rJanIG7bYcNKDImUOFywRaAYmWm9sV5upiSY2SFn00xtVCs.RtUzitLFEjlrNisH2rkJjaoHScXx889K9CZGWW1nvEc&dib_tag=se&keywords=terminales&qid=1724295751&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=4de2c389d17a6ffe290ea9401f4cfa0e&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Clip Plus",
+    "description":"Clip Plus 2 - Terminal Punto de Venta - La Terminal con Bluetooth para Aceptar Todas Las Tarjetas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51Oho8vJBbL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"817.00",
+    "url":"https://www.amazon.com.mx/Clip-Pro-Terminal-Port%C3%A1til-Domicilio/dp/B0B1LB8CQV?dib=eyJ2IjoiMSJ9.y-0vZYguwygGMLFjuUmMV0ko_WGb0BsLY-RhK3bYRwhOLFbJ1gWlnu_ECKgbasfYqbsto41Uj8xroMM3QKgkJ4bU1jK_Vd6sLb-1mny6PT9qrCa36t33ymazrvrrBIDfDZxPhX-3MM3bqkNTwXF8Urt4WPMJGnfZkiAtmd8PL4f1z2NZh_DG1-x5bI-jjVBYRmSZEHBPS0iNeyp_mb8X0CaOzrmGc5Od_O2idHAEArL3QK9F_rCfUWFaMRg2rJanIG7bYcNKDImUOFywRaAYmWm9sV5upiSY2SFn00xtVCs.RtUzitLFEjlrNisH2rkJjaoHScXx889K9CZGWW1nvEc&dib_tag=se&keywords=terminales&qid=1724295751&sr=8-3-spons&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=66c1baef6ce9e3719ee4f612dcd16ed6&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Clip Tactil con Internet",
+    "description":"Clip Pro 2 - Punto de Venta - La Terminal Portátil Perfecta para Entregas a Domicilio",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/511Ha4cWXkL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"1,299.00",
+    "url":"https://www.amazon.com.mx/Clip-Total-Terminal-Completa-Imprime/dp/B083N7HRZ4?dib=eyJ2IjoiMSJ9.y-0vZYguwygGMLFjuUmMV0ko_WGb0BsLY-RhK3bYRwhOLFbJ1gWlnu_ECKgbasfYqbsto41Uj8xroMM3QKgkJ4bU1jK_Vd6sLb-1mny6PT9qrCa36t33ymazrvrrBIDfDZxPhX-3MM3bqkNTwXF8Urt4WPMJGnfZkiAtmd8PL4f1z2NZh_DG1-x5bI-jjVBYRmSZEHBPS0iNeyp_mb8X0CaOzrmGc5Od_O2idHAEArL3QK9F_rCfUWFaMRg2rJanIG7bYcNKDImUOFywRaAYmWm9sV5upiSY2SFn00xtVCs.RtUzitLFEjlrNisH2rkJjaoHScXx889K9CZGWW1nvEc&dib_tag=se&keywords=terminales&qid=1724295751&sr=8-2-spons&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=5e77b9ff4e2c6b6b9857d86192bc3c9a&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Clip Total con Internet incluido",
+    "description":"Clip Total - Punto de Venta - La Terminal más Completa Que Imprime Tus Tickets",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51+KxOXxUPL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"4,499.00",
+    "url":"https://www.amazon.com.mx/dp/B0B1LG1JYT?psc=1&pd_rd_i=B0B1LG1JYT&pd_rd_w=RK0To&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=3NNXV78D0BF03T7GHAGG&pd_rd_wg=4suaA&pd_rd_r=d3074923-96c4-474d-85ee-1721d206c9df&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=53501f80f8592a20007cc84bad94974b&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Punto de Venta CLIP Completo",
+    "description":"Clip Stand - El Punto de Venta más Completo para tu Negocio",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/410j1zqpc9L._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"599.00",
+    "url":"https://www.amazon.com.mx/dp/B0BTBN83TV?psc=1&pd_rd_i=B0BTBN83TV&pd_rd_w=gTPvs&content-id=amzn1.sym.976d90eb-18e8-4cbe-85b5-2544e933a847&pf_rd_p=976d90eb-18e8-4cbe-85b5-2544e933a847&pf_rd_r=3NNXV78D0BF03T7GHAGG&pd_rd_wg=4suaA&pd_rd_r=d3074923-96c4-474d-85ee-1721d206c9df&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&linkCode=ll1&tag=tochofullde0d-20&linkId=da1af7362255cf6f68f0d6844dde0e36&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Rollos de Papel para Terminal",
+    "description":"100 Rollos Térmico 57x40 mm Miniprinter，Recibo de Venta Impresora 58 mm，Xprinter, Ticket, Para impresora Portátil",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61OeKQMSquL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"399.00",
+    "url":"https://www.amazon.com.mx/dp/B0BJZL3HBD?psc=1&pd_rd_i=B0BJZL3HBD&pd_rd_w=RK0To&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=3NNXV78D0BF03T7GHAGG&pd_rd_wg=4suaA&pd_rd_r=d3074923-96c4-474d-85ee-1721d206c9df&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=fdd8a689c5aae8fb004dba532c4032fd&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Caja de Seguridad",
+    "description":"WELIKERA Caja para Dinero de Seguridad con Llaves y Cerradura de Seguridad,Caja Registradora con 4 Charolas para Billetes y 5 Depósitos para Monedas,Caja Fuerte para Almacenamiento de Efectivo Negro",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71GlRdpSFKL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"2,299.00",
+    "url":"https://www.amazon.com.mx/dp/B0BWHSZCJ2?psc=1&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=3NNXV78D0BF03T7GHAGG&pd_rd_wg=4suaA&pd_rd_w=RK0To&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pd_rd_r=d3074923-96c4-474d-85ee-1721d206c9df&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=f0af7a640ad1db5633d472a9270bc7e2&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Contador con Detector de Billetes",
+    "description":"HEEDU Contadora de Billetes Mexicanos, Detector De Billetes Falsos con Tres Pantallas LED, Velocidad de conteo 1000pcs/min, Disponible en Moneda Mexicana, Estadounidense, Euro y Otras Divisas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/8138-nsUinL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"149.00",
+    "url":"https://www.amazon.com.mx/MERCADO-PAGO-POINT-Blue-Bluetooth/dp/B0BJYHDD81?dib=eyJ2IjoiMSJ9.y-0vZYguwygGMLFjuUmMV0ko_WGb0BsLY-RhK3bYRwhOLFbJ1gWlnu_ECKgbasfYqbsto41Uj8xroMM3QKgkJ4bU1jK_Vd6sLb-1mny6PT9qrCa36t33ymazrvrrBIDfDZxPhX-3MM3bqkNTwXF8Urt4WPMJGnfZkiAtmd8PL4f1z2NZh_DG1-x5bI-jjVBYRmSZEHBPS0iNeyp_mb8X0CaOzrmGc5Od_O2idHAEArL3QK9F_rCfUWFaMRg2rJanIG7bYcNKDImUOFywRaAYmWm9sV5upiSY2SFn00xtVCs.RtUzitLFEjlrNisH2rkJjaoHScXx889K9CZGWW1nvEc&dib_tag=se&keywords=terminales&qid=1724295751&sr=8-7&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&linkCode=ll1&tag=tochofullde0d-20&linkId=068e11473df5c63fb08fd71da8f46e8e&language=es_MX&ref_=as_li_ss_tl",
+    "title":"MERCADO PAGO POINT Blue",
+    "description":"MERCADO PAGO POINT Blue, Terminal para Tarjetas con Conexión Bluetooth, Incluye Tarjeta Debit MasterCard",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71Ec3hG2-uL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"basculas","precio":"599.00",
+    "url":"https://www.amazon.com.mx/dp/B09Q9ZW57K?psc=1&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=3NNXV78D0BF03T7GHAGG&pd_rd_wg=4suaA&pd_rd_w=RK0To&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pd_rd_r=d3074923-96c4-474d-85ee-1721d206c9df&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=28f1dbff4e522826dc5d2f9f9828f826&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Bascula Digital",
+    "description":"Bascula Comercial 40 Kg Bascula Digital Comercial Con Doble Pantalla Y Teclado 40 Kg de 33cmx23cm, Bascula para alimentos, Incluye Funda para trasladar",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71B67Ld4U1L._SX466_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"basculas","precio":"1,029.00",
+    "url":"https://www.amazon.com.mx/dp/B071RQFLLN?pd_rd_i=B071RQFLLN&pd_rd_w=CfITJ&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=XWQD9P9QN8AZVB4JRN7F&pd_rd_wg=io201&pd_rd_r=9e40d759-1b37-440f-870f-f7826fbb3a05&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=63416b7ddce77c7c03e05425f99b55f0&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Báscula RHINO Comercial",
+    "description":"RHINO, Báscula Digital Comercial, 20 kg / 2 g de Precisión, Pantallas de Usuario y Cliente, Función de Cálculo de Cambio, Conteo de piezas y TARA, Puerto USB para conexión a PC, BAR-6X",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71UUS9qAsrL._SX466_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"basculas","precio":"899.00",
+    "url":"https://www.amazon.com.mx/dp/B0CSF1QFFC?psc=1&pd_rd_i=B0CSF1QFFC&pd_rd_w=CfITJ&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=XWQD9P9QN8AZVB4JRN7F&pd_rd_wg=io201&pd_rd_r=9e40d759-1b37-440f-870f-f7826fbb3a05&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=ec25f4168a1baa580666fcad3f1a0966&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Bascula Comercial Digital Uso Rudo",
+    "description":"RagaBasics, Bascula Comercial Digital de Plataforma para Pesar Hasta 200Kg, Diseño Plegable, Pantalla LCD, Funcion Tara y Bateria Recargable, Uso Rudo, Tienda, Bodega o Almacen",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/619DMA1p+gL._SX466_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"basculas","precio":"4,345.00",
+    "url":"https://www.amazon.com.mx/dp/B0CLQPK1G8?psc=1&pd_rd_i=B0CLQPK1G8&pd_rd_w=CfITJ&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=XWQD9P9QN8AZVB4JRN7F&pd_rd_wg=io201&pd_rd_r=9e40d759-1b37-440f-870f-f7826fbb3a05&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=859abe06fe8f92afe55e66b412c5c584&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Bascula RHINO Uso Rudo Premium",
+    "description":"RHINO, Báscula de Plataforma, 300 kg / 100 g, Fabricada de Acero al Carbono de alta Resistencia a Impactos y Uso Rudo, Función TARA y Pesaje de Animales con Indicador Inalambrico, BAPIC-300",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61SoCvCH9fL._SX466_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"mobiliarios","precio":"296.10",
+    "url":"https://www.amazon.com.mx/Selladora-Termosellado-Polipropileno-Almacenamiento-Herramienta/dp/B0BZ4DVMGZ?pd_rd_w=q4obp&content-id=amzn1.sym.5264c009-8397-4cbc-8567-5c836f389efa&pf_rd_p=5264c009-8397-4cbc-8567-5c836f389efa&pf_rd_r=4MNB9TXJY09DEZEQ814B&pd_rd_wg=6ydnw&pd_rd_r=72993a4b-44a8-4558-8bbb-4e0f4dd77a08&pd_rd_i=B0BZ4DVMGZ&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=007b8b007e7ade97c559a94e9dea71ce&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Selladora 30cm",
+    "description":"Sellador de Bolsas Maquina | Selladora Manual de Bolsas | Máquina de Envasado de Alimentos Termosellado | Para Bolsas de Plástico Bolsas de Polipropileno Almacenamiento de Alimentos(30cm Azul)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71YoPaV4ixL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"basculas","precio":"879.00",
+    "url":"https://www.amazon.com.mx/dp/B0C1PSQMK6?psc=1&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=XWQD9P9QN8AZVB4JRN7F&pd_rd_wg=io201&pd_rd_w=CfITJ&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pd_rd_r=9e40d759-1b37-440f-870f-f7826fbb3a05&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=c28b917c632c6506f365a022bc206acc&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Bascula Industrial",
+    "description":"Bascula Comercial Industrial Digital Plegable 150 Kg 110v Uso Rudo Con Mastil de Acero, Calculo de Peso y Tara Bateria Recargable Alta Precisión 150 Kg",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/611MmkRB2mL._SX425_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"basculas","precio":"1,827.00",
+    "url":"https://www.amazon.com.mx/dp/B07FQYH28W?psc=1&pd_rd_i=B07FQYH28W&pd_rd_w=CfITJ&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=XWQD9P9QN8AZVB4JRN7F&pd_rd_wg=io201&pd_rd_r=9e40d759-1b37-440f-870f-f7826fbb3a05&s=officeproduct&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=350609e8a28d41da559f3915b47a97d0&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Báscula RHINO Digital Colgante",
+    "description":"RHINO, Báscula Digital Colgante, 30 kg / 5 g de Precisión, Pantalla Doble de Usuario y Cliente con Precio, Peso e Importe, Función TARA, Batería Recargable 200 Horas de Duración, BACMU-30",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61g-r-OAo1L._SY445_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"mobiliario","precio":"2,539.00",
+    "url":"https://www.amazon.com.mx/MUNDO-MUEBLES-Estructura-Organizador-Galvanizado/dp/B07D1CKPR6?pd_rd_w=dFjMh&content-id=amzn1.sym.5264c009-8397-4cbc-8567-5c836f389efa&pf_rd_p=5264c009-8397-4cbc-8567-5c836f389efa&pf_rd_r=XWQD9P9QN8AZVB4JRN7F&pd_rd_wg=io201&pd_rd_r=9e40d759-1b37-440f-870f-f7826fbb3a05&pd_rd_i=B07D1CKPR6&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=6dc9223d15e90ed335ad498808fa5aac&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Archivero",
+    "description":"MUNDO IN MUEBLES Archivero Vertical con 2 Gavetas y 1 Gaveta Papelera - Metálico, Solución de Almacenamiento Eficiente para Oficina, Organizador Duradero y Seguro, Muebles Organización - Color Negro",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51ch+rKgTbL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"mobiliario","precio":"1,999.00",
+    "url":"https://www.amazon.com.mx/dp/B0D7LDPGGZ?pd_rd_i=B0D7LDPGGZ&pd_rd_w=xhRs4&content-id=amzn1.sym.976d90eb-18e8-4cbe-85b5-2544e933a847&pf_rd_p=976d90eb-18e8-4cbe-85b5-2544e933a847&pf_rd_r=KY8BKT4F7PMFHJJ9GSY2&pd_rd_wg=yGGrM&pd_rd_r=f2912ce1-cb85-455c-832e-a44b4d4adf8a&s=kitchen&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=15e66dfdf7a346162e40d5e6c5aa768d&language=es_MX&ref_=as_li_ss_tl",
+    "title":"HOSU Silla Ergonómica",
+    "description":"HOSU Silla de Escritorio, Silla de Oficina Ergonómica con Cabecera y Soporte Lumbar Ajustable Cojín de Asiento Grueso Silla Gamer Ejecutiva Minimalista para Escritorio (Blanco & Gris)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/617VJaGeGCL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"mobiliario","precio":"2,399.00",
+    "url":"https://www.amazon.com.mx/dp/B0D43S3753?pd_rd_i=B0D43S3753&pd_rd_w=lifxy&content-id=amzn1.sym.afa292da-2dba-4556-bdf1-4b376c1e0a6c&pf_rd_p=afa292da-2dba-4556-bdf1-4b376c1e0a6c&pf_rd_r=T610G8WN6JJRW9A3D912&pd_rd_wg=zXdkY&pd_rd_r=cbbcdba3-9447-4202-8e29-86c436d3c7e8&s=kitchen&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=4af7ea9bcb6a324f28380ae58fbf6843&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Silla Gamer Premium",
+    "description":"ISADEN MARKEY Silla Gamer Premium Reclinable Ergonomica Escritorio Gaming Oficina (Azul)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/610xhViQ6EL._AC_SY879_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"diablito","precio":"1,495",
+    "url":"https://www.amazon.com.mx/DIA-385P-Diablo-plataforma-ruedas-neum%C3%A1ticas/dp/B01HMMN4LA?dib=eyJ2IjoiMSJ9.E8jOnZHWclImhjWFUaDQB8ESbhDt1bbl_6lpW4UibeIXQv10BeYhmsyFU2zSTxJDOcqP0kSxyyerVMNBzbW1fbrx_XcTPghjZZgZCZbpZIzuUSbdPRL8_RMuy4u6IskKi4CCoSt1Nk1WGY2xUIzMysg4ynHsr7NxYt1P6B6BcfurMUREf3qa1hF3asBYhtLIiL7BtcI-3bRQ8jqJdHZInlIogEVvtOi_VaFrT7xddZ89r1OH4oYTjnIBELd_DMpVc8DrIkspYJwlPcRXzIVzv_nG_GYrTq9IXPHC1MiAtcI.xOvv7GdS6K6C96VnAaTJ1KmKNPgiB1LXQb2Bgp1NoHM&dib_tag=se&keywords=diablito&qid=1724302644&sr=8-10&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=6f1fa2457750be6686b97b766b6216f8&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Diablo de carga Pretul",
+    "description":"Pretul DIA-385P, Diablo de carga plataforma capacidad 385 kg ruedas neumáticas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61Pn1jQdBjL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"diablito","precio":"1,199.00",
+    "url":"https://www.amazon.com.mx/Diablo-Carga-No-Capacidad-200kg/dp/B0BKTKHDLD?dib=eyJ2IjoiMSJ9.E8jOnZHWclImhjWFUaDQB8ESbhDt1bbl_6lpW4UibeIXQv10BeYhmsyFU2zSTxJDOcqP0kSxyyerVMNBzbW1fbrx_XcTPghjZZgZCZbpZIzuUSbdPRL8_RMuy4u6IskKi4CCoSt1Nk1WGY2xUIzMysg4ynHsr7NxYt1P6B6BcfurMUREf3qa1hF3asBYhtLIiL7BtcI-3bRQ8jqJdHZInlIogEVvtOi_VaFrT7xddZ89r1OH4oYTjnIBELd_DMpVc8DrIkspYJwlPcRXzIVzv_nG_GYrTq9IXPHC1MiAtcI.xOvv7GdS6K6C96VnAaTJ1KmKNPgiB1LXQb2Bgp1NoHM&dib_tag=se&keywords=diablito&qid=1724302644&sr=8-15&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=beba21b40f34cf6b168874610821287c&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Diablo De Carga #2",
+    "description":"Diablo De Carga No. 2, Capacidad 200kg",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/41iHKXKKWjL._AC_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"diablito","precio":"2,050.00",
+    "url":"https://www.amazon.com.mx/Fiero-DIA-450-Diablo-Carga-450/dp/B013SF3FKK?dib=eyJ2IjoiMSJ9.E8jOnZHWclImhjWFUaDQB8ESbhDt1bbl_6lpW4UibeIXQv10BeYhmsyFU2zSTxJDOcqP0kSxyyerVMNBzbW1fbrx_XcTPghjZZgZCZbpZIzuUSbdPRL8_RMuy4u6IskKi4CCoSt1Nk1WGY2xUIzMysg4ynHsr7NxYt1P6B6BcfurMUREf3qa1hF3asBYhtLIiL7BtcI-3bRQ8jqJdHZInlIogEVvtOi_VaFrT7xddZ89r1OH4oYTjnIBELd_DMpVc8DrIkspYJwlPcRXzIVzv_nG_GYrTq9IXPHC1MiAtcI.xOvv7GdS6K6C96VnAaTJ1KmKNPgiB1LXQb2Bgp1NoHM&dib_tag=se&keywords=diablito&qid=1724302644&sr=8-53&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=e40620c8c755298cbebe927f2cdc754b&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Diablo de carga de 450 kg",
+    "description":"Fiero DIA-450, Diablo de carga de 450 kg, ruedas sólidas, doble balero",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61vajx-t3iL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"1,799.00",
+    "url":"https://www.amazon.com.mx/Clip-Box-Efectivo-Mant%C3%A9n-Salvo/dp/B0B1LCQ3DF?pd_rd_w=jXaoO&content-id=amzn1.sym.aaef0696-19ce-48b9-ac1f-155775a5b9d1&pf_rd_p=aaef0696-19ce-48b9-ac1f-155775a5b9d1&pf_rd_r=VHGX012ARTHXV3C6W03N&pd_rd_wg=fgukP&pd_rd_r=f705c9a8-0d0e-47ca-a486-ae10c50160f0&pd_rd_i=B0B1LCQ3DF&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=ad65595c9898bc420ca7508b16c7f4e9&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Clip Box para Efectivo",
+    "description":"Clip Box - Caja para Efectivo - Mantén a salvo tu Efectivo",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/41EZ2wpIWaL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"100.00",
+    "url":"https://www.amazon.com.mx/Lector-Terminal-Tarjetas-Cr%C3%A9dito-D%C3%A9bito/dp/B094BHM7K7?_encoding=UTF8&pd_rd_w=fCzj3&content-id=amzn1.sym.91d6fdb5-244c-4467-b4f5-2c33cb8cd135%3Aamzn1.symc.abfa8731-fff2-4177-9d31-bf48857c2263&pf_rd_p=91d6fdb5-244c-4467-b4f5-2c33cb8cd135&pf_rd_r=6SZAC4GJMARD19VWWHC3&pd_rd_wg=hHQLC&pd_rd_r=8e2557cc-6a7f-462a-8821-3335431277af&linkCode=ll1&tag=tochofullde0d-20&linkId=ad7839c29396f47dd40e4851620f8c5b&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Clip Mini",
+    "description":"Clip Mini - Terminal Punto de Venta - El Lector más Pequeño y Ligero para tu Negocio",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51COFkX0poL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"649.00",
+    "url":"https://www.amazon.com.mx/MERCADO-PAGO-POINT-Ilimitado-MasterCard/dp/B0BJZ1NJKG?_encoding=UTF8&pd_rd_w=fCzj3&content-id=amzn1.sym.91d6fdb5-244c-4467-b4f5-2c33cb8cd135%3Aamzn1.symc.abfa8731-fff2-4177-9d31-bf48857c2263&pf_rd_p=91d6fdb5-244c-4467-b4f5-2c33cb8cd135&pf_rd_r=6SZAC4GJMARD19VWWHC3&pd_rd_wg=hHQLC&pd_rd_r=8e2557cc-6a7f-462a-8821-3335431277af&linkCode=ll1&tag=tochofullde0d-20&linkId=b810f98e8644889bc57a239f1a6e7986&language=es_MX&ref_=as_li_ss_tl",
+    "title":"MERCADO PAGO POINT Air",
+    "description":"MERCADO PAGO POINT Air, Terminal para Tarjetas con Internet Ilimitado, Incluye Tarjeta Debit MasterCard",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71NPQbaGICL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"1,200.00",
+    "url":"https://www.amazon.com.mx/MERCADO-PAGO-POINT-Ilimitado-Impresi%C3%B3n/dp/B08ZCPKYHJ?_encoding=UTF8&pd_rd_w=fCzj3&content-id=amzn1.sym.91d6fdb5-244c-4467-b4f5-2c33cb8cd135%3Aamzn1.symc.abfa8731-fff2-4177-9d31-bf48857c2263&pf_rd_p=91d6fdb5-244c-4467-b4f5-2c33cb8cd135&pf_rd_r=6SZAC4GJMARD19VWWHC3&pd_rd_wg=hHQLC&pd_rd_r=8e2557cc-6a7f-462a-8821-3335431277af&linkCode=ll1&tag=tochofullde0d-20&linkId=8d28f924b58cf72bf429b638bf6f5c8e&language=es_MX&ref_=as_li_ss_tl",
+    "title":"MERCADO PAGO POINTSmart con Internet",
+    "description":"MERCADO PAGO POINT Smart, Terminal para Tarjetas con Internet Ilimitado e Impresión de Tickets",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71n8-2HsciL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"3,999.00",
+    "url":"https://www.amazon.com.mx/EEYZD-registradora-registradoras-Registrador-verificaci%C3%B3n/dp/B0D3CBJM81?_encoding=UTF8&pd_rd_w=fCzj3&content-id=amzn1.sym.91d6fdb5-244c-4467-b4f5-2c33cb8cd135%3Aamzn1.symc.abfa8731-fff2-4177-9d31-bf48857c2263&pf_rd_p=91d6fdb5-244c-4467-b4f5-2c33cb8cd135&pf_rd_r=6SZAC4GJMARD19VWWHC3&pd_rd_wg=hHQLC&pd_rd_r=8e2557cc-6a7f-462a-8821-3335431277af&linkCode=ll1&tag=tochofullde0d-20&linkId=6aeb0d0ea7fd5b6bff904e62aa046af1&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Caja registradora para Negocio",
+    "description":"EEYZD Caja registradora para Negocio, 81 Llaves de Cajas registradoras para Negocio con cajón de Caja, Caja Registrador de Punto de Venta para Negocio con verificación e impresión",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61xYLyZYnvL._AC_SX425_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"3,700.00",
+    "url":"https://www.amazon.com.mx/CHICLERA-DULCERA-Vending-Gumball-Pesos/dp/B07S3SLCNY?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=128X6P4F4PIIA&dib=eyJ2IjoiMSJ9.XyX20gBS-l_qndZLBg032hfP6OiT605sc8OdK4yDUSvPs_tsSsTu4gPj3C2fZxPIZy0rkyHAHmp7i6zVTljU7K1R7gPthb4Qn6TC_--nORCPrpbWSJ14fSY1FuP-Z0RrmXWqd3oc3HIkZdA9gTU0wGlmLDtEebc0jT4sQUO5k3dW13cIxeBrRjdhtGshxWCGMz4S5YNIxDLpG3neKy9rhLlFW4xqmoHg4TmtaroAvA0.7kMwC9XYW8_vEdDVFikexqKjRNXiqoWtl8pwUIEgZ5Y&dib_tag=se&keywords=vending&qid=1724357445&s=kitchen&sprefix=vending%2Ckitchen%2C349&sr=1-1&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=8124fb124621e5421054a6c48ef64e41&language=es_MX&ref_=as_li_ss_tl",
+    "title":"CHICLERA PELOTERA",
+    "description":"CHICLERA PELOTERA Vending Gumball para Moneda 5 Pesos",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51fzQlv9DtL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"4,716.95",
+    "url":"https://www.amazon.com.mx/Treela-expendedora-recipientes-extra%C3%ADbles-dispensador/dp/B0BY29P7PN?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=128X6P4F4PIIA&dib=eyJ2IjoiMSJ9.XyX20gBS-l_qndZLBg032hfP6OiT605sc8OdK4yDUSvPs_tsSsTu4gPj3C2fZxPIZy0rkyHAHmp7i6zVTljU7K1R7gPthb4Qn6TC_--nORCPrpbWSJ14fSY1FuP-Z0RrmXWqd3oc3HIkZdA9gTU0wGlmLDtEebc0jT4sQUO5k3dW13cIxeBrRjdhtGshxWCGMz4S5YNIxDLpG3neKy9rhLlFW4xqmoHg4TmtaroAvA0.7kMwC9XYW8_vEdDVFikexqKjRNXiqoWtl8pwUIEgZ5Y&dib_tag=se&keywords=vending&qid=1724357445&s=kitchen&sprefix=vending%2Ckitchen%2C349&sr=1-3&ufe=app_do%3Aamzn1.fos.a9e70178-7411-4f75-8d83-e6796a165895&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=ad54e3fac6315b68d5ac1352dcc4ed50&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Expendedora Triple",
+    "description":"Treela - Máquina expendedora comercial de dulces con soporte, máquina expendedora de chicles para negocios, máquina expendedora de triple cabezal con recipientes extraíbles, dispensador de dulces de 25 centavos (rojo)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71myy4W8pSL._SX466_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"291.00",
+    "url":"https://www.amazon.com.mx/dp/B07ZHDLCGB?psc=1&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=GEWSG402Z6S4N8TH403D&pd_rd_wg=emWt1&pd_rd_w=WvnMB&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pd_rd_r=e72e7d8f-2982-4b9e-a2bd-f97a9f921f62&s=kitchen&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=fbf4f57533984d73d366b502a15924e3&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Monedero Electonico multimoneda",
+    "description":"Máquina expendedora de monedas, máquina tragamonedas de juegos multifunción con reconocimiento de monedas múltiples de 6 monedas, ranura inteligente para monedas para máquina expendedora/silla de masa",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61K-V+8NqeL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"283.00",
+    "url":"https://www.amazon.com.mx/dp/B0C546Z3QP?psc=1&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=GEWSG402Z6S4N8TH403D&pd_rd_wg=emWt1&pd_rd_w=WvnMB&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pd_rd_r=e72e7d8f-2982-4b9e-a2bd-f97a9f921f62&s=kitchen&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=f8550312cd481f6f758eaca34ee20007&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Monedoro Inteligente Multimoneda",
+    "description":"Qiilu Piezas de Máquina de Juego para Aceptador de Monedas Inteligente, Máquina Tragaperras de Plástico para Juegos, Multimoneda Multifunción para Ranura Inteligente para Monedas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61V3xR0b2TL._AC_SY355_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"2,849.24",
+    "url":"https://www.amazon.com.mx/ICEE-M%C3%A1quina-Slushie-Nuevo-2023/dp/B0BCKTLTMT?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=128X6P4F4PIIA&dib=eyJ2IjoiMSJ9.XyX20gBS-l_qndZLBg032hfP6OiT605sc8OdK4yDUSvPs_tsSsTu4gPj3C2fZxPIZy0rkyHAHmp7i6zVTljU7K1R7gPthb4Qn6TC_--nORCPrpbWSJ14fSY1FuP-Z0RrmXWqd3oc3HIkZdA9gTU0wGlmLDtEebc0jT4sQUO5k3dW13cIxeBrRjdhtGshxWCGMz4S5YNIxDLpG3neKy9rhLlFW4xqmoHg4TmtaroAvA0.7kMwC9XYW8_vEdDVFikexqKjRNXiqoWtl8pwUIEgZ5Y&dib_tag=se&keywords=vending&qid=1724357445&s=kitchen&sprefix=vending%2Ckitchen%2C349&sr=1-5&ufe=app_do%3Aamzn1.fos.d82afe12-491a-450a-80bc-7cca028917bf&linkCode=ll1&tag=tochofullde0d-20&linkId=490ebbb6ededbb74ad734213ad963f60&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Máquina ICEE",
+    "description":"Máquina de las raspados ICEE. Modelo 2023. Máquina de las raspados ICEE casera. Crea hasta 1 L de raspado de ICEE. Usa jarabes ICEE. Máquina ICEE con licencia oficial de Fizz Creations",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/81v3xEt+7aL._SX466_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"4,317.77",
+    "url":"https://www.amazon.com.mx/Nostalgia-PC25RW-Concession-Measuring-Mobility/dp/B07WNXJRN5?pd_rd_w=ZC9Ng&content-id=amzn1.sym.5264c009-8397-4cbc-8567-5c836f389efa&pf_rd_p=5264c009-8397-4cbc-8567-5c836f389efa&pf_rd_r=CPAA8V7J48XAKC113WH3&pd_rd_wg=eTFLd&pd_rd_r=61571704-32d1-4a0c-a5cb-f2cca2fb9991&pd_rd_i=B07WNXJRN5&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=e5275a45de5a5f843f50fc3a0aa85169&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Palomera paqueña 2.5oz",
+    "description":"Nostalgia Máquina para hacer palomitas de maíz – Carrito profesional con hervidor de 2.5 onzas que hace hasta 10 tazas, estilo clásico de cine de palomitas de maíz, rojo y blanco",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71g8OLnzgML._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"8,312.47",
+    "url":"https://www.amazon.com.mx/dp/B0083J0MFI?th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=945670c3eb1747697417525caa45c617&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Palomera Seemiprofesional 8onzas",
+    "description":"FunTime Sideshow Popper Máquina de palomitas de maíz de aceite caliente de 8 onzas con carro, negro/plateado",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/81CHpDvT9eL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"12,993.43",
+    "url":"https://www.amazon.com.mx/Great-Northern-Popcorn-5995-palomitas/dp/B01MU2DCSA?pd_rd_w=pwD8l&content-id=amzn1.sym.ab3793c8-3566-4c0f-9bcc-480889b32e3d&pf_rd_p=ab3793c8-3566-4c0f-9bcc-480889b32e3d&pf_rd_r=Y2HJ53EJ0RJ6T7GK9FPH&pd_rd_wg=769oc&pd_rd_r=b4706a25-2abf-4c19-b69e-e711377c9e38&pd_rd_i=B01MU2DCSA&linkCode=ll1&tag=tochofullde0d-20&linkId=224e65dbca7c806a1189662b206abd4e&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Palomero Profesional 10 onzas",
+    "description":"Great Northern Popcorn 5995 10 oz. Máquina de palomitas de maíz con carrito, color rojo",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/81OA+MekbsS._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"18,509.98",
+    "url":"https://www.amazon.com.mx/Cafe-Bueno-autom%C3%A1tica-molinillo-visualizaci%C3%B3n/dp/B0C42GG65T?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=128X6P4F4PIIA&dib=eyJ2IjoiMSJ9.XyX20gBS-l_qndZLBg032hfP6OiT605sc8OdK4yDUSvPs_tsSsTu4gPj3C2fZxPIZy0rkyHAHmp7i6zVTljU7K1R7gPthb4Qn6TC_--nORCPrpbWSJ14fSY1FuP-Z0RrmXWqd3oc3HIkZdA9gTU0wGlmLDtEebc0jT4sQUO5k3dW13cIxeBrRjdhtGshxWCGMz4S5YNIxDLpG3neKy9rhLlFW4xqmoHg4TmtaroAvA0.7kMwC9XYW8_vEdDVFikexqKjRNXiqoWtl8pwUIEgZ5Y&dib_tag=se&keywords=vending&qid=1724357445&s=kitchen&sprefix=vending%2Ckitchen%2C349&sr=1-6&ufe=app_do%3Aamzn1.fos.a9e70178-7411-4f75-8d83-e6796a165895&linkCode=ll1&tag=tochofullde0d-20&linkId=d8ad662c7368bcad5b01cba56825743a&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Cafetera Automatica",
+    "description":"Cafe Bueno Máquina de café espresso súper automática - 19 recetas de café, duradera, amoladora, espumador de leche, visualización táctil de 7 pulgadas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61mDleVlF8L._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"41,013.55",
+    "url":"https://www.amazon.com.mx/M%C3%A1quina-expendedora-refrigerada-ranuras-bebidas/dp/B0CSG9FZLN?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=128X6P4F4PIIA&dib=eyJ2IjoiMSJ9.XyX20gBS-l_qndZLBg032hfP6OiT605sc8OdK4yDUSvPs_tsSsTu4gPj3C2fZxPIZy0rkyHAHmp7i6zVTljU7K1R7gPthb4Qn6TC_--nORCPrpbWSJ14fSY1FuP-Z0RrmXWqd3oc3HIkZdA9gTU0wGlmLDtEebc0jT4sQUO5k3dW13cIxeBrRjdhtGshxWCGMz4S5YNIxDLpG3neKy9rhLlFW4xqmoHg4TmtaroAvA0.7kMwC9XYW8_vEdDVFikexqKjRNXiqoWtl8pwUIEgZ5Y&dib_tag=se&keywords=vending&qid=1724357445&s=kitchen&sprefix=vending%2Ckitchen%2C349&sr=1-11&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=cc86221c9c7ec42de60b33324f1def46&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Máquina expendedora",
+    "description":"Máquina expendedora refrigerada de 15 ranuras, bebidas frías para bebidas de comida pop y soda",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/41sBpvpxc5L._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"25,500.00",
+    "url":"https://www.amazon.com.mx/gp/aw/d/B07BPS4K8L?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=6d6f679032f040d9e9e0b1fec4dc4fb8&hsa_cr_id=0&sr=1-3-undefined&pd_rd_w=TDVCw&content-id=amzn1.sym.d93d6e52-a41a-4e52-a50a-2bd0f96e503f&pf_rd_p=d93d6e52-a41a-4e52-a50a-2bd0f96e503f&pf_rd_r=TTY1HW7GQ22DR22TM9NA&pd_rd_wg=f8vsO&pd_rd_r=8b539628-15d2-4fde-92ee-05ccee309e86&linkCode=ll1&tag=tochofullde0d-20&linkId=9528e8943f0a3e6a73ab7772bdebc2c2&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Máquina de helado",
+    "description":"Kolice - Máquina de helado duro de computadora, máquina de helado duro de encimera, máquina de helado de gelatina, máquina de botanas para restaurante, bar de aperitivos, heladería",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51K-Wf2TjkL._AC_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"47,500.00",
+    "url":"https://www.amazon.com.mx/gp/aw/d/B07BZGLXT2?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=6d6f679032f040d9e9e0b1fec4dc4fb8&hsa_cr_id=0&sr=1-2-undefined&pd_rd_w=TDVCw&content-id=amzn1.sym.d93d6e52-a41a-4e52-a50a-2bd0f96e503f&pf_rd_p=d93d6e52-a41a-4e52-a50a-2bd0f96e503f&pf_rd_r=TTY1HW7GQ22DR22TM9NA&pd_rd_wg=f8vsO&pd_rd_r=8b539628-15d2-4fde-92ee-05ccee309e86&linkCode=ll1&tag=tochofullde0d-20&linkId=bb225518146ddd6b18ad265493438f4c&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Máquina para Hacer paletas",
+    "description":"Comercial Máquina para Hacer paletas de Hielo, máquina para Hacer paletas de Hielo, máquina para Hacer paletas de Hielo, máquina para Hacer paletas de Hielo con 1 Juego de moldes",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71Q4K9iW3WL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"33,900.00",
+    "url":"https://www.amazon.com.mx/gp/aw/d/B07ZPS4VNJ?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=6d6f679032f040d9e9e0b1fec4dc4fb8&hsa_cr_id=0&sr=1-1-undefined&pd_rd_w=TDVCw&content-id=amzn1.sym.d93d6e52-a41a-4e52-a50a-2bd0f96e503f&pf_rd_p=d93d6e52-a41a-4e52-a50a-2bd0f96e503f&pf_rd_r=TTY1HW7GQ22DR22TM9NA&pd_rd_wg=f8vsO&pd_rd_r=8b539628-15d2-4fde-92ee-05ccee309e86&linkCode=ll1&tag=tochofullde0d-20&linkId=2dd1e834d77966e64f1bbdd979eec7ac&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Máquina de bebidas congeladas",
+    "description":"Kolice comercial máquina de bebidas congeladas para hacer bebidas a máquina de azufre, máquina de granizados, congelada Slushie Maker,máquina de granizados de hielo",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/81PUpwHgKIL._SY445_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"1,349.00",
+    "url":"https://www.amazon.com.mx/Clip-Printer-Impresora-Con%C3%A9ctala-Bluetooth/dp/B0B1L9Q92C?pd_rd_w=yzd4R&content-id=amzn1.sym.aaef0696-19ce-48b9-ac1f-155775a5b9d1&pf_rd_p=aaef0696-19ce-48b9-ac1f-155775a5b9d1&pf_rd_r=FZYK6X6R1R2YK2X03AFZ&pd_rd_wg=196Hl&pd_rd_r=3f297b3b-f6c4-43f0-8afc-15d38f8f11e7&pd_rd_i=B0B1L9Q92C&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=f3629eef4a8b1b10aebfe9482d13e872&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Clip Printer",
+    "description":"Clip Printer - Impresora de Tickets y Comandas - Conéctala vía Bluetooth a tu Terminal Punto de Venta",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/41hFmol7yZL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"26,702.00",
+    "url":"https://www.amazon.com.mx/M%C3%A1quina-expendedora-autom%C3%A1tica-comercial-instant%C3%A1neo/dp/B0B1HCXQ1N?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=128X6P4F4PIIA&dib=eyJ2IjoiMSJ9.nwVbvO7Bmeu--HoeVMVYx4DwMv2RApFIa4nQsTei89I3BeDDzqo-JtwN-17QGfo3Zy0rkyHAHmp7i6zVTljU7OdOvN2vf2L9T7n6Y9K0rQWXH48meDE5sz0bLdYyH7CseLoOQsR5k8y1u8S2Kxf75w0afxP8nkEPxItniEYdmn8OEL-pICCku2HAF5MzRZo2ODXnTMg5Iu1eagJ_9qICfoe1VQ7DJduVkzrhf0G1kmA.5S10roZaefJveUPtb2z1gCN-cAfuxf31tp1EFqXHCRE&dib_tag=se&keywords=vending&qid=1724357613&s=kitchen&sprefix=vending%2Ckitchen%2C349&sr=1-17&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=255b0f3cec42bede0e9562331158657b&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Máquina expendedora de Cafe",
+    "description":"Máquina expendedora automática de 3 sabores calientes de té y café",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51ljoAe-zdL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"vending","precio":"6,941.49",
+    "url":"https://www.amazon.com.mx/expendedora-comercial-recipientes-extra%C3%ADbles-dispensador/dp/B08QJGHYG2?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=128X6P4F4PIIA&dib=eyJ2IjoiMSJ9.nwVbvO7Bmeu--HoeVMVYx4DwMv2RApFIa4nQsTei89I3BeDDzqo-JtwN-17QGfo3Zy0rkyHAHmp7i6zVTljU7OdOvN2vf2L9T7n6Y9K0rQWXH48meDE5sz0bLdYyH7CseLoOQsR5k8y1u8S2Kxf75w0afxP8nkEPxItniEYdmn8OEL-pICCku2HAF5MzRZo2ODXnTMg5Iu1eagJ_9qICfoe1VQ7DJduVkzrhf0G1kmA.5S10roZaefJveUPtb2z1gCN-cAfuxf31tp1EFqXHCRE&dib_tag=se&keywords=vending&qid=1724357613&s=kitchen&sprefix=vending%2Ckitchen%2C349&sr=1-18&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=383fe593ad8fc831ac39ed62bfdfd8ba&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Máquina expendedora Triple",
+    "description":"Máquina expendedora - Máquina comercial de chicles y caramelos con soporte - Máquina expendedora triple con recipientes extraíbles, dispensador de dulces y máquina de chicles, dispensador expendedor",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/81NbrMR65tL._SX466_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"3,869.00",
+    "url":"https://www.amazon.com.mx/Epson-Impresora-Multifuncional-Ecotank-Color/dp/B0C3T6FP9P?pd_rd_w=VPgl4&content-id=amzn1.sym.aa60c75f-fa22-4a06-a4b4-cbd634d4c36d&pf_rd_p=aa60c75f-fa22-4a06-a4b4-cbd634d4c36d&pf_rd_r=ZNWVW2G3Q5YVSR4DB48P&pd_rd_wg=xsHDH&pd_rd_r=610091f3-14a6-4cb4-bba1-a460d2514574&pd_rd_i=B0C3T6FP9P&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=c8a7c81e516cd878a4ed8407bdb9c74e&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Epson Ecotank",
+    "description":"Epson Ecotank Impresora Multifuncional a Color L3560",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61KF8TrSVAL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"3,599.00",
+    "url":"https://www.amazon.com.mx/dp/B0CKZY3894?pd_rd_i=B0CKZY3894&pd_rd_w=Lr2bJ&content-id=amzn1.sym.9424eb5c-6d7d-4e4b-bd88-a7aa70cf0787&pf_rd_p=9424eb5c-6d7d-4e4b-bd88-a7aa70cf0787&pf_rd_r=Y8DF3PD35QHJ90XXQVYR&pd_rd_wg=AjOx5&pd_rd_r=7934f002-f789-4f30-bcff-d562e9cf265e&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=af3e17283b245efee638ce043e21315d&language=es_MX&ref_=as_li_ss_tl",
+    "title":"HP Multifuncional",
+    "description":"HP Impresora Multifuncional Smart Tank 583, Todo-en-Uno Tanque de Tinta WiFi Smart AirPrint (4A8D7A#AKY)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51n+gpZcu-L._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"terminales","precio":"4,409.00",
+    "url":"https://www.amazon.com.mx/dp/B0CKZY3894?pd_rd_i=B0CKZY3894&pd_rd_w=Lr2bJ&content-id=amzn1.sym.9424eb5c-6d7d-4e4b-bd88-a7aa70cf0787&pf_rd_p=9424eb5c-6d7d-4e4b-bd88-a7aa70cf0787&pf_rd_r=Y8DF3PD35QHJ90XXQVYR&pd_rd_wg=AjOx5&pd_rd_r=7934f002-f789-4f30-bcff-d562e9cf265e&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=af3e17283b245efee638ce043e21315d&language=es_MX&ref_=as_li_ss_tl",
+    "title":"HP Multifuncional",
+    "description":"HP Impresora Multifuncional HP Smart Tank 530, Tinta Continua, Color, Wi-Fi, Dúplex (Doble Cara) Manual, ADF Alimentador Automático (4SB24A)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71SjWdzg7-L._AC_SX569_.jpg"
+    },
+    {"precio":"751.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Purina-Dog-Chow-Adult-18kg/dp/B0CDYWTMRM?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=MK9D2L9H53PI&dib=eyJ2IjoiMSJ9.7Sjdo2-ovF86yuWuap_x2mU_HqovZoyZCuJ-cnfFuCb4bctaMjHTLAs0RS71JM0bpveglg7LhDZMA2BWWcZZR6AlFkaaReYr2IcsbTQSDtkzBU6niZGstlFMTJkofGr08e80IaJKv2QOQ3_CyP3hS1NAO3ZmITKznvVNzqIq-0jWBRHBsrlJi-zvnXNuAgMf8JtQx5rIUh_hM3mipEVoscCOwnu1BW1bMC6mD2xtS2RipHIpME-gstYGwZ6pnIZfLfXwQ70VaUEnWMcNtG19OjpGiU_i5-z75px_Ih9xIGY.1NpiLDeLFXmtUYsJLsFjSFn5XfRtDnnXvzkNvPiH8tE&dib_tag=se&keywords=croquetas&qid=1724376472&sprefix=croquetas%2Caps%2C1042&sr=8-6&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=566e61084fa1320dd9efcbe42878c265&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Purina Dog Chow Adult 18kg",
+    "description":"Purina Dog Chow Adult 18kg"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/716uLpXD8fL._AC_SY450_.jpg"
+    },
+    {"precio":"580.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/BENEFUL-Adult-Orig-10kg-Sunrise/dp/B09R916GQ3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=MK9D2L9H53PI&dib=eyJ2IjoiMSJ9.7Sjdo2-ovF86yuWuap_x2mU_HqovZoyZCuJ-cnfFuCb4bctaMjHTLAs0RS71JM0bpveglg7LhDZMA2BWWcZZR6AlFkaaReYr2IcsbTQSDtkzBU6niZGstlFMTJkofGr08e80IaJKv2QOQ3_CyP3hS1NAO3ZmITKznvVNzqIq-0jWBRHBsrlJi-zvnXNuAgMf8JtQx5rIUh_hM3mipEVoscCOwnu1BW1bMC6mD2xtS2RipHIpME-gstYGwZ6pnIZfLfXwQ70VaUEnWMcNtG19OjpGiU_i5-z75px_Ih9xIGY.1NpiLDeLFXmtUYsJLsFjSFn5XfRtDnnXvzkNvPiH8tE&dib_tag=se&keywords=croquetas&qid=1724376472&sprefix=croquetas%2Caps%2C1042&sr=8-4&linkCode=ll1&tag=tochofullde0d-20&linkId=a9d5a4ee6937b78d798fdfd7cdf15766&language=es_MX&ref_=as_li_ss_tl",
+    "title":"BENEFUL Adult Orig Car 10kg Sunrise",
+    "description":"BENEFUL Adult Orig Car 10kg Sunrise"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/51qGMBWD+KL._AC_SX679_.jpg"
+    },
+    {"precio":"582.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Purina-Beneful-Radiante-Alimento-Adultos/dp/B09R93SSD5?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=MK9D2L9H53PI&dib=eyJ2IjoiMSJ9.7Sjdo2-ovF86yuWuap_x2mU_HqovZoyZCuJ-cnfFuCb4bctaMjHTLAs0RS71JM0bpveglg7LhDZMA2BWWcZZR6AlFkaaReYr2IcsbTQSDtkzBU6niZGstlFMTJkofGr08e80IaJKv2QOQ3_CyP3hS1NAO3ZmITKznvVNzqIq-0jWBRHBsrlJi-zvnXNuAgMf8JtQx5rIUh_hM3mipEVoscCOwnu1BW1bMC6mD2xtS2RipHIpME-gstYGwZ6pnIZfLfXwQ70VaUEnWMcNtG19OjpGiU_i5-z75px_Ih9xIGY.1NpiLDeLFXmtUYsJLsFjSFn5XfRtDnnXvzkNvPiH8tE&dib_tag=se&keywords=croquetas&qid=1724376472&sprefix=croquetas%2Caps%2C1042&sr=8-2&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=ac343afa4e2c842bcfbbb82f3c084bbc&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Purina Beneful Salud Radiante 10kg",
+    "description":"Purina Beneful Salud Radiante Alimento seco Adultos, Todos los tamaños, Bulto de 10kg"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/5124ahjP46L._AC_SX679_.jpg"
+    },
+    {"precio":"780.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Excellent-Adulto-Razas-Peque%C3%B1as-7-5/dp/B07SZB2JPK?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=MK9D2L9H53PI&dib=eyJ2IjoiMSJ9.7Sjdo2-ovF86yuWuap_x2mU_HqovZoyZCuJ-cnfFuCb4bctaMjHTLAs0RS71JM0bpveglg7LhDZMA2BWWcZZR6AlFkaaReYr2IcsbTQSDtkzBU6niZGstlFMTJkofGr08e80IaJKv2QOQ3_CyP3hS1NAO3ZmITKznvVNzqIq-0jWBRHBsrlJi-zvnXNuAgMf8JtQx5rIUh_hM3mipEVoscCOwnu1BW1bMC6mD2xtS2RipHIpME-gstYGwZ6pnIZfLfXwQ70VaUEnWMcNtG19OjpGiU_i5-z75px_Ih9xIGY.1NpiLDeLFXmtUYsJLsFjSFn5XfRtDnnXvzkNvPiH8tE&dib_tag=se&keywords=croquetas&qid=1724376472&rdc=1&sprefix=croquetas%2Caps%2C1042&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=1201e9b309f5e88ec419ce34e851c25c&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Adulto Excellent Razas Pequeñas",
+    "description":"Adulto Excellent Razas Pequeñas"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/41s50uJRAUL._AC_SX679_.jpg"
+    },
+    {"precio":"950.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Ganador-Premium-Razas-Peque%C3%B1as-20/dp/B01MQFPHMN?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=MK9D2L9H53PI&dib=eyJ2IjoiMSJ9.7Sjdo2-ovF86yuWuap_x2mU_HqovZoyZCuJ-cnfFuCb4bctaMjHTLAs0RS71JM0bpveglg7LhDZMA2BWWcZZR6AlFkaaReYr2IcsbTQSDtkzBU6niZGstlFMTJkofGr08e80IaJKv2QOQ3_CyP3hS1NAO3ZmITKznvVNzqIq-0jWBRHBsrlJi-zvnXNuAgMf8JtQx5rIUh_hM3mipEVoscCOwnu1BW1bMC6mD2xtS2RipHIpME-gstYGwZ6pnIZfLfXwQ70VaUEnWMcNtG19OjpGiU_i5-z75px_Ih9xIGY.1NpiLDeLFXmtUYsJLsFjSFn5XfRtDnnXvzkNvPiH8tE&dib_tag=se&keywords=croquetas&qid=1724376472&sprefix=croquetas%2Caps%2C1042&sr=8-3&linkCode=ll1&tag=tochofullde0d-20&linkId=d408c3dc393d73ae0c51181409289e13&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Ganador Premium Adulto 20 kg",
+    "description":"Ganador Premium Adulto 20 kg, Razas Pequeñas, Negro. El empaque puede variar"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/51biDowDK0L._AC_SX679_.jpg"
+    },	
+    {"precio":"1,930.12","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Home-Complete-Greenhouse-Shelves-Grow-Seedlings-Season-Gardening/dp/B01GDVVZY4?dib=eyJ2IjoiMSJ9.jL9Jya5gdAe8zrYFUV6KyQn3et1smXDYGvt3QvHX9I_jKjFHOO2diaeIyM7m4eeLfzbWRQIk9NC6MD1vKdAaCdcvgNFCO1nh1fg6k4l63ggQdPn6_EjLRZr4ZD-Pv0fbdTxlCws5e1qnxtI0zjB3gvpcbC7LVQtKBy0gueSiCl17K7WFMMgLtU_BPi9TQLcVglRQlOuGw_9F0XpHYOzzU1p-DxbzNyQPto_h0WZhKEdXzPSIcGZ3QjgFapIhJoF7Qbc3Mh_hte82J5GVS2Q_jizlLwu_uiRJol0SNAam9do.pzfJRc6LHBw9Kb1GYdcoDTxRf-d7XsLgSN7OKi605m0&dib_tag=se&keywords=invernadero&qid=1724365162&sr=8-2&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=783d698f90de11a219986a2df1e263b9&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Home-Complete Invernadero",
+    "description":"Home-Complete - Invernadero a ras de suelo, interior y exterior con 8 estantes resistentes, para cultivar plantas, plántulas, hierbas o flores en cualquier estación del año, estante de jardinería"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/51EzJO1z9nL._AC_.jpg"
+    },
+    {"precio":"900.18","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/VIVOSUN-invernadero-pulgadas-port%C3%A1til-peque%C3%B1os/dp/B08HS15RXP?dib=eyJ2IjoiMSJ9.jL9Jya5gdAe8zrYFUV6KyQn3et1smXDYGvt3QvHX9I_jKjFHOO2diaeIyM7m4eeLfzbWRQIk9NC6MD1vKdAaCdcvgNFCO1nh1fg6k4l63ggQdPn6_EjLRZr4ZD-Pv0fbdTxlCws5e1qnxtI0zjB3gvpcbC7LVQtKBy0gueSiCl17K7WFMMgLtU_BPi9TQLcVglRQlOuGw_9F0XpHYOzzU1p-DxbzNyQPto_h0WZhKEdXzPSIcGZ3QjgFapIhJoF7Qbc3Mh_hte82J5GVS2Q_jizlLwu_uiRJol0SNAam9do.pzfJRc6LHBw9Kb1GYdcoDTxRf-d7XsLgSN7OKi605m0&dib_tag=se&keywords=invernadero&qid=1724365162&sr=8-7&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=b854033944a9080c12b8e93258d48883&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Mini invernadero",
+    "description":"VIVOSUN Mini invernadero de 4 niveles con ruedas, 27 x 19 x 63 pulgadas, reutilizable, portátil, cálida casa con cubierta de polietileno verde y estante para jardín compacto y pequeños patios"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/81+hgMxXAYL._AC_SX569_.jpg"
+    },
+    {"precio":"369.99","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Ukipos-Bandejas-Germinaci%C3%B3n-Invernadero-Jardiner%C3%ADa/dp/B0CT43G1CF?dib=eyJ2IjoiMSJ9.G7v0CVbirAxEfdbgtUbLDtByiEJezgjxRxyuQufW3OeuJG-Ag8cUbU2EwhUszf07L8MK4kClCsWxpP2wbAhi351axqd1ftddFn6vQyUhEB-DRlaxbd0bckz7MsP2F8Yoh1H5wvY3QEqZi7uKqGu8wpf3ZFeBRWzVWmiS6tXZ4b__k4esr4ZKt_HBacNpj4Zyl3ZkKze7lIjg93MrYtjGVyO-fh_Wh1W6TjoknLdiI4D8gVDROAPPI4PjWIoY34YsY1suhetcHVhQmqFerGRDe5phqifqJ81UI8MxQ9Y2d2k.EOX9aDdZohHnT6bK55HHfdKc5ShXwg5qYs5EgkL4oq0&dib_tag=se&keywords=invernadero&qid=1724365263&sr=8-62-spons&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=d9d5edb55cd4507cfb1adae7dfa8aca7&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Contenedor de germinacion",
+    "description":"Ukipos Set de 10 Bandejas de Germinación de Semillas, Macetas para Sembrar, Bandejas de 120 Celdas con Cúpula de Humedad y Tapa, Bandejas de Cultivo Ideal para Invernadero y Jardinería (Negro)"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71bmcMnZA6L._AC_SX569_.jpg"
+    },
+    {"precio":"909.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Tomshin-invernadero-hidrop%C3%B3nico-Crecimiento-vegetativo/dp/B0CKRBTHXW?dib=eyJ2IjoiMSJ9.G7v0CVbirAxEfdbgtUbLDtByiEJezgjxRxyuQufW3OeuJG-Ag8cUbU2EwhUszf07L8MK4kClCsWxpP2wbAhi351axqd1ftddFn6vQyUhEB-DRlaxbd0bckz7MsP2F8Yoh1H5wvY3QEqZi7uKqGu8wpf3ZFeBRWzVWmiS6tXZ4b__k4esr4ZKt_HBacNpj4Zyl3ZkKze7lIjg93MrYtjGVyO-fh_Wh1W6TjoknLdiI4D8gVDROAPPI4PjWIoY34YsY1suhetcHVhQmqFerGRDe5phqifqJ81UI8MxQ9Y2d2k.EOX9aDdZohHnT6bK55HHfdKc5ShXwg5qYs5EgkL4oq0&dib_tag=se&keywords=invernadero&qid=1724365263&sr=8-95-spons&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=293e3a8057f550baab08c76ab942fbca&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Luz de cultivo LED",
+    "description":"Tomshin Luz de cultivo LED de espectro completo 312 LED Lámparas de cultivo Panel LED Luz de cultivo para invernadero hidropónico Planta de interior Crecimiento vegetativo de flores"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71qw-1U0QlL._AC_SX679_.jpg"
+    },
+    {"precio":"249.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/SOHYA-Nitro-foska-generar-floraci%C3%B2n-Kilos/dp/B0BKFKFLSF?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.k5umrYJV_ITncuyfwL1jMDXhDmP-qq8O-2qtAtUFquwcSJjxsAYlKe2B8vTJQCmVNSgUkgJVjxNdMjxlAubcY7sf-GmKZHXMSEKnbVR259T9-xN46hIXyOe6QHP-78YuX97JI2C_BCyhwGuFJOMPY--Lgq-_XRSxHrCsyQbEJKIVXNtYGJ7Qon-T9YK5MiYRs3NnJwiLWHDy2O62CHSXr0XmydaEYDyjqThkyXOfF7q5g0i5-iBGpqWK88OHp4Q9VW9dp_nY_PzZBFPjixOcUbSErSUM1TcX0Ej-PF9NfbM.GukaPINU_HDrsb18zbODPknCRdPBKlcJWyHN8jMFUe4&dib_tag=se&keywords=fertilizante&qid=1724365396&sr=8-2&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&linkCode=ll1&tag=tochofullde0d-20&linkId=8a78c1f9a4b831090e89bf2ef197d27f&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Nitro para Fertilizar",
+    "description":"SOHYA - Nitro para generar mas raiz y floracion (5 Kilos)"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71vSQ0FgIHL._SX522_.jpg"
+    },
+    {"precio":"269.03","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/lombriz-org%C3%A1nico-hortalizas-enriquecido-microorganismos/dp/B0D4MMVTNF?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.k5umrYJV_ITncuyfwL1jMDXhDmP-qq8O-2qtAtUFquwcSJjxsAYlKe2B8vTJQCmVNSgUkgJVjxNdMjxlAubcY7sf-GmKZHXMSEKnbVR259T9-xN46hIXyOe6QHP-78YuX97JI2C_BCyhwGuFJOMPY--Lgq-_XRSxHrCsyQbEJKIVXNtYGJ7Qon-T9YK5MiYRs3NnJwiLWHDy2O62CHSXr0XmydaEYDyjqThkyXOfF7q5g0i5-iBGpqWK88OHp4Q9VW9dp_nY_PzZBFPjixOcUbSErSUM1TcX0Ej-PF9NfbM.GukaPINU_HDrsb18zbODPknCRdPBKlcJWyHN8jMFUe4&dib_tag=se&keywords=fertilizante&qid=1724365396&sr=8-12&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=925b41ca7e26ce8458a6dc5c5c377bbf&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Humus de Lombriz",
+    "description":"Humus de lombriz orgánico de 10 kg para jardín, hortalizas, flores y plantas, enriquecido con microorganismos"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71sgX0eptlL._SY445_.jpg"
+    },
+    {"precio":"348.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Disfruto-Nuts-Semilla-C%C3%A9sped-Sombra/dp/B093S9YDQP?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.k5umrYJV_ITncuyfwL1jMDXhDmP-qq8O-2qtAtUFquwcSJjxsAYlKe2B8vTJQCmVNSgUkgJVjxNdMjxlAubcY7sf-GmKZHXMSEKnbVR259T9-xN46hIXyOe6QHP-78YuX97JI2C_BCyhwGuFJOMPY--Lgq-_XRSxHrCsyQbEJKIVXNtYGJ7Qon-T9YK5MiYRs3NnJwiLWHDy2O62CHSXr0XmydaEYDyjqThkyXOfF7q5g0i5-iBGpqWK88OHp4Q9VW9dp_nY_PzZBFPjixOcUbSErSUM1TcX0Ej-PF9NfbM.GukaPINU_HDrsb18zbODPknCRdPBKlcJWyHN8jMFUe4&dib_tag=se&keywords=fertilizante&qid=1724365396&sr=8-14&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=9d4612821b2db871eae716b346666a5f&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Semilla De Pasto",
+    "description":"Semilla De Pasto Césped 1Kg 25m2 Sol Y Sombra Jardin"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/41gbtQ3us1S._SX466_.jpg"
+    },
+    {"precio":"189.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Fosforita-M%C3%A9xico-Sustrato-Nutritivo-Hortalizas/dp/B0D3D5K2LT?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.k5umrYJV_ITncuyfwL1jMDXhDmP-qq8O-2qtAtUFquwcSJjxsAYlKe2B8vTJQCmVNSgUkgJVjxNdMjxlAubcY7sf-GmKZHXMSEKnbVR259T9-xN46hIXyOe6QHP-78YuX97JI2C_BCyhwGuFJOMPY--Lgq-_XRSxHrCsyQbEJKIVXNtYGJ7Qon-T9YK5MiYRs3NnJwiLWHDy2O62CHSXr0XmydaEYDyjqThkyXOfF7q5g0i5-iBGpqWK88OHp4Q9VW9dp_nY_PzZBFPjixOcUbSErSUM1TcX0Ej-PF9NfbM.GukaPINU_HDrsb18zbODPknCRdPBKlcJWyHN8jMFUe4&dib_tag=se&keywords=fertilizante&qid=1724365396&sr=8-26&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=598065b04176820f3038a4b1a6c738c2&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Sustrato Nutritivo Huertos y Hortalizas",
+    "description":"Fosforita de México Sustrato Nutritivo Huertos y Hortalizas 10 Lts Casa Jardín 100% Natural"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/710S4hdD2EL._AC_SX569_.jpg"
+    },
+    {"precio":"379.00","plataforma":"amazon",
+    "clase":"bio",
+    "url":"https://www.amazon.com.mx/Smart-Garden-comprimida-Biodegradable-Reptiles/dp/B08QLDR987?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.k5umrYJV_ITncuyfwL1jMDXhDmP-qq8O-2qtAtUFquwcSJjxsAYlKe2B8vTJQCmVNSgUkgJVjxNdMjxlAubcY7sf-GmKZHXMSEKnbVR259T9-xN46hIXyOe6QHP-78YuX97JI2C_BCyhwGuFJOMPY--Lgq-_XRSxHrCsyQbEJKIVXNtYGJ7Qon-T9YK5MiYRs3NnJwiLWHDy2O62CHSXr0XmydaEYDyjqThkyXOfF7q5g0i5-iBGpqWK88OHp4Q9VW9dp_nY_PzZBFPjixOcUbSErSUM1TcX0Ej-PF9NfbM.GukaPINU_HDrsb18zbODPknCRdPBKlcJWyHN8jMFUe4&dib_tag=se&keywords=fertilizante&qid=1724365396&sr=8-55-spons&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=198ec2e1d3b59f55f87730e6ad1ef2f6&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Fibra de Coco comprimida",
+    "description":"Smart Garden - Fibra de Coco comprimida - 100% Natural Biodegradable - Ideal para Tus macetas, huertos urbanos y Reptiles"
+    ,"imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/81DYQy-oVKL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"121.43",
+    "url":"https://www.amazon.com.mx/Pinol-Limpiador-Multiusos-Original-5100/dp/B07R8YNPTN?pd_rd_w=fKHWT&content-id=amzn1.sym.aa60c75f-fa22-4a06-a4b4-cbd634d4c36d&pf_rd_p=aa60c75f-fa22-4a06-a4b4-cbd634d4c36d&pf_rd_r=EG2Y96MQPN32YXTP4PJB&pd_rd_wg=1v7la&pd_rd_r=1722dcba-da9f-41ad-83db-257899c3c1e1&pd_rd_i=B07R8YNPTN&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=4840e45e5f4ec0d63c48a73940879dd3&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Pinol 5L",
+    "description":"Pinol El Original limpiador multiusos desinfectante pino 5.1 lt",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61oqlSyStDL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"103.32",
+    "url":"https://www.amazon.com.mx/Lysol-Desinfectante-Multiusos-5-L/dp/B086TW55T4?pd_rd_w=fKHWT&content-id=amzn1.sym.aa60c75f-fa22-4a06-a4b4-cbd634d4c36d&pf_rd_p=aa60c75f-fa22-4a06-a4b4-cbd634d4c36d&pf_rd_r=EG2Y96MQPN32YXTP4PJB&pd_rd_wg=1v7la&pd_rd_r=1722dcba-da9f-41ad-83db-257899c3c1e1&pd_rd_i=B086TW55T4&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=95420cc0fc8275c8f08112180c77c24f&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Lysol 5L",
+    "description":"Lysol Limpiador Desinfectante Multiusos, Aroma Citrus, 5L",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61nJVJFuF6L._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"555.59",
+    "url":"https://www.amazon.com.mx/Clawsoff-Paquete-desechables-calientes-eventos/dp/B0BXDBF1JB?dib=eyJ2IjoiMSJ9.UXF3gCNLdetklQVfN7d9t4W94VZftu_48HaPV4y4-52c_4V8LgJHns2ZaJzMMHlurIZtvhLelzSmjxCs4KF8Xb06EjnLSxhTLzgqwpGYVAuOEzp8Cm28X9XW4ZwuT4vLu3frX_rHHKN6QB1lzdjVjUHWLpzZf-uJOo_YJsUqL_BWeqk-zhqzwmfwB9J1iZ2gOvB6mHcrfnHE-EAMd-boESbfoXGLn9h62cC_jXXYxi1dqql3OWhtYmWBA7FAN5ikV0vBSyBJqMdvqVODSxdgW6RmHv8geL3PrDFcCfVLoQo.vpXopsOVZ00BuOAptLit-m9AiTWZnhGfIR5j83BRD7k&dib_tag=se&keywords=vasos+dart&qid=1724369509&sr=8-33&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=ced8c628c9db5d63089a1cbe039c3b38&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Clawsoff 240 tazas de papel desechable",
+    "description":"Clawsoff [Paquete de 240 tazas de papel desechables de 10 onzas, tazas de papel para bebidas calientes/frías, tazas de café de papel de 10 onzas, tazas de café calientes de papel azul marino para",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/81pNZ1X156L._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"358.00",
+    "url":"https://www.amazon.com.mx/DOTOTO-plastico-reutilizables-utilizado-acontecimientos/dp/B0D4TZW8QP?dib=eyJ2IjoiMSJ9.UXF3gCNLdetklQVfN7d9t4W94VZftu_48HaPV4y4-52c_4V8LgJHns2ZaJzMMHlurIZtvhLelzSmjxCs4KF8Xb06EjnLSxhTLzgqwpGYVAuOEzp8Cm28X9XW4ZwuT4vLu3frX_rHHKN6QB1lzdjVjUHWLpzZf-uJOo_YJsUqL_BWeqk-zhqzwmfwB9J1iZ2gOvB6mHcrfnHE-EAMd-boESbfoXGLn9h62cC_jXXYxi1dqql3OWhtYmWBA7FAN5ikV0vBSyBJqMdvqVODSxdgW6RmHv8geL3PrDFcCfVLoQo.vpXopsOVZ00BuOAptLit-m9AiTWZnhGfIR5j83BRD7k&dib_tag=se&keywords=vasos+dart&qid=1724369509&sr=8-13&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=9aab666ed3ef0771a8687d3a0a33f452&language=es_MX&ref_=as_li_ss_tl",
+    "title":"DOTOTO 100 vasos Negros",
+    "description":"DOTOTO 100 vasos de plastico fiesta,vasos reutilizables para fiesta de 16oz,Puede ser utilizado en el hogar, oficina, toda clase de acontecimientos del partido. (negro)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71Bux9pAEeL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"2,530.94",
+    "url":"https://www.amazon.com.mx/Dardos-16j16-espuma-bebida-blanco-40-bolsas/dp/B004NG8A0O?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3UG1TLTJQVB1E&dib=eyJ2IjoiMSJ9.J38_RJ6xOf8ymRPnBHwJ0bWs3pyU5u7kScQAaLW40A_9P03y7wJCagm9aFuOgDYaoy0I3fHBo_b65OQBPF5dwGh8CsifjG6Wh4oG3rfMZlqYzcMwmcLgu0nJEHOpGoraHmabSvm-Ic6jp1TJq8-nG1WM5rDs75qLQYD6t_36yXjIZx3EcSHzRi38czOjqBHqY3mwmhUgl9ZBjYY9ADVrg0o4VNb-A-GC4zcK7FwNKMUspNm3Snm9Wl_YzNVXdgIPY28RJV9Ds2YAnfuFsM2SAlU6Sl1cnpNxvc6Tn7Osv4o.3JyDM9nQCS6xXu4CKXgg1NY0vYq1dalr3ppeBLvk8kQ&dib_tag=se&keywords=vasos+dart+10&qid=1724369820&sprefix=vasos+dart+10%2Caps%2C177&sr=8-36&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=44be5b32b9a4a556bf2618f43aa6b328&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Dart 16J16",
+    "description":"Dart 16J16 vasos de espuma para bebidas, 16 onzas, blanco, 25 por bolsa (caja de 40 bolsas)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/31G2-VHd3UL._SX466_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"999.00",
+    "url":"https://www.amazon.com.mx/Envase-Desechable-Transparente-Reyma-piezas/dp/B09MG72H4H?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-3&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=3145e879488c58b02214e8a329b3af39&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Envase Reyma 1/2 Litro Caja",
+    "description":"Envase Desechable Transparente Reyma 1/2 Litro Caja 500 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/710nbnb-TmL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"1,300.00",
+    "url":"https://www.amazon.com.mx/Desechables-Transparentes-Reyma-fiesta-piezas/dp/B09MG6DSR9?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-2&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=067c01791ae263ebdba33c27ef824c79&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vasos Reyma 1L aprox",
+    "description":"Vasos Desechables Transparentes Reyma para fiesta Eu #32 500 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71YddSrS1XL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"589.00",
+    "url":"https://www.amazon.com.mx/Popotes-Biodegradables-Corrugados-Reyma-piezas/dp/B09MGBXCM8?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-1&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=498ad9e369ab59db38b5b1894b6cd7fe&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Packsys Popotes Bio Caja",
+    "description":"Packsys Popotes Biodegradables Estuchado (caja 2000 piezas)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71Y2REO9KaL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"853.00",
+    "url":"https://www.amazon.com.mx/Desechables-Transparentes-Reyma-Fiesta-1000pzs/dp/B09MG4Z8LF?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-6&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=ad872917ea6848cddddf0ddf0f6fc706&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vasos Reyma 8",
+    "description":"Vasos Desechables Transparentes Reyma Para Fiesta #8 1000pzs",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71ckQ3B8NUL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"1,649.00",
+    "url":"https://www.amazon.com.mx/Envase-Desechable-Transparente-Reyma-piezas/dp/B09MG6MHCX?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-7&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=baf090cac6bd42cbbd3ff5007b400779&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vasos Reyma 1L",
+    "description":"Envase Desechable Transparente Reyma 1 Litro Caja Con 500 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71Tb39joQGL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"548.31",
+    "url":"https://www.amazon.com.mx/Desechable-Biodegradable-Charola-T%C3%A9rmica-Reyma/dp/B09MGDK5KM?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-8&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=e137d153476fab2c7e5bddab1db3ab75&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Plato Desechable Bio 855 Reyma",
+    "description":"Plato Desechable Biodegradable Charola Térmica 855 Reyma 500 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71AYFzz3TsL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"839.44",
+    "url":"https://www.amazon.com.mx/T%C3%A9rmico-Desechable-Reyma-restaurantes-paquetes/dp/B0BM54LD2P?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-9&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=5d67ea886af0e81e7c08e4fd5f7f819e&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vaso Térmico 1/2L Reyma Caja",
+    "description":"Vaso Térmico Desechable Reyma de 1/2 Litro. Ideal para todo tipo de negocio y restaurantes. Caja con 20 paquetes de 25 piezas cada uno (500 piezas en total)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71zlLW3dNvL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"610.00",
+    "url":"https://www.amazon.com.mx/Desechables-Transparentes-Reyma-Fiesta-1000pzs/dp/B09MG5F7M6?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-10&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=819fbc0dab102ce5598226b7f6f30833&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vasos Reyma #4",
+    "description":"Vasos Desechables Transparentes Reyma Para Fiesta #4 1000pzs",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71NwJFwftTL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"279.00",
+    "url":"https://www.amazon.com.mx/Bolsa-rollo-poliseda-REYMA-bolsas/dp/B0CN4ZKQLT?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-11&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=71731d2f1d5422616fb35d3f39acc66d&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Bolsa en rollo REYMA poliseda 40 X 60 cm",
+    "description":"Bolsa en rollo, poliseda, 40 X 60 cm, REYMA, mas de 400 bolsas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71ve5qg2XtL._AC_SY879_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"590.00",
+    "url":"https://www.amazon.com.mx/Desechable-Biodegradable-Charola-T%C3%A9rmica-Reyma/dp/B09MGD1XFX?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-12&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=3632ffc7fd8ac8b41833044d1611db88&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Plato Bio 066 Reyma",
+    "description":"Plato Desechable Biodegradable Charola Térmica 066 Reyma 10 paquetes de 50 piezas (500 PIEZAS)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71CrW5iA6tL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"903.00",
+    "url":"https://www.amazon.com.mx/Desechables-Transparentes-Reyma-Fiesta-1000pz/dp/B09MG5SPBS?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-13&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=1a60bc213876daf5fbbf6f356bf605a0&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vasos Reyma #10 1000pz",
+    "description":"Vasos Desechables Transparentes Reyma Para Fiesta #10 1000pz",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/710Ned71gxL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"298.00",
+    "url":"https://www.amazon.com.mx/Berry-Hip-Pl%C3%A1stico-Elegantes-C%C3%B3cteles/dp/B0BZDYCZZS?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-16&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=a7c6214c0a72d6abc548cb0055474ce5&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Berry Hip 100 Vasos",
+    "description":"Berry Hip 100 Vasos de Plástico Reutilizables con Glitter Paquete Con 100 Piezas, Copas Elegantes para Fiestas, Bodas, Postre, Cócteles, Vino",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/91eBkBc2CyL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"174.11",
+    "url":"https://amzn.to/45pgGqH",
+    "title":"Kate Aspen Blue Willow",
+    "description":"Kate Aspen Blue Willow - Platos de papel decorativos de primera calidad (350 g/m² de peso, juego de 16), perfectos para despedidas de soltera y bodas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61B22Q+M4DL._AC_SX425_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"747.00",
+    "url":"https://www.amazon.com.mx/Desechables-Transparentes-Reyma-Fiesta-piezas/dp/B09MG64XYK?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-17&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=08f4a32fc3253863795fb5d2c25b095c&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vasos Reyma #4CH 1000 piezas",
+    "description":"Vasos Desechables Transparentes Reyma Para Fiesta #4 Chico 1000 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71hZOkiQxPL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"1,100.00",
+    "url":"https://www.amazon.com.mx/T%C3%A9rmico-Desechable-Reyma-restaurantes-paquetes/dp/B0BM588SM3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-19&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=032e44781d2d5a11b312cefda7fc7c33&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vaso Térmico Reyma 1L",
+    "description":"Vaso Térmico Desechable Reyma de 1 Litro. Ideal para todo tipo de negocio y restaurantes. Caja con 20 paquetes de 15 piezas cada uno (300 piezas en total)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71bIvpdilUL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"899.00",
+    "url":"https://www.amazon.com.mx/Vitafilm-Alimenticio-Modelo-Domestico-rollos/dp/B08C8TYG4F?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-21-spons&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=9176126c1ab4046d888a749dd9e6915f&language=es_MX&ref_=as_li_ss_tl",
+    "title":"MR. FRESH Vitafilm de Grado Alimenticio 30cm Caja con 6 rollos ",
+    "description":"MR. FRESH, Vitafilm de Grado Alimenticio, Domestico, 30cms caja con 6 rollos de 300 mts c/u",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/615ZTdiPnxL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"455.00",
+    "url":"https://www.amazon.com.mx/MR-FRESH-Vitafilm-Alimenticio-Institucional/dp/B08ZWKFCPV?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-22-spons&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=bbeddea874e638a7b4de934e44db74f7&language=es_MX&ref_=as_li_ss_tl",
+    "title":"MR. FRESH Vitafilm de Grado Alimenticio 30cm Modelo Institucional 1 rollo 800 mts c/u",
+    "description":"MR. FRESH, Vitafilm de Grado Alimenticio, 30cm 1 rollo",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51J2rmAXsbL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"385.00",
+    "url":"https://www.amazon.com.mx/Pel%C3%ADcula-pl%C3%A1stica-Fresh-Modelo-Hotelero/dp/B07VLCT7CP?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-23-spons&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=39ccaa66f41c26ebf13407cebff3cdad&language=es_MX&ref_=as_li_ss_tl",
+    "title":"MR. FRESH Vitafilm de Grado Alimenticio de 35cm",
+    "description":"MR. FRESH, Vitafilm de Grado Alimenticio de 35 cm (14 Pulg) Mod. Hotelero 600 mts",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51lrre6VGzL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"375.00",
+    "url":"https://www.amazon.com.mx/Vitafilm-pel%C3%ADcula-pl%C3%A1stica-alimenticio-Hotelero/dp/B08CBKS3X1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-24-spons&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=69210a111c177199a46f515a5e3fb9d5&language=es_MX&ref_=as_li_ss_tl",
+    "title":"MR. FRESH Vitafilm de Grado Alimenticio de 30cm",
+    "description":"MR. FRESH, Vitafilm de Grado Alimenticio de 30 cm (12 Pulg) 600 mts Peso 3.05 Kg Modelo Hotelero",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51CrWuANVJL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"950.00",
+    "url":"https://www.amazon.com.mx/Contenedor-Desechable-Comida-Reyma-piezas/dp/B09MGD9J4R?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-25&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=9877cf099b82312c88fcfff103aba907&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Contenedor 7x7 Bio Liso Reyma 200piezas",
+    "description":"Contenedor Desechable Para Comida 7x7 Bio Liso Reyma 200 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71ujkNtr12L._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"920.00",
+    "url":"https://www.amazon.com.mx/Desechable-Biodegradable-Charola-T%C3%A9rmica-Reyma/dp/B09MGFG6B9?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=reyma%2Caps%2C198&sr=8-32&linkCode=ll1&tag=tochofullde0d-20&linkId=2b8dc30f3be9087ce9ab9ca65408c1b9&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Plato Bio 007 Reyma 500 piezas",
+    "description":"Plato Desechable Biodegradable Charola Térmica 007 Reyma 500 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71eqMXXGwaL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"439.00",
+    "url":"https://www.amazon.com.mx/Servilleta-Interdoblada-Reyma-Dispensador-Servilletas/dp/B0CLSSCR6L?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-34&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=6bea26b5292525331412c671844faa74&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Servilleta 'La Taquera' Reyma Con Dispensador y Asa",
+    "description":"Servilleta de Papel Interdoblada "La Taquera" Reyma, Con Dispensador y Asa Sujetadora, 12 Paquetes de 250 Servilletas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71fT8uEwn8L._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"1,085.99",
+    "url":"https://www.amazon.com.mx/Contenedor-Desechable-Reyma-Comercios-Restaurantes/dp/B09WJF9Y2Z?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-36&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&linkCode=ll1&tag=tochofullde0d-20&linkId=de8b90b3fda30a1dd555e73611da1f15&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Contenedor con División Bio 8x8 Caja",
+    "description":"Contenedor Desechable Reyma para Comida con División Bio 8x8. Ideal para Comercios y Restaurantes. Caja con 4 paquetes de 50 piezas cada uno (200 piezas en total)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71fsSTSA0xL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"720.00",
+    "url":"https://www.amazon.com.mx/T%C3%A9rmico-Biodegradable-Desechable-Reyma-piezas/dp/B09MGDHQSF?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-38&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=9a1461a20f1b5a4ca279b126e914df33&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Plato Bio 006 Reyma 500 piezas",
+    "description":"Plato Térmico Biodegradable Desechable 006 Reyma 500 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71ZlJglKRoL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"525.00",
+    "url":"https://www.amazon.com.mx/pl%C3%A1stico-almacenamiento-alimentos-verduras-Medidas/dp/B08D7X1MGH?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-40&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=62484ba51000697b07c579692612963c&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Rollo de Bolsas Reyma 25x35cm",
+    "description":"Bolsa de plástico para almacenamiento de alimentos, verduras, fruta y mas. Medidas de 25x35cm",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51hVgCAA1jL._AC_SY879_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"1,300.00",
+    "url":"https://www.amazon.com.mx/Pack-Desechable-Reyma-12-piezas/dp/B09GW8XDH1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-43&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=ea89b8767cbd855b58d3a914a6457dc6&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Caja de Vasos Reyma #12",
+    "description":"Pack de 20 Vaso Desechable Reyma #12 50 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/51H3NcFtTEL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"916.00",
+    "url":"https://www.amazon.com.mx/Toalla-Cocina-Khiara-Reyma-Piezas/dp/B09PGRBMGT?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-47&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=ee7de0af26568ac356e410a0038c13df&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Packsys Toallas Reyma 24 Piezas",
+    "description":"Packsys Toalla En Rollo Para Cocina Khiara Reyma 168 Hojas 24 Piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/7103avSMtqL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"987.00",
+    "url":"https://www.amazon.com.mx/Toalla-Interdoblada-Sanitas-paquetes-piezas/dp/B088X3LVQ7?pd_rd_w=6wSy6&content-id=amzn1.sym.7097b179-c7b2-4b3f-9bd2-0a674e70d880&pf_rd_p=7097b179-c7b2-4b3f-9bd2-0a674e70d880&pf_rd_r=NYK0G5PJXKYK2SY654W4&pd_rd_wg=hmcQz&pd_rd_r=c3817c56-f813-40d0-a511-7d26f0256b0c&pd_rd_i=B088X3LVQ7&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=c912418c3d642a2370088d2f480c1bf8&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Sanitas Combo de 3 Cajas",
+    "description":"Sanitas - Combo de 3 Cajas 92231 Toalla Interdoblada para manos Sanitas 20 paquetes de 100 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61ieP9fyPyL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"1,100.00",
+    "url":"https://www.amazon.com.mx/Reyma-Desechable-reuniones-eventos-paquetes/dp/B0BM56T915?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-53-spons&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=96c7a27311292534e22c758dcf066e86&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Caja de Vaso Rojo Reyma EU 16",
+    "description":"Vaso Bicolor Rojo Reyma Desechable EU No.16 Ideal para tus reuniones, fiestas y eventos. Caja con 20 paquetes de 25 piezas cada uno (500 piezas en total)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61iKHE8sHpL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"399.00",
+    "url":"https://www.amazon.com.mx/JZCQZCXB-Medianas-Biodegradables-Inodoras-Compostables/dp/B0CMW4HX51?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-57-spons&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=950a0d59968a84eb8dc522e5cedf9e58&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Bolsas de Basura Bio 300p 50 * 60",
+    "description":"JZCQZCXB Bolsas de Basura 300Pcs, Bolsas para Basura Medianas Biodegradables 50 * 60CM, Gruesas, Inodoras, Grandes, Compostables, ideal para Cocina, Baño, Oficina, Hogar (Blanco)",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/714rplwzHZL._AC_SX569_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"710.00",
+    "url":"https://www.amazon.com.mx/Toalla-Rollo-Khiara-Reyma-Piezas/dp/B09PGVG5YK?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-51&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=08287a2036a3e70821ba54705b785ae2&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Toalla En Rollo Khiara Reyma 6 Piezas",
+    "description":"Packsys Toalla En Rollo Para Manos Khiara Reyma 180m 6 Piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/61ePG+H2drL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"matprimas","precio":"1,900.00",
+    "url":"https://www.amazon.com.mx/Desechables-Transparentes-Reyma-fiesta-piezas/dp/B09MG82M7T?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14AOLDOQAIAWG&dib=eyJ2IjoiMSJ9.A8ckbcfpCxZfjh4A8DK0Rfqbd8WHYHraO5xxsNH9S0dHivsy-BsFAkEBCXONIH99PN9yNs5ey6wW-kQtTGBQfeNzo_ajupDGpBLe10b9sIl54t0-i2FoZPg0l4MAQriTskAN-Go8ckXHMhrMqmtSUOEWAzs-w4_xsWlRt59bk4Ie8Mf8C2hQmc7oUg5bXTBkIyTJt9MBm1cK6aNb_BGrBZ7kvB4kObz8mSk1Ux455urkBXx7HfbjGsSIi1_2odtMB-_VdqasWrniUr5g3C9rEnXSJ9jMW_TQRxLpIpKBhTg.Fn_0wlcWLcbYluqrsPl8JVcP13l1UYsUwtijzYRwGRg&dib_tag=se&keywords=reyma&qid=1724370122&sprefix=reyma%2Caps%2C198&sr=8-45&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=a87c747d9308663c4b4e0590ab5ab695&language=es_MX&ref_=as_li_ss_tl",
+    "title":"Vasos Reyma Eu #12 1000 piezas",
+    "description":"Vasos Desechables Transparentes Reyma para fiesta Eu #12 1000 piezas",
+    "imBase":"imagenes/amz.png",
+    "imProd":"https://m.media-amazon.com/images/I/71TCKJd3FgL._AC_SX679_.jpg"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title": "Bolsa Negra Grande",
+    "description":"Bolsa negra resistente de asa de 60 * 80 Cm + Los pliegues laterales ofrece excelente capacidad de carga, hecha con material 100% reciclado es responsable con el medio ambiente y cumple la vigente ley de uso de platico de la CDMX",
+    "url":"https://materiasprimastocha.mercadoshops.com.mx/",
+    "imBase":"imagenes/bolsa.png","imProd":"bolsa.png"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso De Unicel Térmico #10 Caja Con 40 Paq 25 Piezas C/u",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1303993532-vaso-de-unicel-termico-10-caja-con-40-paq-25-piezas-cu-_JM#reco_item_pos=0&reco_backend=machinalis-homes-pdp-boos&reco_backend_type=function&reco_client=home_navigation-recommendations&reco_id=aa558926-00d9-44a7-bed0-c6032e49985b&c_id=/home/navigation-recommendations/element&c_element_order=1&c_uid=883b80b6-0019-4ca5-acd8-a5f4f2bc99f1",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_894091-MLM47344201975_092021-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso De Unicel Térmico 16oz 473ml",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1368779863-vaso-de-unicel-termico-16oz-473ml-_JM#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_885469-MLA51688909757_092022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso De Unicel 1 Litro Caja Con 20 Paq 15 Piezas C/u",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1367023604-vaso-de-unicel-1-litro-caja-con-20-paq-15-piezas-cu-_JM#reco_item_pos=1&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_940083-MLM47879394014_102021-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Tapa Dart Para Vaso 1l 32sl",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1367007465-tapa-dart-para-vaso-1l-32sl-_JM#reco_item_pos=2&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_794153-MLM48858564191_012022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso Dart Unicel #10 25 Vasos",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1481153974-vaso-dart-unicel-10-25-vasos-_JM#reco_item_pos=3&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_881447-MLM51135379897_082022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Tazon De Unicel Térmico Dart #16",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1368792206-tazon-de-unicel-termico-dart-16-_JM#reco_item_pos=4&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_623026-MLM48911674540_012022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso Dart 12oz (355ml) 12j12",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1369608536-vaso-dart-12oz-355ml-12j12-_JM#reco_item_pos=7&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_980724-MLM48931387294_012022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title": "Vaso Dart 8oz (237ml) 8jy8",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1369608652-vaso-dart-8oz-237ml-8jy8-_JM#reco_item_pos=6&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_996349-MLM48931460178_012022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso Jaguar 8 Paquete Con 50 Piezas",
+    "description":"Vaso refresquero medida estandar para eventos, este vaso es socialmente responsable y atiende la vigente ley del uso de desechables de la CDMX.",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1481134253-vaso-jaguar-8-paquete-con-50-piezas-_JM#reco_item_pos=5&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=1d7d7f1e-0140-40be-87a9-7c944c2075f9",
+    "imBase":"imagenes/vaso.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_724174-MLM51134909769_082022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Plato Pozolero Biodegradable Ph8 / 20 Paq De 25 Piezas",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1312287382-plato-pozolero-biodegradable-ph8-20-paq-de-25-piezas-_JM#reco_item_pos=8&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_980641-MLM47519921050_092021-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso Refresquero Jaguar #8 Caja Con 20 Paq 50 Piezas C/u",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1303199837-vaso-refresquero-jaguar-8-caja-con-20-paq-50-piezas-cu-_JM#reco_item_pos=9&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/vaso.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_800593-MLM47330376180_092021-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Tazon Dart Desechable 473ml Paq De 25 Piezas",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1481114532-tazon-dart-desechable-473ml-paq-de-25-piezas-_JM#reco_item_pos=10&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_889564-MLM51134656873_082022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Tapa Dart Para Vaso De 12oz 12-sl",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1368834398-tapa-dart-para-vaso-de-12oz-12-sl-_JM#reco_item_pos=11&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_779634-MLM48911396390_012022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso Reyma #8 Caja 1000 Vasos",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1443260730-vaso-reyma-8-caja-1000-vasos-_JM#reco_item_pos=12&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/vaso.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_608595-MLM50381737652_062022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso 16 Onzas Desechable Paq De 20 Piezas",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1480957921-vaso-16-onzas-desechable-paq-de-20-piezas-_JM#reco_item_pos=13&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_986267-MLM51134456585_082022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso Dart Desechable 32j32 Paq Con 15 Piezas 946ml-32onzas",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1480877680-vaso-dart-desechable-32j32-paq-con-15-piezas-946ml-32onzas-_JM#reco_item_pos=14&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_760934-MLM51133671815_082022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Tazon Dart Desechable 16mj32 473ml Paq De 25 Piezas Con Tapa",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1480964538-tazon-dart-desechable-16mj32-473ml-paq-de-25-piezas-con-tapa-_JM#reco_item_pos=15&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_889564-MLM51134656873_082022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso Dart Desechable 10jy10 Paq Con 25 Piezas 296ml-10onzas",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1480956360-vaso-dart-desechable-10jy10-paq-con-25-piezas-296ml-10onzas-_JM#reco_item_pos=16&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_958734-MLM51134187970_082022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Vaso Jaguar 8 Paquete De 50 Con Tapas",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1481127849-vaso-jaguar-8-paquete-de-50-con-tapas-_JM#reco_item_pos=17&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/vaso.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_671228-MLM51134965515_082022-O.webp"
+    },
+    {
+    "plataforma":"ml","clase":"matprima",
+    "title":"Tapa Dart Para Vaso De 16oz 16-sl",
+    "description":"[No Availiable]",
+    "url":"https://articulo.mercadolibre.com.mx/MLM-1368828346-tapa-dart-para-vaso-de-16oz-16-sl-_JM#reco_item_pos=18&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=41639ed8-a2cf-4545-a9b4-0773769df3c7",
+    "imBase":"imagenes/unicel.png","imProd":"https://http2.mlstatic.com/D_NQ_NP_725545-MLM48911413029_012022-O.webp"
+    },
+    {
+    "plataforma":"amazon","clase":"audio","precio":"1,099.00",
+    "title":" Bafle Recargable 8 pulgadas",
+    "description":"FUSSION ACUSTIC Bafle Recargable 8'' PBS-8027 con tripié y micrófono Bluetooth Bocina Audio Pro con aro de luz LED Multicolor",
+    "url":"https://www.amazon.com.mx/FUSSION-ACUSTIC-Recargable-micr%C3%B3fono-Multicolor/dp/B09R2JL12Q?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=31SX0HP2RWO9Z&dib=eyJ2IjoiMSJ9.0Rbi-bGTvnA9AKXB6bIUUO5rM4KL2CLf4axCuQQgw6FvvgdcJ4JnCa_GymcWqiT43Kz5ONzCce2vOFKo9S4sxwZS52FGvZDGQvRNPBpcXDfDHnb-gYU4_Kc4gHcyGfXDxMYHGqQPdPXPZrpHL02cxSZqHjaJubxTwvcIVyzOfsS-uHg7XMDVCO1mwfpMb5hwuJkkbl9PS6mrKv9dhDCEiHtMxO7NCeHuZpqfa7InPQRT5i6rHnZhhF0xk0XvWjicfCdEVH1EzJjbfWYpoSi3QXkGZoFJ5x9_pG1S1g_FW9o.s0JjFqOa5ri4QfSknZF5XI1yt7bEOpHiIix1IV7MvXg&dib_tag=se&keywords=bocinas&qid=1724367879&sprefix=bocinas%2Caps%2C475&sr=8-18&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=ff2a27c320a2d33c61665b7f1d93d73a&language=es_MX&ref_=as_li_ss_tl",
+    "imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71LgmtgdSdL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"audio","precio":"1,789.00",
+    "title":"Kaiser Bafle",
+    "description":"Kaiser MSA-7515MX Kit de Bafle Amplificado Inalámbrico Profesional 15'', 15.000 W PMPO con Bluetooth, Micrófono y Luz Multicolor",
+    "url":"https://www.amazon.com.mx/Kaiser-MSA-7516-Amplificado-Inal%C3%A1mbrico-Profesional/dp/B07FYFG3WQ?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=31SX0HP2RWO9Z&dib=eyJ2IjoiMSJ9.0Rbi-bGTvnA9AKXB6bIUUO5rM4KL2CLf4axCuQQgw6FvvgdcJ4JnCa_GymcWqiT43Kz5ONzCce2vOFKo9S4sxwZS52FGvZDGQvRNPBpcXDfDHnb-gYU4_Kc4gHcyGfXDxMYHGqQPdPXPZrpHL02cxSZqHjaJubxTwvcIVyzOfsS-uHg7XMDVCO1mwfpMb5hwuJkkbl9PS6mrKv9dhDCEiHtMxO7NCeHuZpqfa7InPQRT5i6rHnZhhF0xk0XvWjicfCdEVH1EzJjbfWYpoSi3QXkGZoFJ5x9_pG1S1g_FW9o.s0JjFqOa5ri4QfSknZF5XI1yt7bEOpHiIix1IV7MvXg&dib_tag=se&keywords=bocinas&qid=1724367879&sprefix=bocinas%2Caps%2C475&sr=8-25&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=305a6618bf1706910c00492f6132b9a8&language=es_MX&ref_=as_li_ss_tl",
+    "imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71MnQ1DcQxL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"audio","precio":"987.35",
+    "title":"Bafle Kaiser 8 pulg",
+    "description":"Bafle 8 pulg 6,500 W PMPO micrófono alámbrico y Control Disponible KSW-1108",
+    "url":"https://www.amazon.com.mx/dp/B0BNC9Z886?psc=1&pd_rd_i=B0BNC9Z886&pd_rd_w=GLQ5o&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=ZMA6278E4YWJRKRYE8NY&pd_rd_wg=9Orza&pd_rd_r=0275acb0-02a1-4270-ab68-56ecfeb0298b&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll1&tag=tochofullde0d-20&linkId=134464427d5e5dd651b74e20a0b34bd2&language=es_MX&ref_=as_li_ss_tl",
+    "imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71BIKtqnqbL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"audio","precio":"619.00",
+    "title":"LINK BITS Bocina",
+    "description":"LINK BITS Bocina Bluetooth de 8 Pulgadas， Bocinas Altavoces Speaker Inalámbricos| RGB Luz Led | Sonido Estéreo | Viajes Música, Trabajo, Juegos | para iPhone, Android y PC（USB/TF/Mic）",
+    "url":"https://www.amazon.com.mx/LINK-BITS-Bluetooth-Pulgadas%EF%BC%8C-Inal%C3%A1mbricos/dp/B0BZDMW44V?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=31SX0HP2RWO9Z&dib=eyJ2IjoiMSJ9.0Rbi-bGTvnA9AKXB6bIUUO5rM4KL2CLf4axCuQQgw6FvvgdcJ4JnCa_GymcWqiT43Kz5ONzCce2vOFKo9S4sxwZS52FGvZDGQvRNPBpcXDfDHnb-gYU4_Kc4gHcyGfXDxMYHGqQPdPXPZrpHL02cxSZqHjaJubxTwvcIVyzOfsS-uHg7XMDVCO1mwfpMb5hwuJkkbl9PS6mrKv9dhDCEiHtMxO7NCeHuZpqfa7InPQRT5i6rHnZhhF0xk0XvWjicfCdEVH1EzJjbfWYpoSi3QXkGZoFJ5x9_pG1S1g_FW9o.s0JjFqOa5ri4QfSknZF5XI1yt7bEOpHiIix1IV7MvXg&dib_tag=se&keywords=bocinas&qid=1724367879&sprefix=bocinas%2Caps%2C475&sr=8-47&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=8c012f0f30d904c86122495b01ab3b73&language=es_MX&ref_=as_li_ss_tl",
+    "imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/711Oaui0ltL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"audio","precio":"829.00",
+    "title":"Audiobox ABX-286R",
+    "description":"Audiobox ABX-286R - Altavoz portátil dual de 8 pulgadas con Bluetooth, luz de woofer activada por sonido y carga USB-C, potentes graves para fiestas, eventos y karaoke",
+    "url":"https://www.amazon.com.mx/Audiobox-ABX-286R-port%C3%A1til-pulgadas-Bluetooth/dp/B0CXLBJSV3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=31SX0HP2RWO9Z&dib=eyJ2IjoiMSJ9.0Rbi-bGTvnA9AKXB6bIUUO5rM4KL2CLf4axCuQQgw6FvvgdcJ4JnCa_GymcWqiT43Kz5ONzCce2vOFKo9S4sxwZS52FGvZDGQvRNPBpcXDfDHnb-gYU4_Kc4gHcyGfXDxMYHGqQPdPXPZrpHL02cxSZqHjaJubxTwvcIVyzOfsS-uHg7XMDVCO1mwfpMb5hwuJkkbl9PS6mrKv9dhDCEiHtMxO7NCeHuZpqfa7InPQRT5i6rHnZhhF0xk0XvWjicfCdEVH1EzJjbfWYpoSi3QXkGZoFJ5x9_pG1S1g_FW9o.s0JjFqOa5ri4QfSknZF5XI1yt7bEOpHiIix1IV7MvXg&dib_tag=se&keywords=bocinas&qid=1724367879&sprefix=bocinas%2Caps%2C475&sr=8-32&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=27d97b1d495f5739c56b2057511c14da&language=es_MX&ref_=as_li_ss_tl",
+    "imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71ysmKWs1LL._AC_SY450_.jpg"
+    }
+    ,
+    {
+    "plataforma":"amazon","clase":"audio","precio":"899.00",
+    "title":"Amazon Echo Dot",
+    "description":"Amazon Echo Dot (5.ª generación, modelo de 2022) Bocina inteligente con Alexa | Blanco",
+    "url":"https://www.amazon.com.mx/generaci%C3%B3n-modelo-Bocina-inteligente-Blanco/dp/B09B94RL1R?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=31SX0HP2RWO9Z&dib=eyJ2IjoiMSJ9.0Rbi-bGTvnA9AKXB6bIUUO5rM4KL2CLf4axCuQQgw6FvvgdcJ4JnCa_GymcWqiT43Kz5ONzCce2vOFKo9S4sxwZS52FGvZDGQvRNPBpcXDfDHnb-gYU4_Kc4gHcyGfXDxMYHGqQPdPXPZrpHL02cxSZqHjaJubxTwvcIVyzOfsS-uHg7XMDVCO1mwfpMb5hwuJkkbl9PS6mrKv9dhDCEiHtMxO7NCeHuZpqfa7InPQRT5i6rHnZhhF0xk0XvWjicfCdEVH1EzJjbfWYpoSi3QXkGZoFJ5x9_pG1S1g_FW9o.s0JjFqOa5ri4QfSknZF5XI1yt7bEOpHiIix1IV7MvXg&dib_tag=se&keywords=bocinas&qid=1724367879&sprefix=bocinas%2Caps%2C475&sr=8-30&ufe=app_do%3Aamzn1.fos.c186f76c-7895-4ba6-8cec-a3bceda06038&linkCode=ll1&tag=tochofullde0d-20&linkId=03a644ce30bda995839ffb04c7aad63e&language=es_MX&ref_=as_li_ss_tl",
+    "imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71zO1uCiDaL._AC_SX425_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"audio","precio":"1,419.29",
+    "title":"Steelpro Bocina",
+    "description":"Steelpro Bocina Portatil Bluetooth 2x8 Suspension De Aire 1851090460",
+    "url":"https://www.amazon.com.mx/Steelpro-Portatil-Bluetooth-Suspension-1851090460/dp/B0BXFYH3FK?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=31SX0HP2RWO9Z&dib=eyJ2IjoiMSJ9.0Rbi-bGTvnA9AKXB6bIUUO5rM4KL2CLf4axCuQQgw6FvvgdcJ4JnCa_GymcWqiT43Kz5ONzCce2vOFKo9S4sxwZS52FGvZDGQvRNPBpcXDfDHnb-gYU4_Kc4gHcyGfXDxMYHGqQPdPXPZrpHL02cxSZqHjaJubxTwvcIVyzOfsS-uHg7XMDVCO1mwfpMb5hwuJkkbl9PS6mrKv9dhDCEiHtMxO7NCeHuZpqfa7InPQRT5i6rHnZhhF0xk0XvWjicfCdEVH1EzJjbfWYpoSi3QXkGZoFJ5x9_pG1S1g_FW9o.s0JjFqOa5ri4QfSknZF5XI1yt7bEOpHiIix1IV7MvXg&dib_tag=se&keywords=bocinas&qid=1724367879&sprefix=bocinas%2Caps%2C475&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.628a2120-cf12-4882-b7cf-30e681beb181&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll1&tag=tochofullde0d-20&linkId=5cf4ff800c515e66cbc2d6dbee4c3d9c&language=es_MX&ref_=as_li_ss_tl",
+    "imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/81H1s6RpkBL._AC_SY450_.jpg"
+    },
+    {
+    "plataforma":"amazon","clase":"audio","precio":"2,499.00",
+    "title":"JYX Máquina de Karaoke",
+    "description":"JYX Máquina de Karaoke con 2 Micrófonos Inalámbricos, Altavoz Bluetooth Portátil para Adultos y Niños, Gran Sistema PA de Fiesta con Luces de Discoteca para Reuniones, Subwoofers de Escenario",
+    "url":"https://www.amazon.com.mx/dp/B0C4DKG48P?pd_rd_i=B0C4DKG48P&pd_rd_w=sEBKS&content-id=amzn1.sym.98349eff-970d-4329-9808-569eb2fa7330&pf_rd_p=98349eff-970d-4329-9808-569eb2fa7330&pf_rd_r=2KYCA6MA221P91ZV8BG6&pd_rd_wg=thKQb&pd_rd_r=ed84e6cc-4ca6-43e1-8606-d3fe69d2c676&s=electronics&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll1&tag=tochofullde0d-20&linkId=3731007eecfe351deb67d10bfb525084&language=es_MX&ref_=as_li_ss_tl",
+    "imBase":"imagenes/amz.png","imProd":"https://m.media-amazon.com/images/I/71mxjQeJtrL._AC_SX569_.jpg"
+    }
+    ]
