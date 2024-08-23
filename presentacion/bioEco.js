@@ -3,7 +3,7 @@ window.addEventListener('scroll',()=>{
 	let value=window.scrollY;text.style.top=50+value*-0.5+'%';bird1.style.top=value*-1.5+'px';bird1.style.left=value*2+'px';bird2.style.top=value*-1.5+'px';bird2.style.top=value*-5+'px';btn.style.top=value*1.5+'px';rocks.style.top=value*-0.12+'px';forest.style.top=value*0.25+'px';header.style.top=value*0.5+'px';
 });
 const url = 'negocio/amz.json';
-const targetasAmz = document.querySelector('.prod_car');
+const targetasAmz = document.querySelector('.seccion');
 const pedirDatos = async()=>{
     const peticion = await fetch(url);
     const datos = await peticion.json();

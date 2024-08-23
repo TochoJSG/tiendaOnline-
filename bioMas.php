@@ -50,9 +50,7 @@
 			<span onclick="right_mover();">&#155 </span>
 			</p>
 	</header>
-	<div class="seccion">
-		<div class="prod_car"></div>
-	</div>
+	<div class="seccion"></div>
 </div>
 
 <script type="text/javascript">
