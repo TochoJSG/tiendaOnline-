@@ -107,9 +107,9 @@ header p span:hover{background:#222;color:#48a3c6;}
 .seccion .prod_car{width:300px;height:450px;background:#37475a;/*whitesmoke;*/margin:0 17px;border-radius:9px;position:relative;left:0;transition:0.6s;padding:3px 17px;}
 .seccion .prod_car .picture{display:block;width:300px;height:250px;padding:1px;}
 .seccion .prod_car .picture .imgBx{position:relative;width:300px;height:250px;}
-.seccion .prod_car .picture img{position:absolute;top:0;left:0;height:250px;object-fit:cover;transition:0.6s ease-in-out;transform-origin:center;width:300px;border-radius:9px;}
+.seccion .prod_car .picture img{position:relative;top:0;left:0;height:250px;width:300px;border-radius:3px;}
 /*.seccion .prod_car picture:hover .imgBx img{transform:scale(1.5);}*/
-.seccion .prod_car .details_car{width:100%;margin:1%;padding:6px;display:block;justify-content:center;/*space-between;*/text-align:center;align-items:center;height:200px;color:#fff;}
+.seccion .prod_car .details_car{width:300px;padding:6px;display:block;justify-content:center;/*space-between;*/text-align:center;align-items:center;height:200px;color:#fff;}
 .seccion .prod_car .details_car h2{text-align:center;font-size:1em;font-weight:600;letter-spacing:2px;padding:1px;color:#fff;}
 .seccion .prod_car .details_car p{font-size:.9em;font-weight:100;letter-spacing:1px;color:#fff;padding:3px;margin:0px;text-align:justify;margin-bottom:16px;}
 .seccion .prod_car .details_car span{font-size:1.2em;font-weight:600;letter-spacing:3px;color:#daf;padding:8px;margin:16px;}

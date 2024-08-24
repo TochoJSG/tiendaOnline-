@@ -15,7 +15,7 @@ const pintarCards = data =>{
 		if(item.clase==="bio"){   
 			plantilla1 += `<div class="prod_car">
 				<div class="picture">
-					<img class ="imgBx" src="${item.imBase}">
+					<img class="imgBx" src="${item.imBase}">
 				</div>
 				<div class="details_car">
 						<img src="${item.imProd}" alt="Error al cargar imagen de ${item.title}"/>
