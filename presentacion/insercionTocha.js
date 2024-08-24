@@ -1,23 +1,31 @@
-const urlAMZ='negocio/amz.json';
-const targetasAmz=document.querySelector('.containerCardAmz');
-const carrusel=document.querySelector('#carrusel-gral');
-document.addEventListener('DOMContentLoaded',pedirDataAmz);
-document.addEventListener('scroll',pedirDataCarr);
-function pedirDataCarr(){
-fetch(urlAMZ).then(response=>
-	response.json()).then(data=>{
-			//console.log(data);
-			pintarCarrusel(data);
+const urlAMZ = 'negocio/amz.json';
+const targetasAmz = document.querySelector('.containerCardAmz');
+const carrusel = document.querySelector('#carrusel-gral');
+/*function pedirDataCarr(){
+	fetch(urlAMZ).
+		then(response=>
+			response.json()).
+			then(data=>{
+				//console.log(data);
+				pintarCarrusel(data);
 		}).catch(error=>console.log(error));
 }
 function pedirDataAmz(){
-fetch(urlAMZ).then(response=>
-	response.json()).then(data=>{
-			//console.log(data);
-			pintarCards(data);
+	fetch(urlAMZ).
+		then(response=>
+			response.json()).
+			then(data=>{
+				//console.log(data);
+				pintarCards(data);
 		}).catch(error=>console.log(error));
-}
-const pintarCards=data=>{
+}*/
+const consultamosAmz = async() =>{
+	const req = await fetch(urlAMZ);
+	const data = await req.json();
+	pintarCards(data);
+	pintarCarrusel(data);
+};
+const pintarCards = data =>{
 	let plantilla1 = '';
 	data.forEach(item=>{
 		if( (item.plataforma==='amazon') && (item.clase==='matprimas') ){   
@@ -37,8 +45,8 @@ const pintarCards=data=>{
 	});
 	targetasAmz.innerHTML = plantilla1;
 }
-const pintarCarrusel=data=>{
-	let plantilla2='';
+const pintarCarrusel = data =>{
+	let plantilla2 = '';
 	data.forEach(item=>{
 	if( (item.clase=='matprimas') || (item.plataforma=='ml') ){
 	plantilla2 += `<div class="prod_car">
@@ -54,5 +62,6 @@ const pintarCarrusel=data=>{
 			</div>`;
 	}
 	});
-	carrusel.innerHTML=plantilla2;
+	carrusel.innerHTML = plantilla2;
 }
+document.addEventListener('DOMContentLoaded',consultamosAmz);
