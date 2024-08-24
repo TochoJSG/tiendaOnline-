@@ -181,6 +181,10 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 	document.write('<scr'+'ipt type="text/javascript" src="http' + (location.protocol === 'https:'?'s':'')+'://www.profitabledisplaynetwork.com/616899c29662e51f5906c074fcc9478e/invoke.js"></scr' + 'ipt>');
 </script>
 <div class="aletarga" style="display:fixed;">
+
+	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre
+        </button></a>
+
 	<div class="grid-containerD">
 	<div class="itemZoom">
 	<div class="contNoti">
@@ -214,8 +218,6 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 			<a target="_self" href="equipos.php"><img class="zoom" src="imagenes/ACCESORIOSyELECTRONICA.jpg" /></a>
 	</div>
 	</div>
-    <a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre
-        </button></a>
 </div>
 
 <div class="carousel">
@@ -236,7 +238,7 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 <ul class="menu_f">
     <li><a target="_blank" href="<?php echo $t_mercadoShops;?>">MercadoLibre</a></li>
 	<li><a target="_self" href="index.php">Principal</a></li>
-	<li><a id="buttonUs">Quienes Somos</a></li>
+	<li><a id="buttonUs" style="color:#fff;">Quienes Somos</a></li>
 	<li><a target="_self" href="ventas.php">Productos</a></li>
 	<li><a target="_self" href="contacto_tocha.php">Contacto</a></li>
 </ul>

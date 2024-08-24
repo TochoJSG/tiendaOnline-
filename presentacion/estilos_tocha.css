@@ -179,10 +179,10 @@ div .card .card-body h5{font-size:1.1em;font-weight:600;letter-spacing:3px;text-
 div .card .card-body span{font-size:1.3em;font-weight:600;letter-spacing:5px;}
 div .card .card-body button{margin-top:8px;width:100%;height:66px;border-radius:6px;}
 div .card .card-body button:hover{background:#daf;color:#415;font-weight:600;}
-.amz{background:#232f3e;width:100%;max-width:100%;margin:0;height:auto;position:relative;display: block;overflow-x:hidden;overflow-y:hidden;}
+.amz{background:#040105;width:100%;max-width:100%;margin:0;height:auto;position:relative;display: block;overflow-x:hidden;overflow-y:hidden;}
 .amz h2{margin-top:16px;padding:8px;text-align:center;font-size:1.1em;font-weight:300;letter-spacing:6px;color:#fff;text-transform:uppercase;}
 .amz span{font-size:1.2em;font-weight:500;letter-spacing:8px;color:#daf;}
-.containerCardAmz{background:#040105;position:relative;width:100%;height:1100px;max-width:100%;display:grid;align-items:center;align-content:center;grid-template-columns:repeat(auto-fit,minmax(333px,1fr));grid-gap:25px;padding:66px;margin:0;overflow-x:hidden;overflow-y:hidden;}
+.containerCardAmz{background:#021022;position:relative;width:100%;height:1100px;max-width:100%;display:grid;align-items:center;align-content:center;grid-template-columns:repeat(auto-fit,minmax(333px,1fr));grid-gap:25px;padding:66px;margin:0;overflow-x:hidden;overflow-y:hidden;}
 .contCardAmz{position:relative;overflow-x:hidden;overflow-y:hidden;width:350px;height:514px;background:#fff;transform-style:preserve-3d;transform:perspective(2000px);transition:1s;box-shadow:inset 300px 0 33px rgba(0,0,0,0.17),0 17px 17px rgba(0,0,0,0.17);border-radius:8px;}
 .contCardAmz:hover{transform:perspective(2000px);box-shadow:inset 20px 0 50px rgba(0,0,0,0.15),0 10px 10px rgba(0,0,0,0.15);}
 .contCardAmz .coverLaCard{position:relative;width:100%;height:100%;background:#ffffffcc;z-index:2;display:flex;justify-content:center;align-items:center;transform-style:preserve-3d;overflow:hidden;transition:.6s ease-in-out;transform-origin:left;}
@@ -356,7 +356,7 @@ a .liquid:after{border-radius:40%;background:rgba(20,20,20,0.5);animation:animat
 .btnHeader #boton_compra{margin:0;width:250px;position:relative;letter-spacing:3px;font-size:1em;font-weight:500;align-items:center;height:auto;padding:12px;background:#ff00;border-radius:3px;}
 #boton_compra:hover{background:#040105;color:#fff;}
 /*footer*/
-footer{position:relative;width:100%;background:#3586ff;min-height:100px;padding:0;display:flex;justify-content:center;align-items:center;flex-direction:column;margin:0;}
+footer{position:relative;width:100%;background:#232f3e;min-height:100px;padding:0;display:flex;justify-content:center;align-items:center;flex-direction:column;margin:0;}
 footer .social_icon,
 footer .menu_f{position:relative;display:flex;justify-content:center;align-items:center;margin:10px 0;flex-wrap:wrap;flex-direction:row;text-decoration:none;}
 footer .social_icon li,
@@ -393,7 +393,7 @@ footer .wave#wave2{position:absolute;z-index:999;opacity:0.5;bottom:15px;animati
 .footer_map{background:#daff;padding:0;margin:0;width:100%;height:auto;max-height:415px;}
 .footer_map iframe{padding:0;margin:0;width:100%;height:100%;}
 /*Carruel*/
-.main{width:100%;height:auto;margin:0px auto;position:relative;padding:3px 0;background:#ffd;}
+.main{width:100%;height:auto;margin:0px auto;position:relative;padding:3px 0;background:rgb(255, 255, 240);}
 .main .texto_car{padding:8px;text-align:center;color:#554;height:110px;overflow:hidden;}
 .texto_car h1,.texto_car h2{padding:8px;font-size:1em;font-weight:600;letter-spacing:3px;color:#415;}
 .texto_car p{width:90%;text-align:center;padding:3px;margin:1px auto 0px auto;line-height:30px;color:#415;}
@@ -476,7 +476,6 @@ p .star{margin:6px auto;width:66%;font-size:23px;color:#808080;}
 	.details_car,.button_car_c{font-size:15px;}
 	.button_car_c a{padding:6px 9px;}
 }
-
 @media(max-width:991px){
 	.boton4{font-size:1em;letter-spacing:3px;padding:0.5em 1.1em;border:1px solid;}
 	.contBtnLuz a{padding:9px 25px;border:1px solid #0f0;margin:8px;font-size:1.1em;font-weight:500;letter-spacing:2px;}
