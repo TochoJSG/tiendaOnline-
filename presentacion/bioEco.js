@@ -13,10 +13,10 @@ const pintarCards = data =>{
 	let plantilla1 = '';
 	data.forEach(item=>{
 		if(item.clase==="bio"){   
-			plantilla1+= `<div class="prod_car">
-				<picture>
-					<img src="${item.imBase}"/>
-				</picture>
+			plantilla1 += `<div class="prod_car">
+				<div class="picture">
+					<img src="${item.imBase}">
+				</div>
 				<div class="details_car">
 						<img src="${item.imProd}" alt="Error al cargar imagen de ${item.title}"/>
 						<h2>${item.title}</h2>
