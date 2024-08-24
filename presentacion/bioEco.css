@@ -42,7 +42,7 @@ section #textEco span{font-size:0.20em;letter-spacing:2px;color:#094b65;font-wei
 .containerEco .boxEco .contentEco .imBio{width:325px;height:250px;top:0;justify-items: center;}
 .containerEco .boxEco .contentEco h2{font-size:1.1em;color:#fff;margin-bottom:10px;font-weight:600;letter-spacing:3px}
 .containerEco .boxEco .contentEco p{font-size:1em;color:#fff;margin-bottom:10px;line-height:1.4em;}
-.containerEco .boxEco .contentEco a{display:inline-block;font-size:1.1em;color:#415;background:#ffad;padding:8px 17px;text-align:center;text-decoration:none;font-weight:700;border-radius:8px;margin:0 auto;}
+.containerEco .boxEco .contentEco a{display:inline-block;width:80%;font-size:1.1em;color:#415;background:#ffad;padding:8px 17px;text-align:center;text-decoration:none;font-weight:700;border-radius:8px;margin:0 10%;}
 .containerEco .boxEco .contentEco a:hover{background: #daff;transition-delay: .6s;}
 section .loadSec{background:none;position:relative;width:100%;height:100vh;/*min-height:100vh;*/display:flex;justify-content:center;align-items:center;min-height:100vh;animation:animate 10s linear infinite;margin:0;}
 section .loader{position:absolute;width:145px;height:145px;}
