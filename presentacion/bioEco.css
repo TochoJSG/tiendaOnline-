@@ -38,11 +38,11 @@ section #textEco span{font-size:0.20em;letter-spacing:2px;color:#094b65;font-wei
 .containerEco .boxEco:nth-child(3)::after{background:linear-gradient(315deg,#4dff03,#00d0ff);}
 .containerEco .boxEco span{position:absolute;top:6px;left:6px;right:6px;bottom:6px;background:rgba(0,0,0,0.6);z-index:2;}/*Romover linea para un efecto fifi diferente*/
 .containerEco .boxEco span::before{content:'';position:absolute;top:0;left:0;width:50%;height:100%;background:rgba(255,255,255,0.02);pointer-events:none;}
-.containerEco .boxEco .contentEco{position:relative;z-index:10;padding:20px 40px;align-items: center;justify-content: center;}
+.containerEco .boxEco .contentEco{position:relative;z-index:10;padding:20px 40px;align-items:center;justify-content:center;}
 .containerEco .boxEco .contentEco .imBio{width:325px;height:250px;top:0;justify-items: center;}
 .containerEco .boxEco .contentEco h2{font-size:1.1em;color:#fff;margin-bottom:10px;font-weight:600;letter-spacing:3px}
 .containerEco .boxEco .contentEco p{font-size:1em;color:#fff;margin-bottom:10px;line-height:1.4em;}
-.containerEco .boxEco .contentEco a{display:inline-block;font-size:1.1em;color:#415;background:#ffad;padding:8px 17px;text-align:center;text-decoration:none;font-weight:700;border-radius:8px;}
+.containerEco .boxEco .contentEco a{display:inline-block;font-size:1.1em;color:#415;background:#ffad;padding:8px 17px;text-align:center;text-decoration:none;font-weight:700;border-radius:8px;margin:0 auto;}
 .containerEco .boxEco .contentEco a:hover{background: #daff;transition-delay: .6s;}
 section .loadSec{background:none;position:relative;width:100%;height:100vh;/*min-height:100vh;*/display:flex;justify-content:center;align-items:center;min-height:100vh;animation:animate 10s linear infinite;margin:0;}
 section .loader{position:absolute;width:145px;height:145px;}
@@ -101,15 +101,15 @@ box-shadow:0 0 10px #00ff0a,
 .main header h1{color:#e47911;font-size:1.5em;font-weight:500;letter-spacing:8px;padding:9px;}
 header p span{font-size:3em;margin:8px;cursor:pointer;color:#e47911;width:33px;height:33px;display:inline-block;line-height:19px;text-align:center;border-radius:3px;}
 header p span:hover{background:#222;color:#48a3c6;}
-.seccion{display:flex;overflow:hidden; width:100%;height:666px;margin:0;align-items:center;}
+.seccion{display:flex;overflow:hidden;width:100%;height:485px;margin:0;align-items:center;}
 .seccion .contBio{display:flex;flex-direction:row;margin:0 17px;}
 .seccion::-webkit-scrollbar{display:none;}
-.seccion .prod_car{width:300px;height:450px;background:#37475a;/*whitesmoke;*/margin:0 17px;border-radius:9px;position:relative;left:0;transition:0.6s;}
-.seccion .prod_car picture{width:300px;height:250;padding:1px;}
+.seccion .prod_car{width:300px;height:450px;background:#37475a;/*whitesmoke;*/margin:0 17px;border-radius:9px;position:relative;left:0;transition:0.6s;padding:3px 17px;}
+.seccion .prod_car picture{width:300px;height:250px;padding:1px;}
 .seccion .prod_car picture .imgBx{position:relative;width:100%;height:250px;}
-.seccion .prod_car picture img{position:absolute;top:0;left:0;height:100%;object-fit:cover;transition:0.6s ease-in-out;transform-origin:center;width:100%;border-radius:9px;}
+.seccion .prod_car picture img{position:relative;top:0;left:0;height:100%;object-fit:cover;transition:0.6s ease-in-out;transform-origin:center;width:100%;border-radius:9px;}
 .seccion .prod_car picture:hover .imgBx img{transform:scale(1.5);}
-.seccion .prod_car .details_car{width:98%;max-width:333px;margin:1%;padding:6px;display:block;justify-content:center;/*space-between;*/text-align:center;align-items:center;height:99px;color:#fff;}
+.seccion .prod_car .details_car{width:100%;max-width:333px;margin:1%;padding:6px;display:block;justify-content:center;/*space-between;*/text-align:center;align-items:center;height:200px;color:#fff;}
 .seccion .prod_car .details_car h2{text-align:center;font-size:1em;font-weight:600;letter-spacing:2px;padding:1px;color:#fff;}
 .seccion .prod_car .details_car p{font-size:.9em;font-weight:100;letter-spacing:1px;color:#fff;padding:3px;margin:0px;text-align:justify;margin-bottom:16px;}
 .seccion .prod_car .details_car span{font-size:1.2em;font-weight:600;letter-spacing:3px;color:#daf;padding:8px;margin:16px;}
