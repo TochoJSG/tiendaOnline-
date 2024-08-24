@@ -18,26 +18,24 @@ fetch(urlAMZ).then(response=>
 		}).catch(error=>console.log(error));
 }
 const pintarCards=data=>{
-	let plantilla1='';
+	let plantilla1 = '';
 	data.forEach(item=>{
-	if( (item.plataforma=='amazon') && (item.clase=='matprimas') ){   
-	plantilla1+=`<div class="contCardAmz">
-	<div class="coverLaCard">
-		<img src="${item.imBase}" />
-	</div>
-	<div class="detailsLaCard">
-	<div>
-		<img src="${item.imProd}" />
-		<h2>${item.title}
-			</h2>
-		<a target="_blank" href="${item.url}">Ver en Amazon
-			</a>
-	</div>
-	</div>
-	</div>`;
-	}
+		if( (item.plataforma==='amazon') && (item.clase==='matprimas') ){   
+			plantilla1 += `<div class="contCardAmz">
+								<div class="coverLaCard">
+									<img src="${item.imBase}" />
+								</div>
+								<div class="detailsLaCard">
+									<img src="${item.imProd}" alt="cargando ${item.title}"/>
+									<h2>${item.title}
+										</h2>
+									<a target="_blank" href="${item.url}">Ver en Amazon
+										</a>
+								</div>
+							</div>`;
+		}
 	});
-	targetasAmz.innerHTML=plantilla1;
+	targetasAmz.innerHTML = plantilla1;
 }
 const pintarCarrusel=data=>{
 	let plantilla2='';
