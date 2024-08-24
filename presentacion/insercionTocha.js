@@ -20,7 +20,7 @@ fetch(urlAMZ).then(response=>
 const pintarCards=data=>{
 	let plantilla1='';
 	data.forEach(item=>{
-	if(item.clase==="mascota"){   
+	if(item.plataforma==="amazon" && item.clase === "matprimas"){   
 	plantilla1+=`<div class="contCardAmz">
 	<div class="coverLaCard">
 		<img src="${item.imBase}" />
@@ -43,7 +43,7 @@ const pintarCarrusel=data=>{
 	let plantilla2='';
 	data.forEach(item=>{
 	if(item.clase=="matprimas"||item.plataforma=="ml"){
-	plantilla2+=`<div class="prod_car">
+	plantilla2 += `<div class="prod_car">
 				<picture>
 					<div class="imgBx">
 					<img src="${item.imProd}" alt="loading..." />

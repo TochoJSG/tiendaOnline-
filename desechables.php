@@ -85,7 +85,7 @@ $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 		<a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="btnML">
 		<div class="icono">
 			<svg width="16" height="16" fill="currentcolor">
-				<img src="imagenes/ml.png" width="25" height="25" />
+				<img src="imagenes/ml.png" width="25" height="25">
 			</svg>
 		</div>
 		<span>Mercado Libre</span></button></a>
