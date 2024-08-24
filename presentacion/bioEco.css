@@ -93,7 +93,7 @@ box-shadow:0 0 10px #00ff0a,
     -webkit-transform:rotate(360deg);}
 .mamalon{width:66%;margin:8px 17%;border-radius:17px;box-shadow:17px 8px 8px;}
 .mamalon:hover{filter:saturate(180%);}
-.main{width:100%;background:#232f3e;height:555px;margin:0px;position:relative;padding:3px 0;}
+.main{width:100%;background:#232f3e;height:auto;margin:0px;position:relative;padding:3px 0;}
 .main .texto_car{padding:9px;max-height:66px;}
 .texto_car h1{font-size:1.5em;width:99%;padding:8px;font-weight:500;letter-spacing:6px;text-align:center;color:#fff;text-transform:uppercase;}
 .texto_car p{padding:9px;font-size:1.1em;font-weight:300;letter-spacing:3px;line-height:30px;margin:8px;color:#232f3e;}
@@ -104,16 +104,17 @@ header p span:hover{background:#222;color:#48a3c6;}
 .seccion{display:flex;overflow:hidden;width:100%;height:485px;margin:0;align-items:center;}
 .seccion .contBio{display:flex;flex-direction:row;margin:0 17px;}
 .seccion::-webkit-scrollbar{display:none;}
-.seccion .prod_car{width:300px;height:450px;background:#37475a;/*whitesmoke;*/margin:0 17px;border-radius:9px;position:relative;left:0;transition:0.6s;padding:3px 17px;}
-.seccion .prod_car .picture{display:block;width:300px;height:250px;padding:1px;}
-.seccion .prod_car .imgBx{position:relative;width:300px;height:250px;}
+.seccion .prod_car{width:300px;height:450px;background:#37475a;/*whitesmoke;*/margin:0 17px;border-radius:9px;position:relative;left:0;transition:0.6s;padding:0px;}
+.seccion .prod_car .picture{display:block;width:300px;height:250px;padding:0px;}
+.seccion .prod_car .imgBx{position:absolute;width:300px;height:250px;}
+.seccion .prod_car img{width:290px;height:300px;border-radius:3px;}
 .seccion .prod_car .imgBx img{position:relative;top:0;left:0;width:100%;height:100%;object-fit:cover;transition:0.6s ease-in-out;transform-origin:center;border-radius:9px;}
 /*.seccion .prod_car picture:hover .imgBx img{transform:scale(1.5);}*/
 .seccion .prod_car .details_car{width:100%;margin:1%;padding:6px;display:block;justify-content:center;/*space-between;*/text-align:center;align-items:center;height:200px;color:#fff;}
 .seccion .prod_car .details_car h2{text-align:center;font-size:1em;font-weight:600;letter-spacing:2px;padding:1px;color:#fff;}
 .seccion .prod_car .details_car p{font-size:.9em;font-weight:100;letter-spacing:1px;color:#fff;padding:3px;margin:0px;text-align:justify;margin-bottom:16px;}
 .seccion .prod_car .details_car span{font-size:1.2em;font-weight:600;letter-spacing:3px;color:#daf;padding:8px;margin:16px;}
-.seccion .prod_car .details_car a{position:relative;display:inline-block;padding:8px 23px;background:#040105;border:1px solid #daf;color:#fff;text-decoration:none;font-size:1em;letter-spacing:3px;font-weight:300;margin:auto;}
+.seccion .prod_car .details_car a{width:80%;position:relative;display:inline-block;padding:8px 23px;background:#040105;border:1px solid #daf;color:#fff;text-decoration:none;font-size:1em;letter-spacing:3px;font-weight:300;margin:auto 10%;}
 .seccion .prod_car .details_car a:hover{background:#fff;color:#daf;}
 .amz{background:#232f3e;width:100%;max-width:100%;margin:0;height:auto;position:relative;display:block;overflow-x:hidden;}
 .amz h2{margin-top:16px;padding:8px;text-align:center;font-size:1.1em;font-weight:300;letter-spacing:6px;color:#fff;text-transform:uppercase;}
