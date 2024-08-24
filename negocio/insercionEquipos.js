@@ -26,7 +26,7 @@ const equipos = document.querySelector('.equipos');
 const insertCard = productos =>{
     let cardProductos = '';
     productos.forEach(producto=>{
-        if(producto.plataforma === 'amazon' && (producto.clase != 'matprima' || producto.clase != 'bio') ){
+        if(producto.plataforma === 'amazon' && !(producto.clase == 'matprima' || producto.clase == 'bio') ){
             cardProductos += `<div class="box_fifi">
                                 <div class="imgBxFifi">
                                     <img src="${producto.imProd}" alt="buscando imagen de ${producto.title}...">
