@@ -88,6 +88,7 @@
 <a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <footer>
     <div class="waves">
+		<div class="wave" id="wave1"></div>
     	<div class="wave" id="wave2"></div>
     </div>
     <ul class="social_icon">
