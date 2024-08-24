@@ -30,12 +30,8 @@
 		<img src="imagenes/water.png" id="water"/>	
 	</section>
 	<div class="main">
-		<div class="texto_car">
-			<h1>Compra Lo mejor</h1>
-			<p>Una Seleccion de los Productos mejor calificados en Amazon </p>
-		</div>
 		<header>
-			<h1>Top hettest</h1>
+			<h1>Una Seleccion de los Productos mejor calificados en Amazon</h1>
 			<p>
 				<span onclick="left_mover();">&#139 </span>
 				<span onclick="right_mover();">&#155 </span>
@@ -44,20 +40,22 @@
 		<div class="seccion"></div>
 	</div>
 	<div class="fb-comments" data-href="https://tochamateriasprimas.com/" data-width="100%" data-numposts="5"></div>
-	<script type="text/javascript">
-		atOptions = {
-			'key' : '616899c29662e51f5906c074fcc9478e',
-			'format' : 'iframe',
-			'height' : 90,
-			'width' : 728,
-			'params' : {}
-		};
-	</script>
+	
 	<div class="contEco">
 		<h2>Fertilizantes</h2>
 		<p>Fertilizantes elaborados naturalmente con elementos tomados de monte directamente, si requieres mas informacion sientete libre de contactarnos.</p>
 		
 		<div class="containerEco"></div>
+
+		<script type="text/javascript">
+			atOptions = {
+				'key' : '616899c29662e51f5906c074fcc9478e',
+				'format' : 'iframe',
+				'height' : 90,
+				'width' : 728,
+				'params' : {}
+			};
+		</script>
 
 		<section class="loadSec">
 			<div class="loader">
@@ -90,7 +88,7 @@
 <a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <footer>
     <div class="waves">
-    	<div class="wave" id="wave1"></div>
+    	<div class="wave" id="wave2"></div>
     </div>
     <ul class="social_icon">
     	<li><a target="_blank" href="<?php echo $facebook;?>"><ion-icon name="logo-facebook"></ion-icon></a></li>
