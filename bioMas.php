@@ -42,7 +42,7 @@
 	<div class="fb-comments" data-href="https://tochamateriasprimas.com/" data-width="100%" data-numposts="5"></div>
 	
 	<div class="contEco">
-		<h2>Fertilizantes</h2>
+		<h2>Lo Mejor de Amazon</h2>
 		<p>Fertilizantes elaborados naturalmente con elementos tomados de monte directamente, si requieres mas informacion sientete libre de contactarnos.</p>
 		
 		<div class="containerEco"></div>
@@ -98,7 +98,7 @@
     <ul class="menu_f">
         <li><a target="_blank" href="<?php echo $t_mercadoShops;?>">MercadoLibre</a></li>
     	<li><a target="_self" href="index.php">Principal</a></li>
-    	<li><a id="buttonUs">Quienes Somos</a></li>
+    	<li id="buttonUs"><a>Quienes Somos</a></li>
     	<li><a target="_self" href="ventas.php">Productos</a></li>
     	<li><a target="_self" href="contacto_tocha.php">Contacto</a></li>
     </ul>

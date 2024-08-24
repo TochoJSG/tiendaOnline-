@@ -25,8 +25,8 @@ section #textEco span{font-size:0.20em;letter-spacing:2px;color:#094b65;font-wei
 #btnEco span{color:#415;}
 #btnEco span:hover{color:#415;}
 .contEco{position:relative;padding:66px;background:url('../imagenes/aqua.png');/*#094b65;*/background-position:center;background-attachment:fixed;background-repeat:no-repeat;background-size:100% 100vh;}
-.contEco h2{font-size:3.6em;color:#fff;margin:25px 0 17px;text-align:center;font-weight:600;letter-spacing:6px;}
-.contEco p{font-size:1.1em;color:#fff;text-align:justify;font-weight:100;margin:8px 0;letter-spacing:3px;}
+.contEco h2{font-size:3.3em;color:#040105;margin:25px 0 17px;text-align:center;font-weight:600;letter-spacing:6px;}
+.contEco p{font-size:1.1em;color:#040105;text-align:justify;font-weight:300;margin:8px 0;letter-spacing:3px;}
 .containerEco{position:relative;display:flex;justify-content:center;align-items:center;padding:40px 0;flex-wrap:wrap;margin:17px auto 17px;}
 .containerEco .boxEco{position:relative;width:333px;height:450px;color:#fff;background:#111;display:flex;justify-content:center;align-items:center;margin:33px 30px;transition:0.5s;}
 .containerEco .boxEco:hover{transform:translateY(-20px);}/*aqui*/
@@ -43,7 +43,7 @@ section #textEco span{font-size:0.20em;letter-spacing:2px;color:#094b65;font-wei
 .containerEco .boxEco .contentEco h2{font-size:1.1em;color:#fff;margin-bottom:10px;font-weight:600;letter-spacing:3px}
 .containerEco .boxEco .contentEco p{font-size:1em;color:#fff;margin-bottom:10px;line-height:1.4em;}
 .containerEco .boxEco .contentEco a{display:inline-block;width:80%;font-size:1.1em;color:#415;background:#ffad;padding:8px 17px;text-align:center;text-decoration:none;font-weight:700;border-radius:8px;margin:0 10%;}
-.containerEco .boxEco .contentEco a:hover{background: #daff;transition-delay: .6s;}
+.containerEco .boxEco .contentEco a:hover{background: #daff;transition-delay:.3s;}
 section .loadSec{background:none;position:relative;width:100%;height:100vh;/*min-height:100vh;*/display:flex;justify-content:center;align-items:center;min-height:100vh;animation:animate 10s linear infinite;margin:0;}
 section .loader{position:absolute;width:145px;height:145px;}
 section .loader span{position:absolute;top:0;left:0;width:100%;height:100%;transform:rotate(calc(18deg * var(--i)));}
