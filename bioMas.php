@@ -47,16 +47,6 @@
 		
 		<div class="containerEco"></div>
 
-		<script type="text/javascript">
-			atOptions = {
-				'key' : '616899c29662e51f5906c074fcc9478e',
-				'format' : 'iframe',
-				'height' : 90,
-				'width' : 728,
-				'params' : {}
-			};
-		</script>
-
 		<section class="loadSec">
 			<div class="loader">
 				<span style="--i:1"></span>
@@ -83,6 +73,15 @@
 		</section>
 
 	</div>
+	<script type="text/javascript">
+		atOptions = {
+			'key' : '616899c29662e51f5906c074fcc9478e',
+			'format' : 'iframe',
+			'height' : 90,
+			'width' : 728,
+			'params' : {}
+		};
+	</script>
 <div id="fb-root"></div>
 <div id="fb-customer-chat" class="fb-customerchat"></div>
 <a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
