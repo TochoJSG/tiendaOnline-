@@ -21,7 +21,9 @@ nav ul li{display:inline-block;line-height:66px;}
 nav ul li a{font-size:.8em;font-weight:300;letter-spacing:3px;display:block;padding:5px;margin:8px;color:#040105;text-decoration:none;}
 nav ul li a:hover,
 nav ul li a.activo{background:#040105;color:#fff;border-radius:50%;text-decoration:none;}
-nav ul li a.activo:hover{box-shadow:inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49,138,172,0.4);outline-color: rgba(49, 138, 172, 0);outline-offset:80px;text-shadow:1px 1px 6px #fff;}#main-content{background:#fff;width:87%;max-width:1200px;margin:20px auto;box-shadow:0 0 10px rgba(0,0,0,.1);}#main-content header,#main-content .content{padding: 40px;}
+nav ul li a.activo:hover{box-shadow:inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49,138,172,0.4);outline-color: rgba(49, 138, 172, 0);outline-offset:80px;text-shadow:1px 1px 6px #fff;}
+#main-content{background:#fff;width:87%;max-width:1200px;margin:20px auto;box-shadow:0 0 10px rgba(0,0,0,.1);}
+#main-content header,#main-content .content{padding: 40px;}
 .parallax{background-image:url('../imagenes/para.jpg');background-size:100vh;background-repeat:no-repeat;background-position:center top;background-size:cover;background-attachment:fixed;top:0;}
 .hero_p{top:0;width:100%;height:100vh;box-shadow:0 0 15px #212121;position:relative;}
 .hero_p p{color:#415;font-style:arial;font-weight:500;font-size:1.3em;margin:17px;padding:8px;text-align:justify;}
@@ -221,7 +223,7 @@ a .liquid:after{border-radius:40%;background:rgba(20,20,20,0.5);animation:animat
 .btnHeader{display:block;position:absolute;align-items:center;margin-left:40%;margin-right:40%;width:20%;padding:auto;}
 .btnHeader #boton_compra{margin:0;width:250px;position:relative;letter-spacing:3px;font-size:1em;font-weight:500;align-items:center;height:auto;padding:12px;background:#ff00;border-radius:3px;}
 #boton_compra:hover{background:#040105;color:#fff;}
-.main{width:100%;height:auto;margin:0px auto;position:relative;padding:3px 0;background:#ffd;padding:0;}
+.main{width:100%;height:auto;margin:0px auto;position:relative;padding:3px 0;background:#daff;padding:0;}
 .main .texto_car{padding:0 8px;text-align:center;color:#554;height:auto;overflow:hidden;}
 .texto_car h1,.texto_car h2{padding:0 8px;font-size:1em;font-weight:600;letter-spacing:3px;color:#415;}
 .texto_car p{width:90%;text-align:center;padding:3px;margin:1px auto 0px auto;line-height:30px;color:#415;}
