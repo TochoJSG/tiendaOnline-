@@ -14,5 +14,5 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
   },
   loop:true,
-  autoplay:{delay:6666,disableOnInteraction:false,},
+  autoplay:{delay:666.666,disableOnInteraction:false,},
 });
