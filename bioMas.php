@@ -29,41 +29,30 @@
 		<img src="imagenes/forest.png" id="rocks"/>	
 		<img src="imagenes/water.png" id="water"/>	
 	</section>
-<div class="main">
-    <script type="text/javascript">
-	atOptions = {
-		'key' : '616899c29662e51f5906c074fcc9478e',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-    </script>
-	<div class="texto_car">
-		<h1>Compra Lo mejor</h1>
-		<p>Una Seleccion de los Productos mejor calificados en Amazon </p>
+	<div class="main">
+		<div class="texto_car">
+			<h1>Compra Lo mejor</h1>
+			<p>Una Seleccion de los Productos mejor calificados en Amazon </p>
+		</div>
+		<header>
+			<h1>Top hettest</h1>
+			<p>
+				<span onclick="left_mover();">&#139 </span>
+				<span onclick="right_mover();">&#155 </span>
+				</p>
+		</header>
+		<div class="seccion"></div>
 	</div>
-	<header>
-		<h1>Top hettest</h1>
-		<p>
-			<span onclick="left_mover();">&#139 </span>
-			<span onclick="right_mover();">&#155 </span>
-			</p>
-	</header>
-	<div class="seccion"></div>
-</div>
-
-<script type="text/javascript">
-	atOptions = {
-		'key' : '616899c29662e51f5906c074fcc9478e',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-</script>
 	<div class="fb-comments" data-href="https://tochamateriasprimas.com/" data-width="100%" data-numposts="5"></div>
-	
+	<script type="text/javascript">
+		atOptions = {
+			'key' : '616899c29662e51f5906c074fcc9478e',
+			'format' : 'iframe',
+			'height' : 90,
+			'width' : 728,
+			'params' : {}
+		};
+	</script>
 	<div class="contEco">
 		<h2>Fertilizantes</h2>
 		<p>Fertilizantes elaborados naturalmente con elementos tomados de monte directamente, si requieres mas informacion sientete libre de contactarnos.</p>
