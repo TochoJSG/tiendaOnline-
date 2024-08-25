@@ -25,8 +25,6 @@ $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 	<meta name="keywords" content="fiestas, bolsas, desechables, materias primas, desechable, biodegradables"/>	
 	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="img/favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<link href="presentacion/estilos_tocha_tocha.css" rel="stylesheet" type="text/css"/>
-	<link href="presentacion/estilo_car_E-Commerce.css" rel="stylesheet" type="text/css"/>
-	<link href="presentacion/botones.css" rel="stylesheet" type="text/css"/>
 	<link href="presentacion/estilo_foo_anima_tocha.css" rel="stylesheet" type="text/css"/>
 	<script src="negocio/push.min.js"></script>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
@@ -127,7 +125,9 @@ $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/616899c29662e51f5906c074fcc9478e/invoke.js"></scr' + 'ipt>');
 </script>
 </section>
-<div class="swiper mySwiper">
+
+<div class="amz">
+<div class="swiper mySwiper" style="background:none;">
 	<div id="cardsBd" class="swiper-wrapper">
 		<?php foreach($productos as $producto => $row){ ?> 
 			<div id="<?php echo $row['idProducto'];?>" class="swiper-slide cardBd">
@@ -160,7 +160,6 @@ loop:true,
 autoplay:{delay:6666,disableOnInteraction:false,},
 });
 </script>
-<div class="amz">
 <h2>Haz Clic en el Boton para ver la publicacion Completa en <span>Amazon</span></h2>
     <div class="containerCardAmz"></div>
 <div id="desplegarMas" class="contBtnLuz">
