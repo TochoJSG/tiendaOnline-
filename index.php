@@ -182,9 +182,6 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 </script>
 <div class="aletarga" style="display:fixed;">
 
-	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre
-        </button></a>
-		
 	<div class="cont_caja">
 		<div id="box">
 			<div class="top"></div>
@@ -199,6 +196,8 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 	</div>
 
 	<div class="grid-containerD">
+	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre
+        </button></a>
 	<div class="itemZoom">
 	<div class="contNoti">
 		<div class="contentNoti">

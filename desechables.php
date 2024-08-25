@@ -160,16 +160,16 @@ loop:true,
 autoplay:{delay:6666,disableOnInteraction:false,},
 });
 </script>
-<h2>Haz Clic en el Boton para ver la publicacion Completa en <span>Amazon</span></h2>
-    <div class="containerCardAmz"></div>
-<div id="desplegarMas" class="contBtnLuz">
-	<a><span>Desplegar mas Productos</span></a><br>
+	<h2>Haz Clic en el Boton para ver la publicacion Completa en <span>Amazon</span></h2>
+		<div class="containerCardAmz"></div>
+	<div id="desplegarMas" class="contBtnLuz">
+		<a><span>Desplegar mas Productos</span></a><br>
+	</div>
+	<div class="btnAnimaLuz" style="width:90%;margin:0 5%;">
+		<a target="_blank" href="<?php echo $t_mercadoShops;?>"><span>Ver Mas</span></a> <br>
+	</div>
 </div>
-<div class="btnAnimaLuz" style="width:90%;margin:0 5%;">
-	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><span>Ver Mas</span></a> <br>
-</div>
-
-</div>
+	<br>
 <div class="cont_caja">
     <div id="box">
     	<div class="top"></div>
