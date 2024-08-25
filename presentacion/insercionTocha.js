@@ -1,24 +1,6 @@
 const urlAMZ = 'negocio/amz.json';
 const targetasAmz = document.querySelector('.containerCardAmz');
 const carrusel = document.querySelector('#carrusel-gral');
-/*function pedirDataCarr(){
-	fetch(urlAMZ).
-		then(response=>
-			response.json()).
-			then(data=>{
-				//console.log(data);
-				pintarCarrusel(data);
-		}).catch(error=>console.log(error));
-}
-function pedirDataAmz(){
-	fetch(urlAMZ).
-		then(response=>
-			response.json()).
-			then(data=>{
-				//console.log(data);
-				pintarCards(data);
-		}).catch(error=>console.log(error));
-}*/
 const consultamosAmz = async() =>{
 	const req = await fetch(urlAMZ);
 	const data = await req.json();
@@ -27,7 +9,9 @@ const consultamosAmz = async() =>{
 };
 const pintarCards = data =>{
 	let plantilla1 = '';
+	console.log('funcion malvada');
 	data.forEach(item=>{
+		console.log('foreach');
 		if( (item.plataforma==='amazon') && (item.clase==='matprimas') ){   
 			plantilla1 += `<div class="contCardAmz">
 								<div class="coverLaCard">
