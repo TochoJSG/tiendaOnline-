@@ -47,6 +47,19 @@
 		
 		<div class="containerEco"></div>
 
+		<div class="cont_caja">
+			<div id="box">
+				<div class="top"></div>
+					<div>
+						<span></span>
+						<span><i class="tape"></i></span>
+						<span></span>
+						<span><i class="tape"></i></span>
+					</div>
+			</div>
+			<br><h2>Envios incluidos en muchos productos, da clic en los Enlaces</h2>
+		</div>
+
 		<section class="loadSec">
 			<div class="loader">
 				<span style="--i:1"></span>

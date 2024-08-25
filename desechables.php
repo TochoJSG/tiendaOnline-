@@ -170,6 +170,18 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 </div>
 
 </div>
+<div class="cont_caja">
+    <div id="box">
+    	<div class="top"></div>
+    		<div>
+    			<span></span>
+    			<span><i class="tape"></i></span>
+    			<span></span>
+    			<span><i class="tape"></i></span>
+    		</div>
+    </div>
+	<br><h2>Envios incluidos en muchos productos, da clic en los Enlaces</h2>
+</div>
 <div class="aletarga">
     <a href="<?php echo $t_mercadoShops;?>"><button class="botones_sayayin">Observa mas Productos que tenemos para ti</button></a>
 	<div class="catalogo">
