@@ -173,8 +173,8 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 		</div>
 		<br><h2>Envios incluidos en muchos productos, da clic en los Enlaces</h2>
 	</div>
-	
-	<h2>Haz Clic en el Boton para ver la publicacion Completa en <span>Amazon</span></h2>
+
+	<h2>Haz Clic en los enlaces para ver la publicacion Completa en <span>Amazon</span></h2>
 		<div class="containerCardAmz"></div>
 	<div id="desplegarMas" class="contBtnLuz">
 		<a><span>Desplegar mas Productos</span></a><br>
