@@ -10,6 +10,7 @@ const consultamosAmz = async() =>{
 };
 const pintarCards = data =>{
 	data.forEach(item=>{
+		console.log(item);
 		if( (item.plataforma==='amazon') && (item.clase==='matprimas') ){
 			plantilla1 += `<div class="contCardAmz">
 								<div class="coverLaCard">
