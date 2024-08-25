@@ -160,6 +160,20 @@ loop:true,
 autoplay:{delay:6666,disableOnInteraction:false,},
 });
 </script>
+
+	<div class="cont_caja">
+		<div id="box">
+			<div class="top"></div>
+				<div>
+					<span></span>
+					<span><i class="tape"></i></span>
+					<span></span>
+					<span><i class="tape"></i></span>
+				</div>
+		</div>
+		<br><h2>Envios incluidos en muchos productos, da clic en los Enlaces</h2>
+	</div>
+	
 	<h2>Haz Clic en el Boton para ver la publicacion Completa en <span>Amazon</span></h2>
 		<div class="containerCardAmz"></div>
 	<div id="desplegarMas" class="contBtnLuz">
@@ -169,19 +183,7 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 		<a target="_blank" href="<?php echo $t_mercadoShops;?>"><span>Ver Mas</span></a> <br>
 	</div>
 </div>
-	<br>
-<div class="cont_caja">
-    <div id="box">
-    	<div class="top"></div>
-    		<div>
-    			<span></span>
-    			<span><i class="tape"></i></span>
-    			<span></span>
-    			<span><i class="tape"></i></span>
-    		</div>
-    </div>
-	<br><h2>Envios incluidos en muchos productos, da clic en los Enlaces</h2>
-</div>
+
 <div class="aletarga">
     <a href="<?php echo $t_mercadoShops;?>"><button class="botones_sayayin">Observa mas Productos que tenemos para ti</button></a>
 	<div class="catalogo">
