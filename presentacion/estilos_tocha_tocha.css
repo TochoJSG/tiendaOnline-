@@ -234,7 +234,7 @@ header p span:hover{color:#323232;background:none;}
 header h2{padding:0 8px;font-size:21px;font-weight:100;color:#fff;}
 section{width:99%;height:406px;margin:0;display:flex;align-items:center;overflow-x:auto;overflow:hidden;}
 section::-webkit-scrollbar{display:none;}
-#carrusel-gral .prod_car{min-width:25%;height:450px;background:#232323;margin:0 12px 0 3px;border-radius:3px;position:relative;left:0;transition:0.6s;align-items:center;align-content:center;}
+#carrusel-gral .prod_car{min-width:25%;height:385px;background:#232323;margin:0 12px 0 3px;border-radius:3px;position:relative;left:0;transition:0.6s;align-items:center;align-content:center;}
 #carrusel-gral .prod_car:hover{height:400px;background:linear-gradient(235deg,#89ff00,#010615,#00bcd4);}
 picture{width:100%;height:70%;padding:9px;display:flex;overflow:hidden;margin-bottom:9px;}
 picture img{width:100%;opacity:0.5;}
@@ -244,10 +244,10 @@ picture:hover img{opacity:1;}
 #carrusel-gral .prod_car:before{background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);}
 #carrusel-gral .prod_car:after{background: linear-gradient(235deg,#ff005e,#010615,#fbff00);}
 #carrusel-gral .prod_car .details_car,
-#carrusel-gral .prod_car .imgBx{width:100%;height:225px;display:flex;flex-direction:column;margin:0;padding:3px;justify-content:center;align-items:center;font-size:1em;}
+#carrusel-gral .prod_car .imgBx{width:100%;height:225px;display:flex;flex-direction:column;margin:0;padding:3px;justify-content:justify;align-items:center;font-size:1em;}
 #carrusel-gral .prod_car .imgBx img{width:100%;height:100%;object-fit:cover;}
 #carrusel-gral .prod_car .details_car p{font-weight:300;font-size:.8em;color:#fff;text-align:center;}
-#carrusel-gral .prod_car .details_car h2{color:#fff;font-size:.9em;font-weight:300;padding:3px;text-align:center;}
+#carrusel-gral .prod_car .details_car h2{top:227px;color:#fff;font-size:.9em;font-weight:300;padding:3px;text-align:center;}
 #carrusel-gral .prod_car .details_car a{background:#000;color:#fff;letter-spacing:3px;font-size:.8em;font-weight:300;padding:8px 17px;text-decoration:none;text-align:center;}
 #carrusel-gral .prod_car .details_car a:hover{background:#fde8e8;color:#000;}
 .button_car_c a{text-decoration:none;padding:6px 13px;font-size:1em;font-weight:100;margin:auto;align-content:center;display:inline-block;background:none;color:#fff;}
