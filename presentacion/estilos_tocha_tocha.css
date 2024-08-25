@@ -30,7 +30,7 @@ nav ul li a.activo:hover{box-shadow:inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 
 .hero_p h2{color:#fff;font-weight:600;font-size:1.1em;margin:25px;padding:17px;letter-spacing:3px;text-transform:uppercase;text-align:center;}
 .hero_p h2 span{color:#145;font-weight:700;font-size:1.1em;letter-spacing:3px;}
 .extra{width:100%;height:100vh;background-image:url('../imagenes/para2.jpg');}
-.parallax{display:grid;grid-template-columns:40% 55%;grid-gap:auto;}
+.parallax{display:grid;grid-template-columns:40% 55%;grid-gap:17px 33px;}
 .parallax>div{padding:8px;}
 .catalogo{width:100%;margin:0;padding:0;display:grid;grid-template-columns:auto auto auto;grid-gap:0px;}
 .catalogo>a{padding:0px;}
