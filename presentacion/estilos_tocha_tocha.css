@@ -24,13 +24,13 @@ nav ul li a.activo{background:#040105;color:#fff;border-radius:50%;text-decorati
 nav ul li a.activo:hover{box-shadow:inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49,138,172,0.4);outline-color: rgba(49, 138, 172, 0);outline-offset:80px;text-shadow:1px 1px 6px #fff;}
 #main-content{background:#fff;width:87%;max-width:1200px;margin:20px auto;box-shadow:0 0 10px rgba(0,0,0,.1);}
 #main-content header,#main-content .content{padding: 40px;}
-.parallax{background-image:url('../imagenes/para.jpg');background-size:100vh;background-repeat:no-repeat;background-position:center top;background-size:cover;background-attachment:fixed;top:0;justify-content:justify;}
+.parallax{background-image:url('../imagenes/para.jpg');background-size:100vh;background-repeat:no-repeat;background-position:center top;background-size:cover;background-attachment:fixed;top:0;}
 .hero_p{top:0;width:100%;height:100vh;box-shadow:0 0 15px #212121;position:relative;}
 .hero_p p{color:#415;font-style:arial;font-weight:500;font-size:1.3em;margin:17px;padding:8px;text-align:justify;}
 .hero_p h2{color:#fff;font-weight:600;font-size:1.1em;margin:25px;padding:17px;letter-spacing:3px;text-transform:uppercase;text-align:center;}
 .hero_p h2 span{color:#145;font-weight:700;font-size:1.1em;letter-spacing:3px;}
 .extra{width:100%;height:100vh;background-image:url('../imagenes/para2.jpg');}
-.parallax{display:grid;grid-template-columns:40% 55%;grid-gap:17px 33px;}
+.parallax{display:grid;grid-template-columns:40% 55%;grid-gap:auto;}
 .parallax>div{padding:8px;}
 .catalogo{width:100%;margin:0;padding:0;display:grid;grid-template-columns:auto auto auto;grid-gap:0px;}
 .catalogo>a{padding:0px;}
