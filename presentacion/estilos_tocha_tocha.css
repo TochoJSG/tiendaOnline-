@@ -247,7 +247,7 @@ picture:hover img{opacity:1;}
 #carrusel-gral .prod_car:after{background: linear-gradient(235deg,#ff005e,#010615,#fbff00);}
 #carrusel-gral .prod_car .details_car{width:90%;margin:0;padding:3px;display:flex;justify-content:center;align-items:center;height:auto;}
 #carrusel-gral .prod_car .details_car h2{color:#fff;font-size:1em;font-weight:300;padding:3px;}
-#carrusel-gral .prod_car .details_car a{background:#000;color:#fff;letter-spacing:3px;font-size:1em;font-weight:300;padding:17px;text-decoration:none;}
+#carrusel-gral .prod_car .details_car a{background:#000;color:#fff;letter-spacing:3px;font-size:.8em;font-weight:300;padding:8px 17px;text-decoration:none;text-align:center;}
 #carrusel-gral .prod_car .details_car a:hover{background:#fde8e8;color:#000;}
 .button_car_c a{text-decoration:none;padding:6px 13px;font-size:1em;font-weight:100;margin:auto;align-content:center;display:inline-block;background:none;color:#fff;}
 p .star{margin:6px auto;width:66%;font-size:23px;color:#808080;}
