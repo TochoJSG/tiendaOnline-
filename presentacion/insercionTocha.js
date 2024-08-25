@@ -30,7 +30,7 @@ const pintarCards = data =>{
 const pintarCarrusel = data =>{
 	let plantilla2 = '';
 	data.forEach(item=>{
-		if( (item.clase==='matprimas') || (item.plataforma==='ml') ){
+		if( item.clase==='matprimas' ){
 			plantilla2 += `<div class="prod_car">
 								<div class="imgBx">
 									<img src="${item.imProd}" alt="loading..." />
