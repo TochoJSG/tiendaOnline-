@@ -322,7 +322,6 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 <script type="text/javascript" src="presentacion/efecto_header.js"></script>
 <script type="text/javascript" src="presentacion/tochaUs.js"></script>
 <script type="text/javascript" src="presentacion/extiende.js"></script>
-<script type="text/javascript" src="negocio/facebookJs.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>	
