@@ -177,7 +177,6 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
 <script type="text/javascript" src="presentacion/car_commerce.js"></script>
-<script type="text/javascript" src="negocio/facebookJs.js"></script>
 <script type="text/javascript" src="presentacion/aletarga.js"></script>
 <script type="text/javascript" src="presentacion/bioEco.js"></script>
 <script type="text/javascript" src="presentacion/tochaUs.js"></script>
