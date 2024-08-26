@@ -95,8 +95,6 @@
 			'params' : {}
 		};
 	</script>
-<div id="fb-root"></div>
-<div id="fb-customer-chat" class="fb-customerchat"></div>
 <a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 <footer>
     <div class="waves">

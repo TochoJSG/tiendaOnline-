@@ -31,7 +31,6 @@
     </style>
 </head>
 <body>
-<div id="fb-root"></div><div id="fb-customer-chat" class="fb-customerchat"></div>
 <a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
 
 <div class="aletarga">
@@ -192,7 +191,6 @@ autoplay:{delay:666.666,disableOnInteraction:false,},
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script type="text/javascript" src="negocio/insercionEquipos.js"></script>
-<script type="text/javascript" src="negocio/facebookJs.js"></script>
 <script type="text/javascript" src="presentacion/videoJS.js"></script>
 <script type="text/javascript" src="presentacion/aletarga.js"></script>
 <script type="text/javascript" src="presentacion/swiper.js"></script>

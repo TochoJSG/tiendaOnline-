@@ -21,7 +21,6 @@
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
 </head>
 <body>
-<div id="fb-root"></div>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVV756S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -55,8 +54,6 @@
 	</nav>
 </header>
 <a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
-<div id="fb-root"></div><!-- Messenger plugin de chat Code -->
-<div id="fb-customer-chat" class="fb-customerchat"></div>
 <div class="contactUs">
 	<div class="title">	
 	<div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100064943526728" data-tabs="timeline" data-width="500" data-height="80" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100064943526728" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100064943526728">Tocha</a></blockquote></div>
@@ -233,6 +230,5 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script type="text/javascript" src="presentacion/tochaUs.js"></script>
 <script type="text/javascript" src="negocio/mailTocha.js"></script>
-<script type="text/javascript" src="negocio/facebookJs.js"></script>
 </body>
 </html>

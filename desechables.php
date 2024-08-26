@@ -27,7 +27,7 @@ $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
 	<link href="presentacion/estilos_tocha_tocha.css" rel="stylesheet" type="text/css"/>
 	<link href="presentacion/estilo_foo_anima_tocha.css" rel="stylesheet" type="text/css"/>
 	<script src="negocio/push.min.js"></script>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="wzsUa4iV"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="<?php echo $swiper; ?>" />
 	<link rel="stylesheet" href="<?php echo $swiper2;?>" />
@@ -39,8 +39,6 @@ $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
     </style>
 </head>
 <body>
-<div id="fb-root"></div>
-<div id="fb-customer-chat" class="fb-customerchat"></div>
 <header id="main-header">
 <a href="<?php echo $t_mercadoShops;?>">
 <img class="logo" src="imagenes/COORP (2).jpg" align="left"/></a>
@@ -291,6 +289,5 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 <script type="text/javascript" src="presentacion/aletarga.js"></script>
 <script type="text/javascript" src="presentacion/extiende.js"></script>
 <script type="text/javascript" src="negocio/insercionTocha.js"></script>
-<script type="text/javascript" src="negocio/facebookJs.js"></script>
 </body>
 </html>
