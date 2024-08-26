@@ -2,6 +2,7 @@
 require 'negocio/config.php';
 require 'negocio/constantes.php';
 require 'negocio/database.php';
+require 'negocio/facebook.php';
 $db = new Database();
 $con = $db->conectar();
 $sqlDB = $con->prepare("CALL ObtenerListaProductos();");
@@ -40,6 +41,8 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css"/>
 	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<link href="<?php echo $swiper;?>" rel="stylesheet" />
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="jfx8ZnYd"></script>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="wzsUa4iV"></script>
     <script>
     window.onload=function(){const IMAGENES=["imagenes/carrusel0.png","imagenes/carrusel1.png","imagenes/carrusel2.png","imagenes/carrusel3.png"];const TIEMPO_INTERVALO_MILESIMAS_SEG=5000;let posicionActual=0;let $imagen=document.querySelector('#imagen');let intervalo;intervalo=setInterval(pasarFoto, TIEMPO_INTERVALO_MILESIMAS_SEG);function pasarFoto(){if(posicionActual>=IMAGENES.length-1){posicionActual=0;}else{posicionActual++;}renderizarImagen();}function renderizarImagen(){$imagen.style.background=`url(${IMAGENES[posicionActual]})`;}renderizarImagen();}
     </script>
@@ -50,11 +53,12 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
     </style>
 </head>
 <body style="background:#fff;overflow-x:hidden;">
+<!-- Messenger Chat Plugin Code -->
 <div id="fb-root"></div>
 <div id="fb-customer-chat" class="fb-customerchat"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="wzsUa4iV"></script>
-
-<a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>  
+<script> var chatbox = document.getElementById('fb-customer-chat'); chatbox.setAttribute("page_id", "PAGE-ID"); chatbox.setAttribute("attribution", "biz_inbox"); </script> <script> window.fbAsyncInit = function() { FB.init({ xfbml : true, version : 'API-VERSION' }); }; (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script> 
+<
+a href="<?php echo $whatsapp;?>" class="btn-wsp" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>  
 <script>document.addEventListener('DOMContentLoaded',function(){Push.create('Bienvenido',{body:'Hola, te invitamos a ver nuestro inventario',icon:'COORP (2).jpg',timeout:6666,onClick:function(){window.location='https://materiasprimastocha.mercadoshops.com.mx/';this.close();}});});
 </script>
 <header>
@@ -325,7 +329,6 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 <script type="text/javascript" src="presentacion/extiende.js"></script>
 <script type="text/javascript" src="negocio/facebookJs.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="jfx8ZnYd"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>	
 </html>
