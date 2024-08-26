@@ -194,10 +194,10 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 		</div>
 		<br><h2>Envios incluidos en muchos productos, da clic en los Enlaces</h2>
 	</div>
+	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre
+			</button></a>
 
 	<div class="grid-containerD">
-	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre
-        </button></a>
 	<div class="itemZoom">
 	<div class="contNoti">
 		<div class="contentNoti">

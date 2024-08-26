@@ -1,7 +1,6 @@
 const urlAMZ = 'negocio/amz.json';
-const targetasAmz = document.querySelector('.containerCardAmz');
+const targetasAmz = document.querySelectorAll('.containerCardAmz');
 const carrusel = document.querySelector('#carrusel-gral');
-let plantilla1 = '';
 const consultamosAmz = async() =>{
 	const req = await fetch(urlAMZ);
 	const data = await req.json();
@@ -9,8 +8,8 @@ const consultamosAmz = async() =>{
 	pintarCarrusel(data);
 };
 const pintarCards = data =>{
+	let plantilla1 = '';
 	data.forEach(item=>{
-		console.log(item);
 		if( (item.plataforma==='amazon') && (item.clase==='matprimas') ){
 			plantilla1 += `<div class="contCardAmz">
 								<div class="coverLaCard">
