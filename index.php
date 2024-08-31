@@ -41,6 +41,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css"/>
 	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<link href="<?php echo $swiper;?>" rel="stylesheet" />
+	<meta name="facebook-domain-verification" content="ih11qe5j7h5x8c5ab8yzn86zo9xabc" />
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="jfx8ZnYd"></script>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="wzsUa4iV"></script>
     <script>

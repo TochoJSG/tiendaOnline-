@@ -1,0 +1,13 @@
+{
+    "type": "project",
+    "require": {
+        "mercadopago/dx-php": "^2.6",
+        "facebook/php-business-sdk": "^8.0.3"
+    },
+    "authors": [
+        {
+            "name": "Jorge Arturo Salgado Garcia",
+            "email": "jjorgess081@gmail.com"
+        }
+    ]
+}
