@@ -11,9 +11,9 @@
     </script>
 		<title>Muebles & Electronica</title>
 	<meta charset="utf-8"/>
-	<meta name="keywords" content="computadora, laptop, audifonos bluetooth, Relog inteligente, smartwatch, mouse, relojes, bocinas, muebles, electronica"/>
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
-    <link href="<?php echo $swiper;?>" rel="stylesheet"/>
+	<meta name="keywords" content="suministros para pymes, insumos para comercios, desechables al por mayor, bolsas para tiendas, terminales de pago, estantería para negocios, desinfectantes industriales, ecommerce de productos para pymes, productos para pequeños negocios"/>
+	<meta name="description" content="Encuentra todo lo que necesitas para operar tu pequeño negocio: suministros y productos al por mayor para pymes, desde desechables hasta estanterías. Descubre ofertas en terminales de pago, desinfectantes, y más."/>
+	<link href="<?php echo $swiper;?>" rel="stylesheet"/>
     <link rel="stylesheet" href="<?php echo $bootstrap;?>"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<meta name="copyright" content="Grupo Tocha" />

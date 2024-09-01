@@ -22,7 +22,8 @@ $productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
 	<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html; width=device-width; charset=utf-8;" initial-scale="1.0"/>
 		<title>Tocha | Materias Primas</title>
-	<meta name="keywords" content="fiestas, bolsas, desechables, materias primas, desechable, biodegradables"/>	
+	<meta name="keywords" content="suministros para pymes, insumos para comercios, desechables al por mayor, bolsas para tiendas, terminales de pago, estantería para negocios, desinfectantes industriales, ecommerce de productos para pymes, productos para pequeños negocios"/>
+	<meta name="description" content="Encuentra todo lo que necesitas para operar tu pequeño negocio: suministros y productos al por mayor para pymes, desde desechables hasta estanterías. Descubre ofertas en terminales de pago, desinfectantes, y más."/>
 	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="img/favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<link href="presentacion/estilos_tocha_tocha.css" rel="stylesheet" type="text/css"/>
 	<link href="presentacion/estilo_foo_anima_tocha.css" rel="stylesheet" type="text/css"/>

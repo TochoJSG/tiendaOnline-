@@ -4,19 +4,19 @@ require 'negocio/constantes.php';
 ?>
 <html lang="es">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics   APP_USR-2981243273692847-042103-3e2a9c7daab132fc88385c450800f21e-247812013 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZ16T2G5PD"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-DZ16T2G5PD');
-    </script>
-    <meta charset="UTF-8"/> 
-    <meta name="description" content="electronica, computadora, laptop, audifonos, smartwatch, mouse, relojes, bocinas, desechables, Materias primas"/>
-	<meta name="keywords" content="electronica, computadora, laptop, audifonos, smartwatch, mouse, relojes, bocinas, desechables, Materias primas"/>
-	<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html; width=device-width; charset=utf-8;" initial-scale="1.0"/>
-		<title>Tocha | Productos</title>
+  <!-- Global site tag (gtag.js) - Google Analytics   APP_USR-2981243273692847-042103-3e2a9c7daab132fc88385c450800f21e-247812013 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZ16T2G5PD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DZ16T2G5PD');
+  </script>
+  <meta charset="UTF-8"/> 
+  <meta name="description" content="electronica, computadora, laptop, audifonos, smartwatch, mouse, relojes, bocinas, desechables, Materias primas"/>
+  <meta name="keywords" content="suministros para pymes, insumos para comercios, desechables al por mayor, bolsas para tiendas, terminales de pago, estantería para negocios, desinfectantes industriales, ecommerce de productos para pymes, productos para pequeños negocios"/>
+  <meta name="description" content="Encuentra todo lo que necesitas para operar tu pequeño negocio: suministros y productos al por mayor para pymes, desde desechables hasta estanterías. Descubre ofertas en terminales de pago, desinfectantes, y más."/>
+	  <title>Tocha | Productos</title>
 	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css" />
 	<script src="https://sdk.mercadopago.com/js/v2"></script><!--SDK MP API-->
 	<script src="https://www.paypal.com/sdk/js?client-id=<?php echo $paypalClientId;?>&currency=<?php echo $currency;?>"></script>
