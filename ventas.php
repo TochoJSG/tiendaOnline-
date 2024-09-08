@@ -110,7 +110,7 @@ require 'negocio/constantes.php';
       </div>
     </div>
 </template>
-
+<!--
 <div class="menu_deptos align-items-xl-center">
     <h2 class="colores">Departamentos</h2>
     <div class="select_depto">
@@ -125,7 +125,7 @@ require 'negocio/constantes.php';
         </div>
     </div>
 	
-<div id="matPrima"><!--Departamento Materia Prima-->
+<div id="matPrima"><!- -Departamento Materia Prima- ->
     <div id="cardsJson" class="row"></div>
     <template id="template-card">
         <div class="card">
@@ -141,7 +141,7 @@ require 'negocio/constantes.php';
     </template>
 </div>
 	
-<div id="mascota"><!--Departamento Mascotas-->
+<div id="mascota"><!- -Departamento Mascotas- ->
     <div id="containerEco" class="row"></div>
 	<template id="cardsBioJson">
 		<div class="boxEco">
@@ -154,9 +154,9 @@ require 'negocio/constantes.php';
 		</div>
 		</div>
 	</template>
-</div><!--Fin de Depto-->
+</div><!- -Fin de Depto- ->
 	
-<div id="electronica"><!--Departamento Electronica-->
+<div id="electronica"><!- -Departamento Electronica- ->
 <div class="containerCardAmz"></div>
 <template class="contCardAmz">
 	<div class="coverLaCard">
@@ -171,8 +171,8 @@ require 'negocio/constantes.php';
 		</div>
 	</div>
 </template>
-</div><!--Fin de Departamento-->
-</div><!--Cierra DIV contenedor de deptos general-->
+</div><!- -Fin de Departamento- ->
+</div><!- -Cierra DIV contenedor de deptos general-->
 <footer>
 	<ul class="social_icon">
 	    <li><a target="_blank" href="<?php echo $facebook;?>"><ion-icon name="logo-facebook"></ion-icon></a></li>

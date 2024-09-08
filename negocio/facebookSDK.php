@@ -9,7 +9,7 @@ use FacebookAds\Object\Fields\CampaignFields;
 $app_id = "1169987207640714";
 $app_secret = "Tocha";
 $access_token = "{access-token}";
-$account_id = "1169987207640714";
+$account_id = "827575017972991";
 
 Api::init($app_id, $app_secret, $access_token);
 

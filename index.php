@@ -18,7 +18,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
         $sqlDB->execute([$clave]);
         $carrito[] = $sqlDB->fetch(PDO::FETCH_ASSOC);	
     }
-} 
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -37,7 +37,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="keywords" content="suministros para pymes, insumos para comercios, desechables al por mayor, bolsas para tiendas, terminales de pago, estantería para negocios, desinfectantes industriales, ecommerce de productos para pymes, productos para pequeños negocios"/>
 	<meta name="description" content="Encuentra todo lo que necesitas para operar tu pequeño negocio: suministros y productos al por mayor para pymes, desde desechables hasta estanterías. Descubre ofertas en terminales de pago, desinfectantes, y más."/>
-	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="imagenes/favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
+	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="imagenes\favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css"/>
 	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<link href="<?php echo $swiper;?>" rel="stylesheet" />
