@@ -4,7 +4,7 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-	<title>Efect Nav</title>
+	<title>Personal</title>
     <style>
 	@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 	*{box-sizing:border-box;margin:0;padding:0;font-family:'Poppins',sans-serif;scroll-behavior:smooth;}
@@ -65,13 +65,13 @@
 <body>
 <ul>
 	<li data-text="Inventario" class="btnAnimaLuz">
-		<a target="_self" href="procesos/GestionInventario.php"><span>Gestionar Inventario</span></a>
+		<a target="_self" href="personal/procesos/GestionInventario.php"><span>Gestionar Inventario</span></a>
 		</li>
 	<li data-text="Personal" class="btnAnimaLuz">
-		<a target="_self" href="procesos/GestionPersonal.php"><span>Gestionar Empleados</span></a>
+		<a target="_self" href="personal/procesos/GestionPersonal.php"><span>Gestionar Empleados</span></a>
 		</li>
 	<li data-text="Finanzas" class="btnAnimaLuz">
-		<a target="_self" href="procesos/GestionFinanzas.php"><span>Gestionar Finanzas</span></a>
+		<a target="_self" href="personal/procesos/GestionFinanzas.php"><span>Gestionar Finanzas</span></a>
 		</li>
 </ul>
 <script>
