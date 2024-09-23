@@ -65,13 +65,13 @@
 <body>
 <ul>
 	<li data-text="Inventario" class="btnAnimaLuz">
-		<a target="_self" href="personal/procesos/GestionInventario.php"><span>Gestionar Inventario</span></a>
+		<a target="_self" href="GestionInventario.php"><span>Gestionar Inventario</span></a>
 		</li>
 	<li data-text="Personal" class="btnAnimaLuz">
-		<a target="_self" href="./procesos/GestionPersonal.php"><span>Gestionar Empleados</span></a>
+		<a target="_self" href="GestionPersonal.php"><span>Gestionar Empleados</span></a>
 		</li>
 	<li data-text="Finanzas" class="btnAnimaLuz">
-		<a target="_self" href="procesos/GestionFinanzas.php"><span>Gestionar Finanzas</span></a>
+		<a target="_self" href="GestionFinanzas.php"><span>Gestionar Finanzas</span></a>
 		</li>
 </ul>
 <script>
