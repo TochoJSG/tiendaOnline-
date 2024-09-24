@@ -15,7 +15,7 @@ header .sticky{padding:9px 33px;}
 .menuToggle{position:relative;width:33px;height:35px;background:url('../imagenes/menu.png');background-size:33px;background-repeat:no-repeat;background-position:center;cursor:pointer;}
 .menuToggle.active{background:url('../imagenes/clase.png');background-size:33px;background-repeat:no-repeat;background-position:center;cursor:pointer;}
 .navigation{position:fixed;top:0;left:0;width:100%;padding:17px 33px;height:100vh;background:#daff;display:flex;justify-content:center;align-items:center;flex-direction:column;z-index:999;transition:0.25s;opacity:0;visibility:hidden;}
-.navigation a{font-size:.3em;color:blue;text-decoration:underline;text-align: center;padding:17px;}
+.navigation a{font-size:.6em;color:blue;text-decoration:underline;text-align: center;padding:17px;letter-spacing: 3px;}
 .navigation.active{opacity:1;visibility:visible;background:#daff;}
 .navigation li{list-style:none;margin:16px;padding:8px;}
 .navigation li a,
