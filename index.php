@@ -65,6 +65,7 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 	<li><a data-text="Portada" target="_self" href="ventas.php" onclick="toggleMenu();">Principal</a></li>
 	<li><a data-text="Quien escribe esto" id="buttonUs">Nosotros</a></li>
 	<li><a data-text="Contacto" target="_self" href="contacto_tocha.php" onclick="toggleMenu();">Contacto</a></li>
+	<a target ="_self" href="https://tochamateriasprimas.com/personal/personal.php">Trabajas aqui?</a>
 </ul>
 <div class="aletarga">
 <section class="banner" id="home">
