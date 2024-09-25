@@ -227,10 +227,11 @@ div .card .card-body button:hover{background:#daf;color:#415;font-weight:600;}
 .btn-danger{width:66px;height:auto;background:#040105;color:#fff;}
 .btn-info{width:66px;height:auto;background:#ffad;color:#415;}
 #template-carrito tr{height:auto;}
-#formaMP,#nosotros{background:#fff;overflow:scroll;z-index:100;width:90%;margin:66px 5%;height:100%;padding:17px;border-radius:8px;overflow-x:hidden;}
+#formaMP,
+#nosotros{background:#fff;overflow:scroll;z-index:100;width:90%;margin:66px 5%;height:100%;padding:17px;border-radius:8px;overflow-x:hidden;}
 #nosotros{background:#fff;z-index:100000;}
-.headerForm{display:flex;justify-content:space-between;align-items:center;margin-bottom:17px;}
-#formaMP span img{width:99px;height:99px;left:3px;top:8px;}
+.headerForm{display:flex;flex-direction: row;justify-content:space-between;align-items:center;margin-bottom:17px;}
+#formaMP img{width:99px;height:99px;left:3px;top:8px;}
 #formaMP h1{top:1px;color:#415;font-family:Comic;font-size:1.1em;font-weight:300;letter-spacing:3px;text-transform:uppercase;padding:8px;text-align:center;}
 #closeMP{top:17px;font-size:2.5em;color:#040105;font-weight:900;font-family:arial;opacity:0.666;cursor:pointer;}
 .formaMercadoPago{display:grid;grid-template-columns:49% 49%;grid-gap:17px;grid-template-rows:99px;align-content:center;align-items:center;margin:auto;}

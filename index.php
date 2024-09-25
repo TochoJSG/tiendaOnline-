@@ -278,34 +278,15 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 	</div>
 </div>
 
-<div id="nosotros" class="modal"><!--Nosotros-->
+<div class="modal"><!--Nosotros-->
 	<div class="headerForm">
-		<span><img class="logo" src="imagenes/COORP (2).jpg"/></span>
+		<img class="logo" src="imagenes/COORP (2).jpg"/>
 		<h2>Acerca de Nosotros</h2>
-		<span id="closeMP" class="close" title="Close Modal">&times;</span>
+		<span id="closeMP" title="closeMP">&times;</span>
 	</div>
-		<p class="texto_nosotros">Tocha es una comerciliazadora miembro del Mercado Cananea A.C. siendo unos de los locales fundadores del marcado te ofrecemos 30 años de experiencia.
+	<p class="texto_nosotros">Tocha es una comerciliazadora miembro del Mercado Cananea A.C. siendo unos de los locales fundadores del marcado te ofrecemos 30 años de experiencia. Somos un negocio con variedad en mercancias y ramas, ofreciendo asi un trato serio y formal, con presencia en plataformas de comercio, buscanos.
+		<br>Le ofrecemos tratar con gente seria en un local bien establecido, estamos abiertos a negociar con usted acuerdos que nos beneficien a ambos, contactenos y conozcanos. Haga la Prueba.
 			</p>
-	<button class="collapsible">Nosotros</button>
-    <div class="contentCola">
-		<p class="texto_nosotros">Somos un negocio con variedad en mercancias y ramas, ofreciendo asi un trato serio y formal, con presencia en plataformas de comercio, buscanos.
-			</p>
-		<p class="texto_nosotros">Le ofrecemos tratar con gente seria en un local bien establecido, estamos abiertos a negociar con usted acuerdos que nos beneficien a ambos, contactenos y conozcanos. Haga la Prueba.
-			</p>
-    </div>
-    <button class="collapsible">Mision</button>
-    <div class="contentCola">
-      <p class="texto_nosotros">Ofrecer productos de materiales ecológicos de la mejor calidad para evitar el rápido desecho y contribuir así a minimizar el impacto ambiental.
-		</p>
-      <p class="texto_nosotros">Ofrecer productos de utilidad y calidad a precios accesibles para cualquier persona contribuyendo asi al ahorro.
-		</p>
-    </div>
-    <button class="collapsible">Vision</button>
-    <div class="contentCola">
-      <p class="texto_nosotros">Consolidar la tienda en linea, a traves de las buenas practicas comerciales con productos de calidad y cuidando el precio.</p>
-      <p class="texto_nosotros">Facilitar la compra online a las personas y tener alcance nacional con tiendas fisicas.</p>
-      <p class="texto_nosotros">Contribuir al cuidado del ambiente con productos con materiales amigables y durareros.</p>
-    </div>	
 	<a href="<?php echo $t_mercadoShops;?>"><button class="btnML btn-darkML">
 		<div class="icono">
 			<svg width="16" height="16" fill="currentcolor">
@@ -316,6 +297,9 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 	    </button></a>
 	<img class="mamalon" src="imagenes/0.jpg" />
 </div>
+
+
+
 <script src="negocio\push.min.js"></script>
 <script type="text/javascript" src="negocio/insercionIndex.js"></script>
 <script type="text/javascript" src="presentacion/menuToggle.js"></script>
