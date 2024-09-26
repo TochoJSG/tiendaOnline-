@@ -11,4 +11,4 @@ const us=document.querySelector('#closeMP');
 us.addEventListener('click',function(){
 	document.querySelector('.modal').style.display='none';
 	document.getElementsByTagName('body')[0].style.overflow='visible';}
-});
+);
