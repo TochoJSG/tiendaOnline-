@@ -243,7 +243,7 @@ div .card .card-body button:hover{background:#daf;color:#415;font-weight:600;}
 .botonMP:hover{background:#ffad;color:#daff;}
 #closeUs{font-size:1.7em;color:#415;font-weight:600;}
 #closeUs:hover{color:#040105;cursor:pointer;}
-.modal{display:none;position:absolute;z-index:10000;width:666px;height:666px;margin:auto auto;overflow:auto;background:rgba(0,0,0,0.4);padding:33px;}
+.modal{display:none;position:absolute;z-index:10000;width:666px;height:666px;margin:auto auto;overflow:auto;background:#daff;padding:33px;}
 .containerEco{position:relative;display:flex;justify-content:center;align-items:center;padding:40px 0;flex-wrap:wrap;margin:17px auto 17px;}
 .containerEco .boxEco{position:relative;width:320px;height:400px;color:#fff;background:#111;display:flex;justify-content:center;align-items:center;margin:20px 30px;transition:0.5s;}
 .containerEco .boxEco:hover{transform:translateY(-20px);}/*aqui*/
