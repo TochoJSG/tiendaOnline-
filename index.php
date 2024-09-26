@@ -284,7 +284,7 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 	<div class="headerForm">
 		<img class="logo" src="imagenes/COORP (2).jpg"/>
 		<h2>Acerca de Nosotros</h2>
-		<span id="closeMP" title="closeMP">&times;</span>
+		<span id="closeMP">&times;</span>
 	</div>
 	<p class="texto_nosotros">Tocha es una comerciliazadora miembro del Mercado Cananea A.C. siendo unos de los locales fundadores del marcado te ofrecemos 30 años de experiencia. Somos un negocio con variedad en mercancias y ramas, ofreciendo asi un trato serio y formal, con presencia en plataformas de comercio, buscanos.
 		<br>Le ofrecemos tratar con gente seria en un local bien establecido, estamos abiertos a negociar con usted acuerdos que nos beneficien a ambos, contactenos y conozcanos. Haga la Prueba.

@@ -7,7 +7,7 @@ buttonUs.forEach(boton=>{
 		document.getElementsByTagName('body')[0].style.overflow='hidden';}
 	});
 
-const us=document.querySelectorAll('#closeMP');
+const us=document.querySelector('#closeMP');
 us.onclick=()=>{
 	document.querySelector('.modal').style.display='none';
 	document.getElementsByTagName('body')[0].style.overflow='visible';}
