@@ -3,8 +3,9 @@ function cola(){var coll=document.querySelectorAll('.collapsible');for(var i=0;i
 const buttonUs=document.querySelectorAll('#buttonUs');
 buttonUs.forEach(boton=>{
 	boton.onclick=()=>{
-		document.getElementById('modal').style.display='block';
-		document.getElementsByTagName('body')[0].style.overflow='hidden';}});
+		document.querySelector('.modal').style.display='block';
+		document.getElementsByTagName('body')[0].style.overflow='hidden';}
+	});
 
 const us=document.querySelectorAll('#closeMP');
 us.onclick=()=>{
