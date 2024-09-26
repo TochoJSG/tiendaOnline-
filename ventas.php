@@ -17,6 +17,9 @@ require 'negocio/constantes.php';
   <meta name="keywords" content="suministros para pymes, insumos para comercios, desechables al por mayor, bolsas para tiendas, terminales de pago, estantería para negocios, desinfectantes industriales, ecommerce de productos para pymes, productos para pequeños negocios"/>
   <meta name="description" content="Encuentra todo lo que necesitas para operar tu pequeño negocio: suministros y productos al por mayor para pymes, desde desechables hasta estanterías. Descubre ofertas en terminales de pago, desinfectantes, y más."/>
 	  <title>Tocha | Productos</title>
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/>
+		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>
+		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon-precomposed.png" sizes="180x180"/>
 	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css" />
 	<script src="https://sdk.mercadopago.com/js/v2"></script><!--SDK MP API-->
 	<script src="https://www.paypal.com/sdk/js?client-id=<?php echo $paypalClientId;?>&currency=<?php echo $currency;?>"></script>

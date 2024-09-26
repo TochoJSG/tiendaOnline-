@@ -14,11 +14,13 @@
 	<meta name="keywords" content="electronica, computadora, laptop, audifonos, bluetooth, Relog inteligente, smartwatch, mouse, relojes, bocinas, muebles, desechables, Materias primas"/>
 	<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html; width=device-width; charset=utf-8;" initial-scale="1.0"/>
 		<title>Tocha | Productos</title>
+		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/>
+		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>
+		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon-precomposed.png" sizes="180x180"/>
 	<?php include 'negocio/clases/detalle.php';?>
 	<?php include 'negocio\clases\generaCarrito.php';?>
 	<script src="https://sdk.mercadopago.com/js/v2"></script><!--SDK MP API-->
 	<script src="https://www.paypal.com/sdk/js?client-id=<?php echo $paypalClientId;?>&currency=<?php echo $currency;?>"></script>
-	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<link href="presentacion/estilos_tocha.css" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="<?php echo $fontAwesome;?>" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">

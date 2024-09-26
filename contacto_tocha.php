@@ -10,9 +10,11 @@
       gtag('js', new Date());
       gtag('config', 'G-DZ16T2G5PD');
     </script>
-	<title>Tocha | Contactanos</title>
+		<title>Tocha | Contactanos</title>
+		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/>
+		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>
+		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon-precomposed.png" sizes="180x180"/>
 	<meta charset="UTF-8"> 
-	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="imagenes/favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<script src="negocio/push.min.js"></script>
 	<link href="presentacion/estilo_contacto.css"  rel="stylesheet" type="text/css"/>
 	<link href="presentacion/botones.css"  rel="stylesheet" type="text/css"/>
