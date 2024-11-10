@@ -5,11 +5,13 @@
 	<meta charset="UTF-8"/> 
 	<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html;width=device-width;charset=utf-8;" initial-scale="1.0"/>
 		<title>Tocha | Bio+</title>
+		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/>
+		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>
+		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon-precomposed.png" sizes="180x180"/>
 	<meta name="keywords" content="fertilizantes,huertos"/>
 	<meta name="keywords" content="suministros para pymes, insumos para comercios, desechables al por mayor, bolsas para tiendas, terminales de pago, estantería para negocios, desinfectantes industriales, ecommerce de productos para pymes, productos para pequeños negocios"/>
 	<meta name="description" content="Encuentra todo lo que necesitas para operar tu pequeño negocio: suministros y productos al por mayor para pymes, desde desechables hasta estanterías. Descubre ofertas en terminales de pago, desinfectantes, y más."/>
 	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-	<link rel="shortcut icon|apple-touch-icon|apple-touch-icon-precomposed" href="imagenes/favicon.ico" sizes="HeightxWidth|any" type="image/x-icon"/>
 	<link href="presentacion/bioEco.css" rel="stylesheet" type="text/css"/>
 </head>
 <body style="overflow-x:hidden;max-width:100%;">

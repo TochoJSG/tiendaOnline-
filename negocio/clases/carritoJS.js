@@ -156,7 +156,6 @@ paypal.Buttons({
       purchase_units: orderData.purchase_units
     });
   },
-  
   onApprove: function(data, actions){
     return actions.order.capture().then(function(details){
       alert('Pago realizado con éxito');// Confirmación del pago
@@ -165,12 +164,16 @@ paypal.Buttons({
       window.location.href = 'ventas.php';
     });
   },
-  
   onCancel: function(data){
         alert("Pago Cancelado");
         window.location.href = 'ventas.php';
   }
 }).render('#paypal-button-container');
+
+
+
+
+
 
 
 const mp=new MercadoPago('TEST-1d3e68a5-0bc9-49e7-8a07-207b3c098846',{

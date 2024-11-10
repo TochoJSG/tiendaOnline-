@@ -8,5 +8,6 @@ $swiper = 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css';
 $swiper2 = 'https://unpkg.com/swiper/swiper-bundle.min.css';
 $fontAwesome = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css';
 $paypalClientId = 'ATc5aIP6kunAOATQ5B5rBx2foUvTJI1zaG76c_PnWJCoJww1uhUJJRPuyBU50o9-ZZOXSFjBrJnsCJDB';
+$pwPayPal = 'EM-EdYo4MGmQ4iEpMKxYmlxwvWFy0BgapFmszNkkTYIYmHhiUjeOllN8b8hsuWOB3TH5djIa6jqERrKB';
 $currency = 'MXN';
 ?>
