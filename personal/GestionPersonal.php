@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 require '../negocio/config.php';
 require '../negocio/constantes.php';
 require '../negocio/database.php';
@@ -6,7 +6,7 @@ $db = new Database();
 $conexionA = $db->conectar();
 $conexionB = $db->conectar();
 $conexionC = $db->conectar();
-?>
+?>-->
 <!doctype html>
 <html>
 <head>
@@ -50,37 +50,37 @@ $conexionC = $db->conectar();
 		
 		<label for="departamento">Departamento</label>
 		<select id="departamento" name="departamento">
-		<?php
+		<!--<?php
 			$consultaDeptos = $conexionA->prepare("CALL ConsultaCataEmpDepto();");
 			$consultaDeptos->execute();
 			$departamentos = $consultaDeptos->fetchAll(PDO::FETCH_ASSOC);
 			foreach($departamentos as $depto):
 				echo '<option value="'.$depto['idDepto'].'">'.$depto['departamento'].'</option>';
 			endforeach;
-		?>
+		?>-->
 		</select>
 		
 		<label for="rol">Cargo</label>
 		<select id="rol" name="rol">
-		<?php
+		<!--<?php
 			$consultaRoles = $conexionB->prepare("CALL ConsultaCataEmpRoles();");
 			$consultaRoles->execute();
 			$roles = $consultaRoles->fetchAll(PDO::FETCH_ASSOC);
 			foreach($roles as $rol):
 				echo '<option value="'.$rol['idRol'].'">'.$rol['rol'].'</option>';
 			endforeach;
-		?>
+		?>-->
 		</select>
 		<label for="contrato">Tipo de Contrato</label>
 		<select id="contrato" name="contrato">
-		<?php
+		<!--<?php
 			$consultaContrato = $conexionC->prepare("CALL ConsultaCataEmpContrat();");
 			$consultaContrato->execute();
 			$contratos = $consultaContrato->fetchAll(PDO::FETCH_ASSOC);
 			foreach($contratos as $contrato):
 				echo '<option value="'.$contrato['idContrato'].'">'.$contrato['tipo'].'</option>';
 			endforeach;
-		?>
+		?>-->
 		</select>
 		
 		<input id="altaEmpleado" type="submit" value="R E G I S T R A R">
