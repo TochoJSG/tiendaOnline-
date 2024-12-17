@@ -57,11 +57,11 @@ require 'negocio/constantes.php';
 			</div>
 		</div>
 		<br>
-		<div class="row">
+		<!--<div class="row">
 			<div class="mx-auto" style="width:666px;">
 				<div class="checkout-btn"></div>
 			</div>
-		</div>
+		</div>-->
 	</div>
 	<div class="col-6">
 		<div class="table-responsive">
