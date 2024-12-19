@@ -1,7 +1,7 @@
 <?php
-	require './negocio/config.php';
-	require './negocio/constantes.php';
-	require './negocio/database.php';
+	require '../negocio/config.php';
+	require '../negocio/constantes.php';
+	require '../negocio/database.php';
 		$db = new Database();
 		$conexionA = $db->conectar();
 		$conexionB = $db->conectar();
