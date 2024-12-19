@@ -153,17 +153,20 @@
 		const displayADD = document.getElementById('nosotros');
 		
 		ud.addEventListener('click',function(){
+			console.log("actualizacion");
 			displayUD.style.display = 'block';
 			displayADD.style.display = 'none';
 			ud.style.background = '#000';
 			add.style.background = '#fad';
-			
+			console.log("actualizacion luego de estilos");
 		});
 		add.addEventListener('click',function(){
+			console.log("agregar");
 			displayADD.style.display = 'block';
 			displayUD.style.display = 'none';
 			ud.style.background = '#fad';
 			add.style.background = '#000';
+			console.log("agregar luego de estilos");
 		});
 	</script>
 
