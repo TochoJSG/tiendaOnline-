@@ -68,7 +68,7 @@
 		<a target="_self" href="GestionFinanzas.php"><span>Gestionar Finanzas</span></a>
 		</li>
 </ul>
-<script>
+<!--<script>
 	const menuToggle=document.querySelector('.menuToggle');
 	const navigation=document.querySelector('.navigation');
 	menuToggle.onClick=function(){
@@ -83,6 +83,6 @@
 		menuToggle.classList.remove('active');
 		navigation.classList.remove('active');
 	}
-</script>
+</script>-->
 </body>
 </html>
