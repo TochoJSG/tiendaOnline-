@@ -7,8 +7,8 @@
 		$conexionB = $db->conectar();
 		$conexionC = $db->conectar();
 ?>
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta charset="UTF-8"/> 
