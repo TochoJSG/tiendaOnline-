@@ -21,45 +21,39 @@
 			-webkit-box-reflect:below 1px linear-gradient(transparent,#0004);}
     .btnAnimaLuz a span{position:absolute;display:block;top:1px;left:1px;right:1px;bottom:1px;text-align:center;background:#0c0c0c;color:rgba(255,255,255,0.2);transition:0.6s;z-index:1;}
 	.btnAnimaLuz a::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(45deg,#fb0094,#00f,#0f0,#ff0,#f00,#fb0094,#00f,#0f0,#ff0,#f00);background-size:400%;opacity:0;filter:blur(20px);transition:0.6s;animation:animate 20s linear infinite;}
-		.btnAnimaLuz a::before{
-			content:'';
-			position:absolute;
-			top:0;
-			left:0;
-			width:100%;
-			height:100%;
-			background:linear-gradient(45deg,#fb0094,#00f,#0f0,#ff0,#f00,#fb0094,#00f,#0f0,#ff0,#f00);
-			background-size:400%;
-			opacity:0;/**/
-			transition:0.6s;
-			animation:animate 20s linear infinite;
-		}
-		.btnAnimaLuz a:hover span{
-			color:rgba(255,255,255,1);
-		}
-		.btnAnimaLuz a:hover::before,a:hover::after{
-			opacity:1;
-		}
-		.btnAnimaLuz a span::before{
-			content:'';
-			position:absolute;
-			top:0;
-			left:0;
-			width:100%;
-			height:50%;
-			background:rgba(255,255,255,0.1);
-		}
-		@keyframes animate{
-			0%{
-				background-position:0 0;
-			}
-			50%{
-				background-position:300% 0;
-			}
-			100%{
-				background-position:0 0;
-			}
-		}
+	.btnAnimaLuz a::before{
+		content:'';
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background:linear-gradient(45deg,#fb0094,#00f,#0f0,#ff0,#f00,#fb0094,#00f,#0f0,#ff0,#f00);
+		background-size:400%;
+		opacity:0;/**/
+		transition:0.6s;
+		animation:animate 20s linear infinite;
+	}
+	.btnAnimaLuz a:hover span{
+		color:rgba(255,255,255,1);
+	}
+	.btnAnimaLuz a:hover::before,a:hover::after{
+		opacity:1;
+	}
+	.btnAnimaLuz a span::before{
+		content:'';
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:50%;
+		background:rgba(255,255,255,0.1);
+	}
+	@keyframes animate{
+		0%{background-position:0 0;}
+		50%{background-position:300% 0;}
+		100%{background-position:0 0;}
+	}
 	</style>
 </head>
 <body>
