@@ -22,7 +22,7 @@ CreaProducto*/
 		<div class="blueBG">
 			<div class="box signin">
 				<h2>Busca un Producto</h2>	
-				<button id class="signinBtn">Consultar</button>
+				<button class="signinBtn">Consultar</button>
 			</div>
 
 			<div class="box signup">
@@ -38,7 +38,7 @@ CreaProducto*/
 						<label for="consultas">Busca un Producto</label>
 						<input id="consultas" name="producto" type="text" placeholder="Escribe el nombre del producto">
 						<input id="Consultar" type="submit" value="Consultar">
-					
+
 					<div class="listaProductos">
 						<?php
 							$inventario = new Database();

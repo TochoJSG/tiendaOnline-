@@ -37,4 +37,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Por favor, ingresa el nombre de un producto.";
     }
 }
+$bd->close();
+$conect->close();
 ?>
