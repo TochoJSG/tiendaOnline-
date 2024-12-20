@@ -31,8 +31,6 @@ CreaProducto*/
 			</div>
 			
 		</div>
-			
-			<div class="formBx">
 			<?php
 				$inventario = new Database();
 				$conexionInv = $inventario->conectar();
@@ -43,6 +41,8 @@ CreaProducto*/
 					echo '<span value="'.$idProducto['idProducto'].'">'.$categorias['idCategoria'].'prod'.$prod['nombre'].' $'.$precio['precio'].' Cant'.$cant['cantidad'].'SKU '.$sku['codigoUnico'].'Desc'.$desc['descuento'].' Edo '.$edo['activo'].'costo '.$cost['costo'].'</span>';
 				endforeach;
 			?>
+			<div class="formBx">
+			
 
 				<div class="form signinForm">
 					<form>
