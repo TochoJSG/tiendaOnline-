@@ -15,29 +15,6 @@
 			<title>Personal</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
 		<link rel="stylesheet" type="text/css" href="estilo_interfaz.css"/>
-		<script>
-		const ud = document.getElementById('updateEmploye');
-		const add = document.getElementById('addEmploye');
-		const displayUD = document.getElementById('upDateRH');
-		const displayADD = document.getElementById('nosotros');
-		
-		ud.addEventListener('click',function(){
-			console.log("actualizacion");
-			displayUD.style.display = 'block';
-			displayADD.style.display = 'none';
-			ud.style.background = '#000';
-			add.style.background = '#fad';
-			console.log("actualizacion luego de estilos");
-		});
-		add.addEventListener('click',function(){
-			console.log("agregar");
-			displayADD.style.display = 'block';
-			displayUD.style.display = 'none';
-			ud.style.background = '#fad';
-			add.style.background = '#000';
-			console.log("agregar luego de estilos");
-		});
-	</script>
 	</head>
 <body style="background:#daf;">
 
@@ -169,6 +146,30 @@
 
 	</div><!--Cierra procesos RH-->
 
+	<script>
+		const ud = document.getElementById('updateEmploye');
+		const add = document.getElementById('addEmploye');
+		const displayUD = document.getElementById('upDateRH');
+		const displayADD = document.getElementById('nosotros');
+		
+		ud.addEventListener('click',function(){
+			console.log("actualizacion");
+			displayUD.style.display = 'block';
+			displayADD.style.display = 'none';
+			ud.style.background = '#000';
+			add.style.background = '#fad';
+			console.log("actualizacion luego de estilos");
+		});
+		add.addEventListener('click',function(){
+			console.log("agregar");
+			displayADD.style.display = 'block';
+			displayUD.style.display = 'none';
+			ud.style.background = '#fad';
+			add.style.background = '#000';
+			console.log("agregar luego de estilos");
+		});
+	</script>
+	
 </body>
 
 </html>
