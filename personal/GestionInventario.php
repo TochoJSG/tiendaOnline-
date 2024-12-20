@@ -19,7 +19,7 @@ require '../negocio/database.php';
 	<div clas="contenedor_logeo">
 		<div class="blueBG">
 			<div class="box signin">
-				<h2>Consulta la Base para Información</h2>	
+				<h2>Busca un Producto</h2>	
 				<button class="signinBtn">Consultar</button>
 			</div>
 			
@@ -36,38 +36,41 @@ require '../negocio/database.php';
 						<label for="consultas">Consulta informacion de la Base de Datos</label>
 						<input id="consultas" type="text" placeholder="Escribe que deseas saber del sistema">
 						<input id="Consultar" type="submit" value="Consultar">
+						<div class="listaProductos">
+							
+						</div>
 					</form>
 				</div>
 			
 			<div class="form signupForm">
 				<form>
 				<h3>Hola, Captura los datos</h3>
-					<input id="nombre" type="text" placeholder="nombre de Producto" max="66" required onchange="upperCase();">
-					<input id="precio" type="number" placeholder="precio" min="1" required>
-					<input id="codigoUnico" type="number" placeholder="codigoUnico" required>
-					<input id="descripcion" type="text" placeholder="describe el producto" onchange="upperCase();">
+					<input id="nombre" name="nombre" type="text" placeholder="nombre de Producto" max="66" required>
+					<input id="precio" name="precio" type="number" placeholder="precio" min="1" required>
+					<input id="codigoUnico" name="codigoUnico" type="number" placeholder="codigoUnico" required>
+					<input id="descripcion" name="descripcion" type="text" placeholder="describe el producto">
 					<label for="cantidad">Cuantas unidades tenemos para vender</label>
-					<input id="cantidad" type="quantity" placeholder="qué cantidad del producto tenemos" min="1" required>
-					<input id="costo" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10">
+					<input id="cantidad" name="cantidad" type="quantity" placeholder="qué cantidad del producto tenemos" min="1" required>
+					<input id="costo" name="costo" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10">
 					<label for="activo">¿Activar publicación?</label>
-					<input id="activo" type="radio" name="activo" value="true">
+					<input id="activo" name="activo" type="radio"  value="true">
 					<label for="inactivo">¿NO Activar publicación?</label>
-					<input id="inactivo" type="radio" name="activo" value="false">
+					<input id="inactivo" name="activo" type="radio"  value="false">
 					<label for="categoria">A qué categoria pertenece el Producto</label>
 					
-					<select id="categoria" name="categorias">
+					<select id="p_cate" name="p_cate">
 					<?php
-					$catalogo = new Database();
-					$conCata = $catalogo->conectar();
-					$sqlDB = $conCata->prepare("CALL ConsultaCataCategos();");
-					$sqlDB->execute();
-					$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
-					foreach ($productos as $categorias):
-						echo '<option value="'.$categorias['idCategoria'].'">'.$categorias['catego'].'</option>';
-					endforeach;
+						$catalogo = new Database();
+						$conCata = $catalogo->conectar();
+						$sqlDB = $conCata->prepare("CALL ConsultaCataCategos();");
+						$sqlDB->execute();
+						$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+						foreach ($productos as $categorias):
+							echo '<option value="'.$categorias['idCategoria'].'">'.$categorias['catego'].'</option>';
+						endforeach;
 					?>
 					</select>
-					<input id="descuento" type="number" placeholder="opcional, da un porcentaje de descuento" min="0">
+					<input id="descuento" name="descuento" type="number" placeholder="opcional, da un porcentaje de descuento" min="0">
 					<input id="registrar" type="submit" value="registrar">
 					<a id="update">¿Quieres modificar registro un Existente?
 					</a>
