@@ -19,11 +19,17 @@
 <div class="controlesRH">
 	<button id="addEmploye" class="HRbutton">Registra Empleado</button>
 	<button id="updateEmploye" class="HRbutton">Edita Empleado</button>
+	<button id="seeEmploye" class="HRbutton">Ver Empleados</button>
 </div>
 
 <div class="procesosRH">
 
-<div id="nosotros" class="modal"><!--REGISTRO-->
+<div id="nosotros" class="modal"><!--REGISTRO
+
+idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso	
+
+
+-->
 	<div class="headerForm">
 		<h3>Hola, Captura los datos del Empleado</h3>
 	</div>
@@ -108,11 +114,22 @@
 		<select id="contrato" name="contrato" disabled>
 
 
-		
+
 		</select>
 		
 		<input id="altaEmpleado" type="submit" value="A C T U A L I Z A  R" disabled>
 	</form>
+</div>
+
+
+
+<div id="seeRH" class="modal"><!--Ver Colaboradores-->
+	<div class="headerForm">
+		<h3>Lista de Colaboradores</h3>
+	</div>
+	<div>
+		
+	</div>
 </div>
 
 </div><!--Cierra procesos RH-->
@@ -120,21 +137,35 @@
 <script>
 	const ud = document.getElementById('updateEmploye');
 	const add = document.getElementById('addEmploye');
+	const see = document.getElementById('seeEmploye');
+	
 	const displayUD = document.getElementById('upDateRH');
 	const displayADD = document.getElementById('nosotros');
+	const displaySEE = document.getElementById('seeRH');
 	
 	ud.addEventListener('click',function(){
 		displayUD.style.display = 'block';
 		displayADD.style.display = 'none';
+		displaySEE.style.display = 'none';
 		ud.style.background = '#000';
 		add.style.background = '#fad';
-		
+		see.style.background = '#fad';
 	});
 	add.addEventListener('click',function(){
 		displayADD.style.display = 'block';
 		displayUD.style.display = 'none';
+		displaySEE.style.display = 'none';
 		ud.style.background = '#fad';
+		see.style.background = '#fad';
 		add.style.background = '#000';
+	});
+	see.addEventListener('click',function(){
+		displayADD.style.display = 'none';
+		displayUD.style.display = 'none';
+		displaySEE.style.display = 'block';
+		see.style.background = '#000';
+		add.style.background = '#fad';
+		ud.style.background = '#fad';
 	});
 </script>
 
