@@ -31,26 +31,25 @@ CreaProducto*/
 			</div>
 			
 		</div>
-			<?php
-				$inventario = new Database();
-				$conexionInv = $inventario->conectar();
-				$sqlCon = $conexionInv->prepare("CALL ConsultaProductos();");
-				$sqlCon->execute();
-				$prods = $sqlCon->fetchAll(PDO::FETCH_ASSOC);
-				foreach ($prods as $categorias):
-					echo '<span value="'.$idProducto['idProducto'].'">'.$categorias['idCategoria'].'prod'.$prod['nombre'].' $'.$precio['precio'].' Cant'.$cant['cantidad'].'SKU '.$sku['codigoUnico'].'Desc'.$desc['descuento'].' Edo '.$edo['activo'].'costo '.$cost['costo'].'</span>';
-				endforeach;
-			?>
+			
 			<div class="formBx">
 			
-
 				<div class="form signinForm">
 					<form>
 						<label for="consultas">Busca un Producto</label>
 						<input id="consultas" type="text" placeholder="Escribe el nombre del producto">
 						<input id="Consultar" type="submit" value="Consultar">
 						<div class="listaProductos">
-
+						<?php
+							$inventario = new Database();
+							$conexionInv = $inventario->conectar();
+							$sqlCon = $conexionInv->prepare("CALL ConsultaProductos();");
+							$sqlCon->execute();
+							$prods = $sqlCon->fetchAll(PDO::FETCH_ASSOC);
+							foreach ($prods as $categorias):
+								echo '<span value="'.$idProducto['idProducto'].'">'.$categorias['idCategoria'].'prod'.$prod['nombre'].' $'.$precio['precio'].' Cant'.$cant['cantidad'].'SKU '.$sku['codigoUnico'].'Desc'.$desc['descuento'].' Edo '.$edo['activo'].'costo '.$cost['costo'].'</span>';
+							endforeach;
+						?>
 						</div>
 					</form>
 				</div>
