@@ -217,8 +217,8 @@ require '../negocio/database.php';
 		formBx.classList.remove('active');
 		cuerpo.classList.remove('active');
 	}
-	document.querySelector('#update').onclick=()=>{document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';};
-	document.querySelector('#closeModal').onclick=()=>{document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';}
+	document.querySelector('#update').getElementById('onclick',function(){document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';});
+	document.querySelector('#closeModal').getElementById('onclick',function(){document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';});
 	
 	document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);
 </script>
