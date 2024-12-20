@@ -1,5 +1,5 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+/*if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Verifica si el campo 'producto' fue enviado
     if (!empty($_POST['producto'])) {
         $producto = $_POST['producto'];
@@ -37,5 +37,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Por favor, ingresa el nombre de un producto.";
     }
 }
-
+*/
 ?>
