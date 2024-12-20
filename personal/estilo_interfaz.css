@@ -227,4 +227,6 @@ body .active{
 		left: 0;
 		top: 150px;
 	}
+	.controlesRH{display: flex;flex-direction: column;}
+	.controlesRH .HRbutton{width:200px;height:66px;letter-spacing:1px;}
 }

@@ -2,6 +2,8 @@
 require '../negocio/config.php';
 require '../negocio/constantes.php';
 require '../negocio/database.php';
+/*
+CreaProducto*/
 ?>
 <!doctype html>
 <html>
@@ -31,24 +33,80 @@ require '../negocio/database.php';
 		</div>
 			
 			<div class="formBx">
+			<?php
+				$inventario = new Database();
+				$conexionInv = $inventario->conectar();
+				$sqlCon = $conexionInv->prepare("CALL ConsultaProductos();");
+				$sqlCon->execute();
+				$prods = $sqlCon->fetchAll(PDO::FETCH_ASSOC);
+				foreach ($prods as $categorias):
+					echo '<span value="'.$idProducto['idProducto'].'">'.$categorias['idCategoria'].'prod'.$prod['nombre'].' $'.$precio['precio'].' Cant'.$cant['cantidad'].'SKU '.$sku['codigoUnico'].'Desc'.$desc['descuento'].' Edo '.$edo['activo'].'costo '.$cost['costo'].'</span>';
+				endforeach;
+			?>
+
 				<div class="form signinForm">
 					<form>
-						<label for="consultas">Consulta informacion de la Base de Datos</label>
-						<input id="consultas" type="text" placeholder="Escribe que deseas saber del sistema">
+						<label for="consultas">Busca un Producto</label>
+						<input id="consultas" type="text" placeholder="Escribe el nombre del producto">
 						<input id="Consultar" type="submit" value="Consultar">
 						<div class="listaProductos">
-							
+
 						</div>
 					</form>
 				</div>
 			
+				<?php
+				if ($_SERVER["REQUEST_METHOD"] == "POST") {
+					// Conexión a la base de datos
+					$insertProduct = new Database();
+					$conP = $insertProduct->conectar();
+
+					// Validar y sanitizar los datos del formulario
+					$p_cate = filter_input(INPUT_POST, 'categoriaU', FILTER_SANITIZE_STRING);
+					$p_nomb = filter_input(INPUT_POST, 'buscarUpdate', FILTER_SANITIZE_STRING);
+					$p_precio = filter_input(INPUT_POST, 'precioU', FILTER_VALIDATE_FLOAT);
+					$p_cant = filter_input(INPUT_POST, 'cantidadU', FILTER_VALIDATE_INT);
+					$p_desc = filter_input(INPUT_POST, 'descripcionU', FILTER_SANITIZE_STRING);
+					$p_cu = $p_nomb; // Reutiliza el valor de buscarUpdate como código único
+					$p_des = isset($_POST['descuentoU']) ? filter_input(INPUT_POST, 'descuentoU', FILTER_VALIDATE_FLOAT) : 0;
+					$p_cost = filter_input(INPUT_POST, 'costoU', FILTER_VALIDATE_FLOAT);
+					$p_edo = ($_POST['activo'] === 'true') ? 1 : 0;
+
+					// Verificar que los datos requeridos no estén vacíos
+					if ($p_cate && $p_nomb && $p_precio && $p_cant && $p_desc && $p_cost !== false) {
+						// Preparar la llamada al procedimiento almacenado
+						$sqlDBProd = $conP->prepare("CALL insertarProducto(?, ?, ?, ?, ?, ?, ?, ?, ?)");
+						$sqlDBProd->bindValue(1, $p_cate, PDO::PARAM_STR);
+						$sqlDBProd->bindValue(2, $p_nomb, PDO::PARAM_STR);
+						$sqlDBProd->bindValue(3, $p_precio, PDO::PARAM_STR);
+						$sqlDBProd->bindValue(4, $p_cant, PDO::PARAM_INT);
+						$sqlDBProd->bindValue(5, $p_desc, PDO::PARAM_STR);
+						$sqlDBProd->bindValue(6, $p_cu, PDO::PARAM_STR);
+						$sqlDBProd->bindValue(7, $p_des, PDO::PARAM_STR);
+						$sqlDBProd->bindValue(8, $p_cost, PDO::PARAM_STR);
+						$sqlDBProd->bindValue(9, $p_edo, PDO::PARAM_BOOL);
+
+						// Ejecutar el procedimiento
+						if ($sqlDBProd->execute()) {
+							echo "<p>Producto registrado correctamente.</p>";
+						} else {
+							echo "<p>Error al registrar el producto: " . $sqlDBProd->errorInfo()[2] . "</p>";
+						}
+
+						// Cerrar la conexión
+						$sqlDBProd->closeCursor();
+					} else {
+						echo "<p>Error: Por favor, completa todos los campos obligatorios correctamente.</p>";
+					}
+				}
+				?>
 			<div class="form signupForm">
-				<form>
+				<form method="POST">
 				<h3>Hola, Captura los datos</h3>
 					<input id="nombre" name="nombre" type="text" placeholder="nombre de Producto" max="66" required>
 					<input id="precio" name="precio" type="number" placeholder="precio" min="1" required>
 					<input id="codigoUnico" name="codigoUnico" type="number" placeholder="codigoUnico" required>
-					<input id="descripcion" name="descripcion" type="text" placeholder="describe el producto">
+					<input id="descripcion" name="descripcion" type="text" placeholder="describe el producto" max="66">
 					<label for="cantidad">Cuantas unidades tenemos para vender</label>
 					<input id="cantidad" name="cantidad" type="quantity" placeholder="qué cantidad del producto tenemos" min="1" required>
 					<input id="costo" name="costo" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10">
@@ -70,7 +128,8 @@ require '../negocio/database.php';
 						endforeach;
 					?>
 					</select>
-					<input id="descuento" name="descuento" type="number" placeholder="opcional, da un porcentaje de descuento" min="0">
+					<input id="descuento" name="descuento" type="number" placeholder="opcional, da un porcentaje de descuento" min="0" max="90">
+
 					<input id="registrar" type="submit" value="registrar">
 					<a id="update">¿Quieres modificar registro un Existente?
 					</a>
@@ -89,18 +148,18 @@ require '../negocio/database.php';
 		<span id="closeModal" class="close" title="Close Modal">&times;</span>
 	</div>
 	
-	<form>
-		<input id="buscarUpdate" type="text" placeholder="ingresa nombre o código unico" max="66" required>
+	<form method="POST">
+		<input id="buscarUpdate" type="text" placeholder="ingresa nombre o código unico" maxlength="66" required>
 		<input id="buscarUpdateSubmit" type="submit" value="buscar">
 			<br>
-		<input class="updateForm" id="precioU" type="number" placeholder="precio">
+		<input class="updateForm" id="precioU" type="number" placeholder="precio"  step="0.01" required>
 		
 		<input class="updateForm" id="descripcionU" type="text" placeholder="describe el producto" onchange="upperCase();">
 		
 		<label for="cantidadU">Cuantas unidades tenemos para vender</label>
 		<input class="updateForm" id="cantidadU" type="quantity" min="1">
 		
-		<input class="updateForm" id="costoU" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10">
+		<input class="updateForm" id="costoU" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10"  step="0.01">
 		
 		<label for="activo">¿Activar publicación?</label>
 		<input class="updateForm" id="activoU" type="radio" name="activo" value="true">
@@ -116,8 +175,8 @@ require '../negocio/database.php';
 			<option value="catego4">Catego 4</option>
 		</select>
 		
-		<input class="updateForm" id="descuentoU" type="number" placeholder="opcional, da un porcentaje de descuento">
-		
+		<input class="updateForm" id="descuentoU" type="number" placeholder="opcional, da un porcentaje de descuento" step="0.01">
+
 		<input class="updateForm" type="submit" value="registrar">
 	</form>
 	

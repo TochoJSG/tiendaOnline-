@@ -18,8 +18,8 @@
 
 <div class="controlesRH">
 	<button id="addEmploye" class="HRbutton">Registra Empleado</button>
-	<button id="updateEmploye" class="HRbutton">Edita Empleado</button>
 	<button id="seeEmploye" class="HRbutton">Ver Empleados</button>
+	<button id="updateEmploye" class="HRbutton">Edita Empleado</button>
 </div>
 
 <div class="procesosRH">
@@ -156,7 +156,7 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		displayADD.style.display = 'block';
 		displayUD.style.display = 'none';
 		displaySEE.style.display = 'none';
-		
+
 		ud.style.background = '#fad';
 		see.style.background = '#fad';
 		add.style.background = '#000';

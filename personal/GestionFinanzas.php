@@ -175,7 +175,7 @@ $db = new Database();
 	});
 	
 	document.addEventListener('DOMContentLoaded',function(){
-		alert('Pagina en Desarrollo, no entro en los requrimientos del Sprint');
+		alert('Pagina en Desarrollo, no entro en los requrimientos del Sprint, verificar Documentacion');
 	});
 </script>
 </body>
