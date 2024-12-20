@@ -174,7 +174,7 @@ $db = new Database();
 		console.log(a,b,c,d,e,f,g,h,i,j,k,l);	
 	});
 	
-	document.addEventListener('onload',function(){
+	document.addEventListener('DOMContentLoaded',function(){
 		alert('Pagina en Desarrollo, no entro en los requrimientos del Sprint');
 	});
 </script>
