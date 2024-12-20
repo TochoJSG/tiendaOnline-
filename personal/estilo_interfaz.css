@@ -176,13 +176,17 @@ body .active{
 .modal form{display:flex;flex-direction:column;}
 .empleados{background:#daff;}
 #nosotros,
-#upDateRH{background:#000;z-index:1000;width:90%;margin:3px 5%;height:100%;padding:17px;border-radius:8px;overflow-x:hidden;overflow-y:scroll;position:relative;}
+#upDateRH,
+#seeRH{background:#000;z-index:1000;width:90%;margin:3px 5%;height:100%;padding:17px;border-radius:8px;overflow-x:hidden;overflow-y:scroll;position:relative;}
 #nosotros form label,
-#upDateRH form label{color:#fff;letter-spacing:3px;font-weight:300;}
+#upDateRH form label,
+#seeRH form label{color:#fff;letter-spacing:3px;font-weight:300;}
 #nosotros form input,
 #nosotros form select,
 #upDateRH form input,
-#upDateRH form select{padding-bottom:3px;margin-bottom:9px;}
+#upDateRH form select,
+#seeRH form input,
+#seeRH form select{padding-bottom:3px;margin-bottom:9px;}
 .headerForm{display:flex;flex-direction:row;justify-content:space-between;padding:17px;}
 .headerForm h3{color:#fff;font-size:1.7em;letter-spacing:3px;align-items:center;}
 .headerForm #closeModal{top:0px;font-size:2.3em;color:#040105;font-weight:666;font-family:arial;opacity:0.333;cursor:default;}

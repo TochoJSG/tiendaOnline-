@@ -147,6 +147,7 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		displayUD.style.display = 'block';
 		displayADD.style.display = 'none';
 		displaySEE.style.display = 'none';
+
 		ud.style.background = '#000';
 		add.style.background = '#fad';
 		see.style.background = '#fad';
@@ -155,6 +156,7 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		displayADD.style.display = 'block';
 		displayUD.style.display = 'none';
 		displaySEE.style.display = 'none';
+		
 		ud.style.background = '#fad';
 		see.style.background = '#fad';
 		add.style.background = '#000';
@@ -163,6 +165,7 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		displayADD.style.display = 'none';
 		displayUD.style.display = 'none';
 		displaySEE.style.display = 'block';
+
 		see.style.background = '#000';
 		add.style.background = '#fad';
 		ud.style.background = '#fad';
