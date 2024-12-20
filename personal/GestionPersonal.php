@@ -66,15 +66,29 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		
 		<label for="rol">Cargo</label>
 		<select id="rol" name="rol">
-
-
-
+		<?php
+			$rol = new Database();
+			$conRol = $rol->conectar();
+			$sqlRol = $conRol->prepare("CALL ConsultaCataEmpRoles();");
+			$sqlRol->execute();
+			$roles = $sqlRol->fetchAll(PDO::FETCH_ASSOC);
+			foreach ($roles as $r):
+				echo '<option value="'.$r['idRol'].'">'.$r['rol'].'</option>';
+			endforeach;
+		?>
 		</select>
 		<label for="contrato">Tipo de Contrato</label>
 		<select id="contrato" name="contrato">
-
-
-
+		<?php
+			$contrat = new Database();
+			$conContrat = $contrat->conectar();
+			$sqlContrat = $conContrat->prepare("CALL ConsultaCataEmpContrat();");
+			$sqlContrat->execute();
+			$contratos = $sqlContrat->fetchAll(PDO::FETCH_ASSOC);
+			foreach ($contratos as $c):
+				echo '<option value="'.$c['idContrato'].'">'.$c['tipo'].'</option>';
+			endforeach;
+		?>
 		</select>
 		
 		<input id="altaEmpleado" type="submit" value="R E G I S T R A R">
