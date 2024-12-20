@@ -150,12 +150,13 @@ body .active{
 
 .listaProductos{
 	display: block;
-	overflow-x: visible;
-	overflow-y: visible;
+	overflow-x: auto;
+	overflow-y: scroll;
 	background-color: none;
 	width:100%;
 	max-height: 299px;
 }
+.listaProductos span{padding:17px 0;}
 
 
 
