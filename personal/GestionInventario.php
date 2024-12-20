@@ -2,8 +2,7 @@
 require '../negocio/config.php';
 require '../negocio/constantes.php';
 require '../negocio/database.php';
-/*
-CreaProducto*/
+
 ?>
 <!doctype html>
 <html>
