@@ -34,10 +34,11 @@
 			<div class="form signinForm">
 				<form> <!--method="POST" action= "buscaProducto.php">name="producto" -->
 						<label for="consultas">Busca un Producto</label>
-						<input id="consultas" type="text" placeholder="Escribe el nombre del producto">
-						<input id="Consultar" type="submit" value="Consultar" disabled>
+						<input id="consultas" type="text" placeholder="Escribe el nombre del producto" />
+						<input id="Consultar" type="submit" value="Consultar" disabled />
 
 					<div class="listaProductos">
+						<h3>Lista del invertario actual</h3>
 					<?php
 						$inventario = new Database();
 						$conexionInv = $inventario->conectar();
@@ -56,7 +57,7 @@
 							$estado = $producto['estado'];
 							$costo = $producto['costo'];
 							
-							echo '<span value="' . htmlspecialchars($idProducto) . '">'
+							echo '<br><span value="' . htmlspecialchars($idProducto) . '">'
 								. htmlspecialchars($idCategoria) . ' prod '
 								. htmlspecialchars($nombre) . ' $'
 								. htmlspecialchars($precio) . ' Cant '
@@ -171,8 +172,8 @@
 		formBx.classList.remove('active');
 		cuerpo.classList.remove('active');
 	}
-	document.querySelector('#update').getElementById('onclick',function(){document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';});
-	document.querySelector('#closeModal').getElementById('onclick',function(){document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';});
+	document.querySelector('#update').onclick=()=>{document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';};
+	document.querySelector('#closeModal').onclick=()=>{document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';};
 	//document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);
 </script>
 
