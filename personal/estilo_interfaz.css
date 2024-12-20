@@ -150,7 +150,7 @@ body .active{
 
 .listaProductos{
 	display: block;
-	overflow-x: auto;
+	overflow-x: scroll;
 	overflow-y: scroll;
 	background-color: none;
 	width:100%;

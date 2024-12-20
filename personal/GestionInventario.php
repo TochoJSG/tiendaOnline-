@@ -67,7 +67,7 @@ CreaProducto*/
 									. htmlspecialchars($descuento) . ' Edo '
 									. htmlspecialchars($estado) . ' costo '
 									. htmlspecialchars($costo)
-									. '</span>';
+									. '</span><br>';
 							endforeach;
 							/*foreach ($prods as $categorias):
 								echo '<span value="'.'id '.$idProducto['idProducto'].'">'.$categorias['idCategoria'].'prod '.$prod['nombre'].' $'.$precio['precio'].' Cant'.$cant['cantidad'].'SKU '.$sku['codigoUnico'].'Desc'.$desc['descuento'].' Edo '.$edo['activo'].'costo '.$cost['costo'].'</span>';
