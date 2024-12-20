@@ -46,9 +46,32 @@ CreaProducto*/
 							$sqlCon = $conexionInv->prepare("CALL ConsultaProductos();");
 							$sqlCon->execute();
 							$prods = $sqlCon->fetchAll(PDO::FETCH_ASSOC);
-							foreach ($prods as $categorias):
-								echo '<span value="'.$idProducto['idProducto'].'">'.$categorias['idCategoria'].'prod'.$prod['nombre'].' $'.$precio['precio'].' Cant'.$cant['cantidad'].'SKU '.$sku['codigoUnico'].'Desc'.$desc['descuento'].' Edo '.$edo['activo'].'costo '.$cost['costo'].'</span>';
+							
+							foreach ($prods as $producto):
+								$idProducto = $producto['idProducto'];
+								$idCategoria = $producto['idCategoria'];
+								$nombre = $producto['nombreProducto'];
+								$precio = $producto['precio'];
+								$cantidad = $producto['cantidad'];
+								$sku = $producto['SKU'];
+								$descuento = $producto['descuento'];
+								$estado = $producto['estado'];
+								$costo = $producto['costo'];
+							
+								echo '<span value="' . htmlspecialchars($idProducto) . '">'
+									. htmlspecialchars($idCategoria) . ' prod '
+									. htmlspecialchars($nombre) . ' $'
+									. htmlspecialchars($precio) . ' Cant '
+									. htmlspecialchars($cantidad) . ' SKU '
+									. htmlspecialchars($sku) . ' Desc '
+									. htmlspecialchars($descuento) . ' Edo '
+									. htmlspecialchars($estado) . ' costo '
+									. htmlspecialchars($costo)
+									. '</span>';
 							endforeach;
+							/*foreach ($prods as $categorias):
+								echo '<span value="'.'id '.$idProducto['idProducto'].'">'.$categorias['idCategoria'].'prod '.$prod['nombre'].' $'.$precio['precio'].' Cant'.$cant['cantidad'].'SKU '.$sku['codigoUnico'].'Desc'.$desc['descuento'].' Edo '.$edo['activo'].'costo '.$cost['costo'].'</span>';
+							endforeach;*/
 						?>
 						</div>
 					</form>
