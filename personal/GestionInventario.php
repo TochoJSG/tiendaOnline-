@@ -173,8 +173,7 @@
 	}
 	document.querySelector('#update').getElementById('onclick',function(){document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';});
 	document.querySelector('#closeModal').getElementById('onclick',function(){document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';});
-	
-	document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);
+	//document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);
 </script>
 
 </body>
