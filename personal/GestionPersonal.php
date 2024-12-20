@@ -47,16 +47,23 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		
 		<input id="rfc" type="text" name="rfc" placeholder="Ingresa el RFC" onchange="upperCase();">
 		
-		<input id="seguro" type="text" name="seguro" placeholder="Ingresa el número de Seguro" onchange="upperCase();">
+		<!--<input id="seguro" type="text" name="seguro" placeholder="Ingresa el número de Seguro" onchange="upperCase();">-->
 		
 		<label for="ingreso">Fecha de ingreso</label>
 		<input id="ingreso" type="date" name="ingreso">
 		
 		<label for="departamento">Departamento</label>
 		<select id="departamento" name="departamento">
-
-
-
+		<?php
+			$deptos = new Database();
+			$conDeptos = $deptos->conectar();
+			$sqlDepto = $conDeptos->prepare("CALL ConsultaCataEmpDepto();");
+			$sqlDepto->execute();
+			$departamentos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+			foreach ($departamentos as $d):
+				echo '<option value="'.$d['idDepto'].'">'.$d['departamento'].'</option>';
+			endforeach;
+		?>
 		</select>
 		
 		<label for="rol">Cargo</label>
