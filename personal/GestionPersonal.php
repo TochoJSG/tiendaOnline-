@@ -2,8 +2,6 @@
 	require '../negocio/config.php';
 	require '../negocio/constantes.php';
 	require '../negocio/database.php';
-		$db = new Database();
-		$conexionA = $db->conectar();
 ?>
 <!doctype html>
 <html>
@@ -59,7 +57,7 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 			$conDeptos = $deptos->conectar();
 			$sqlDepto = $conDeptos->prepare("CALL ConsultaCataEmpDepto();");
 			$sqlDepto->execute();
-			$departamentos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+			$departamentos = $sqlDepto->fetchAll(PDO::FETCH_ASSOC);
 			foreach ($departamentos as $d):
 				echo '<option value="'.$d['idDepto'].'">'.$d['departamento'].'</option>';
 			endforeach;
