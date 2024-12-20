@@ -22,9 +22,9 @@ CreaProducto*/
 		<div class="blueBG">
 			<div class="box signin">
 				<h2>Busca un Producto</h2>	
-				<button class="signinBtn">Consultar</button>
+				<button id class="signinBtn">Consultar</button>
 			</div>
-			
+
 			<div class="box signup">
 				<h2>Registra un producto</h2>
 				<button class="signupBtn">Registrar</button>
@@ -33,13 +33,13 @@ CreaProducto*/
 		</div>
 			
 			<div class="formBx">
-			
 				<div class="form signinForm">
-					<form>
+					<form method="POST" action="buscaProducto.php">
 						<label for="consultas">Busca un Producto</label>
-						<input id="consultas" type="text" placeholder="Escribe el nombre del producto">
+						<input id="consultas" name="producto" type="text" placeholder="Escribe el nombre del producto">
 						<input id="Consultar" type="submit" value="Consultar">
-						<div class="listaProductos">
+					
+					<div class="listaProductos">
 						<?php
 							$inventario = new Database();
 							$conexionInv = $inventario->conectar();
@@ -73,7 +73,7 @@ CreaProducto*/
 								echo '<span value="'.'id '.$idProducto['idProducto'].'">'.$categorias['idCategoria'].'prod '.$prod['nombre'].' $'.$precio['precio'].' Cant'.$cant['cantidad'].'SKU '.$sku['codigoUnico'].'Desc'.$desc['descuento'].' Edo '.$edo['activo'].'costo '.$cost['costo'].'</span>';
 							endforeach;*/
 						?>
-						</div>
+					</div>
 					</form>
 				</div>
 			
