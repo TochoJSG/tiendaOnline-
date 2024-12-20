@@ -159,9 +159,34 @@ paypal.Buttons({
   onApprove: function(data, actions){
     return actions.order.capture().then(function(details){
       alert('Pago realizado con éxito');// Confirmación del pago
-      carrito = {};// Limpiar el carrito y redirigir a una página de confirmación
-      pintarCarrito();
-      window.location.href = 'ventas.php';
+
+      const ventaData = {
+        emailCliente: details.payer.email_address,
+        nombreCliente: details.payer.name.given_name + ' ' + details.payer.name.surname,
+        items: details.purchase_units[0].items,
+        total: details.purchase_units[0].amount.value
+      };
+
+        // Enviar datos al servidor
+        fetch('notificarVenta.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(ventaData)
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                console.log('Notificación enviada');
+            } else {
+                console.error('Error al enviar notificación:', data.error);
+            }
+        });
+        
+        carrito = {};// Limpiar el carrito y redirigir a una página de confirmación
+        pintarCarrito();
+        window.location.href = 'ventas.php';
     });
   },
   onCancel: function(data){

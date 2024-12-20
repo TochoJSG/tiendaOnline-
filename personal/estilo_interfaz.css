@@ -148,12 +148,13 @@ body .active{
 
 
 
-.formBx.active .signinForm .listaProductos{
+.listaProductos{
 	display: block;
 	overflow-x: auto;
-	overflow-y: auto;
+	overflow-y: visible;
 	background-color: none;
 	width:100%;
+	max-height: 255px;
 }
 
 
