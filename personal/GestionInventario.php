@@ -34,10 +34,10 @@ CreaProducto*/
 			
 			<div class="formBx">
 				<div class="form signinForm">
-					<form method="POST" action="buscaProducto.php">
+					<form> <!--method="POST" action= "buscaProducto.php">-->
 						<label for="consultas">Busca un Producto</label>
 						<input id="consultas" name="producto" type="text" placeholder="Escribe el nombre del producto">
-						<input id="Consultar" type="submit" value="Consultar">
+						<input id="Consultar" type="submit" value="Consultar" disabled>
 
 					<div class="listaProductos">
 						<?php
