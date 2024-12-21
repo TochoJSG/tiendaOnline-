@@ -1,5 +1,8 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    require '../negocio/config.php';
+    require '../negocio/constantes.php';
+    require '../negocio/database.php';
+    if ($_SERVER["REQUEST_METHOD"] === "POST") {
     try {
         // Habilitar la visualización de errores para depuración
         ini_set('display_errors', 1);
