@@ -51,16 +51,16 @@
 						foreach ($prods as $producto):
 							$idProducto = $producto['idProducto'];
 							$idCategoria = $producto['idCategoria'];
-							$nombre = $producto['nombreProducto'];
+							$nombre = $producto['nombre'];
 							$precio = $producto['precio'];
 							$cantidad = $producto['cantidad'];
-							$sku = $producto['SKU'];
+							$sku = $producto['codigoUnico'];
 							$descuento = $producto['descuento'];
-							$estado = $producto['estado'];
+							$estado = $producto['activo'];
 							$costo = $producto['costo'];
 							
 							echo '<br><span value="' . htmlspecialchars($idProducto) . '">'
-								. htmlspecialchars($idCategoria) . ' producto '
+								. htmlspecialchars($idCategoria) . ' Catego '
 								. htmlspecialchars($nombre) . ' $'
 								. htmlspecialchars($precio) . ' Cantidad '
 								. htmlspecialchars($cantidad) . ' SKU '
