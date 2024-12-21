@@ -60,13 +60,13 @@
 							$costo = $producto['costo'];
 							
 							echo '<br><span value="' . htmlspecialchars($idProducto) . '">'
-								. htmlspecialchars($idCategoria) . ' Catego '
-								. htmlspecialchars($nombre) . ' $'
-								. htmlspecialchars($precio) . ' Cantidad '
-								. htmlspecialchars($cantidad) . ' SKU '
-								. htmlspecialchars($sku) . ' Desc(%) '
-								. htmlspecialchars($descuento) . ' Estado '
-								. htmlspecialchars($estado) . ' costo($) '
+								. htmlspecialchars($idCategoria) . '<-IdCatego '
+								. htmlspecialchars($nombre) . '<-Producto  $'
+								. htmlspecialchars($precio) . ' Cantidad->'
+								. htmlspecialchars($cantidad) . ' SKU->'
+								. htmlspecialchars($sku) . ' Desc(%)->'
+								. htmlspecialchars($descuento) . ' Estado(1|0)->'
+								. htmlspecialchars($estado) . ' costo($)->'
 								. htmlspecialchars($costo)
 								. '</span><br>';
 						endforeach;

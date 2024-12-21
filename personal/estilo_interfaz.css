@@ -197,6 +197,7 @@ body .active{
 .controlesRH .HRbutton{width:333px;height:66px;background:#000;color:#fff;text-transform:uppercase;letter-spacing:3px;border: 1px solid #fff;transition:.5s;}
 .controlesRH .HRbutton:hover{background:#fff;color:#000;transition-delay:.6s;}
 
+.form h3{padding:17px 0;}
 
 @media(max-width: 750px){
 	.contenedor_logeo{
