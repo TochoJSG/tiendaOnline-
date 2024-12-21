@@ -87,7 +87,7 @@
 					<input id="descripcion" name="descripcion" type="text" placeholder="describe el producto" max="66">
 
 					<label for="cantidad">Cuantas unidades tenemos para vender</label>
-					<input id="cantidad" name="cantidad" type="quantity" placeholder="qué cantidad del producto tenemos" min="1" required>
+					<input id="cantidad" name="cantidad" type="number" placeholder="qué cantidad del producto tenemos" min="1" required>
 
 					<input id="costo" name="costo" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10">
 
