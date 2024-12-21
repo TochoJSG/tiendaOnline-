@@ -34,7 +34,9 @@
 			<div class="form signinForm">
 				<form> <!--method="POST" action= "buscaProducto.php">name="producto" -->
 						<label for="consultas">Busca un Producto</label>
-						<input id="consultas" type="text" placeholder="Escribe el nombre del producto" />
+					
+						<input id="consultas" type="text" placeholder="Escribe el nombre del producto" max="66" disabled />
+					
 						<input id="Consultar" type="submit" value="Consultar" disabled />
 
 					<div class="listaProductos">
@@ -58,19 +60,16 @@
 							$costo = $producto['costo'];
 							
 							echo '<br><span value="' . htmlspecialchars($idProducto) . '">'
-								. htmlspecialchars($idCategoria) . ' prod '
+								. htmlspecialchars($idCategoria) . ' producto '
 								. htmlspecialchars($nombre) . ' $'
-								. htmlspecialchars($precio) . ' Cant '
+								. htmlspecialchars($precio) . ' Cantidad '
 								. htmlspecialchars($cantidad) . ' SKU '
-								. htmlspecialchars($sku) . ' Desc '
-								. htmlspecialchars($descuento) . ' Edo '
-								. htmlspecialchars($estado) . ' costo '
+								. htmlspecialchars($sku) . ' Desc(%) '
+								. htmlspecialchars($descuento) . ' Estado '
+								. htmlspecialchars($estado) . ' costo($) '
 								. htmlspecialchars($costo)
 								. '</span><br>';
 						endforeach;
-						/*foreach ($prods as $categorias):
-							echo '<span value="'.'id '.$idProducto['idProducto'].'">'.$categorias['idCategoria'].'prod '.$prod['nombre'].' $'.$precio['precio'].' Cant'.$cant['cantidad'].'SKU '.$sku['codigoUnico'].'Desc'.$desc['descuento'].' Edo '.$edo['activo'].'costo '.$cost['costo'].'</span>';
-						endforeach;*/
 					?>
 				</div>
 			</form>
@@ -80,18 +79,25 @@
 				<h3>Hola, Captura los datos</h3>
 				<form method="POST" action="insertaProducto.php">
 					<input id="nombre" name="nombre" type="text" placeholder="nombre de Producto" max="66" required>
+
 					<input id="precio" name="precio" type="number" placeholder="precio" min="1" required>
+
 					<input id="codigoUnico" name="codigoUnico" type="number" placeholder="codigoUnico" required>
+
 					<input id="descripcion" name="descripcion" type="text" placeholder="describe el producto" max="66">
+
 					<label for="cantidad">Cuantas unidades tenemos para vender</label>
 					<input id="cantidad" name="cantidad" type="quantity" placeholder="qué cantidad del producto tenemos" min="1" required>
+
 					<input id="costo" name="costo" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10">
+
 					<label for="activo">¿Activar publicación?</label>
 					<input id="activo" name="activo" type="radio"  value="true">
+
 					<label for="inactivo">¿NO Activar publicación?</label>
 					<input id="inactivo" name="activo" type="radio"  value="false">
+
 					<label for="categoria">A qué categoria pertenece el Producto</label>
-					
 					<select id="p_cate" name="p_cate">
 					<?php
 						$catalogo = new Database();
@@ -114,9 +120,9 @@
 		</div>
 		
 	</div>
-</div>
+</div><!-- Cierra 'container' -->
 
-</div>
+</div><!-- Cierra 'cuerpo' -->
 
 <div id="nosotros" class="modal"><!--Nosotros-->
 	<div class="headerForm">
@@ -172,8 +178,12 @@
 		formBx.classList.remove('active');
 		cuerpo.classList.remove('active');
 	}
-	document.querySelector('#update').onclick=()=>{document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';};
-	document.querySelector('#closeModal').onclick=()=>{document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';};
+	document.querySelector('#update').onclick=()=>{
+		document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';
+	};
+	document.querySelector('#closeModal').onclick=()=>{
+		document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';
+	};
 	//document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);
 </script>
 
