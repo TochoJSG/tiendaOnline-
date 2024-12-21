@@ -1,6 +1,11 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     try {
+        // Habilitar la visualización de errores para depuración
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
+
         // Conexión a la base de datos
         $database = new Database();
         $conn = $database->conectar();
@@ -12,12 +17,19 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $p_cant = filter_input(INPUT_POST, 'cantidad', FILTER_VALIDATE_INT);
         $p_desc = filter_input(INPUT_POST, 'descripcion', FILTER_SANITIZE_STRING);
         $p_cu = filter_input(INPUT_POST, 'codigoUnico', FILTER_SANITIZE_STRING);
-        $p_des = isset($_POST['descuento']) ? filter_input(INPUT_POST, 'descuento', FILTER_VALIDATE_FLOAT) : null;
+        $p_des = filter_input(INPUT_POST, 'descuento', FILTER_VALIDATE_FLOAT) ?? 0.0; // Descuento opcional
         $p_cost = filter_input(INPUT_POST, 'costo', FILTER_VALIDATE_FLOAT);
-        $p_edo = ($_POST['activo'] === 'true') ? 1 : 0;
+        $p_edo = isset($_POST['activo']) && $_POST['activo'] === 'true' ? 1 : 0;
 
         // Validar campos obligatorios
-        if ($p_cate && $p_nomb && $p_precio !== false && $p_cant !== false && $p_cu && $p_cost !== false) {
+        if (
+            $p_cate !== null && 
+            $p_nomb !== null && 
+            $p_precio !== false && 
+            $p_cant !== false && 
+            $p_cu !== null && 
+            $p_cost !== false
+        ) {
             // Preparar la consulta SQL para llamar al procedimiento almacenado
             $sql = $conn->prepare("CALL insertarProducto(?, ?, ?, ?, ?, ?, ?, ?, ?);");
             $sql->bindValue(1, $p_cate, PDO::PARAM_INT);
@@ -26,16 +38,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             $sql->bindValue(4, $p_cant, PDO::PARAM_INT);
             $sql->bindValue(5, $p_desc, PDO::PARAM_STR);
             $sql->bindValue(6, $p_cu, PDO::PARAM_STR);
-            $sql->bindValue(7, $p_des ?? 0, PDO::PARAM_STR); // Descuento opcional
+            $sql->bindValue(7, $p_des, PDO::PARAM_STR); // Descuento
             $sql->bindValue(8, $p_cost, PDO::PARAM_STR);
-            $sql->bindValue(9, $p_edo, PDO::PARAM_BOOL);
-            //$sql->execute();
+            $sql->bindValue(9, $p_edo, PDO::PARAM_INT);
 
             // Ejecutar el procedimiento almacenado
             if ($sql->execute()) {
-                echo'<script type="text/javascript">
-                        alert("Tarea Guardada");
-                    </script>';
+                echo '<script type="text/javascript">
+                        alert("Producto registrado exitosamente.");
+                      </script>';
             } else {
                 echo "<p>Error al registrar el producto: " . implode(", ", $sql->errorInfo()) . "</p>";
             }
@@ -43,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             echo "<p>Error: Por favor, completa todos los campos obligatorios correctamente.</p>";
         }
     } catch (PDOException $e) {
-        echo "<p>Error de conexión: " . $e->getMessage() . "</p>";
+        echo "<p>Error de conexión o consulta: " . $e->getMessage() . "</p>";
     } finally {
         // Cerrar la conexión si está abierta
         if (isset($conn)) {
