@@ -77,7 +77,7 @@
 
 			<div class="form signupForm">
 				<h3>Hola, Captura los datos</h3>
-				<form method="POST" action="insertaProducto.php">
+				<form method="POST" action="/insertaProducto.php">
 					<input id="nombre" name="nombre" type="text" placeholder="nombre de Producto" max="66" required>
 
 					<input id="precio" name="precio" type="number" placeholder="precio" min="1" required>
@@ -113,8 +113,7 @@
 					<input id="descuento" name="descuento" type="number" placeholder="opcional, da un porcentaje de descuento" min="0" max="90">
 
 					<input id="registrar" type="submit" value="registrar">
-					<a id="update">¿Quieres modificar registro un Existente?
-					</a>
+					<a id="update">¿Quieres modificar registro un Existente?</a>
 				</form>
 			</div>
 		</div>
