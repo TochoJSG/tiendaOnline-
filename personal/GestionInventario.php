@@ -60,8 +60,8 @@
 							$costo = $producto['costo'];
 							
 							echo '<br><span value="' . htmlspecialchars($idProducto) . '">'
-								. htmlspecialchars($idCategoria) . '<-IdCatego  '
-								. htmlspecialchars($nombre) . '<-Producto $'
+								. htmlspecialchars($idCategoria) . '<-IdCatego   "'
+								. htmlspecialchars($nombre) . '" <-Producto $'
 								. htmlspecialchars($precio) . '  Cantidad->'
 								. htmlspecialchars($cantidad) . '  SKU->'
 								. htmlspecialchars($sku) . '  Desc(%)->'
@@ -77,7 +77,7 @@
 
 			<div class="form signupForm">
 				<h3>Hola, Captura los datos</h3>
-				<form method="POST" action="/insertaProducto.php">
+				<form method="POST" action="./insertaProducto.php">
 					<input id="nombre" name="nombre" type="text" placeholder="nombre de Producto" max="66" required>
 
 					<input id="precio" name="precio" type="number" placeholder="precio" min="1" required>
