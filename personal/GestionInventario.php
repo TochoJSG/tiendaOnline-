@@ -178,12 +178,15 @@
 		formBx.classList.remove('active');
 		cuerpo.classList.remove('active');
 	}
-	document.querySelector('#update').onclick=()=>{
+	const updateButton = document.getElementById('update');
+	updateButton.addEventListener('click',function(){
 		document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';
-	};
-	document.querySelector('#closeModal').onclick=()=>{
+	});
+
+	const closeUpdateButton = document.querySelector('#closeModal');
+	closeUpdateButton.addEventListener('click',function(){
 		document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';
-	};
+	});
 	//document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);
 </script>
 
