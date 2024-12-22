@@ -30,7 +30,7 @@ body{background:linear-gradient(90deg,#0df666 0%,#0df666 30%,#06b666 30%,#06b666
 .info{background:#0e3959;}
 .info h3{color:#fff;}
 .info .infoBox div{display:flex;align-items:center;margin-bottom:9px;}
-.info .infoBox div span{min-width:40px;height:40px;color:#fff;background:#18b7ff;display:flex;justify-content:center;align-items:center;font-size:1.5em;border-radius:50%;margin-right:15px;}
+.info .infoBox div span{min-width:40px;height:40px;color:#fff;background:none;display:flex;justify-content:center;align-items:center;font-size:1.5em;border-radius:50%;margin-right:15px;}
 .info .infoBox div p{color:#fff;font-size:1.1em;}
 .info .infoBox div a{color:#fff;text-decoration:none;font-size:1.1em;}
 .socialesContact{margin-top:40px;display:flex;}

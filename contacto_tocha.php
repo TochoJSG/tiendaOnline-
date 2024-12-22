@@ -17,7 +17,7 @@
 	<meta charset="UTF-8"> 
 	<script src="negocio/push.min.js"></script>
 	<link href="presentacion/estilo_contacto.css"  rel="stylesheet" type="text/css"/>
-	<!--<link href="presentacion/botones.css"  rel="stylesheet" type="text/css"/>-->
+	<link href="presentacion/botones.css"  rel="stylesheet" type="text/css"/>
 	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1191139725994904" crossorigin="anonymous"></script>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
