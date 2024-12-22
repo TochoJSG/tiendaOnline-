@@ -17,12 +17,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $fecha_ingreso = filter_input(INPUT_POST, 'fechaIngreso', FILTER_SANITIZE_STRING);
         $departamento = filter_input(INPUT_POST, 'departamento', FILTER_VALIDATE_INT);
         $rol = filter_input(INPUT_POST, 'rol', FILTER_VALIDATE_INT);
-        $contrato = filter_input(INPUT_POST, 'contrato', FILTER_VALIDATE_INT);
+        $contrato = filter_input(INPUT_POST, 'tipoContrato', FILTER_VALIDATE_INT);
 
-        if ($nombre && $apellidos && $sueldo && $telefono && $rfc && $fecha_ingreso && $departamento && $rol && $contrato) {
+        if ($nombre && $apellidos && $sueldo && $telefono && $email && $rfc && $fecha_ingreso && $departamento && $rol && $contrato) {
             $sql = $conn->prepare("CALL insertarEmpleado(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);");
             $sql->execute([$nombre, $apellidos, $sueldo, $telefono, $email, $rfc, $fecha_ingreso, $departamento, $rol, $contrato]);
-
             echo '<script>alert("Empleado registrado exitosamente."); window.location.href="./";</script>';
         } else {
             echo '<script>alert("Por favor, completa todos los campos obligatorios.");</script>';
