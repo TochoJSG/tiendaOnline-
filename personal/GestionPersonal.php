@@ -170,7 +170,7 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		<?php
 			$nomina = new Database();
 			$conexionNom = $nomina->conectar();
-			$sqlNom = $conexionNom->prepare("CALL ConsultaEmpleados();");
+			$sqlNom = $conexionNom->prepare("CALL ConsultAllEmployes();");
 			$sqlNom->execute();
 			$empleados = $sqlNom->fetchAll(PDO::FETCH_ASSOC);
 			
