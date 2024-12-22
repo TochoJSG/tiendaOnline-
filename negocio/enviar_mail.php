@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->Port = 587; // Puerto para TLS
 
         // Configuración del remitente y destinatario
-        $mail->setFrom('noreply@tudominio.com', 'Formulario de Contacto'); // Remitente fijo
+        $mail->setFrom('matprimas.tocha.loc33@gmail.com', 'Formulario de Contacto'); // Remitente fijo
         $mail->addAddress('matprimas.tocha.loc33@gmail.com', 'Destinatario'); // Donde recibirás el mensaje
         $mail->addAddress('oagcoronel@gmail.com', 'otroDestinatario');
 
