@@ -1,80 +1,36 @@
-<?php
-    require '../negocio/config.php';
-    require '../negocio/constantes.php';
-    require '../negocio/database.php';
+<?php 
+require '../negocio/config.php';
+require '../negocio/constantes.php';
+require '../negocio/database.php';
 
-    if ($_SERVER["REQUEST_METHOD"] === "POST") {
-        try {
-            // Habilitar la visualización de errores para depuración
-            ini_set('display_errors', 1);
-            ini_set('display_startup_errors', 1);
-            error_reporting(E_ALL);
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    try {
+        $database = new Database();
+        $conn = $database->conectar();
 
-            // Conexión a la base de datos
-            $database = new Database();
-            $conn = $database->conectar();
+        $nombre = filter_input(INPUT_POST, 'nombres', FILTER_SANITIZE_STRING);
+        $apellidos = filter_input(INPUT_POST, 'apellidos', FILTER_SANITIZE_STRING);
+        $sueldo = filter_input(INPUT_POST, 'sueldo', FILTER_VALIDATE_FLOAT);
+        $telefono = filter_input(INPUT_POST, 'tel', FILTER_SANITIZE_STRING);
+        $email = filter_input(INPUT_POST, 'mail', FILTER_SANITIZE_EMAIL);
+        $rfc = filter_input(INPUT_POST, 'rfc', FILTER_SANITIZE_STRING);
+        $fecha_ingreso = filter_input(INPUT_POST, 'ingreso', FILTER_SANITIZE_STRING);
+        $departamento = filter_input(INPUT_POST, 'departamento', FILTER_VALIDATE_INT);
+        $rol = filter_input(INPUT_POST, 'rol', FILTER_VALIDATE_INT);
+        $contrato = filter_input(INPUT_POST, 'contrato', FILTER_VALIDATE_INT);
 
-            // Validar y sanitizar los datos del formulario
-            $nombre = filter_input(INPUT_POST, 'nombres', FILTER_SANITIZE_STRING);
-            $apellidos = filter_input(INPUT_POST, 'apellidos', FILTER_SANITIZE_STRING);
-            $sueldo = filter_input(INPUT_POST, 'sueldo', FILTER_VALIDATE_FLOAT);
-            $telefono = filter_input(INPUT_POST, 'tel', FILTER_SANITIZE_STRING);
-            $email = filter_input(INPUT_POST, 'mail', FILTER_SANITIZE_EMAIL);
-            $rfc = filter_input(INPUT_POST, 'rfc', FILTER_SANITIZE_STRING);
-            $fecha_ingreso = filter_input(INPUT_POST, 'ingreso', FILTER_SANITIZE_STRING);
-            $departamento = filter_input(INPUT_POST, 'departamento', FILTER_SANITIZE_NUMBER_INT);
-            $rol = filter_input(INPUT_POST, 'rol', FILTER_SANITIZE_NUMBER_INT);
-            $contrato = filter_input(INPUT_POST, 'contrato', FILTER_SANITIZE_NUMBER_INT);
+        if ($nombre && $apellidos && $sueldo && $telefono && $rfc && $fecha_ingreso && $departamento && $rol && $contrato) {
+            $sql = $conn->prepare("CALL insertarEmpleado(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $sql->execute([$nombre, $apellidos, $sueldo, $telefono, $email, $rfc, $fecha_ingreso, $departamento, $rol, $contrato]);
 
-            // Validar campos obligatorios
-            if (
-                $nombre !== null && 
-                $apellidos !== null && 
-                $sueldo !== false && 
-                $telefono !== null && 
-                $rfc !== null && 
-                $fecha_ingreso !== null && 
-                $departamento !== null && 
-                $rol !== null && 
-                $contrato !== null
-            ) {
-                // Preparar la consulta SQL para llamar al procedimiento almacenado
-                $sql = $conn->prepare("CALL insertarEmpleado(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);");
-                $sql->bindValue(1, $nombre, PDO::PARAM_STR);
-                $sql->bindValue(2, $apellidos, PDO::PARAM_STR);
-                $sql->bindValue(3, $sueldo, PDO::PARAM_STR);
-                $sql->bindValue(4, $telefono, PDO::PARAM_STR);
-                $sql->bindValue(5, $email, PDO::PARAM_STR);
-                $sql->bindValue(6, $rfc, PDO::PARAM_STR);
-                $sql->bindValue(7, $fecha_ingreso, PDO::PARAM_STR);
-                $sql->bindValue(8, $departamento, PDO::PARAM_INT);
-                $sql->bindValue(9, $rol, PDO::PARAM_INT);
-                $sql->bindValue(10, $contrato, PDO::PARAM_INT);
-
-                // Ejecutar el procedimiento almacenado
-                if ($sql->execute()) {
-                    echo '<script type="text/javascript">
-                            alert("Empleado registrado exitosamente.");
-                          </script>';
-                } else {
-                    echo '<script type="text/javascript">
-                            alert(" Error al registrar el empleado.");
-                        </script>';
-                }
-            } else {
-                echo '<script type="text/javascript">
-                            alert(" REGISTRA TODOS LOS DATOS CORRECTAMENTE");
-                        </script>';
-            }
-        } catch (PDOException $e) {
-            echo '<script type="text/javascript">
-                    alert(" Errorde conexion o consulta");
-                </script>';
-        } finally {
-            // Cerrar la conexión si está abierta
-            if (isset($conn)) {
-                $conn = null;
-            }
+            echo '<script>alert("Empleado registrado exitosamente."); window.location.href="./";</script>';
+        } else {
+            echo '<script>alert("Por favor, completa todos los campos obligatorios.");</script>';
         }
+    } catch (PDOException $e) {
+        echo '<script>alert("Error: ' . $e->getMessage() . '");</script>';
+    } finally {
+        $conn = null;
     }
+}
 ?>
