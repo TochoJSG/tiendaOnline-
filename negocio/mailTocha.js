@@ -68,7 +68,7 @@ async function sendMsg(e) {
         }
 
         const result = await response.json();// Intentar procesar la respuesta como JSON
-        
+        console.log('Llegamos hasta este punto');
         if (result.success){		// Manejar la respuesta según el contenido recibido
             alert(result.message || 'Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.');
             form.reset(); // Limpiar el formulario
