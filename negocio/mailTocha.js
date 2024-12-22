@@ -1,4 +1,4 @@
-const forma=document.querySelector('.contactoGMAIL');
+/*const forma=document.querySelector('.contactoGMAIL');
 function sendMsg(e){
 	e.preventDefault();
 	const nombre=document.querySelector('.lname'),
@@ -15,4 +15,31 @@ function sendMsg(e){
 		  message=>alert(message)
 		);
 	}
-forma.addEventListener('submit',sendMsg);
+forma.addEventListener('submit',sendMsg);*/
+const form = document.querySelector('.contactoGMAIL');
+
+async function sendMsg(e) {
+	e.preventDefault();
+
+	const formData = new FormData(form);
+
+	try {
+		const response = await fetch('./enviar:mail.php', {
+			method: 'POST',
+			body: formData
+		});
+
+		const result = await response.json();
+
+		if (response.ok) {
+			alert(result.message || 'Mensaje enviado con éxito.');
+			form.reset();
+		} else {
+			alert(result.error || 'Hubo un error al enviar el mensaje.');
+		}
+	} catch (error) {
+		alert('Error en la conexión al servidor.');
+	}
+}
+
+form.addEventListener('submit', sendMsg);

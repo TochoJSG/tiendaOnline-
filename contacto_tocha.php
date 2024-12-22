@@ -148,6 +148,7 @@
 		</div>
 	</div>
 </div>
+
 <footer>
 	<div class="waves">
 		<div class="wave" id="wave1"></div>
@@ -181,6 +182,8 @@
 	</div>
 	</div>
 </div>
+
+
 <div id="nosotros" class="modal"><!--Nosotros-->
 	<div class="headerForm">
 		<span><img class="logo" src="imagenes/COORP (2).jpg"/></span>
