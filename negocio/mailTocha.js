@@ -24,7 +24,7 @@ async function sendMsg(e) {
 	const formData = new FormData(form);
 
 	try {
-		const response = await fetch('./enviar:mail.php', {
+		const response = await fetch('./enviar_mail.php', {
 			method: 'POST',
 			body: formData
 		});
