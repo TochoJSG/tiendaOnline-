@@ -1,4 +1,4 @@
-/*const forma=document.querySelector('.contactoGMAIL');
+const forma=document.querySelector('.contactoGMAIL');
 function sendMsg(e){
 	e.preventDefault();
 	const nombre=document.querySelector('.lname'),
@@ -15,10 +15,10 @@ function sendMsg(e){
 		message=>alert(message)
 	);
 }
-forma.addEventListener('submit',sendMsg);*/
+forma.addEventListener('submit',sendMsg);
 
 
-
+/*
 const form = document.querySelector('.contactoGMAIL');
 
 async function sendMsg(e) {
@@ -47,4 +47,4 @@ async function sendMsg(e) {
 	}
 }
 
-form.addEventListener('submit', sendMsg);
+form.addEventListener('submit', sendMsg);*/
