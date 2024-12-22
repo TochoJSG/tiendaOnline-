@@ -167,7 +167,6 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		<h3>Lista de Colaboradores</h3>
 	</div>
 	<div class="listaProductos">
-		<h3>Lista de Colaboradores</h3>
 		<?php
 			$nomina = new Database();
 			$conexionNom = $nomina->conectar();
