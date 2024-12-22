@@ -58,7 +58,7 @@ async function sendMsg(e) {
     const formData = new FormData(form); // objeto FormData con los datos del formulario
 
     try {
-        const response = await fetch('./enviar_mail.php', {// Realizar la solicitud fetch al archivo PHP
+        const response = await fetch('enviar_mail.php', {// Realizar la solicitud fetch al archivo PHP
             method: 'POST',
             body: formData
         });

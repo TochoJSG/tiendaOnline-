@@ -52,7 +52,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         // Enviar correo
         $mail->send();
-        echo "Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.";
+        echo '<script type="text/javascript">
+                alert("Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.");
+            </script>';
     } catch (Exception $e) {
         echo "Error al enviar el mensaje: {$mail->ErrorInfo}";
     }
