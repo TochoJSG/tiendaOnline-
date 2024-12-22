@@ -81,6 +81,7 @@
 	<div class="contactBox">
 		<div class="contact form">
 			<h3>Envianos un Mensaje</h3>
+
 		<form class="contactoGMAIL" method="negocio/enviar_mail.php">
 			<div class="formBox">
 				<div class="row50">
@@ -117,6 +118,7 @@
 				</div>
 			</div>
 		</form>
+		
 		</div>
 		<div class="contact info">
 			<h3>Contact Info</h3>

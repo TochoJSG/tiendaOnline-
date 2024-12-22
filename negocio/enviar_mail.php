@@ -14,27 +14,26 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $tel = htmlspecialchars($_POST['tel']);
     $msg = htmlspecialchars($_POST['msg']);
 
-    // Validar campos obligatorios
-    if (!$email || empty($name) || empty($msg)) {
+    if (!$email || empty($name) || empty($msg)) {// Validar campos obligatorios
         die("Por favor, completa los campos obligatorios (nombre, email y mensaje).");
     }
 
-    // Configuración de PHPMailer
-    $mail = new PHPMailer(true);
+    $mail = new PHPMailer(true);// Configuración de PHPMailer
 
     try {
         // Configuración del servidor SMTP
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Servidor SMTP
         $mail->SMTPAuth = true;
-        $mail->Username = 'jjorgess081@gmail.com'; // Tu correo
-        $mail->Password = '131176.Nat$%'; // Contraseña o contraseña de aplicación
+        $mail->Username = 'matprimas.tocha.loc33@gmail.com';//'jjorgess081@gmail.com'; // Tu correo
+        $mail->Password = 'nab8912u36acb$%';//'131176.Nat$%'; // Contraseña o contraseña de aplicación
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Encriptación
         $mail->Port = 587; // Puerto para TLS
 
         // Configuración del remitente y destinatario
         $mail->setFrom('noreply@tudominio.com', 'Formulario de Contacto'); // Remitente fijo
-        $mail->addAddress('jjorgess081@gmail.com', 'Destinatario'); // Donde recibirás el mensaje
+        $mail->addAddress('matprimas.tocha.loc33@gmail.com', 'Destinatario'); // Donde recibirás el mensaje
+        $mail->addAddress('oagcoronel@gmail.com', 'otroDestinatario');
 
         // Contenido del correo
         $mail->isHTML(true);
