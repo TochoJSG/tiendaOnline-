@@ -32,14 +32,15 @@
 			
 		<div class="formBx">
 			<div class="form signinForm">
-				<form> <!--method="POST" action= "buscaProducto.php">name="producto" -->
-						<label for="consultas">Busca un Producto</label>
-					
-						<input id="consultas" type="text" placeholder="Escribe el nombre del producto" max="66" disabled />
-					
-						<input id="Consultar" type="submit" value="Consultar" disabled />
+				<form method="POST" action= "./buscaProducto.php"><!--name="producto" -->
+					<label for="consultas">Busca un Producto</label>
+				
+					<input name="nombreBusqueda" id="nombreBusqueda" type="text" placeholder="Escribe el nombre del producto" maxlength="66" required />
+    				
+					<input id="Consultar" type="submit" value="Consultar" />
 
-					<div class="listaProductos">
+				</form>
+			<div class="listaProductos">
 						<h3>Lista del invertario actual</h3>
 					<?php
 						$inventario = new Database();
@@ -72,7 +73,6 @@
 						endforeach;
 					?>
 				</div>
-			</form>
 			</div>
 
 			<div class="form signupForm">
