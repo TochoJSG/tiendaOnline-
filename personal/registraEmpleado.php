@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $contrato !== null) {
             $sql = $conn->prepare("CALL insertarEmpleado(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);");
             $sql->execute([$nombre, $apellidos, $sueldo, $telefono, $email, $rfc, $fecha_ingreso, $departamento, $rol, $contrato]);
-            echo '<script>alert("Empleado registrado exitosamente."); window.location.href="./";</script>';
+            echo '<script>alert("Empleado registrado exitosamente.");</script>';
         } else {
             echo '<script>alert("Por favor, completa todos los campos obligatorios.");</script>';
         }

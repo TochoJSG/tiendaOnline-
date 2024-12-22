@@ -182,7 +182,7 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 			$tel = $e['tel'];
 			$mail = $e['mail'];
 			$rfc =  $e['rfc'];
-			$seguro =  $e['seguro'];
+			$rol =  $e['rol'];
 			$fechaIng =  $e['fechaIngreso'];
 
 			echo '<br><span value="' . htmlspecialchars($idEmpleado) . '">'
@@ -191,8 +191,8 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 				. htmlspecialchars($sueldo) . '  tel->'
 				. htmlspecialchars($tel) . '  mail->'
 				. htmlspecialchars($mail) . '  rfc->'
-				. htmlspecialchars($rfc) . '  seguro->'
-				. htmlspecialchars($seguro) . '  fechaIng->'
+				. htmlspecialchars($rfc) . '  rol->'
+				. htmlspecialchars($rol) . '  fechaIng->'
 				. htmlspecialchars($fechaIng)
 				. '</span><br>';
 		endforeach;
