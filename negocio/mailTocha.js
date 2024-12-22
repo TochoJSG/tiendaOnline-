@@ -61,8 +61,12 @@ async function sendMsg(e) {
 		method: 'POST',
         body: formData
 	};
+
 	fetch('./enviar_mail.php', opciones)
-	.then(res=> res.json())
+	.then(res=>{
+		res.json();
+		console.log('JSON exitoso');
+	})
 	.then(result=>{
 		alert(result.message || 'Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.');
         form.reset(); // Limpiar el formulario
