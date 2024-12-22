@@ -35,7 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // Configuración del remitente y destinatario
         $mail->setFrom('noreply@tudominio.com', 'Formulario de Contacto'); // Remitente fijo
         $mail->addAddress('jjorgess081@gmail.com', 'Destinatario'); // Donde recibirás el mensaje
-        $mail->addAddress('oagcoronel@gmail.com', 'Destinatario'); // Donde recibirás el mensaje
 
         // Contenido del correo
         $mail->isHTML(true);
