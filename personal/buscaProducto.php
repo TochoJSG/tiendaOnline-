@@ -27,14 +27,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 foreach ($resultados as $fila) {
                     /*echo "<li>" . htmlspecialchars($fila['nombre'], ENT_QUOTES, 'UTF-8') . "</li>";*/
                     echo '<li value="' . htmlspecialchars($idProducto) . '">'
-								. htmlspecialchars($idCategoria) . '<-IdCatego   "'
-								. htmlspecialchars($nombre) . '" <-Producto $'
-								. htmlspecialchars($precio) . '  Cantidad->'
-								. htmlspecialchars($cantidad) . '  SKU->'
-								. htmlspecialchars($sku) . '  Desc(%)->'
-								. htmlspecialchars($descuento) . '  Estado(1|0)->'
-								. htmlspecialchars($estado) . '  Costo($)->'
-								. htmlspecialchars($costo)
+								. htmlspecialchars($fila['idProducto']) . '<-IdCatego   "'
+								. htmlspecialchars($fila['nombre']) . '" <-Producto $'
+								. htmlspecialchars($fila['precio']) . '  Cantidad->'
+								. htmlspecialchars($fila['cantidad']) . '  SKU->'
+								. htmlspecialchars($fila['nombre']) . '  Desc(%)->'
+								. htmlspecialchars($fila['codigoUnico']) . '  Estado(1|0)->'
+								. htmlspecialchars($fila['activo']) . '  Costo($)->'
+								. htmlspecialchars($fila['costo'])
 								. '</li><br>';
                 }
                 echo "</ul>";
