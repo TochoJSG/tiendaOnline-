@@ -81,7 +81,7 @@
 	<div class="contactBox">
 		<div class="contact form">
 			<h3>Envianos un Mensaje</h3>
-		<form class="contactoGMAIL">
+		<form class="contactoGMAIL" method="./enviar_mail.php">
 			<div class="formBox">
 				<div class="row50">
 				<div class="inputBox">
