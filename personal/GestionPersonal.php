@@ -184,7 +184,7 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 				$rol =  $e['rol'];
 				$fechaIng =  $e['fechaIngreso'];
 
-				echo '<br><span value="' . htmlspecialchars($idEmpleado) . '">'
+				echo '<br><span value="' . htmlspecialchars($idEmpleado) . '" style="color:#fff;padding:33px 17px;">'
 					. htmlspecialchars($nombre) . '<-apellido   "'
 					. htmlspecialchars($apellido) . '" <-sueldo '
 					. htmlspecialchars($sueldo) . '  tel->'
