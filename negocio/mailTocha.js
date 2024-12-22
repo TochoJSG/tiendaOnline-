@@ -59,6 +59,9 @@ async function sendMsg(e) {
 
 	const opciones = {
 		method: 'POST',
+		headers: {
+			'Content-Type':'application/json'
+		},
         body: formData
 	};
 
@@ -67,9 +70,10 @@ async function sendMsg(e) {
 		res.json();
 		console.log('JSON exitoso');
 	})
-	.then(result=>{
-		alert(result.message || 'Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.');
-        form.reset(); // Limpiar el formulario
+	.then(data=>{
+		alert('Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.');
+        console.log('Data->',data);
+		form.reset(); // Limpiar el formulario
 	})
 	.catch (error=> {
         console.error('Error:', error);
