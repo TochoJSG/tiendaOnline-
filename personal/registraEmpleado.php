@@ -15,11 +15,11 @@
             $conn = $database->conectar();
 
             // Validar y sanitizar los datos del formulario
-            $nombre = filter_input(INPUT_POST, 'nombre', FILTER_SANITIZE_STRING);
+            $nombre = filter_input(INPUT_POST, 'nombres', FILTER_SANITIZE_STRING);
             $apellidos = filter_input(INPUT_POST, 'apellidos', FILTER_SANITIZE_STRING);
             $sueldo = filter_input(INPUT_POST, 'sueldo', FILTER_VALIDATE_FLOAT);
-            $telefono = filter_input(INPUT_POST, 'telefono', FILTER_SANITIZE_STRING);
-            $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+            $telefono = filter_input(INPUT_POST, 'tel', FILTER_SANITIZE_STRING);
+            $email = filter_input(INPUT_POST, 'mail', FILTER_SANITIZE_EMAIL);
             $rfc = filter_input(INPUT_POST, 'rfc', FILTER_SANITIZE_STRING);
             $fecha_ingreso = filter_input(INPUT_POST, 'ingreso', FILTER_SANITIZE_STRING);
             $departamento = filter_input(INPUT_POST, 'departamento', FILTER_SANITIZE_NUMBER_INT);
