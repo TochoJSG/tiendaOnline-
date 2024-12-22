@@ -47,6 +47,7 @@ $db = new Database();
 						endforeach;
 					?>
 					</select>
+					
 					<label for="plataforma">¿Por donde vendimos?</label>
 					<select id="plataforma" name="plataforma">
 					<?php
@@ -59,6 +60,7 @@ $db = new Database();
 						endforeach;
 					?>
 					</select>
+					
 					<label for="clase">¿Tipo de ingreso?</label>
 					<select id="clase" name="clase">
 					<?php
@@ -71,10 +73,14 @@ $db = new Database();
 						endforeach;
 					?>
 					</select>
-					<input id="monto" type="number" placeholder="¿cuanto ingreso?" min="1" required>
-					<input id="costo" type="number" placeholder="¿Hubo algun costo de la venta?" min="1">
-					<input id="comentarios" type="text" placeholder="algún comentario?" max="99">
+					
+					<input id="monto" type="number" placeholder="¿cuanto ingreso?" min="1" required disabled>
+					
+					<input id="costo" type="number" placeholder="¿Hubo algun costo de la venta?" min="1" disabled>
+					
+					<input id="comentarios" type="text" placeholder="algún comentario?" max="99" disabled onchange="this.value = this.value.toUpperCase();">
 						<hr>
+					
 					<label for="formaCobro">Metodo de cobro</label>
 					<select id="formaCobro" name="producto">
 					<?php
@@ -87,12 +93,18 @@ $db = new Database();
 						endforeach;
 					?>
 					</select>
-					<input id="cobro" type="number" placeholder="¿cuanto coobramos?" min="1" required>
+					
+					<input id="cobro" type="number" placeholder="¿cuanto coobramos?" min="1" required disabled>
+					
 					<input id="fecha" type="date">
-					<input id="nota" type="text" placeholder="algún comentario?" max="99">
-					<input id="us" type="text" value="JORGE ARTURO SALGADO GARCIA" style="display:none;">
-					<input id="referencia" type="text" placeholder="numero de referencia Ticket" max="99" required>
-					<input id="registrarIng" type="submit" value="registrar">
+					
+					<input id="nota" type="text" placeholder="algún comentario?" max="99"  onchange="this.value = this.value.toUpperCase();">
+					
+					<input id="us" type="text" value="JORGE ARTURO SALGADO GARCIA" style="display:none;"  onchange="this.value = this.value.toUpperCase();">
+					
+					<input id="referencia" type="text" placeholder="numero de referencia Ticket" max="99" required disabled onchange="this.value = this.value.toUpperCase();">
+					
+					<input id="registrarIng" type="submit" value="C O N S U L T A R" disabled>
 				</form>
 			</div>
 			
@@ -111,9 +123,12 @@ $db = new Database();
 						endforeach;
 					?>
 					</select>
-					<input id="egreso" type="number" placeholder="¿cuanto pagamos?" min="1" required>
-					<input id="comentarios" type="text" placeholder="algún comentario?" max="99">
+					
+					<input id="egreso" type="number" placeholder="¿cuanto pagamos?" min="1" required disabled>
+					
+					<input id="comentarios" type="text" placeholder="algún comentario?" max="99" disabled onchange="this.value = this.value.toUpperCase();">
 						<hr>
+					
 					<label for="formaCobro">Metodo de cobro</label>
 					<select id="formaCobro" name="producto">
 					<?php
@@ -126,12 +141,18 @@ $db = new Database();
 						endforeach;
 					?>
 					</select>
-					<input id="cobro" type="number" placeholder="¿cuanto pagamos?" min="1" required>
+					
+					<input id="cobro" type="number" placeholder="¿cuanto pagamos?" min="1" required disabled>
+					
 					<input id="fecha" type="date">
-					<input id="notaEg" type="text" placeholder="algún comentario?" max="99">
-					<input id="tienda" type="text" placeholder="¿da el nombre de la tienda?" required>
-					<input id="ticket" type="text" placeholder="numero de referencia Ticket" max="99" required>
-					<input id="registrarEg" type="submit" value="registrar">
+					
+					<input id="notaEg" type="text" placeholder="algún comentario?" max="99" disabled onchange="this.value = this.value.toUpperCase();">
+					
+					<input id="tienda" type="text" placeholder="¿da el nombre de la tienda?" required disabled onchange="this.value = this.value.toUpperCase();">
+					
+					<input id="ticket" type="number" placeholder="numero de referencia Ticket" max="99" required disabled>
+
+					<input id="registrarEg" type="submit" value="R E G I S T R A R" disabled>
 				</form>
 			</div>
 			</div>

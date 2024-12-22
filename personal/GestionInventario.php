@@ -78,13 +78,13 @@
 			<div class="form signupForm">
 				<h3>Hola, Captura los datos</h3>
 				<form method="POST" action="./insertaProducto.php">
-					<input id="nombre" name="nombre" type="text" placeholder="nombre de Producto" max="66" required>
+					<input id="nombre" name="nombre" type="text" placeholder="nombre de Producto" max="66" required onchange="this.value = this.value.toUpperCase();">
 
 					<input id="precio" name="precio" type="number" placeholder="precio" min="1" required>
 
 					<input id="codigoUnico" name="codigoUnico" type="number" placeholder="codigoUnico" required>
 
-					<input id="descripcion" name="descripcion" type="text" placeholder="describe el producto" max="66">
+					<input id="descripcion" name="descripcion" type="text" placeholder="describe el producto" maxlength="66" onchange="this.value = this.value.toUpperCase();">
 
 					<label for="cantidad">Cuantas unidades tenemos para vender</label>
 					<input id="cantidad" name="cantidad" type="number" placeholder="qué cantidad del producto tenemos" min="1" required>
@@ -130,12 +130,12 @@
 	</div>
 	
 	<form method="POST">
-		<input id="buscarUpdate" type="text" placeholder="ingresa nombre o código unico" maxlength="66" required>
+		<input id="buscarUpdate" type="text" placeholder="ingresa nombre o código unico" maxlength="66" required onchange="this.value = this.value.toUpperCase();">
 		<input id="buscarUpdateSubmit" type="submit" value="buscar">
 			<br>
 		<input class="updateForm" id="precioU" type="number" placeholder="precio"  step="0.01" required>
 		
-		<input class="updateForm" id="descripcionU" type="text" placeholder="describe el producto" onchange="upperCase();">
+		<input class="updateForm" id="descripcionU" type="text" placeholder="describe el producto" onchange="this.value = this.value.toUpperCase();">
 		
 		<label for="cantidadU">Cuantas unidades tenemos para vender</label>
 		<input class="updateForm" id="cantidadU" type="quantity" min="1">
@@ -177,8 +177,9 @@
 		formBx.classList.remove('active');
 		cuerpo.classList.remove('active');
 	}
+
 	const updateButton = document.getElementById('update');
-	updateButton.addEventListener('click',function(){
+	updateButton.addEventListener('click', ()=>{
 		document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';
 	});
 

@@ -102,9 +102,9 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		<h3>Hola, Edita los Datos de un Colaborador</h3>
 	</div>
 	<form>
-		<input id="nombre" type="text" placeholder="ingresa los nombres del Empleado a Editar" max="66" required onchange="upperCase();">
+		<input id="nombre" type="text" placeholder="ingresa los nombres del Empleado a Editar" max="66" required onchange="this.value = this.value.toUpperCase();">
 
-		<input id="apellidos" type="text" placeholder="ingresa los apellidos" max="66" required onchange="upperCase();">
+		<input id="apellidos" type="text" placeholder="ingresa los apellidos" max="66" required onchange="upperCase();" onchange="this.value = this.value.toUpperCase();">
 		
 		<input id="busquedaPersonal" type="submit" value="B U S C A R">
 		
@@ -185,14 +185,14 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 				$fechaIng =  $e['fechaIngreso'];
 
 				echo '<br><span value="' . htmlspecialchars($idEmpleado) . '" style="color:#fff;padding:33px 17px;">'
-					. htmlspecialchars($nombre) . '<-apellido   "'
-					. htmlspecialchars($apellido) . '" <-sueldo '
-					. htmlspecialchars($sueldo) . '  tel->'
-					. htmlspecialchars($tel) . '  mail->'
-					. htmlspecialchars($mail) . '  rfc->'
-					. htmlspecialchars($rfc) . '  rol->'
-					. htmlspecialchars($rol) . '  fechaIng->'
-					. htmlspecialchars($fechaIng)
+					. htmlspecialchars($nombre) . '<-nombre   "'
+					. htmlspecialchars($apellido) . '" <-apellido '
+					. htmlspecialchars($sueldo) . '  <-sueldo'
+					. htmlspecialchars($tel) . '  <-tel'
+					. htmlspecialchars($mail) . '  <-mail'
+					. htmlspecialchars($rfc) . '  <-rfc'
+					. htmlspecialchars($rol) . '  <-rol'
+					. htmlspecialchars($fechaIng) . '  <-fechaIng'
 					. '</span><br>';
 			endforeach;
 		?>
