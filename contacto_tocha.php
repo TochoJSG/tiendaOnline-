@@ -11,15 +11,15 @@
       gtag('config', 'G-DZ16T2G5PD');
     </script>
 		<title>Tocha | Contactanos</title>
+		<meta charset="UTF-8"> 
 		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/>
-		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>
-		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon-precomposed.png" sizes="180x180"/>
-	<meta charset="UTF-8"> 
+		<!--<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>
+		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon-precomposed.png" sizes="180x180"/>-->
 	<script src="negocio/push.min.js"></script>
 	<link href="presentacion/estilo_contacto.css"  rel="stylesheet" type="text/css"/>
-	<link href="presentacion/botones.css"  rel="stylesheet" type="text/css"/>
-	<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1191139725994904" crossorigin="anonymous"></script>
+	<!--<link href="presentacion/botones.css"  rel="stylesheet" type="text/css"/>-->
+	<!--<link href="<?php echo $bootstrap;?>" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+--><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1191139725994904" crossorigin="anonymous"></script>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>
 </head>
 <body>
@@ -59,7 +59,7 @@
 <div class="contactUs">
 	<div class="title">	
 	<div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100064943526728" data-tabs="timeline" data-width="500" data-height="80" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100064943526728" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100064943526728">Tocha</a></blockquote></div>
-	<button class="collapsible">Que te ofrecemos</button><!--Codigo 2-->
+	<!--<button class="collapsible">Que te ofrecemos</button><! --Codigo 2- ->
 	<div class="content__">
 		<ul class="menu">
 			<li class="lista">Desechables Reyma Biodegradable</li>
@@ -76,7 +76,7 @@
     	<div class="d-grid gap-3 col-10 mx-auto">
     	    <a class="btn btn-primary" type="button" href="<?php echo $t_mercadoShops;?>"Ve nuestra tienda en Mercado Libre</a>
     	</div>
-	</div>
+	</div>-->
 	</div>
 	<div class="contactBox">
 		<div class="contact form">
