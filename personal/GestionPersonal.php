@@ -168,36 +168,36 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 	</div>
 	<div class="listaProductos">
 		<h3>Lista de Colaboradores</h3>
-	<?php
-		$nomina = new Database();
-		$conexionNom = $nomina->conectar();
-		$sqlNom = $conexionNom->prepare("CALL ConsultaEmpleados();");
-		$sqlNom->execute();
-		$empleados = $sqlNom->fetchAll(PDO::FETCH_ASSOC);
-		
-		foreach ($empleados as $e):
-			$nombre = $e['nombres'];
-			$apellido = $e['apellidos'];
-			$sueldo = $e['suledo'];
-			$tel = $e['tel'];
-			$mail = $e['mail'];
-			$rfc =  $e['rfc'];
-			$rol =  $e['rol'];
-			$fechaIng =  $e['fechaIngreso'];
+		<?php
+			$nomina = new Database();
+			$conexionNom = $nomina->conectar();
+			$sqlNom = $conexionNom->prepare("CALL ConsultaEmpleados();");
+			$sqlNom->execute();
+			$empleados = $sqlNom->fetchAll(PDO::FETCH_ASSOC);
+			
+			foreach ($empleados as $e):
+				$nombre = $e['nombres'];
+				$apellido = $e['apellidos'];
+				$sueldo = $e['sueldo'];
+				$tel = $e['tel'];
+				$mail = $e['mail'];
+				$rfc =  $e['rfc'];
+				$rol =  $e['rol'];
+				$fechaIng =  $e['fechaIngreso'];
 
-			echo '<br><span value="' . htmlspecialchars($idEmpleado) . '">'
-				. htmlspecialchars($nombre) . '<-apellido   "'
-				. htmlspecialchars($apellido) . '" <-sueldo '
-				. htmlspecialchars($sueldo) . '  tel->'
-				. htmlspecialchars($tel) . '  mail->'
-				. htmlspecialchars($mail) . '  rfc->'
-				. htmlspecialchars($rfc) . '  rol->'
-				. htmlspecialchars($rol) . '  fechaIng->'
-				. htmlspecialchars($fechaIng)
-				. '</span><br>';
-		endforeach;
-	?>
-</div>
+				echo '<br><span value="' . htmlspecialchars($idEmpleado) . '">'
+					. htmlspecialchars($nombre) . '<-apellido   "'
+					. htmlspecialchars($apellido) . '" <-sueldo '
+					. htmlspecialchars($sueldo) . '  tel->'
+					. htmlspecialchars($tel) . '  mail->'
+					. htmlspecialchars($mail) . '  rfc->'
+					. htmlspecialchars($rfc) . '  rol->'
+					. htmlspecialchars($rol) . '  fechaIng->'
+					. htmlspecialchars($fechaIng)
+					. '</span><br>';
+			endforeach;
+		?>
+	</div>
 </div>
 
 </div><!--Cierra procesos RH-->
