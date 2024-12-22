@@ -42,16 +42,17 @@ $mail = new PHPMailer(true);
 try {
     // Configuración del servidor SMTP
     $mail->isSMTP();
-    $mail->Host = 'smtp.tu-servidor.com'; // Cambiar al servidor SMTP
+    $mail->Host = 'smtp.gmail.com'; // Cambiar al servidor SMTP
     $mail->SMTPAuth = true;
-    $mail->Username = 'jjorgess081@gmail.com';
-    $mail->Password = '131176.Nat$%';
+    $mail->Username = 'matprimas.tocha.loc33@gmail.com';//'jjorgess081@gmail.com'; // Tu correo
+    $mail->Password = 'nab8912u36acb$%';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
     // Configuración del correo
     $mail->setFrom('notificaciones@mi-tienda.com', 'Mi Tienda');
-    $mail->addAddress('oagcoronel@gmail.com', 'Administrador');
+    $mail->addAddress('matprimas.tocha.loc33@gmail.com', 'owner'); // Donde recibirás el mensaje
+    $mail->addAddress('oagcoronel@gmail.com', 'otroDestinatario');
     $mail->isHTML(true);
     $mail->Subject = 'Nueva Venta Realizada';
     $mail->Body = $contenidoCorreo;
