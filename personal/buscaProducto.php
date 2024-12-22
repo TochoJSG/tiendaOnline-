@@ -25,7 +25,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if (!empty($resultados)) {
                 echo "<ul>";
                 foreach ($resultados as $fila) {
-                    echo "<li>" . htmlspecialchars($fila['nombre'], ENT_QUOTES, 'UTF-8') . "</li>";
+                    /*echo "<li>" . htmlspecialchars($fila['nombre'], ENT_QUOTES, 'UTF-8') . "</li>";*/
+                    echo '<li value="' . htmlspecialchars($idProducto) . '">'
+								. htmlspecialchars($idCategoria) . '<-IdCatego   "'
+								. htmlspecialchars($nombre) . '" <-Producto $'
+								. htmlspecialchars($precio) . '  Cantidad->'
+								. htmlspecialchars($cantidad) . '  SKU->'
+								. htmlspecialchars($sku) . '  Desc(%)->'
+								. htmlspecialchars($descuento) . '  Estado(1|0)->'
+								. htmlspecialchars($estado) . '  Costo($)->'
+								. htmlspecialchars($costo)
+								. '</li><br>';
                 }
                 echo "</ul>";
             } else {
