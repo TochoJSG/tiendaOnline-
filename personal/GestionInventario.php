@@ -76,7 +76,7 @@
 			</div>
 
 			<div class="form signupForm">
-				<h3>Hola, Captura los datos</h3>
+				<h3>Captura los datos</h3>
 				<form method="POST" action="./insertaProducto.php">
 					<input id="nombre" name="nombre" type="text" placeholder="nombre de Producto" max="66" required onchange="this.value = this.value.toUpperCase();">
 

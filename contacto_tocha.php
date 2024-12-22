@@ -81,16 +81,16 @@
 	<div class="contactBox">
 		<div class="contact form">
 			<h3>Envianos un Mensaje</h3>
-		<form class="contactoGMAIL" method="./enviar_mail.php">
+		<form class="contactoGMAIL" method="negocio/enviar_mail.php">
 			<div class="formBox">
 				<div class="row50">
 				<div class="inputBox">
 					<span>Como te llamas</span>
-					<input class="name" type="text" placeholder="Como te llamas" required/>
+					<input class="name" type="text" placeholder="Como te llamas" required onchange="this.value = this.value.toUpperCase();">
 				</div>
 				<div class="inputBox">
 					<span>Apellido</span>
-					<input class="lname" type="text" placeholder="Como te apellidas(Opcional)"/>
+					<input class="lname" type="text" placeholder="Como te apellidas(Opcional)" onchange="this.value = this.value.toUpperCase();">
 				</div>
 				</div>
 				
@@ -107,7 +107,7 @@
 				<div class="row100">
     				<div class="inputBox">
     					<span>Tu Mensaje</span>
-    					<textarea class="msg" placeholder="Como te podemos ayudar" required></textarea>
+    					<textarea class="msg" placeholder="Como te podemos ayudar" required onchange="this.value = this.value.toUpperCase();"></textarea>
     				</div>
 				</div>
 				<div class="row100">
