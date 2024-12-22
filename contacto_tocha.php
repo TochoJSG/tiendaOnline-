@@ -86,28 +86,28 @@
 				<div class="row50">
 				<div class="inputBox">
 					<span>Como te llamas</span>
-					<input class="name" type="text" placeholder="Como te llamas" required onchange="this.value = this.value.toUpperCase();">
+					<input class="name" id="name" name="name" type="text" placeholder="Como te llamas" required onchange="this.value = this.value.toUpperCase();">
 				</div>
 				<div class="inputBox">
 					<span>Apellido</span>
-					<input class="lname" type="text" placeholder="Como te apellidas(Opcional)" onchange="this.value = this.value.toUpperCase();">
+					<input class="lname" id="lname" name="lname" type="text" placeholder="Como te apellidas(Opcional)" onchange="this.value = this.value.toUpperCase();">
 				</div>
 				</div>
 				
 				<div class="row50">
     				<div class="inputBox">
     					<span>Email</span>
-    					<input class="mail" type="email" placeholder="tuu@algo.com" required/>
+    					<input class="mail" id="mail" name="mail" type="email" placeholder="tuu@algo.com" required/>
     				</div>
     				<div class="inputBox">
     					<span>Telefono</span>
-    					<input class="tel" type="number" placeholder="Numero para seguimiento (opcional)"/>
+    					<input class="tel" id="tel" name="tel" type="number" placeholder="Numero para seguimiento (opcional)"/>
     				</div>
 				</div>
 				<div class="row100">
     				<div class="inputBox">
     					<span>Tu Mensaje</span>
-    					<textarea class="msg" placeholder="Como te podemos ayudar" required onchange="this.value = this.value.toUpperCase();"></textarea>
+    					<textarea id="msg" name="msg" class="msg" placeholder="Como te podemos ayudar" required onchange="this.value = this.value.toUpperCase();"></textarea>
     				</div>
 				</div>
 				<div class="row100">
