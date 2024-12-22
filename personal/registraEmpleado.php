@@ -57,13 +57,19 @@
                             alert("Empleado registrado exitosamente.");
                           </script>';
                 } else {
-                    echo "<p>Error al registrar el empleado: " . implode(", ", $sql->errorInfo()) . "</p>";
+                    echo '<script type="text/javascript">
+                            alert(" Error al registrar el empleado.");
+                        </script>';
                 }
             } else {
-                echo "<p>Error: Por favor, completa todos los campos obligatorios correctamente.</p>";
+                echo '<script type="text/javascript">
+                            alert(" REGISTRA TODOS LOS DATOS CORRECTAMENTE");
+                        </script>';
             }
         } catch (PDOException $e) {
-            echo "<p>Error de conexión o consulta: " . $e->getMessage() . "</p>";
+            echo '<script type="text/javascript">
+                    alert(" Errorde conexion o consulta");
+                </script>';
         } finally {
             // Cerrar la conexión si está abierta
             if (isset($conn)) {
