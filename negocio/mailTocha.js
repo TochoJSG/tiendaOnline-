@@ -49,34 +49,28 @@ async function sendMsg(e) {
 
 form.addEventListener('submit', sendMsg);*/
 
-// Seleccionar el formulario por su clase
 const form = document.querySelector('.contactoGMAIL');
 
 // Función asíncrona para manejar el envío del formulario
 async function sendMsg(e) {
     e.preventDefault(); // Evita el envío predeterminado del formulario
 
-    // Crear un objeto FormData con los datos del formulario
-    const formData = new FormData(form);
+    const formData = new FormData(form); // objeto FormData con los datos del formulario
 
     try {
-        // Realizar la solicitud fetch al archivo PHP
-        const response = await fetch('./enviar_mail.php', {
+        const response = await fetch('./enviar_mail.php', {// Realizar la solicitud fetch al archivo PHP
             method: 'POST',
             body: formData
         });
 
-        // Verificar si la respuesta es exitosa
-        if (!response.ok) {
+        if(!response.ok){// Verificar si la respuesta es exitosa
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        // Intentar procesar la respuesta como JSON
-        const result = await response.json();
-
-        // Manejar la respuesta según el contenido recibido
-        if (result.success) {
-            alert(result.message || 'Mensaje enviado con éxito.');
+        const result = await response.json();// Intentar procesar la respuesta como JSON
+        
+        if (result.success){		// Manejar la respuesta según el contenido recibido
+            alert(result.message || 'Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.');
             form.reset(); // Limpiar el formulario
         } else {
             alert(result.error || 'Hubo un error al enviar el mensaje.');
@@ -88,5 +82,4 @@ async function sendMsg(e) {
     }
 }
 
-// Agregar el evento 'submit' al formulario para que use la función asíncrona
 form.addEventListener('submit', sendMsg);
