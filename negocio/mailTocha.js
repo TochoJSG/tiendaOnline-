@@ -57,8 +57,22 @@ async function sendMsg(e) {
 
     const formData = new FormData(form); // objeto FormData con los datos del formulario
 
-    try {
-        const response = await fetch('./enviar_mail.php', {// Realizar la solicitud fetch al archivo PHP
+	const opciones = {
+		method: 'POST',
+        body: formData
+	};
+	fetch('./enviar_mail.php', opciones)
+	.then(res=> res.json())
+	.then(result=>{
+		alert(result.message || 'Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.');
+        form.reset(); // Limpiar el formulario
+	})
+	.catch (error=> {
+        console.error('Error:', error);
+        alert('Error en la conexión al servidor o en el procesamiento de datos.');
+    });
+    /*try {
+        let response = await fetch('./enviar_mail.php', {// Realizar la solicitud fetch al archivo PHP
             method: 'POST',
             body: formData
         });
@@ -67,8 +81,8 @@ async function sendMsg(e) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        const result = await response.json();// Intentar procesar la respuesta como JSON
-        console.log('Llegamos hasta este punto');
+        let result = await response.json();// Intentar procesar la respuesta como JSON
+
         if (result.success){		// Manejar la respuesta según el contenido recibido
             alert(result.message || 'Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.');
             form.reset(); // Limpiar el formulario
@@ -78,7 +92,7 @@ async function sendMsg(e) {
     } catch (error) {
         console.error('Error:', error);
         alert('Error en la conexión al servidor o en el procesamiento de datos.');
-    }
+    }*/
 }
 
 form.addEventListener('submit', sendMsg);
