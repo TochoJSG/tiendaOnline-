@@ -118,7 +118,7 @@
 				</div>
 			</div>
 		</form>
-		
+
 		</div>
 		<div class="contact info">
 			<h3>Contact Info</h3>
@@ -141,7 +141,7 @@
 			<ul class="socialesContact">
 				<li><a target="_blank" href="<?php echo $facebook;?>"><ion-icon name="logo-facebook"></ion-icon></a></li>
 				<li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-				<li><a target="_blank" href="<?php echo $t_mercadoShops;?>"><ion-icon name="logo-mercadolibre"></ion-icon></a></li>
+				<li><a target="_blank" href="<?php echo $t_mercadoShops;?>"></a></li>
 			</ul>
 			</div>
 		</div>

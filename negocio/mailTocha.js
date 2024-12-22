@@ -62,18 +62,19 @@ async function sendMsg(e) {
 		headers: {
 			'Content-Type':'application/json'
 		},
-        body: formData
+        body: formData.json()
 	};
 
 	fetch('./enviar_mail.php', opciones)
 	.then(res=>{
 		res.json();
-		console.log('JSON exitoso');
+		//console.log('JSON exitoso');//Exitoso hasta aqui
 	})
 	.then(data=>{
 		alert('Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.');
-        console.log('Data->',data);
+        //console.log('Data->',data);//hasta aqui fue un exito
 		form.reset(); // Limpiar el formulario
+		window.location.href = 'https://tochamateriasprimas.com/';
 	})
 	.catch (error=> {
         console.error('Error:', error);
