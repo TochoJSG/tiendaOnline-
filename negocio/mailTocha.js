@@ -58,7 +58,7 @@ async function sendMsg(e) {
     const formData = new FormData(form); // objeto FormData con los datos del formulario
 
     try {
-        const response = await fetch('enviar_mail.php', {// Realizar la solicitud fetch al archivo PHP
+        const response = await fetch('./enviar_mail.php', {// Realizar la solicitud fetch al archivo PHP
             method: 'POST',
             body: formData
         });
@@ -76,7 +76,6 @@ async function sendMsg(e) {
             alert(result.error || 'Hubo un error al enviar el mensaje.');
         }
     } catch (error) {
-        // Manejar cualquier error en la solicitud o procesamiento
         console.error('Error:', error);
         alert('Error en la conexión al servidor o en el procesamiento de datos.');
     }
