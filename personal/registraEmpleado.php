@@ -19,7 +19,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $rol = filter_input(INPUT_POST, 'rol', FILTER_VALIDATE_INT);
         $contrato = filter_input(INPUT_POST, 'tipoContrato', FILTER_VALIDATE_INT);
 
-        if ($nombre && $apellidos && $sueldo && $telefono && $email && $rfc && $fecha_ingreso && $departamento && $rol && $contrato) {
+        if ($nombre !== null && 
+        $apellidos !== null && 
+        $sueldo !== false && 
+        $telefono !== null && 
+        $email !== null &&
+        $rfc !== null && 
+        $fecha_ingreso !== null && 
+        $departamento !== null && 
+        $rol !== null && 
+        $contrato !== null) {
             $sql = $conn->prepare("CALL insertarEmpleado(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);");
             $sql->execute([$nombre, $apellidos, $sueldo, $telefono, $email, $rfc, $fecha_ingreso, $departamento, $rol, $contrato]);
             echo '<script>alert("Empleado registrado exitosamente."); window.location.href="./";</script>';
