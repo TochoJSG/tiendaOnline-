@@ -31,7 +31,7 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 	<div class="headerForm">
 		<h3>Hola, Captura los datos del Empleado</h3>
 	</div>
-	<form>
+	<form method="POST" action= "./registraEmpleado.php">
 		<input id="nombre" type="text" placeholder="ingresa los nombres del Empleado" max="66" required onchange="upperCase();">
 
 		<input id="apellidos" type="text" placeholder="ingresa los apellidos" max="66" required onchange="upperCase();">
@@ -118,22 +118,43 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 		
 		<label for="departamento">Departamento</label>
 		<select id="departamento" name="departamento" disabled>
-
-
-
+		<?php
+			$deptosUD = new Database();
+			$conDeptosUD = $deptosUD->conectar();
+			$sqlDeptoUD = $conDeptosUD->prepare("CALL ConsultaCataEmpDepto();");
+			$sqlDeptoUD->execute();
+			$departamentosUD = $sqlDeptoUD->fetchAll(PDO::FETCH_ASSOC);
+			foreach ($departamentosUD as $d):
+				echo '<option value="'.$d['idDepto'].'">'.$d['departamento'].'</option>';
+			endforeach;
+		?>
 		</select>
 		
 		<label for="rol">Cargo</label>
 		<select id="rol" name="rol" disabled>
-
-
-
+		<?php
+			$rolUD = new Database();
+			$conRolUD = $rolUD->conectar();
+			$sqlRolUD = $conRolUD->prepare("CALL ConsultaCataEmpRoles();");
+			$sqlRolUD->execute();
+			$rolesUD = $sqlRolUD->fetchAll(PDO::FETCH_ASSOC);
+			foreach ($rolesUD as $r):
+				echo '<option value="'.$r['idRol'].'">'.$r['rol'].'</option>';
+			endforeach;
+		?>
 		</select>
 		<label for="contrato">Tipo de Contrato</label>
 		<select id="contrato" name="contrato" disabled>
-
-
-
+		<?php
+			$contratUD = new Database();
+			$conContratUD = $contratUD->conectar();
+			$sqlContratUD = $conContratUD->prepare("CALL ConsultaCataEmpContrat();");
+			$sqlContratUD->execute();
+			$contratosUD = $sqlContratUD->fetchAll(PDO::FETCH_ASSOC);
+			foreach ($contratosUD as $c):
+				echo '<option value="'.$c['idContrato'].'">'.$c['tipo'].'</option>';
+			endforeach;
+		?>
 		</select>
 		
 		<input id="altaEmpleado" type="submit" value="A C T U A L I Z A  R" disabled>
@@ -146,9 +167,38 @@ idEmpleado	sueldo	nombres	apellidos	tel	mail rfc	seguro	fechaIngreso
 	<div class="headerForm">
 		<h3>Lista de Colaboradores</h3>
 	</div>
-	<div>
+	<div class="listaProductos">
+		<h3>Lista de Colaboradores</h3>
+	<?php
+		$nomina = new Database();
+		$conexionNom = $nomina->conectar();
+		$sqlNom = $conexionNom->prepare("CALL ConsultaEmpleados();");
+		$sqlNom->execute();
+		$empleados = $sqlNom->fetchAll(PDO::FETCH_ASSOC);
 		
-	</div>
+		foreach ($empleados as $e):
+			$nombre = $e['nombres'];
+			$apellido = $e['apellidos'];
+			$sueldo = $e['suledo'];
+			$tel = $e['tel'];
+			$mail = $e['mail'];
+			$rfc =  $e['rfc'];
+			$seguro =  $e['seguro'];
+			$fechaIng =  $e['fechaIngreso'];
+
+			echo '<br><span value="' . htmlspecialchars($idEmpleado) . '">'
+				. htmlspecialchars($nombre) . '<-apellido   "'
+				. htmlspecialchars($apellido) . '" <-sueldo '
+				. htmlspecialchars($sueldo) . '  tel->'
+				. htmlspecialchars($tel) . '  mail->'
+				. htmlspecialchars($mail) . '  rfc->'
+				. htmlspecialchars($rfc) . '  seguro->'
+				. htmlspecialchars($seguro) . '  fechaIng->'
+				. htmlspecialchars($fechaIng)
+				. '</span><br>';
+		endforeach;
+	?>
+</div>
 </div>
 
 </div><!--Cierra procesos RH-->

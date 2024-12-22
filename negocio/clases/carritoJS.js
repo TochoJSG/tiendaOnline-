@@ -168,7 +168,7 @@ paypal.Buttons({
       };
 
         // Enviar datos al servidor
-        fetch('notificarVenta.php', {
+        fetch('./notificarVenta.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
