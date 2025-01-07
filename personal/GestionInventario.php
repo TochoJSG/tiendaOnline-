@@ -168,6 +168,8 @@
 	const signupBtn = document.querySelector('.signupBtn');
 	const formBx = document.querySelector('.formBx');
 	const cuerpo = document.querySelector('.cuerpo');
+
+	const updateButton = document.querySelector('#update');
 	
 	signupBtn.onclick = function(){
 		formBx.classList.add('active');
@@ -178,7 +180,8 @@
 		cuerpo.classList.remove('active');
 	}
 
-	const updateButton = document.getElementById('update');
+
+
 	updateButton.addEventListener('click', function(){
 		document.getElementById('nosotros').style.display='block';
 		document.getElementsByTagName('body')[0].style.overflow='hidden';
