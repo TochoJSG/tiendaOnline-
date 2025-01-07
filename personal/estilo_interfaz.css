@@ -97,6 +97,7 @@ body .active{
 	position: absolute;/*<----absolute*/
 	left: 0;
 	width: 100%;
+	height:633px;
 	padding: 17px;
 	transition: 0.5s;
 }
@@ -191,7 +192,7 @@ body .active{
 #seeRH form select{padding-bottom:3px;margin-bottom:9px;}
 .headerForm{display:flex;flex-direction:row;justify-content:space-between;padding:17px;}
 .headerForm h3{color:#fff;font-size:1.7em;letter-spacing:3px;align-items:center;}
-#closeModal{top:0px;font-size:2.3em;color:#fff;font-weight:666;font-family:arial;opacity:0.333;cursor:default;}
+#closeModal{top:0px;font-size:2.3em;color:#fff;font-weight:666;font-family:arial;opacity:0.66;cursor:default;}
 #closeModal:hover{opacity:1;cursor:pointer;}
 .controlesRH{display:row;align-items:center;width:90%;margin:0 5%;justify-content:center;}
 .controlesRH .HRbutton{width:333px;height:66px;background:#000;color:#fff;text-transform:uppercase;letter-spacing:3px;border: 1px solid #fff;transition:.5s;}
