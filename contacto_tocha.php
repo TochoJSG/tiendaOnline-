@@ -87,22 +87,22 @@
 				<div class="row50">
 				<div class="inputBox">
 					<span>Como te llamas</span>
-					<input class="name" id="name" name="name" type="text" placeholder="Como te llamas" required onchange="this.value = this.value.toUpperCase();">
+					<input class="name" id="name" name="name" type="text" placeholder="Como te llamas" required onchange="this.value = this.value.toUpperCase();" maxlength="17">
 				</div>
 				<div class="inputBox">
 					<span>Apellido</span>
-					<input class="lname" id="lname" name="lname" type="text" placeholder="Como te apellidas(Opcional)" onchange="this.value = this.value.toUpperCase();">
+					<input class="lname" id="lname" name="lname" type="text" placeholder="Como te apellidas(Opcional)" onchange="this.value = this.value.toUpperCase();" maxlength="17">
 				</div>
 				</div>
 				
 				<div class="row50">
     				<div class="inputBox">
     					<span>Email</span>
-    					<input class="mail" id="mail" name="mail" type="email" placeholder="tuu@algo.com" required/>
+    					<input class="mail" id="mail" name="mail" type="email" placeholder="tuu@algo.com" maxlength="19" required/>
     				</div>
     				<div class="inputBox">
     					<span>Telefono</span>
-    					<input class="tel" id="tel" name="tel" type="number" placeholder="Numero para seguimiento (opcional)"/>
+    					<input class="tel" id="tel" name="tel" type="number" placeholder="Numero para seguimiento (opcional)" maxlength="10" />
     				</div>
 				</div>
 				<div class="row100">
