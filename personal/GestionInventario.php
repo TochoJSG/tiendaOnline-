@@ -170,7 +170,9 @@
 	const cuerpo = document.querySelector('.cuerpo');
 
 	const updateButton = document.querySelector('#update');
-	
+	const updateDisplay = document.querySelector('#nosotros');
+	const closeUpdateButton = document.querySelector('#closeModal');
+
 	signupBtn.onclick = function(){
 		formBx.classList.add('active');
 		cuerpo.classList.add('active');
@@ -184,13 +186,14 @@
 
 	updateButton.addEventListener('click', function(){
 		console.log("Hola Danna");
-		/*document.getElementById('nosotros').style.display='block';
-		document.getElementsByTagName('body')[0].style.overflow='hidden';*/
+		updateDisplay.style.display = 'block';
+		document.getElementsByTagName('body')[0].style.overflow = 'hidden';
 	});
 
-	const closeUpdateButton = document.querySelector('#closeModal');
+	
 	closeUpdateButton.addEventListener('click',function(){
-		document.getElementById('nosotros').style.display='none';document.getElementsByTagName('body')[0].style.overflow='visible';
+		updateDisplay.style.display='none';
+		document.getElementsByTagName('body')[0].style.overflow = 'visible';
 	});
 	//document.querySelectorAll('.updateForm').forEach(input=> input.disabled=true);
 </script>
