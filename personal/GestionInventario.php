@@ -179,8 +179,9 @@
 	}
 
 	const updateButton = document.getElementById('update');
-	updateButton.addEventListener('click', ()=>{
-		document.getElementById('nosotros').style.display='block';document.getElementsByTagName('body')[0].style.overflow='hidden';
+	updateButton.addEventListener('click', function(){
+		document.getElementById('nosotros').style.display='block';
+		document.getElementsByTagName('body')[0].style.overflow='hidden';
 	});
 
 	const closeUpdateButton = document.querySelector('#closeModal');

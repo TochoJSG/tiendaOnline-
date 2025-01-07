@@ -60,7 +60,8 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 <script>document.addEventListener('DOMContentLoaded',function(){Push.create('Bienvenido',{body:'Hola, te invitamos a ver nuestro inventario',icon:'COORP (2).jpg',timeout:6666,onClick:function(){window.location='https://materiasprimastocha.mercadoshops.com.mx/';this.close();}});});
 </script>
 <header>
-	<a target="_blank" href="<?php echo $t_mercadoShops;?>" class="logo">Comercializadora Tocha</a>
+	<!--<a target="_blank" href="< php echo $t_mercadoShops;?>" class="logo">Comercializadora Tocha</a> Descomentar -->
+	<a target="_blank" href="https://tochamateriasprimas.com/ventas.php" class="logo">Comercializadora Tocha</a><!--Comentar-->
 	<div class="menuToggle"></div>
 </header>
 <ul class="navigation">
@@ -94,7 +95,8 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
 			</a>
 		</div>
 	</div>
-		<a target="_blank" href="<?php echo $t_mercadoShops;?>" class="btn">Ver Tienda Online</a>
+		<!--<a target="_blank" href="< ?php echo $t_mercadoShops;?>" class="btn">Ver Tienda Online</a>-->
+		<a target="_blank" href="https://tochamateriasprimas.com/ventas.php" class="btn">Ver Tienda Online</a>
 	</div>
 </section>
 </div>
@@ -140,7 +142,8 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 	<div class="texto_car">
 		<h2>Estamos en <span>Mercadolibre</span>, envios incluidos en muchos Productos a todo Mexico
 			</h2>
-	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="btnML">
+	<!--<a target="_blank" href="< ?php echo $t_mercadoShops;?>"><button class="btnML">-->
+	<a target="_blank" href="https://tochamateriasprimas.com/ventas.php"><button class="btnML">
 	<div class="icono">
 		<svg width="16" height="16" fill="currentcolor">
 			<img src="imagenes/ml.png" width="25" height="25"/>
@@ -175,7 +178,8 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 	<br>
 </div>
 <div class="btnAnimaLuz" style="width:90%;margin:0 5%;">
-	<a href="<?php echo $t_mercadoShops;?>"><span>Ver Mas</span></a>
+	<!--<a href="< ?php echo $t_mercadoShops;?>"><span>Ver Mas</span></a>-->
+	<a href="https://tochamateriasprimas.com/ventas.php"><span>Ver Mas</span></a>
 	<br>
 </div>
 </div>
@@ -197,7 +201,8 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 		</div>
 		<br><h2>Envios incluidos en muchos productos, da clic en los Enlaces</h2>
 	</div>
-	<a target="_blank" href="<?php echo $t_mercadoShops;?>"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre
+	<!--<a target="_blank" href="< ?php echo $t_mercadoShops;?>"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre-->
+	<a target="_blank" href="https://tochamateriasprimas.com/ventas.php"><button class="boton4" style="color:aqua;">Visita nuestra tienda Mercado Libre
 			</button></a>
 
 	<div class="grid-containerD">
@@ -245,13 +250,15 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 <footer>
 <ul class="social_icon">
 	<li><a href="<?php echo $facebook;?>"><ion-icon name="logo-facebook"></ion-icon></a></li>
-	<li><a href="<?php echo $t_mercadoShops;?>"><ion-icon name="logo-google"></ion-icon>
+	<!--<li><a href="< ?php echo $t_mercadoShops;?>"><ion-icon name="logo-google"></ion-icon>-->
+	<li><a href="https://tochamateriasprimas.com/ventas.php"><ion-icon name="logo-google"></ion-icon>
 		</a></li>
 	<li><a href="#"><ion-icon name="logo-instagram"></ion-icon>
 		</a></li>
 </ul>
 <ul class="menu_f">
-    <li><a target="_blank" href="<?php echo $t_mercadoShops;?>">MercadoLibre</a></li>
+    <!--<li><a target="_blank" href="< ?php echo $t_mercadoShops;?>">MercadoLibre</a></li>-->
+	<li><a target="_blank" href="https://tochamateriasprimas.com/ventas.php">MercadoLibre</a></li>
 	<li><a target="_self" href="index.php">Principal</a></li>
 	<li><a id="buttonUs" style="color:#fff;">Quienes Somos</a></li>
 	<li><a target="_self" href="ventas.php">Productos</a></li>
@@ -265,7 +272,8 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 <div class="copyrightText">
 	<div class="grid-container">
 	<div>
-		<a href="<?php echo $t_mercadoShops;?>"><img class="logo" src="imagenes/COORP (2).jpg" align="left"/></a>
+		<!--<a href="< ?php echo $t_mercadoShops;?>"><img class="logo" src="imagenes/COORP (2).jpg" align="left"/></a>-->
+		<a href="https://tochamateriasprimas.com/ventas.php"><img class="logo" src="imagenes/COORP (2).jpg" align="left"/></a>
 	</div>
 	<div>
 		<a href="www.admingtutoriales.com"><p>Adming Desarrollos
@@ -289,7 +297,8 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 	<p class="texto_nosotros">Tocha es una comerciliazadora miembro del Mercado Cananea A.C. siendo unos de los locales fundadores del marcado te ofrecemos 30 años de experiencia. Somos un negocio con variedad en mercancias y ramas, ofreciendo asi un trato serio y formal, con presencia en plataformas de comercio, buscanos.
 		<br>Le ofrecemos tratar con gente seria en un local bien establecido, estamos abiertos a negociar con usted acuerdos que nos beneficien a ambos, contactenos y conozcanos. Haga la Prueba.
 			</p>
-	<a href="<?php echo $t_mercadoShops;?>"><button class="btnML btn-darkML">
+	<!--<a href="< ?php echo $t_mercadoShops;?>"><button class="btnML btn-darkML">-->
+	<a href="https://tochamateriasprimas.com/ventas.php"><button class="btnML btn-darkML">
 		<div class="icono">
 			<svg width="16" height="16" fill="currentcolor">
 				<img src="imagenes/ml.png" width="25" height="25"/>
