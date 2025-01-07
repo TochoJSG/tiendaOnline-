@@ -179,7 +179,7 @@ body .active{
 .empleados{background:#daff;}
 #nosotros,
 #upDateRH,
-#seeRH{background:#000;z-index:1;width:90%;margin:3px 5%;height:100%;padding:17px;border-radius:8px;overflow-x:hidden;overflow-y:scroll;position:absolute;}
+#seeRH{background:#000;z-index:1000;width:90%;margin:3px 5%;height:100%;padding:17px;border-radius:8px;overflow-x:hidden;overflow-y:scroll;position:absolute;}
 #nosotros form label,
 #upDateRH form label,
 #seeRH form label{color:#fff;letter-spacing:3px;font-weight:300;}
