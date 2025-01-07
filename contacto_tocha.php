@@ -102,7 +102,7 @@
     				</div>
     				<div class="inputBox">
     					<span>Telefono</span>
-    					<input class="tel" id="tel" name="tel" type="number" placeholder="Numero para seguimiento (opcional)" maxlength="10" />
+    					<input class="tel" id="tel" name="tel" type="tel" placeholder="Numero para seguimiento (opcional)" maxlength="10" />
     				</div>
 				</div>
 				<div class="row100">
