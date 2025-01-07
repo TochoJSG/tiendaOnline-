@@ -183,8 +183,9 @@
 
 
 	updateButton.addEventListener('click', function(){
-		document.getElementById('nosotros').style.display='block';
-		document.getElementsByTagName('body')[0].style.overflow='hidden';
+		console.log("Hola Danna");
+		/*document.getElementById('nosotros').style.display='block';
+		document.getElementsByTagName('body')[0].style.overflow='hidden';*/
 	});
 
 	const closeUpdateButton = document.querySelector('#closeModal');
