@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;cursor:default;user-select:none;}
 html, body {
-	overflow: hidden; /* Evita desplazamiento adicional */
 	touch-action: none; /* Desactiva gestos táctiles como el zoom */
   }  
 body{line-height:1.5em;overflow:visible;background:#fff;width:100%;align-items:center;justify-content:center;overflow-x:hidden;animation-duration:9s;}

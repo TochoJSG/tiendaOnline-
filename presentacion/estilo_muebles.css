@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins', sans-serif;cursor:default;}
-body{/*display: flex;*/justify-content:center;align-items:center;flex-wrap:wrap;min-height:100vh;background:#fff;/*url('fondo_m.png');010615*/}
+body{/*display: flex;*/touch-action: none;justify-content:center;align-items:center;flex-wrap:wrap;min-height:100vh;background:#fff;/*url('fondo_m.png');010615*/}
 .btn-wsp{align-items:center;text-align:center;align-content:center;position:fixed;width:60px;height:60px;line-height:55px;bottom:99px;right:25px;background:#daff;color:#040105;border-radius:50px;text-align:center;font-size:30px;box-shadow:0px 1px 10px rgba(0,0,0,0.3);z-index:100;text-decoration:none;}
 .btn-wsp img{height:60px;width:60px;margin:auto;padding:8px;position:relative;}
 .btn-wsp:hover{text-decoration:none;color:#040105;background:#ffad;}
