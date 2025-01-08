@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8"/> 
-	<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html;width=device-width;charset=utf-8;" initial-scale="1.0"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<title>Tocha | Bio+</title>
 		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/>
 		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>

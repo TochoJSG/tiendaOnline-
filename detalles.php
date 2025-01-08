@@ -10,9 +10,10 @@
       gtag('config', 'G-DZ16T2G5PD');
     </script>
     <meta charset="UTF-8"/> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
     <meta name="description" content="electronica, computadora, laptop, audifonos, bluetooth, Relog inteligente, smartwatch, mouse, relojes, bocinas, muebles, desechables, Materias primas"/>
 	<meta name="keywords" content="electronica, computadora, laptop, audifonos, bluetooth, Relog inteligente, smartwatch, mouse, relojes, bocinas, muebles, desechables, Materias primas"/>
-	<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html; width=device-width; charset=utf-8;" initial-scale="1.0"/>
 		<title>Tocha | Productos</title>
 		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/>
 		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>

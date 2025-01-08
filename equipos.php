@@ -14,12 +14,13 @@
 		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>
 		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon-precomposed.png" sizes="180x180"/>
 	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="copyright" content="Grupo Tocha" />
 	<meta name="keywords" content="suministros para pymes, insumos para comercios, desechables al por mayor, bolsas para tiendas, terminales de pago, estantería para negocios, desinfectantes industriales, ecommerce de productos para pymes, productos para pequeños negocios"/>
 	<meta name="description" content="Encuentra todo lo que necesitas para operar tu pequeño negocio: suministros y productos al por mayor para pymes, desde desechables hasta estanterías. Descubre ofertas en terminales de pago, desinfectantes, y más."/>
 	<link href="<?php echo $swiper;?>" rel="stylesheet"/>
     <link rel="stylesheet" href="<?php echo $bootstrap;?>"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<meta name="copyright" content="Grupo Tocha" />
+	
 	<link rel="stylesheet" type="text/css" href="presentacion/estilo_muebles.css"/>
 	<link rel="stylesheet" type="text/css" href="presentacion/estilo_foo_anima_tocha.css"/>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v15.0" nonce="wzsUa4iV"></script>

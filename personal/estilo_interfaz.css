@@ -6,6 +6,10 @@
 	font-family: 'Poppins', sans-serif;
 	cursor:default;user-select:none;
 }
+html, body {/*Estilo a prueba*/
+	overflow: hidden; /* Evita desplazamiento adicional */
+	touch-action: none; /* Desactiva gestos táctiles como el zoom */
+  }  
 .cuerpo{
 	display: flex;
 	justify-content: center;

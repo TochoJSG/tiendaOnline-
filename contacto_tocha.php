@@ -11,7 +11,8 @@
       gtag('config', 'G-DZ16T2G5PD');
     </script>
 		<title>Tocha | Contactanos</title>
-		<meta charset="UTF-8"> 
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 		<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/>
 		<!--<link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png" sizes="180x180"/>
 		<link rel="apple-touch-icon" href="imagenes/apple-touch-icon-precomposed.png" sizes="180x180"/>-->

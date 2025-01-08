@@ -32,7 +32,9 @@ if($productos != null){//Si se selecciono producto, no es nulo, por lo tanto con
       gtag('config','G-DZ16T2G5PD');
     </script>
     <meta charset="UTF-8"/> 
-	<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html; width=device-width; charset=utf-8;" initial-scale="1.0"/>
+	<!--<meta http-equiv="content-security-policy|Content-Type|default-style|refresh" content="text/html; width=device-width; charset=utf-8;" initial-scale="1.0"/>-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
 		<title>Tocha | Comercializadora</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="keywords" content="suministros para pymes, insumos para comercios, desechables al por mayor, bolsas para tiendas, terminales de pago, estantería para negocios, desinfectantes industriales, ecommerce de productos para pymes, productos para pequeños negocios"/>
