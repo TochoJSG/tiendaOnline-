@@ -506,10 +506,12 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.footer_map{width:100%;height:auto;max-height:451px;}
 	.footer_map iframe{width:100%;height:100%;}
 	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
-	.texto_car h2,.texto_car span{font-size:12px;padding:3px 0;}
+	.texto_car h2,
+	.texto_car span{font-size:12px;padding:3px 0;}
 	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
-	.cabecera{display:block;height:auto;}
-	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.cabecera{display:block;height:auto;min-height:199px;}
+	.cabecera p span,
+	.cabecera p span .boton_personalizado{width:55px;height:55px; padding:0 17px;}
 	header h1{margin-top:16px;font-size:16px;}
 	header p span{margin-top:16px;font-size:25px;}
 	.banner .contentBx{padding:25px 19px;}
@@ -518,6 +520,10 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
     section .prod_car{min-width:49%;margin:0 9px 0 0;}
 	.details_car,.button_car_c{font-size:15px;}
 	.button_car_c a{padding:6px 9px;}
+	.grid-containerHead{grid-gap:1px;padding:3px;}/*Departments in index.html*/
+	.grid-containerHead>div{padding:11px;}
+	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
+	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
 }
 @media(max-width:991px){
 	.boton4{font-size:1em;letter-spacing:3px;padding:0.5em 1.1em;border:1px solid;}
@@ -538,6 +544,10 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
 	.cabecera{display:block;height:auto;}
 	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.grid-containerHead{grid-gap:1px;padding:3px;}/*Departments in index.html*/
+	.grid-containerHead>div{padding:11px;}
+	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
+	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
 }
 @media (min-width:1281px){ 
 /* hi-res laptops and desktops */ 
@@ -566,7 +576,7 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-containerHead{grid-gap:1px;padding:3px;}/*Departments in index.html*/
 	.grid-containerHead>div{padding:11px;}
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
-	.grid-containerHead .itemZoomHead img{min-height:66px;min-width:55px;}
+	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
 	.grid-containerD{display:grid;grid-template-columns:auto auto auto;grid-gap:1px;padding:9px;max-height:333px;}
 	.grid-containerD>div{padding:9px;}
 	.grid-containerD .zoom{padding:0px;background-color:#fff;/*transition:transform 1s;*/margin:0;overflow:hidden;position:relative;object-fit:cover;transition:0.6s ease-in-out;transform-origin:right;}
@@ -601,7 +611,7 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-containerHead{grid-gap:1px;padding:3px;}/*Departments in index.html*/
 	.grid-containerHead>div{padding:11px;}
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
-	.grid-containerHead .itemZoomHead img{min-height:66px;min-width:55px;}
+	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
 	.grid-containerD{flex-direction:column;}
 	.grid-containerD img{max-width:480px;max-height:480px;}
 	.grid-containerD .itemZoom span{font-size:.8em;}
@@ -637,7 +647,7 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-containerHead{grid-gap:1px;padding:3px;}/*Departments in index.html*/
 	.grid-containerHead>div{padding:11px;}
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
-	.grid-containerHead .itemZoomHead img{min-height:66px;min-width:55px;}
+	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
 	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
 	.texto_car h2,.texto_car span{font-size:12px;padding:3px 0;}
 	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
@@ -655,7 +665,7 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-containerHead{grid-gap:1px;padding:3px;}/*Departments in index.html*/
 	.grid-containerHead>div{padding:11px;}
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
-	.grid-containerHead .itemZoomHead img{min-height:66px;min-width:55px;}
+	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
 	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
 	.texto_car h2,.texto_car span{font-size:12px;padding:3px 0;}
 	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
@@ -663,22 +673,7 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.cabecera p span{width:55px;height:55px; padding:0 17px;}
 }
 @media (min-width:1025px){/* big landscape tablets, laptops, and desktops */ 
-	.grid-containerD{flex-direction:column;}
-	.grid-containerD img{margin:auto;width:100%;max-width:1025px;max-height:1025px;}
-	.grid-containerD .itemZoom span{font-size:.8em;}
-	.btn-wsp{width:99px;height:99px;line-height:66px;font-size:66px;bottom:99px;right:29px;}
-	.banner .contentBx{padding:19px 17px;}
-	.banner .contentBx h4{font-size:1em;font-weight:500;letter-spacing:3px;padding:17px;}
-	.banner .contentBx h1{font-size:.9em;font-weight:300;letter-spacing:1px;}
-	.grid-containerHead{grid-gap:1px;padding:3px;}/*Departments in index.html*/
-	.grid-containerHead>div{padding:11px;}
-	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
-	.grid-containerHead .itemZoomHead img{min-height:66px;min-width:55px;}
-	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
-	.texto_car h2,.texto_car span{font-size:12px;padding:3px 0;}
-	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
-	.cabecera{display:block;height:auto;}
-	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+
 }
 @media screen and (max-width: 300px) {
   span.psw{display:block;float:none;}
