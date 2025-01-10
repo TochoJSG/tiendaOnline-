@@ -4,11 +4,12 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-	cursor:default;user-select:none;
+	cursor:default;
+	user-select:none;
 }
-html, body {/*Estilo a prueba*/
-	touch-action: none; /* Desactiva gestos táctiles como el zoom */
-  }  
+/*html, body {/ *Estilo a prueba* /
+	touch-action: none;  Desactiva gestos táctiles como el zoom 
+  }  */
 .cuerpo{
 	display: flex;
 	justify-content: center;
@@ -19,6 +20,7 @@ html, body {/*Estilo a prueba*/
 	max-width: 100%;
 	width: 100vw; 
 	box-sizing: border-box;
+	touch-action: none; 
 }
 body .active{
 	background: #f43648;
