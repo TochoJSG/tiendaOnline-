@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;cursor:default;user-select:none;}
-html, body {
-	touch-action: none; /* Desactiva gestos táctiles como el zoom */
-  }  
+/* html, body {
+	touch-action: none; Desactiva gestos táctiles como el zoom 
+  }  */
 body{line-height:1.5em;overflow:visible;background:#fff;width:100%;align-items:center;justify-content:center;overflow-x:hidden;animation-duration:9s;}
-#main-header{z-index:100;background:#fad;color:#fff;height:99px;width:100%;left:0;top:0;position:fixed;}
+#main-header{z-index:100;background:#fad;color:#fff;height:99px;width:100%;left:0;top:0;position:fixed;touch-action: manipulation;}
 #main-header a{color:#fff;}
 #logo-header{float:left;padding:17px;text-decoration:none;}
 #logo-header:hover{color:#0b76a6;}
@@ -18,7 +18,7 @@ body{line-height:1.5em;overflow:visible;background:#fff;width:100%;align-items:c
     transform:rotate(360deg);
     -webkit-transform:rotate(360deg);
 }
-nav{float:right;}
+nav{float:right;touch-action: none;}
 nav ul{margin:0;padding:0;list-style:none;padding-right:20px;}
 nav ul li{display:inline-block;line-height:66px;}
 nav ul li a{font-size:.8em;font-weight:300;letter-spacing:3px;display:block;padding:5px;margin:8px;color:#040105;text-decoration:none;}
@@ -262,7 +262,7 @@ p .star{margin:6px auto;width:66%;font-size:23px;color:#808080;}
 .amz h2{margin-top:16px;padding:8px;text-align:center;font-size:1.1em;font-weight:300;letter-spacing:6px;color:#fff;text-transform:uppercase;}
 .amz span{font-size:1.2em;font-weight:500;letter-spacing:8px;color:#daf;}
 .containerCardAmz{background:#040105;position:relative;width:100%;height:1100px;max-width:100%;display:grid;align-items:center;align-content:center;grid-template-columns:repeat(auto-fit,minmax(333px,1fr));grid-gap:25px;padding:66px;margin:0;overflow-x:hidden;overflow-y:hidden;}
-.contCardAmz{position:relative;overflow-x:hidden;overflow-y:hidden;width:350px;height:514px;background:#fff;transform-style:preserve-3d;transform:perspective(2000px);transition:1s;box-shadow:inset 300px 0 50px rgba(0,0,0,0.15),0 20px 20px rgba(0,0,0,0.15);border-radius:8px;}
+.contCardAmz{position:relative;touch-action: manipulation;overflow-x:hidden;overflow-y:hidden;width:350px;height:514px;background:#fff;transform-style:preserve-3d;transform:perspective(2000px);transition:1s;box-shadow:inset 300px 0 50px rgba(0,0,0,0.15),0 20px 20px rgba(0,0,0,0.15);border-radius:8px;}
 .contCardAmz:hover{transform:perspective(2000px);box-shadow:inset 20px 0 50px rgba(0,0,0,0.15),0 10px 10px rgba(0,0,0,0.15);}
 .contCardAmz .coverLaCard{position:relative;width:100%;height:100%;background:#cccc;z-index:2;display:flex;justify-content:center;align-items:center;transform-style:preserve-3d;overflow:hidden;transition:1s ease-in-out;transform-origin:left;}
 .contCardAmz:hover .coverLaCard{transform:rotateY(-180deg);transform:perspective(2000px)translateX(100%);}

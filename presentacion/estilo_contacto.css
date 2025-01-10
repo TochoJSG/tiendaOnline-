@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;user-select: none;}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;user-select: none;touch-action: manipulation;}
 body{background:linear-gradient(90deg,#0df666 0%,#0df666 30%,#06b666 30%,#06b666 100%);}
 .btn-wsp{position:fixed;width:66px;height:66px;line-height:55px;bottom:90px;right:30px;background:#0df053;color:#fff;border-radius:50px;text-align:center;font-size:30px;box-shadow:0px 1px 10px rgba(0,0,0,0.3);z-index:100;text-decoration:none;}
 .btn-wsp:hover{text-decoration:none;color:#0df053;background:#fff;}
