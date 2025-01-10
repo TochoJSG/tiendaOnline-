@@ -201,7 +201,7 @@ div .card .card-body button:hover{background:#daf;color:#415;font-weight:600;}
 .contCardAmz .detailsLaCard img{height:300px;width:100%;}
 .contCardAmz .detailsLaCard p{font-size:.8em;font-weight:100;color:#040105;padding:1px;margin:3px;}
 .contCardAmz .detailsLaCard h2{font-size:.8em;color:#040105;font-weight:500;margin:3px 0;}
-.contCardAmz .detailsLaCard a{position:fixed;/*display:inline-block;*/left:17%;width:215px;margin:8px;height:auto;padding:8px 17px;background:#040105;color:#daf;letter-spacing:1px;border-radius:25px;font-weight:500;text-decoration:none;}
+.contCardAmz .detailsLaCard a{position:relative;/*display:inline-block;*/width:215px;height:auto;padding:8px 17px;background:#040105;color:#daf;letter-spacing:1px;border-radius:25px;font-weight:500;text-decoration:none;}
 .contCardAmz .detailsLaCard a:hover{background:#37475a;color:#fff;}
 
 .containerPagos{width:100%;height:auto;}
@@ -491,6 +491,8 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.blueBG .box{position:absolute;width:100%;height:150px;bottom:0;}
 	.box.signin{top:0;}
 	.formBx.active{left:0;top:150px;}
+	.contBtnLuz{width:90%;margin:0 5%;}
+	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
 }
 @media(max-width:768px){
 	footer{width:100%;padding:40px;margin:0;display:flex;flex-direction:column;}
@@ -524,6 +526,10 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-containerHead>div{padding:11px;}
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
 	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
+	.contBtnLuz{width:90%;margin:0 5%;}
+	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
+
 }
 @media(max-width:991px){
 	.boton4{font-size:1em;letter-spacing:3px;padding:0.5em 1.1em;border:1px solid;}
@@ -548,6 +554,9 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-containerHead>div{padding:11px;}
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
 	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
+	.contBtnLuz{width:90%;margin:0 5%;}
+	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (min-width:1281px){ 
 /* hi-res laptops and desktops */ 
@@ -603,6 +612,9 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
 	.cabecera{display:block;height:auto;}
 	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.contBtnLuz{width:90%;margin:0 5%;}
+	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (max-width:480px){/* smartphones, Android phones, landscape iPhone */ 
 	.banner .contentBx{padding:19px 17px;}
@@ -635,6 +647,9 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
 	.cabecera{display:block;height:auto;}
 	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.contBtnLuz{width:90%;margin:0 5%;}
+	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (min-width:600px){/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
 	.grid-containerD{flex-direction:column;}
@@ -653,6 +668,9 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
 	.cabecera{display:block;height:auto;}
 	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.contBtnLuz{width:90%;margin:0 5%;}
+	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (min-width:801px){/* tablet, landscape iPad, lo-res laptops ands desktops */
 	.grid-containerD{flex-direction:column;}
@@ -671,6 +689,9 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
 	.cabecera{display:block;height:auto;}
 	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.contBtnLuz{width:90%;margin:0 5%;}
+	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (min-width:1025px){/* big landscape tablets, laptops, and desktops */ 
 
