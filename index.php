@@ -151,8 +151,8 @@ autoplay:{delay:6666,disableOnInteraction:false,},
 			<img src="imagenes/ml.png" width="25" height="25"/>
 		</svg>
 	</div><span>Ver Tienda MercadoLibre</span></button></a>
-	<h2>Tambien ofrecemos variedad de Productos por <span>Amazon</span>, Compra Segura con envios incluidos en muchos Productos
-			</h2>
+	<!--<h2>Tambien ofrecemos variedad de Productos por <span>Amazon</span>, Compra Segura con envios incluidos en muchos Productos
+			</h2> -->
 	</div>
 	<div class="cabecera">
 		<p>
