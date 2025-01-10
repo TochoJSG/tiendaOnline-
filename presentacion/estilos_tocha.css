@@ -492,7 +492,7 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.box.signin{top:0;}
 	.formBx.active{left:0;top:150px;}
 	.contBtnLuz{width:90%;margin:0 5%;}
-	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.contBtnLuz a{padding:9px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
 }
 @media(max-width:768px){
 	footer{width:100%;padding:40px;margin:0;display:flex;flex-direction:column;}
@@ -507,11 +507,11 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-container marquee{font-size:1em;padding:16px;font-weight:100;}
 	.footer_map{width:100%;height:auto;max-height:451px;}
 	.footer_map iframe{width:100%;height:100%;}
-	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
+	.texto_car{display:flex;flex-direction:column;margin-top:6px;}
 	.texto_car h2,
 	.texto_car span{font-size:12px;padding:3px 0;}
-	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
-	.cabecera{display:block;height:auto;min-height:199px;}
+	.texto_car p{margin-top:6px;width:1000%;font-size:16px;}
+	.cabecera{display:block;height:66px;}
 	.cabecera p span,
 	.cabecera p span .boton_personalizado{width:55px;height:55px; padding:0 17px;}
 	header h1{margin-top:16px;font-size:16px;}
@@ -527,7 +527,7 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
 	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
 	.contBtnLuz{width:90%;margin:0 5%;}
-	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.contBtnLuz a{padding:9px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
 	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 
 }
@@ -545,17 +545,19 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.banner .contentBx h1{font-size:.9em;font-weight:300;letter-spacing:1px;}
 	.botones_sayayin{padding:12px;font-size:1em;font-weight:100;letter-spacing:1px;}
 	.botones_sayayin:after{font-weight:100;padding:12px;}
-	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
-	.texto_car h2,.texto_car span{font-size:12px;padding:3px 0;}
-	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
-	.cabecera{display:block;height:auto;}
-	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.texto_car{display:flex;flex-direction:column;margin-top:6px;}
+	.texto_car h2,
+	.texto_car span{font-size:12px;padding:3px 0;}
+	.texto_car p{margin-top:6px;width:1000%;font-size:16px;}
+	.cabecera{display:block;height:66px;}
+	.cabecera p span,
+	.cabecera p span .boton_personalizado{width:55px;height:55px; padding:0 17px;}
 	.grid-containerHead{grid-gap:1px;padding:3px;}/*Departments in index.html*/
 	.grid-containerHead>div{padding:11px;}
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
 	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
 	.contBtnLuz{width:90%;margin:0 5%;}
-	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.contBtnLuz a{padding:9px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
 	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (min-width:1281px){ 
@@ -607,13 +609,15 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.select_depto .boton3{font-size:1em;font-weight:500;letter-spacing:1px;height:auto;}
 	#template-card{display:grid;grid-template-columns:45% 45%;grid-template-rows:666px;grid-gap:17px;padding:8px;margin:8px auto;font-size:.9em;font-weight:100;}
 	#template-card>div{padding:17px 0;}
-	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
-	.texto_car h2,.texto_car span{font-size:12px;padding:3px 0;}
-	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
-	.cabecera{display:block;height:auto;}
-	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.texto_car{display:flex;flex-direction:column;margin-top:6px;}
+	.texto_car h2,
+	.texto_car span{font-size:12px;padding:3px 0;}
+	.texto_car p{margin-top:6px;width:1000%;font-size:16px;}
+	.cabecera{display:block;height:66px;}
+	.cabecera p span,
+	.cabecera p span .boton_personalizado{width:55px;height:55px; padding:0 17px;}
 	.contBtnLuz{width:90%;margin:0 5%;}
-	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.contBtnLuz a{padding:9px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
 	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (max-width:480px){/* smartphones, Android phones, landscape iPhone */ 
@@ -642,13 +646,15 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-container marquee{font-size:.8em;padding:16px;font-weight:100;letter-spacing:3px;}
 	.footer_map{width:100%;height:auto;max-height:451px;}
 	.footer_map iframe{width:100%;height:100%;}
-	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
-	.texto_car h2,.texto_car span{font-size:12px;padding:3px 0;}
-	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
-	.cabecera{display:block;height:auto;}
-	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.texto_car{display:flex;flex-direction:column;margin-top:6px;}
+	.texto_car h2,
+	.texto_car span{font-size:12px;padding:3px 0;}
+	.texto_car p{margin-top:6px;width:1000%;font-size:16px;}
+	.cabecera{display:block;height:66px;}
+	.cabecera p span,
+	.cabecera p span .boton_personalizado{width:55px;height:55px; padding:0 17px;}
 	.contBtnLuz{width:90%;margin:0 5%;}
-	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.contBtnLuz a{padding:9px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
 	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (min-width:600px){/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
@@ -663,13 +669,15 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-containerHead>div{padding:11px;}
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
 	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
-	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
-	.texto_car h2,.texto_car span{font-size:12px;padding:3px 0;}
-	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
-	.cabecera{display:block;height:auto;}
-	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.texto_car{display:flex;flex-direction:column;margin-top:6px;}
+	.texto_car h2,
+	.texto_car span{font-size:12px;padding:3px 0;}
+	.texto_car p{margin-top:6px;width:1000%;font-size:16px;}
+	.cabecera{display:block;height:66px;}
+	.cabecera p span,
+	.cabecera p span .boton_personalizado{width:55px;height:55px; padding:0 17px;}
 	.contBtnLuz{width:90%;margin:0 5%;}
-	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.contBtnLuz a{padding:9px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
 	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (min-width:801px){/* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -684,13 +692,15 @@ span:nth-child(4) .tape{transform:translate(-50%) rotate(270deg);background-posi
 	.grid-containerHead>div{padding:11px;}
 	.grid-containerHead .itemZoomHead{width:119px;height:117px;}
 	.grid-containerHead .itemZoomHead img{height:66px;width:66px;}
-	.texto_car{display:flex;flex-direction:column;margin-top:16px;}
-	.texto_car h2,.texto_car span{font-size:12px;padding:3px 0;}
-	.texto_car p{margin-top:25px;width:1000%;font-size:21px;}
-	.cabecera{display:block;height:auto;}
-	.cabecera p span{width:55px;height:55px; padding:0 17px;}
+	.texto_car{display:flex;flex-direction:column;margin-top:6px;}
+	.texto_car h2,
+	.texto_car span{font-size:12px;padding:3px 0;}
+	.texto_car p{margin-top:6px;width:1000%;font-size:16px;}
+	.cabecera{display:block;height:66px;}
+	.cabecera p span,
+	.cabecera p span .boton_personalizado{width:55px;height:55px; padding:0 17px;}
 	.contBtnLuz{width:90%;margin:0 5%;}
-	.contBtnLuz a{padding:15px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
+	.contBtnLuz a{padding:9px 25px;font-size:1em;font-weight:300;letter-spacing:2px}
 	.cont_caja h2{font-weight:300;letter-spacing:3px;font-size:1.1em;}
 }
 @media (min-width:1025px){/* big landscape tablets, laptops, and desktops */ 
