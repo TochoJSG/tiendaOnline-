@@ -27,13 +27,14 @@
             $mail->SMTPAuth = true;
             $mail->Username = getenv('MAIL_USERNAME');
             $mail->Password = getenv('MAIL_PASSWORD');
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;//PHPMailer::ENCRYPTION_SMTPS
             $mail->Port = 587;
     
             $mail->setFrom('matprimas.tocha.loc33@gmail.com', 'Formulario de Contacto');
             $mail->addAddress('matprimas.tocha.loc33@gmail.com', 'Destinatario');
             $mail->addAddress('oagcoronel@gmail.com', 'Otro Destinatario');
-    
+            $mail->addAddress('jjorgess081@gmail.com', 'Otro Destinatario');
+
             $mail->isHTML(true);
             $mail->Subject = 'Nuevo mensaje desde el formulario de contacto';
             $mail->Body = "

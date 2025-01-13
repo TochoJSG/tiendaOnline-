@@ -40,7 +40,7 @@ require 'negocio/constantes.php';
 	</a>
 	<nav>
 		<ul>
-		    <!--<li><a class="activo" target="_blank" href="< ?php echo $t_mercadoShops;?>"><b>Mercado Libre</b></a></li>-->
+		  <!--<li><a class="activo" target="_blank" href="< ?php echo $t_mercadoShops;?>"><b>Mercado Libre</b></a></li>-->
       <li><a class="activo" target="_blank" href="https://tochamateriasprimas.com/"><b>P R I N C I P A L</b></a></li>
 			<li><a target="_blank" href="<?php echo $google;?>"><b>Google</b></a></li>
 			<li><a target="_blank" href="contacto_tocha.php"><b>Contacto</b></a></li>
