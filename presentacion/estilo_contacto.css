@@ -133,6 +133,12 @@ footer.wave#wave4{z-index:999;opacity:0.7;bottom:20px;animation:animateWave_02 3
 	.copyrightText{padding:8px 40px;flex-direction:column;}
 	.grid-container{flex-direction:column;}
 	.map{padding:0;}
+	.contactBox{
+		grid-template-columns:1fr;
+		grid-template-rows:auto;
+		grid-template-areas:"form"
+							"info"
+							"map";}
 }
 @media(max-width:991px){
 	body{background:#03a9f5;}
