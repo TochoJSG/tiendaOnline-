@@ -113,7 +113,7 @@
 					<input id="descuento" name="descuento" type="number" placeholder="opcional, da un porcentaje de descuento" min="0" max="90">
 
 					<input id="registrar" type="submit" value="registrar">
-					<a id="update">¿Quieres modificar registro un Existente?</a>
+					<a id="update" onclick="alert('Porfavor Consulta antes los productos');">¿Quieres modificar registro un Existente?</a>
 				</form>
 			</div>
 		</div>
@@ -234,7 +234,6 @@
 		updateDisplay.style.display = 'block';
 		document.getElementsByTagName('body')[0].style.overflow = 'hidden';
 	});
-
 	
 	closeUpdateButton.addEventListener('click',function(){
 		updateDisplay.style.display='none';
