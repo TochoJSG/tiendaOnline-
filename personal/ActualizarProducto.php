@@ -1,9 +1,9 @@
 <?php
 //require 'conexion.php';
 
-require 'config.php';
+require '../negocio/config.php';
 //require 'constantes.php';
-require 'database.php';
+require '../negocio/database.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 	$db = new Database();

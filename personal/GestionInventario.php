@@ -129,7 +129,7 @@
 		<span id="closeModal" class="close" title="Close Modal">&times;</span>
 	</div>
 	
-	<form id="formBuscar" method="POST" action="BuscarProducto.php">
+	<form id="formBuscar" method="POST" action="./BuscarProducto.php">
 		<input id="buscarUpdate" type="text" placeholder="ingresa nombre o código unico" maxlength="66" required onchange="this.value = this.value.toUpperCase();">
 		<input id="buscarUpdateSubmit" type="submit" value="buscar">
 			
