@@ -179,7 +179,7 @@
 			const codigo = document.getElementById('buscarUpdate').value;
 
 			// Enviar petición al servidor
-			const response = await fetch('../negocio/BuscarProducto.php', {//Atencion a esta linea
+			const response = await fetch('./BuscarProducto.php', {//Atencion a esta linea
 				method: 'POST',
 				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
 				body: `buscarUpdate=${encodeURIComponent(codigo)}`
