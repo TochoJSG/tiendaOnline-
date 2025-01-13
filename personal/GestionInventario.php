@@ -129,37 +129,84 @@
 		<span id="closeModal" class="close" title="Close Modal">&times;</span>
 	</div>
 	
-	<form method="POST">
+	<form id="formBuscar" method="POST" action="BuscarProducto.php">
 		<input id="buscarUpdate" type="text" placeholder="ingresa nombre o código unico" maxlength="66" required onchange="this.value = this.value.toUpperCase();">
 		<input id="buscarUpdateSubmit" type="submit" value="buscar">
+			
 			<br>
-		<input class="updateForm" id="precioU" type="number" placeholder="precio"  step="0.01" required>
+		<input type="hidden" id="idProducto" name="idProducto">
 		
-		<input class="updateForm" id="descripcionU" type="text" placeholder="describe el producto" onchange="this.value = this.value.toUpperCase();">
+		<input class="updateForm" id="nombreU" type="text" placeholder="nombre" maxlength="33" required disabled>
+		
+		<input class="updateForm" id="precioU" type="number" placeholder="precio"  step="0.01" required disabled>
+		
+		<input class="updateForm" id="descripcionU" type="text" placeholder="describe el producto" onchange="this.value = this.value.toUpperCase();" disabled>
 		
 		<label for="cantidadU">Cuantas unidades tenemos para vender</label>
-		<input class="updateForm" id="cantidadU" type="quantity" min="1">
+		<input class="updateForm" id="cantidadU" type="quantity" min="1" disabled>
 		
-		<input class="updateForm" id="costoU" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10"  step="0.01">
+		<input class="updateForm" id="costoU" type="number" placeholder="Cuanto pagamos en Total por esto?" min="10"  step="0.01" disabled>
 		
 		<label for="activo">¿Activar publicación?</label>
-		<input class="updateForm" id="activoU" type="radio" name="activo" value="true">
+		<input class="updateForm" id="activoU" type="radio" name="activo" value="true" disabled>
 		
 		<label for="activo">¿NO Activar publicación?</label>
-		<input class="updateForm" id="inactivoU" type="radio" name="activo" value="false">
+		<input class="updateForm" id="inactivoU" type="radio" name="activo" value="false" disabled>
 		
 		<label for="categoria">A qué categoria pertenece el Producto</label>
-		<select class="updateForm" id="categoriaU" name="categorias">
-			<option value="catego1">Catego 1</option>
-			<option value="catego2">Catego 2</option>
-			<option value="catego3">Catego 3</option>
-			<option value="catego4">Catego 4</option>
+		<select id="categoU" name="categoU" disabled>
+			<?php
+				$catalogo = new Database();
+				$conCata = $catalogo->conectar();
+				$sqlDB = $conCata->prepare("CALL ConsultaCataCategos();");
+				$sqlDB->execute();
+				$productos = $sqlDB->fetchAll(PDO::FETCH_ASSOC);
+				foreach ($productos as $categorias):
+					echo '<option value="'.$categorias['idCategoria'].'">'.$categorias['catego'].'</option>';
+				endforeach;
+			?>
 		</select>
 		
-		<input class="updateForm" id="descuentoU" type="number" placeholder="opcional, da un porcentaje de descuento" step="0.01">
+		<input class="updateForm" id="descuentoU" type="number" placeholder="opcional, da un porcentaje de descuento" step="0.01" disabled>
 
-		<input class="updateForm" type="submit" value="registrar">
+		<input class="updateForm" id="submitUpdate" type="submit" value="Actualizar" disabled>
 	</form>
+	<script>
+		// Habilitar campos si se encuentra el producto
+		document.getElementById('formBuscar').addEventListener('submit', async function (e) {
+			e.preventDefault(); // Prevenir el envío del formulario para manejarlo con fetch
+
+			const codigo = document.getElementById('buscarUpdate').value;
+
+			// Enviar petición al servidor
+			const response = await fetch('../negocio/BuscarProducto.php', {//Atencion a esta linea
+				method: 'POST',
+				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+				body: `buscarUpdate=${encodeURIComponent(codigo)}`
+			});
+
+			if (response.ok) {
+				const data = await response.json();
+				if (data.exito) {
+					// Habilitar y llenar los campos con los datos del producto
+					
+					document.querySelectorAll('.updateForm').forEach(input => input.disabled = false);
+					document.getElementById('idProducto').value = data.idProducto;
+					document.getElementById('precioU').value = data.precio;
+					document.getElementById('descripcionU').value = data.descripcion;
+					document.getElementById('cantidadU').value = data.cantidad;
+					document.getElementById('costoU').value = data.costo;
+					document.getElementById(data.activo ? 'activoU' : 'inactivoU').checked = true;
+					document.getElementById('categoriaU').value = data.categoria;
+					document.getElementById('descuentoU').value = data.descuento;
+				} else {
+					alert('Producto no encontrado.');
+				}
+			} else {
+				alert('Error en la búsqueda. Intenta nuevamente.');
+			}
+		});
+	</script>
 	
 </div>
 
@@ -181,8 +228,6 @@
 		formBx.classList.remove('active');
 		cuerpo.classList.remove('active');
 	}
-
-
 
 	updateButton.addEventListener('click', function(){
 		console.log("Hola Danna");
