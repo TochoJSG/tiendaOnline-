@@ -47,28 +47,6 @@ async function sendMsg(e) {
         console.error('Error:', error);
         alert('Error en la conexión al servidor o en el procesamiento de datos.');
     });
-    /*try {
-        let response = await fetch('./enviar_mail.php', {// Realizar la solicitud fetch al archivo PHP
-            method: 'POST',
-            body: formData
-        });
-
-        if(!response.ok){// Verificar si la respuesta es exitosa
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-
-        let result = await response.json();// Intentar procesar la respuesta como JSON
-
-        if (result.success){		// Manejar la respuesta según el contenido recibido
-            alert(result.message || 'Mensaje enviado correctamente. Nos pondremos en contacto contigo si es necesario.');
-            form.reset(); // Limpiar el formulario
-        } else {
-            alert(result.error || 'Hubo un error al enviar el mensaje.');
-        }
-    } catch (error) {
-        console.error('Error:', error);
-        alert('Error en la conexión al servidor o en el procesamiento de datos.');
-    }*/
 }
 
 form.addEventListener('submit', sendMsg);

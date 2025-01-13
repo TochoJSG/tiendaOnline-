@@ -192,6 +192,7 @@
 					// Habilitar y llenar los campos con los datos del producto
 					
 					document.querySelectorAll('.updateForm').forEach(input => input.disabled = false);
+					
 					document.getElementById('idProducto').value = data.idProducto;
 					document.getElementById('precioU').value = data.precio;
 					document.getElementById('descripcionU').value = data.descripcion;

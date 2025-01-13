@@ -51,7 +51,8 @@ try {
 
     // Configuración del correo
     $mail->setFrom('notificaciones@mi-tienda.com', 'Mi Tienda');
-    $mail->addAddress('matprimas.tocha.loc33@gmail.com', 'owner'); // Donde recibirás el mensaje
+    //$mail->addAddress('matprimas.tocha.loc33@gmail.com', 'owner'); // Donde recibirás el mensaje
+    $mail->addAddress('jjorgess081@gmail.com', 'owner');
     $mail->addAddress('oagcoronel@gmail.com', 'otroDestinatario');
     $mail->isHTML(true);
     $mail->Subject = 'Nueva Venta Realizada';

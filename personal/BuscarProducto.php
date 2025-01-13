@@ -2,14 +2,12 @@
 require '../negocio/config.php';
 require '../negocio/database.php';
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     try {
-        // Crear instancia de la base de datos
-        $db = new Database();
+        $db = new Database();// Crear instancia de la base de datos
         $conexion = $db->conectar();
 
-        // Validar y asignar parámetros
-        $id = $_POST['idProducto'] ?? null;
+        $id = $_POST['idProducto'] ?? null;        // Validar y asignar parámetros
         $codigo = $_POST['codigoUnico'] ?? null;
         $precio = $_POST['precioU'] ?? null;
         $descripcion = $_POST['descripcionU'] ?? null;
@@ -28,8 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Preparar la consulta
         $stmt = $conexion->prepare("CALL ActualizarProducto(?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
-        // Asignar los valores
-        $stmt->bindValue(1, $id, PDO::PARAM_INT);
+        $stmt->bindValue(1, $id, PDO::PARAM_INT);// Asignar los valores
         $stmt->bindValue(2, $codigo, PDO::PARAM_STR);
         $stmt->bindValue(3, $precio, PDO::PARAM_STR);
         $stmt->bindValue(4, $descripcion, PDO::PARAM_STR);
@@ -39,8 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bindValue(8, $categoria, PDO::PARAM_INT);
         $stmt->bindValue(9, $descuento, PDO::PARAM_STR);
 
-        // Ejecutar la consulta
-        if ($stmt->execute()) {
+        if ($stmt->execute()) {// Ejecutar la consulta
             echo json_encode(['success' => true, 'message' => 'Producto actualizado con éxito.']);
         } else {
             echo json_encode(['success' => false, 'message' => 'Error al actualizar el producto.']);
@@ -50,8 +46,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo json_encode(['success' => false, 'message' => 'Error en la base de datos: ' . $e->getMessage()]);
     }
 }
-?>
-
 /*
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $codigo = $_POST['buscarUpdate'] ?? null; // Validar entrada
@@ -128,4 +122,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     $stmt->close();
 }*/
-
+?>
