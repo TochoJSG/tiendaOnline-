@@ -173,7 +173,7 @@
 	</form>
 	<script>
 		// Habilitar campos si se encuentra el producto
-		document.getElementById('formBuscar').addEventListener('submit', async function (e) {
+		document.getElementById('buscarUpdateSubmit').addEventListener('click', async function (e) {
 			e.preventDefault(); // Prevenir el envío del formulario para manejarlo con fetch
 
 			const codigo = document.getElementById('buscarUpdate').value;
