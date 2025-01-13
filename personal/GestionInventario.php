@@ -173,7 +173,8 @@
 	</form>
 	<script>
 		// Habilitar campos si se encuentra el producto
-		document.getElementById('formBuscar').addEventListener('submit', async function (e) {
+		document.getElementById('formBuscar').addEventListener('submit', async function (e){
+
 			e.preventDefault(); // Prevenir el envío del formulario para manejarlo con fetch
 
 			const codigo = document.getElementById('buscarUpdate').value;
@@ -187,7 +188,7 @@
 
 			if (response.ok) {
 				const data = await response.json();
-				if (data.exito) {
+				if (data) {//data.exito
 					// Habilitar y llenar los campos con los datos del producto
 					
 					document.querySelectorAll('.updateForm').forEach(input => input.disabled = false);
