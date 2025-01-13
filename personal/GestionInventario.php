@@ -113,7 +113,7 @@
 					<input id="descuento" name="descuento" type="number" placeholder="opcional, da un porcentaje de descuento" min="0" max="90">
 
 					<input id="registrar" type="submit" value="registrar">
-					<a id="update" onclick="alert('Porfavor Consulta antes los productos');">¿Quieres modificar registro un Existente?</a>
+					<a id="update" onclick="alert('Por favor Consulta antes los productos y copia el nombre correcto');">¿Quieres modificar registro un Existente?</a>
 				</form>
 			</div>
 		</div>
@@ -173,7 +173,7 @@
 	</form>
 	<script>
 		// Habilitar campos si se encuentra el producto
-		document.getElementById('buscarUpdateSubmit').addEventListener('click', async function (e) {
+		document.getElementById('formBuscar').addEventListener('submit', async function (e) {
 			e.preventDefault(); // Prevenir el envío del formulario para manejarlo con fetch
 
 			const codigo = document.getElementById('buscarUpdate').value;
