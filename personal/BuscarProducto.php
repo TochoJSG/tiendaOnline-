@@ -1,9 +1,6 @@
 <?php
 require '../negocio/config.php';
 require '../negocio/database.php';
-<?php
-require '../negocio/config.php';
-require '../negocio/database.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
@@ -131,4 +128,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     $stmt->close();
 }*/
-?>
+
