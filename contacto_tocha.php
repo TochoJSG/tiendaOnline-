@@ -121,6 +121,7 @@
 		</form>
 
 		</div>
+		
 		<div class="contact info">
 			<h3>Contact Info</h3>
 			<div class="infoBox">

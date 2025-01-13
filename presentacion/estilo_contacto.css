@@ -134,23 +134,32 @@ footer.wave#wave4{z-index:999;opacity:0.7;bottom:20px;animation:animateWave_02 3
 	.grid-container{flex-direction:column;}
 	.map{padding:0;}
 	.contactBox{
-		grid-template-columns:90%;
+		grid-template-columns:92%;
 		grid-template-rows:auto;
 		grid-template-areas:"form"
 							"info"
 							"map";
-		margin:auto 5%;}
+		margin:auto 4%;}
 }
 @media(max-width:991px){
 	body{background:#03a9f5;}
 	.contactUs{padding:20px;}
 	.contactBox{
-		grid-template-columns:90%;
+		grid-template-columns:92%;
 		grid-template-rows:auto;
 		grid-template-areas:"form"
 							"info"
 							"map";
-		margin:auto 5%;}
+		margin:auto 4%;}
+	.contactBox .contact .contactoGMAIL .formBox .row50 .inputBox span{
+		font-size: .8em;
+		font-weight: 300;
+		letter-spacing: 2px;
+	}
+	,
+	.contactBox .contact .contactoGMAIL .formBox .row50 .inputBox input{
+		height:35px;
+	}
 	.map{min-height:300px;padding:0;}
 	.formBox .row50{display:flex;gap:0;flex-direction:column;}
 	.inputBox{width:100%;}
