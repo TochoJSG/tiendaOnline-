@@ -1,7 +1,7 @@
 <?php
 require '../negocio/config.php';
 require '../negocio/database.php';
-
+/*
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $codigo = $_POST['buscarUpdate'] ?? null; // Validar entrada
 
@@ -54,5 +54,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $con->close();
         }
     }
+}*/
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+    $db = new Database();
+    $conexion = $db->conectar();
+
+    $codigo = $_POST['buscarUpdate'];
+    
+    $stmt = $conexion->prepare("CALL BuscarProducto(?);");
+    $stmt->bind_param('s', $codigo);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    
+    if ($result->num_rows > 0) {
+        $producto = $result->fetch_assoc();
+        echo json_encode(['success' => true, 'producto' => $producto]);
+    } else {
+        echo json_encode(['success' => false, 'message' => 'Producto no encontrado.']);
+    }
+    
+    $stmt->close();
 }
 ?>
