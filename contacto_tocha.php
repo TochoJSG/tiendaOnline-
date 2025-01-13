@@ -99,7 +99,7 @@
 				<div class="row50">
     				<div class="inputBox">
     					<span>Email</span>
-    					<input class="email" id="email" name="email" type="email" placeholder="tuu@algo.com" maxlength="66" required/>
+    					<input class="email" id="email" name="email" type="email" placeholder="tuu@algo.com" maxlength="33" required/>
     				</div>
     				<div class="inputBox">
     					<span>Telefono</span>
